@@ -26,11 +26,19 @@ function resolveDomain(): string {
 /**
  * Only the production deployment may be indexed. Previews and local builds
  * serve a disallow-all robots.txt and a noindex header.
- * Set NEXT_PUBLIC_ALLOW_INDEXING=true to force it on elsewhere.
+ *
+ * NEXT_PUBLIC_BLOCK_INDEXING=true beats everything, including production.
+ * That switch exists because Vercel promotes a project's FIRST deploy
+ * straight to production — so a site can be live and crawlable before it has
+ * a name, a domain, or a real phone number. Keep it set until launch.
+ *
+ * NEXT_PUBLIC_ALLOW_INDEXING=true forces indexing on non-Vercel hosts.
  */
 export const isIndexable =
-  process.env.NEXT_PUBLIC_VERCEL_ENV === "production" ||
-  process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true";
+  process.env.NEXT_PUBLIC_BLOCK_INDEXING === "true"
+    ? false
+    : process.env.NEXT_PUBLIC_VERCEL_ENV === "production" ||
+      process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true";
 
 export const site = {
   // TODO: rebrand in progress — "Pay" reads transactional on a page whose
