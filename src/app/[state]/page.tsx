@@ -287,25 +287,26 @@ export default async function StatePage({ params }: Props) {
             </article>
           ))}
         </div>
-        {s.slug === "wisconsin" && (
-          <div className="mt-6 flex flex-wrap gap-3">
+        {/* Every state has the two money pages; Wisconsin adds its IRIS guide. */}
+        <div className="mt-6 flex flex-wrap gap-3">
+          {s.slug === "wisconsin" && (
             <Link href="/wisconsin/iris/" className="btn-outline !min-h-11 text-sm">
               Wisconsin IRIS guide →
             </Link>
-            <Link
-              href="/wisconsin/spousal-caregiver/"
-              className="btn-outline !min-h-11 text-sm"
-            >
-              Spousal caregiver pay →
-            </Link>
-            <Link
-              href="/wisconsin/caregiver-pay/"
-              className="btn-outline !min-h-11 text-sm"
-            >
-              2026 pay rates →
-            </Link>
-          </div>
-        )}
+          )}
+          <Link
+            href={`/${s.slug}/spousal-caregiver/`}
+            className="btn-outline !min-h-11 text-sm"
+          >
+            Can a spouse be paid in {s.name}? →
+          </Link>
+          <Link
+            href={`/${s.slug}/caregiver-pay/`}
+            className="btn-outline !min-h-11 text-sm"
+          >
+            {s.name} pay rates →
+          </Link>
+        </div>
       </section>
 
       {/* ------------------------------------------------- How to apply --- */}

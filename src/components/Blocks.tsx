@@ -432,3 +432,143 @@ export function HeroPhoto({ lang = "en" as Lang }: { lang?: Lang }) {
     </div>
   );
 }
+
+/* --------------------------------------------------- Page schema helpers -- */
+export interface Crumb {
+  name: string;
+  path: string;
+}
+
+/**
+ * BreadcrumbList + WebPage JSON-LD for a content page. Every page gets a
+ * unique @id and points back at the site organization node, which is what
+ * keeps 3,000+ pages from looking like one undifferentiated blob to a parser.
+ */
+export function PageJsonLd({
+  url,
+  name,
+  about,
+  crumbs,
+}: {
+  url: string;
+  name: string;
+  about?: string;
+  crumbs: Crumb[];
+}) {
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": `${url}#breadcrumbs`,
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${site.domain}/` },
+      ...crumbs.map((c, i) => ({
+        "@type": "ListItem",
+        position: i + 2,
+        name: c.name,
+        item: `${site.domain}${c.path}`,
+      })),
+    ],
+  };
+  const webPage = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name,
+    inLanguage: "en-US",
+    isPartOf: { "@id": `${site.domain}/#organization` },
+    breadcrumb: { "@id": `${url}#breadcrumbs` },
+    ...(about ? { about } : {}),
+  };
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPage) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+      />
+    </>
+  );
+}
+
+/** Breadcrumb trail rendered for people (the JSON-LD above is for machines). */
+export function Breadcrumbs({ crumbs }: { crumbs: Crumb[] }) {
+  return (
+    <nav
+      aria-label="Breadcrumb"
+      className="mx-auto max-w-6xl px-4 pt-6 text-sm text-muted sm:px-6"
+    >
+      <ol className="flex flex-wrap items-center gap-1">
+        <li>
+          <Link href="/" className="hover:text-teal">
+            Home
+          </Link>
+        </li>
+        {crumbs.map((c, i) => (
+          <li key={c.path} className="flex items-center gap-1">
+            <span aria-hidden="true">›</span>
+            {i === crumbs.length - 1 ? (
+              <span aria-current="page" className="font-semibold text-spruce">
+                {c.name}
+              </span>
+            ) : (
+              <Link href={c.path} className="hover:text-teal">
+                {c.name}
+              </Link>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+  );
+}
+
+/** Links to the state's largest counties by 65+ population, with real counts. */
+export function TopCountyLinks({
+  stateSlug,
+  stateName,
+  counties,
+}: {
+  stateSlug: string;
+  stateName: string;
+  counties: { slug: string; short: string; pop65: number }[];
+}) {
+  if (!counties.length) return null;
+  return (
+    <section className="mx-auto mt-12 max-w-6xl px-4 sm:px-6">
+      <h2 className="display text-2xl font-extrabold text-spruce">
+        Where most {stateName} caregivers are
+      </h2>
+      <p className="mt-2 max-w-2xl leading-relaxed text-muted">
+        Counties with the most residents aged 65 and older. The rules are the
+        same everywhere in {stateName} — pick yours for the local picture.
+      </p>
+      <ul className="mt-4 flex flex-wrap gap-2">
+        {counties.map((c) => (
+          <li key={c.slug}>
+            <Link
+              href={`/${stateSlug}/${c.slug}/`}
+              className="inline-flex items-baseline gap-2 rounded-full border border-teal/30 bg-white px-4 py-1.5 text-sm no-underline transition-colors hover:bg-mist"
+            >
+              <span className="font-semibold text-teal">{c.short}</span>
+              <span className="tabular-nums text-xs text-muted">
+                {c.pop65.toLocaleString("en-US")} aged 65+
+              </span>
+            </Link>
+          </li>
+        ))}
+        <li>
+          <Link
+            href={`/${stateSlug}/`}
+            className="inline-flex items-center rounded-full bg-spruce px-4 py-1.5 text-sm font-semibold text-white no-underline"
+          >
+            All of {stateName} →
+          </Link>
+        </li>
+      </ul>
+    </section>
+  );
+}

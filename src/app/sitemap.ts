@@ -1,7 +1,10 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/site.config";
 import { states } from "@/data/states";
-import { countiesByState } from "@/data/counties";
+import {
+  countiesByState,
+  UNIVERSAL_STATE_SUBROUTES,
+} from "@/data/counties";
 
 /**
  * Sharded sitemaps: /sitemap/core.xml carries every non-county page;
@@ -29,21 +32,19 @@ export default function sitemap({
       { url: `${base}/about/`, lastModified: now, priority: 0.6 },
       { url: `${base}/about/leadership/`, lastModified: now, priority: 0.5 },
       { url: `${base}/wisconsin/iris/`, lastModified: now, priority: 0.9 },
-      {
-        url: `${base}/wisconsin/spousal-caregiver/`,
-        lastModified: now,
-        priority: 0.9,
-      },
-      {
-        url: `${base}/wisconsin/caregiver-pay/`,
-        lastModified: now,
-        priority: 0.9,
-      },
-      ...states.map((s) => ({
-        url: `${base}/${s.slug}/`,
-        lastModified: now,
-        priority: s.slug === "wisconsin" ? 0.9 : 0.7,
-      })),
+      // Every state carries the two money pages; the home state ranks highest.
+      ...states.flatMap((s) => [
+        {
+          url: `${base}/${s.slug}/`,
+          lastModified: now,
+          priority: s.slug === site.homeStateSlug ? 0.9 : 0.7,
+        },
+        ...UNIVERSAL_STATE_SUBROUTES.map((sub) => ({
+          url: `${base}/${s.slug}/${sub}/`,
+          lastModified: now,
+          priority: s.slug === site.homeStateSlug ? 0.9 : 0.8,
+        })),
+      ]),
     ];
   }
 

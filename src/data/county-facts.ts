@@ -194,3 +194,20 @@ export function listNames(names: string[]): string {
   if (names.length === 1) return names[0];
   return `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
 }
+
+/** The state's counties with the most residents 65+, for internal linking. */
+export function topCountiesBy65(
+  stateSlug: string,
+  n = 8
+): { slug: string; short: string; pop65: number }[] {
+  const roll = stateRollups.get(stateSlug);
+  if (!roll) return [];
+  const byFips = new Map((countiesByState[stateSlug] ?? []).map((c) => [c.fips, c]));
+  return roll.rank65
+    .slice(0, n)
+    .map((fips) => {
+      const c = byFips.get(fips);
+      return c ? { slug: c.slug, short: c.short, pop65: raw[fips].pop65 } : null;
+    })
+    .filter((x): x is { slug: string; short: string; pop65: number } => x !== null);
+}

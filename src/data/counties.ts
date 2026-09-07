@@ -36,9 +36,27 @@ export interface CountyData {
   fips: string;
 }
 
-/** Literal (non-dynamic) routes that live under a state segment. */
+/**
+ * Money-page routes that exist under EVERY state segment, so no county may
+ * take these slugs: /{state}/caregiver-pay/, /{state}/spousal-caregiver/.
+ */
+export const UNIVERSAL_STATE_SUBROUTES = [
+  "caregiver-pay",
+  "spousal-caregiver",
+] as const;
+
+/**
+ * States that have a hand-written version of a universal subroute. The
+ * literal route wins in Next.js, so the dynamic template must skip these
+ * states in generateStaticParams or the two collide at build time.
+ */
+export const BESPOKE_STATE_PAGES: Record<string, string[]> = {
+  wisconsin: ["caregiver-pay", "spousal-caregiver"],
+};
+
+/** Extra literal (non-dynamic) routes under a specific state segment. */
 export const RESERVED_STATE_SUBROUTES: Record<string, string[]> = {
-  wisconsin: ["iris", "spousal-caregiver", "caregiver-pay"],
+  wisconsin: ["iris"],
 };
 
 export const STATE_ABBR: Record<string, string> = {
@@ -149,7 +167,10 @@ export const countiesByState: Record<string, CountyData[]> = {};
 for (const [stateName, rows] of Object.entries(raw)) {
   const state = states.find((s) => s.name === stateName);
   if (!state) continue;
-  const reserved = new Set(RESERVED_STATE_SUBROUTES[state.slug] ?? []);
+  const reserved = new Set<string>([
+    ...UNIVERSAL_STATE_SUBROUTES,
+    ...(RESERVED_STATE_SUBROUTES[state.slug] ?? []),
+  ]);
   countiesByState[state.slug] = buildStateCounties(stateName, rows).filter(
     (c) => !reserved.has(c.slug)
   );
