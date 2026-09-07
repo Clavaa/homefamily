@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  /* SITE 4 palette — civic-calm gov-tech (see STYLE-BIBLE.md) */
+  --color-spruce: #0f3d44;
+  --color-teal: #14766b;
+  --color-teal-dark: #0f5c53;
+  --color-pay: #178a55;
+  --color-pay-dark: #116b42;
+  --color-marigold: #f2b33d;
+  --color-marigold-soft: #fcf0d8;
+  --color-paper: #faf6ef;
+  --color-mist: #e8f1ee;
+  --color-ink: #1d2826;
+  --color-muted: #5b6b68;
+
+  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-public-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Every dollar figure gets tabular numerals (Public Sans supports tnum). */
+.tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+@layer components {
+  .display {
+    font-family: var(--font-display);
+  }
+
+  /* Pill buttons — primary CTA is ALWAYS payment green. */
+  .btn-primary {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-pay px-7 py-3.5 text-center font-sans text-base font-semibold text-white no-underline transition-colors hover:bg-pay-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spruce;
+  }
+  .btn-outline {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full border-2 border-teal bg-transparent px-7 py-3 text-center font-sans text-base font-semibold text-teal no-underline transition-colors hover:bg-mist focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spruce;
+  }
+
+  /* Quiz answer chips — big thumb targets (≥48px). */
+  .chip {
+    @apply flex min-h-14 w-full cursor-pointer items-center justify-between gap-3 rounded-2xl border-2 border-mist bg-white px-5 py-3.5 text-left font-sans text-base font-semibold text-ink transition-colors hover:border-teal focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spruce;
+  }
+  .chip[aria-pressed="true"],
+  .chip[data-selected="true"] {
+    @apply border-teal bg-mist;
+  }
+
+  .field {
+    @apply w-full rounded-2xl border-2 border-mist bg-white px-5 py-3.5 text-base text-ink placeholder:text-muted focus:border-teal focus:outline-none;
+  }
+
+  .card {
+    @apply rounded-3xl bg-white p-6 shadow-[0_1px_3px_rgba(15,61,68,0.08),0_8px_24px_rgba(15,61,68,0.06)];
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

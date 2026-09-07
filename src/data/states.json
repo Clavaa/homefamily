@@ -1,0 +1,1906 @@
+[
+  {
+    "slug": "alabama",
+    "name": "Alabama",
+    "programs": [
+      "Personal Choices",
+      "E&D Waiver",
+      "ACT Waiver",
+      "SAIL Waiver"
+    ],
+    "agency": "Alabama Medicaid Agency with Alabama Dept. of Senior Services (E&D/ACT; AgeLine 1-800-243-5463) and Alabama Dept. of Rehabilitation Services (SAIL)",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — Personal Choices allows sons, daughters, adult grandchildren, nieces/nephews and 'in some cases, spouses'; caregiver must be 18+ and pass background screening"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no clear pathway found — these waivers/self-direction target adults and no parent-of-minor payment provision is published"
+    },
+    "pay": {
+      "low": 2320,
+      "high": 2320,
+      "unit": "month",
+      "display": "$2,320/month",
+      "taxFree": false,
+      "varies": true,
+      "detail": "budget set by needs assessment and regional home-care wages; reported up to ~$2,320/month; no published hourly rate"
+    },
+    "agencyModel": "self-directed — participant hires/fires own caregiver; a financial management services agency handles background checks, tax withholding and caregiver payments",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "not an entitlement — E&D Waiver capped at 15,000/year; waitlist forms when full"
+    },
+    "apply": "Contact your local Area Agency on Aging via AgeLine 1-800-243-5463 (or 1-877-425-2243), or submit Form 204/205 to your Medicaid District Office; enrollees then opt into Personal Choices.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/alabama-elderly-disabled-waiver/",
+      "https://medicaid.alabama.gov/content/6.0_LTC_Waivers/6.3_Other_LTC_Programs/6.3.3_Personal_Choices.aspx",
+      "https://alabamaageline.gov/medicaid-waiver-programs/"
+    ]
+  },
+  {
+    "slug": "alaska",
+    "name": "Alaska",
+    "programs": [
+      "Personal Care Services (PCS)",
+      "Community First Choice (CFC)",
+      "Children's waivers (CCMC & IDD)"
+    ],
+    "agency": "Alaska Department of Health, Division of Senior and Disabilities Services (SDS), 907-269-3666",
+    "spouse": {
+      "status": "no",
+      "detail": "no — spouses (and legal guardians) are prohibited from being hired under PCS/CDPCS; other relatives such as adult children may be hired"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — historically barred under PCS, but Sept 2024 waiver amendments (CCMC, IDD, ISW) allow parents/guardians to be paid for personal care, tube feedings, trach care and meds for waiver-enrolled children"
+    },
+    "pay": {
+      "low": 24,
+      "high": 26,
+      "unit": "hr",
+      "display": "$24–$26/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "no state-published family-caregiver wage; aggregators report ~$24–$26/hour average — actual wage set by the consumer-directed provider agency from the Medicaid PCA rate"
+    },
+    "agencyModel": "self-directed under CDPCS — participant hires, trains, supervises, fires; a Consumer Directed Provider Agency acts as fiscal agent for tax withholding and caregiver payments",
+    "waitlist": {
+      "status": "none",
+      "detail": "no waitlist — PCS and CFC are state-plan entitlements"
+    },
+    "apply": "Contact a PCS provider agency or SDS to complete the PCA-08 Initial Application (doh.sds.info@alaska.gov, 907-269-3666); an Aging and Disability Resource Center can help; approval can take ~3 months.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/alaska-personal-care-services-program/",
+      "https://health.alaska.gov/en/services/pcs/"
+    ]
+  },
+  {
+    "slug": "arizona",
+    "name": "Arizona",
+    "programs": [
+      "ALTCS self-directed care",
+      "Agency with Choice",
+      "Parents as Paid Caregivers (PPCG)"
+    ],
+    "agency": "Arizona Health Care Cost Containment System (AHCCCS), 1-888-621-6880; DES Division of Developmental Disabilities for members with developmental disabilities",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — spouses can be paid, but reportedly only through a provider agency (Agency with Choice), not fully independent SDAC"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes — PPCG made permanent by CMS approval; parents meeting Direct Care Worker requirements may provide attendant care/habilitation, capped at 40 paid hours/week per child (combined across parents) effective 7/1/2025 (HB2945)"
+    },
+    "pay": {
+      "low": 13,
+      "high": 16,
+      "unit": "hr",
+      "display": "$13–$16/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "typically at or near AZ minimum wage: ~$14.35/hour (2025) to ~$15.15/hour (2026); commonly reported $13–$16/hour varying by health plan and agency; ~30–40 hours/week approved"
+    },
+    "agencyModel": "both routes use an agency layer: SDAC is fully self-directed (participant is employer, FMS agency runs payroll/taxes); Agency with Choice shares employer duties with a provider agency; spouses reportedly must use the agency route",
+    "waitlist": {
+      "status": "none",
+      "detail": "no waitlist — ALTCS is an entitlement; eligibility equals enrollment"
+    },
+    "apply": "Apply to ALTCS by calling 1-888-621-6880, online via Health-e-Arizona Plus, or at a local ALTCS office; families of children with developmental disabilities also work through DES/DDD.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/arizona-long-term-care-system/",
+      "https://www.azahcccs.gov/Resources/Federal/PendingWaivers/ParentCareGivers.html",
+      "https://des.az.gov/ddd/ppcg"
+    ]
+  },
+  {
+    "slug": "arkansas",
+    "name": "Arkansas",
+    "programs": [
+      "IndependentChoices",
+      "ARChoices in Homecare"
+    ],
+    "agency": "Arkansas Department of Human Services (Division of Aging, Adult, and Behavioral Health Services); Choices in Living Resource Center 866-801-3435; Division of Medical Services 501-682-8292",
+    "spouse": {
+      "status": "no",
+      "detail": "no — spouses and legal guardians are prohibited from being hired; other relatives including adult children can be paid"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no pathway found — IndependentChoices serves adults (18+); no parent-of-minor payment provision located"
+    },
+    "pay": {
+      "low": null,
+      "high": null,
+      "unit": null,
+      "display": null,
+      "taxFree": false,
+      "varies": true,
+      "detail": "monthly cash allowance based on assessed need, calculated at up to 78.11% of the Medicaid personal care hourly rate times authorized hours; no fixed published family-caregiver wage"
+    },
+    "agencyModel": "self-directed (Cash & Counseling model) — participant is employer; a financial management service (FMS) handles tax withholding and caregiver payroll",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "IndependentChoices via State Plan Personal Care is an entitlement (no waitlist); the ARChoices waiver is capped (~11,500 slots/year) and can form a waitlist"
+    },
+    "apply": "Apply online at Access Arkansas or at a local DHS county office with the Long-Term Services and Supports application, or call the Choices in Living Resource Center at 866-801-3435; then elect IndependentChoices.",
+    "sources": [
+      "https://humanservices.arkansas.gov/divisions-shared-services/aging-adult-behavioral-health-services/self-direction-independent-choices/",
+      "https://www.medicaidplanningassistance.org/arkansas-archoices-in-homecare/",
+      "https://pplfirst.com/programs/arkansas/arkansas-independent-choices/"
+    ]
+  },
+  {
+    "slug": "california",
+    "name": "California",
+    "programs": [
+      "IHSS (In-Home Supportive Services)"
+    ],
+    "agency": "California Department of Social Services (CDSS) with DHCS; administered day-to-day by county IHSS/social services offices",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — a spouse can be a paid IHSS provider but under the 'able and available spouse' rule is compensable only for personal care and paramedical services, not domestic/related services"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes — AB 1287 (effective 2024) eliminated the old restrictions (no-other-provider and left-employment tests); parents of minor recipients now enroll on the same basis as any provider with background check"
+    },
+    "pay": {
+      "low": 16.9,
+      "high": 22,
+      "unit": "hr",
+      "display": "$16.90–$22/hr",
+      "taxFree": false,
+      "varies": false,
+      "detail": "county-negotiated wages ~$16.90–$22+/hour (2026); state minimum $16.90/hour as of 1/1/2026; statewide average IHSS cost ~$21.85/hour (2025–26 state budget estimate)"
+    },
+    "agencyModel": "fully self-directed — recipient is the employer who hires/fires/supervises; no agency required; the state/county payroll system (CMIPS) issues paychecks and withholds taxes",
+    "waitlist": {
+      "status": "none",
+      "detail": "no waitlist — IHSS is a state-plan entitlement"
+    },
+    "apply": "Contact the IHSS office in your county and submit an Application for In-Home Supportive Services (SOC 295); a county social worker then does an in-home needs assessment.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/medi-cal-in-home-supportive-services/",
+      "https://www.cdss.ca.gov/inforesources/county-ihss-offices",
+      "https://www.disabilityrightsca.org/press-release/california-eliminates-parent-provider-rules-for-minor-in-home-supportive-services"
+    ]
+  },
+  {
+    "slug": "colorado",
+    "name": "Colorado",
+    "programs": [
+      "CDASS",
+      "IHSS",
+      "Family CNA program"
+    ],
+    "agency": "Dept. of Health Care Policy & Financing (HCPF) / Health First Colorado, via local Case Management Agencies; Member Contact Center 1-800-221-3943",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — spouses can be hired under CDASS/IHSS; spouse-as-LRP homemaker capped at 7 hrs/week"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes — via CFC/IHSS personal care ('extraordinary care' required) or by becoming a certified Family CNA paid through a home health agency"
+    },
+    "pay": {
+      "low": 17,
+      "high": 20,
+      "unit": "hr",
+      "display": "$17–$20/hr",
+      "taxFree": false,
+      "varies": false,
+      "detail": "~$17–$20/hr; floor = minimum wage ($17.00 statewide, $19.29 Denver, Jan 2026); employer sets wage within allocation"
+    },
+    "agencyModel": "self-directed: CDASS uses an FMS (fiscal management service) vendor for payroll only; IHSS and Family CNA route through a licensed IHSS/home-health agency",
+    "waitlist": {
+      "status": "none",
+      "detail": "no waitlist — CFC is a state plan entitlement (since 7/1/2025); EBD waiver also historically no waitlist"
+    },
+    "apply": "Contact the local Case Management Agency (Single Entry Point) for a nursing-facility level-of-care assessment; must be enrolled in Health First Colorado (Medicaid) first.",
+    "sources": [
+      "https://hcpf.colorado.gov/consumer-directed-attendant-support-services",
+      "https://www.payingforseniorcare.com/colorado/cdass-program",
+      "https://www.kidswaivers.org/paid-parent-caregiving/"
+    ]
+  },
+  {
+    "slug": "connecticut",
+    "name": "Connecticut",
+    "programs": [
+      "Adult Family Living (AFL)",
+      "Community First Choice (CFC)",
+      "PCA Waiver",
+      "CT Home Care Program (CHCPE)"
+    ],
+    "agency": "CT Dept. of Social Services, Community Options Unit; 1-800-445-5394 (option 4)",
+    "spouse": {
+      "status": "no",
+      "detail": "no — spouses excluded under AFL, CFC, and the PCA waiver"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — parents of minors/legal guardians excluded from CFC/PCA; since 2023 the three DDS developmental-disability waivers pay parents of school-age children for respite/day/personal supports, capped at 800 awake hrs/yr (guardians of adults: 2,100 hrs/yr)"
+    },
+    "pay": {
+      "low": 500,
+      "high": 500,
+      "unit": "week",
+      "display": "$500/week",
+      "taxFree": true,
+      "varies": true,
+      "detail": "AFL live-in caregiver stipend up to ~$500/week (~$2,400/month, tax-free), set at 4 assessment levels; CFC/PCA hourly rate"
+    },
+    "agencyModel": "AFL requires a sponsoring/intermediary agency that supports and pays the caregiver; CFC/PCA are self-directed with a fiscal intermediary handling payroll",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "CHCPE Medicaid waiver is slot-capped (~22,066/yr) and can waitlist; CFC is an entitlement with no waitlist"
+    },
+    "apply": "Call the DSS Community Options Unit or submit the CHCPE Request for Referral form; a care manager performs an in-home functional assessment.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/connecticut-home-care-program-for-elders/",
+      "https://www.medicaidplanningassistance.org/connecticut-community-first-choice/",
+      "https://www.payingforseniorcare.com/connecticut/adult-family-living"
+    ]
+  },
+  {
+    "slug": "delaware",
+    "name": "Delaware",
+    "programs": [
+      "DSHP-Plus self-directed care"
+    ],
+    "agency": "Delaware Health & Social Services, Division of Medicaid & Medical Assistance (DMMA); Central Intake 1-866-940-8963, Customer Relations 1-866-843-7212",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — spouses and other relatives can be hired under DSHP-Plus self-directed attendant care (the separate state-funded Personal Attendant Services program excludes spouses)"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes — parents/guardians can be paid for personal care up to 40 hrs/week under the demonstration waiver; another adult must sign timesheets/paperwork"
+    },
+    "pay": {
+      "low": 13,
+      "high": 21,
+      "unit": "hr",
+      "display": "$13–$21/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "reported ~$13–$21/hr, avg ~$16.75/hr (2026, secondhand)"
+    },
+    "agencyModel": "self-directed through the member's managed care organization; a financial management services agency handles payroll/taxes/background checks",
+    "waitlist": {
+      "status": "none",
+      "detail": "no waitlist — DSHP-Plus is an entitlement (eligibility = enrollment)"
+    },
+    "apply": "Call the DMMA Central Intake Unit at 866-940-8963 to request an application; eligibility determination (financial + nursing-facility level of care) can take up to 3 months.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/delaware-diamond-state-health-plan/",
+      "https://www.kidswaivers.org/paid-parent-caregiving/",
+      "https://www.payingforseniorcare.com/delaware/medicaid-waivers/diamond-state-health-plan"
+    ]
+  },
+  {
+    "slug": "district-of-columbia",
+    "name": "District of Columbia",
+    "programs": [
+      "EPD Waiver — Services My Way"
+    ],
+    "agency": "DC Department of Health Care Finance (DHCF), Long Term Care Administration, 202-442-5988; Dept. of Aging and Community Living (DACL) 202-724-5626",
+    "spouse": {
+      "status": "no",
+      "detail": "no — 'a spouse or other legally responsible relative is excluded' from being a paid caregiver under Services My Way"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — EPD Waiver serves people 65+ or persons with disabilities 18+; minors are not in this waiver"
+    },
+    "pay": {
+      "low": 3600,
+      "high": 3600,
+      "unit": "month",
+      "display": "$3,600/month",
+      "taxFree": false,
+      "varies": true,
+      "detail": "not published; participant sets wages within their budget — reported ~$3,600/month max on third-party sites"
+    },
+    "agencyModel": "no home-care agency for self-directed services; a financial management services provider is required — GT Independence serves DC Services My Way as FMS and support broker (877-659-4500)",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "not an entitlement — enrollment slots limited and a waitlist can form when full"
+    },
+    "apply": "A doctor or nurse completes the EPD Waiver Prescription Order Form, submitted to Liberty Healthcare, which schedules the functional assessment and assigns a worker to help complete the application; DHCF Long Term Care Administration (202-442-5988) administers enrollment.",
+    "sources": [
+      "https://dhcf.dc.gov/page/epd-waiver-services",
+      "https://www.medicaidplanningassistance.org/washington-dc-epd-waiver/",
+      "https://gtindependence.com/state/dc/services-my-way/"
+    ]
+  },
+  {
+    "slug": "florida",
+    "name": "Florida",
+    "programs": [
+      "SMMC-LTC Participant Directed Option",
+      "CDC+",
+      "Family Home Health Aide (children)"
+    ],
+    "agency": "Agency for Health Care Administration (AHCA) administers SMMC-LTC/FHHA; Dept. of Elder Affairs/ADRC screening (Elder Helpline 1-800-963-5337); APD runs CDC+ (helpline 1-866-761-7043)",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — yes under SMMC-LTC PDO (must be 'extraordinary care' beyond normal spousal duties, background screening required); no under CDC+"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes — FHHA program pays a trained parent $25/hr (up to 8 hrs/day) for a PDN-eligible child under 21; 1915(j) also lets parents of minors on iBudget be paid for self-directed personal care via CDC+"
+    },
+    "pay": {
+      "low": 15,
+      "high": 25,
+      "unit": "hr",
+      "display": "$15–$25/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "FHHA: $25/hr statutory (2023 law); PDO: set by each managed-care plan, ~$15/hr floor for unskilled care reported"
+    },
+    "agencyModel": "PDO is self-directed with the plan/fiscal agent handling payroll; CDC+ is self-directed with a state Fiscal/Employer Agent; FHHA requires employment through a licensed home health agency",
+    "waitlist": {
+      "status": "long",
+      "detail": "yes — SMMC-LTC is not an entitlement: waitlist ranked by frailty priority score (not wait time); iBudget/CDC+ waitlist is years long (10+ yrs for non-crisis categories)"
+    },
+    "apply": "Call the local Aging & Disability Resource Center (Elder Helpline 1-800-963-5337) for the phone screening that sets the priority score; CARES assessment + Medicaid application follow when a slot opens. For children/FHHA contact a participating home health agency; for CDC+ go through APD.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/florida-medicaid-smmc-ltc/",
+      "https://ahca.myflorida.com/family-home-health-aide.html",
+      "https://apd.myflorida.com/medicaid/cdc/index.htm"
+    ]
+  },
+  {
+    "slug": "georgia",
+    "name": "Georgia",
+    "programs": [
+      "Structured Family Caregiving (SFC)",
+      "CCSP / SOURCE",
+      "NOW & COMP Waivers",
+      "GAPP (children)"
+    ],
+    "agency": "GA Dept. of Community Health (Medicaid) with DHS Division of Aging Services running CCSP/SOURCE via Area Agencies on Aging (1-866-552-4464); DBHDD for NOW/COMP",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — no under SFC and CCSP/SOURCE consumer direction; reported allowed under NOW/COMP live-in family caregiver participant-direction"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — no under SFC/CCSP (parents of minors barred); yes under GAPP family caregiver option for medically fragile children under 21 (personal care only, not skilled nursing, prior authorization required)"
+    },
+    "pay": {
+      "low": 1987,
+      "high": 2400,
+      "unit": "month",
+      "display": "$1,987–$2,400/month",
+      "taxFree": true,
+      "varies": true,
+      "detail": "SFC daily stipend reported ~$80/day in 2026 (~$1,987–$2,400/month by acuity tier), paid weekly, generally tax-free; NOW/COMP hourly rates per DBHDD fee schedule"
+    },
+    "agencyModel": "SFC requires a live-in caregiver enrolled through a licensed SFC provider agency (agency provides oversight + pays stipend); NOW/COMP self-direction uses a fiscal intermediary; GAPP goes through a home care agency",
+    "waitlist": {
+      "status": "long",
+      "detail": "CCSP is slot-capped and can waitlist; SOURCE (SSI-linked) generally no waitlist; NOW/COMP have a multi-year DBHDD planning list with crisis exceptions"
+    },
+    "apply": "For seniors: call the Area Agency on Aging / ADRC at 866-552-4464 for CCSP or SOURCE screening, then choose an SFC provider agency; for I/DD, apply to NOW/COMP via the DBHDD regional field office; Medicaid application is filed separately with DFCS.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/georgia-medicaid-ccsp/",
+      "https://dbhdd.georgia.gov/be-compassionate/home-services/participant-direction",
+      "https://www.kidswaivers.org/paid-parent-caregiving/"
+    ]
+  },
+  {
+    "slug": "hawaii",
+    "name": "Hawaii",
+    "programs": [
+      "QUEST Integration self-direction"
+    ],
+    "agency": "Hawaii Dept. of Human Services, Med-QUEST Division (MQD); 800-316-8005 (O'ahu 808-524-3370); ADRC 808-643-2372",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — relatives including spouses and adult children can be hired under QI self-direction"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — self-direction allows hiring relatives, but payment of a parent for a minor child is not documented; confirm with Med-QUEST"
+    },
+    "pay": {
+      "low": 14,
+      "high": 23,
+      "unit": "hr",
+      "display": "$14–$23/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "no official published rate; third-party reports ~$14–$23/hr depending on program/region, up to ~$3,028/mo (2026)"
+    },
+    "agencyModel": "self-directed: participant hires the caregiver; a financial management services (FMS) agency handles payroll/taxes; services authorized through the member's QI health plan (MCO)",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "Medicaid/QI enrollment is an entitlement, but HCBS/LTSS participant slots can be limited — waitlist can form when full"
+    },
+    "apply": "Apply for Med-QUEST online at MyBenefits or with form DHS 1100 at a Med-QUEST Service Center (800-316-8005); once enrolled, request a long-term-services assessment through the QI health plan.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/hawaii-quest-integration-program/",
+      "https://medquest.hawaii.gov/"
+    ]
+  },
+  {
+    "slug": "idaho",
+    "name": "Idaho",
+    "programs": [
+      "A&D Waiver self-directed care",
+      "Personal Care Services (PCS)",
+      "Certified Family Home"
+    ],
+    "agency": "Idaho Dept. of Health & Welfare, Bureau of Long Term Care; 877-456-1233 (Medicaid 800-962-2537)",
+    "spouse": {
+      "status": "no",
+      "detail": "no — spouses are prohibited as paid PCS/attendant caregivers except narrow extraordinary-circumstances exceptions; the temporary spousal FPCS program ended 7/15/2025"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited/no — A&D programs serve adults; parents of minor children are generally not payable under these programs (children served via separate programs)"
+    },
+    "pay": {
+      "low": 2554,
+      "high": 2554,
+      "unit": "month",
+      "display": "$2,554/month",
+      "taxFree": false,
+      "varies": true,
+      "detail": "no published state rate for family caregivers; third-party reports up to ~$2,554/mo via waiver self-direction (2026)"
+    },
+    "agencyModel": "State Plan PCS requires a licensed Personal Assistance Agency (no self-direction); A&D Waiver allows self-directing attendant/chore/companion/homemaker services with an FMS agency handling payroll; CFH requires certifying the caregiver's home",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "State Plan PCS is an entitlement (no waitlist); A&D Waiver is capped (~15,095 slots/yr) — waitlist possible, access by application date"
+    },
+    "apply": "Apply via idalink.idaho.gov, by phone 877-456-1233, or at a local DHW office; the Bureau of Long Term Care performs the nursing-facility level-of-care assessment (allow up to ~3 months).",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/idaho-aged-and-disabled-waiver/",
+      "https://www.medicaidplanningassistance.org/idaho-personal-care-services/",
+      "https://healthandwelfare.idaho.gov/"
+    ]
+  },
+  {
+    "slug": "illinois",
+    "name": "Illinois",
+    "programs": [
+      "Community Care Program (CCP)",
+      "Home Services Program (HSP)",
+      "MFTD Waiver (children)"
+    ],
+    "agency": "Illinois Dept. on Aging (CCP; Senior HelpLine 800-252-8966); IDHS Division of Rehabilitation Services (HSP; 877-581-3690); HFS is the Medicaid agency",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — CCP: yes, any family member including a spouse may be hired (recent expansion, via agency with background check + 24-hr training); HSP: no, spouses excluded as legally responsible relatives"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — HSP excludes parents of a minor recipient; MFTD waiver pays parents who hold an RN/LPN license for skilled nursing (paid-CNA parent option proposed 2025, not yet approved)"
+    },
+    "pay": {
+      "low": 18,
+      "high": 20,
+      "unit": "hr",
+      "display": "$18–$20/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "HSP individual providers: $19.50/hr Jan 2026 rising to $20.00/hr Jul 2026 (SEIU contract; seniority add-ons up to +$4/hr); CCP aides are paid by the contracted agency, reported ~$18–$20/hr"
+    },
+    "agencyModel": "CCP: caregiver must be hired and supervised by a contracted In-Home Services agency; HSP: consumer-directed — customer hires the personal assistant directly and the state handles payroll; MFTD: parent-nurse employed via nursing agency",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "generally no waitlist — CCP and HSP enroll eligible applicants without waiver waitlists"
+    },
+    "apply": "Age 60+: call the Senior HelpLine 800-252-8966 to reach the local Care Coordination Unit for a CCP assessment; under 60: apply through the local DHS-DRS Home Services Program office; medically fragile children: contact UIC DSCC.",
+    "sources": [
+      "https://ilaging.illinois.gov/programs/caregiver/in-home-care.html",
+      "https://www.dhs.state.il.us/page.aspx?item=29738",
+      "https://dscc.uic.edu/"
+    ]
+  },
+  {
+    "slug": "indiana",
+    "name": "Indiana",
+    "programs": [
+      "Structured Family Caregiving (SFC)",
+      "Attendant Care (PathWays & H&W Waivers)"
+    ],
+    "agency": "Indiana FSSA (Division of Aging / Indiana Medicaid); intake via local Area Agency on Aging — INconnect Alliance 800-986-3505",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes via SFC — a live-in spouse can be the paid SFC caregiver; no for Attendant Care since 7/1/2024 (spouse is a Legally Responsible Individual)"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes via SFC on the Health & Wellness waiver — biological/adoptive parents, guardians, and stepparents of a minor may provide SFC; parents/guardians of minors may NOT provide attendant care since 7/1/2024"
+    },
+    "pay": {
+      "low": 46,
+      "high": 80,
+      "unit": "day",
+      "display": "$46–$80/day",
+      "taxFree": true,
+      "varies": true,
+      "detail": "SFC program rates eff. 7/1/2025: $77.54/day (Level 1), $99.71 (Level 2), $133.44 (Level 3); provider must pass through at least 60% to the caregiver (tax-free difficulty-of-care stipend, roughly $46–$80/day); attendant care is hourly via agency (rate varies)"
+    },
+    "agencyModel": "SFC: caregiver must enroll with an approved SFC provider agency that supervises and pays the stipend; attendant care may be agency-based or participant-directed, but LRIs are barred from self-directed attendant care (Indiana Code 12-10-17.1-10(b))",
+    "waitlist": {
+      "status": "long",
+      "detail": "yes — PathWays and Health & Wellness reached federally approved capacity (waitlist since Apr 2024; 10,000+ waiting in 2025; capacity hit again Dec 2025 with new invitations not expected before ~Jul 2026); FSSA runs an online waitlist dashboard"
+    },
+    "apply": "Contact the local Area Agency on Aging for intake, level-of-care assessment, and waitlist placement; apply for Indiana Medicaid through FSSA; PathWays members then select a managed-care plan and request SFC through their care coordinator.",
+    "sources": [
+      "https://www.in.gov/fssa/files/ATTCandSFCRelationshipGuidance.pdf",
+      "https://www.in.gov/medicaid/providers/files/bulletins/BT2025105.pdf",
+      "https://www.wfyi.org/health/2025-03-26/indiana-medicaid-waiver-invitations-hit-capacity-more-than-10000-still-on-waitlists"
+    ]
+  },
+  {
+    "slug": "iowa",
+    "name": "Iowa",
+    "programs": [
+      "Consumer Choices Option (CCO)",
+      "CDAC (agency-delivered)"
+    ],
+    "agency": "Iowa HHS / Iowa Medicaid (member services 800-338-8366), delivered through managed-care organizations (Iowa Total Care, Wellpoint)",
+    "spouse": {
+      "status": "no",
+      "detail": "no — a spouse cannot be the paid attendant under CDAC or CCO"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — parents/stepparents/guardians of a child 17 or under cannot be paid (441 IAC 77.30); a new Medical Day Care for Children service may allow parent pay for medically fragile children"
+    },
+    "pay": {
+      "low": 2691,
+      "high": 2691,
+      "unit": "month",
+      "display": "$2,691/month",
+      "taxFree": false,
+      "varies": true,
+      "detail": "CCO: member sets worker wages from a monthly individual budget (no single published rate); third-party reports up to ~$2,691/mo (2026)"
+    },
+    "agencyModel": "CCO is self-directed: the member is the employer, Veridian Fiscal Solutions is the financial management service running payroll (319-226-4692), with an optional Independent Support Broker; otherwise services must come through an enrolled agency provider",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "Elderly Waiver: no waitlist (Jan 2026, ~10,653 slots); most other Iowa waivers have waitlists — ~26,665 Iowans waiting statewide as of Dec 2025 (Intellectual Disability waiver longest)"
+    },
+    "apply": "Apply for Medicaid and the appropriate HCBS waiver through Iowa HHS (hhs.iowa.gov or a local office, 800-338-8366); after waiver approval and level-of-care assessment, ask the case manager to enroll in the Consumer Choices Option.",
+    "sources": [
+      "https://hhs.iowa.gov/medicaid/member-services/cco",
+      "https://hhs.iowa.gov/medicaid/services-care/individual-consumer-directed-attendant-care-icdac-transition",
+      "https://www.medicaidplanningassistance.org/iowa-elderly-waiver/"
+    ]
+  },
+  {
+    "slug": "kansas",
+    "name": "Kansas",
+    "programs": [
+      "Frail Elderly Waiver",
+      "Physical Disability Waiver",
+      "Brain Injury Waiver",
+      "Technology Assisted Waiver (children)"
+    ],
+    "agency": "Kansas Dept. for Aging and Disability Services (KDADS); KanCare Clearinghouse 800-792-4884, ADRC 855-200-2372",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — spouse can be hired under FE/PD self-directed attendant care"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes — TA Waiver pays parents for personal care up to 12 hrs/day (40 hrs/wk, no overnight respite; nursing if parent is RN/LPN); BI and PD waivers also permanently allow paid parents of minors"
+    },
+    "pay": {
+      "low": 13,
+      "high": 17,
+      "unit": "hr",
+      "display": "$13–$17/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "~$13–$17/hr for self-directed attendant care, set by KDADS by region (SFY2026, reported)"
+    },
+    "agencyModel": "self-directed hire/train/fire, but a Financial Management Services (FMS) agency must handle payroll/taxes",
+    "waitlist": {
+      "status": "possible",
+      "detail": "FE Waiver: new waitlist for FE applicants effective July 6 2026; PD waitlist eliminated end of FY2025; BI at risk of first-time waitlist after 2025 budget cuts"
+    },
+    "apply": "Apply for KanCare online (Self-Service Portal), by phone 800-792-4884, or paper, checking the HCBS box; ADRC (855-200-2372) arranges the functional assessment.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/kansas-frail-elderly-waiver/",
+      "https://www.kdads.ks.gov/Home/Components/News/News/84/316",
+      "https://www.kidswaivers.org/ks/"
+    ]
+  },
+  {
+    "slug": "kentucky",
+    "name": "Kentucky",
+    "programs": [
+      "Participant Directed Services (PDS)",
+      "HCB Waiver",
+      "Michelle P. Waiver"
+    ],
+    "agency": "KY Cabinet for Health and Family Services — Dept. for Aging and Independent Living (DAIL) 877-315-0589; Waiver Help Desk 844-784-5614",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — friends and relatives including adult children and spouses can be hired under PDS"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — parents/guardians (legally responsible individuals) payable under Michelle P./HCB only for extraordinary or specialized care (rule eff. 7/1/2024), capped 40 hrs/wk combined, CPR training required"
+    },
+    "pay": {
+      "low": 29.04,
+      "high": 29.04,
+      "unit": "hr",
+      "display": "$29.04/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "PDS attendant care max reimbursement $29.04/hr (reported 2026; caregiver take-home is lower after FMS costs)"
+    },
+    "agencyModel": "self-directed with mandatory financial management services agency for payroll/taxes; support broker/case manager assists",
+    "waitlist": {
+      "status": "long",
+      "detail": "HCB Waiver ~17,800 slots/yr — waitlist forms when full; Michelle P. Waiver has a long-standing multi-year waitlist"
+    },
+    "apply": "Apply via kynect.ky.gov, phone 855-306-8959, or in person; PDS enrollment goes through the case manager or the regional Area Development District/AAA.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/kentucky-home-community-waiver/",
+      "https://www.chfs.ky.gov/agencies/dail/Pages/pds.aspx",
+      "https://apps.legislature.ky.gov/law/kar/titles/907/001/835/"
+    ]
+  },
+  {
+    "slug": "louisiana",
+    "name": "Louisiana",
+    "programs": [
+      "Community Choices Waiver",
+      "Monitored In-Home Caregiving (MIHC)",
+      "Children's Choice Waiver"
+    ],
+    "agency": "Louisiana Dept. of Health — Office of Aging and Adult Services (OAAS); Louisiana Options in Long Term Care 877-456-1146",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — MIHC allows a live-in spouse or adult child as the paid caregiver"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — not under CCW (serves adults 65+ or 21+ with disabilities); parents of minors payable under Children's Choice/New Opportunities DD waivers, 40 hrs/wk cap, cannot also be the employer/representative"
+    },
+    "pay": {
+      "low": 1800,
+      "high": 1800,
+      "unit": "month",
+      "display": "$1,800/month",
+      "taxFree": false,
+      "varies": true,
+      "detail": "MIHC pays a tiered per-diem stipend by acuity, reported ~$85–$150/day (up to ~$1,800/month); consumer-directed hourly rate not published"
+    },
+    "agencyModel": "MIHC runs through an enrolled MIHC provider agency (care manager + nurse support, agency pays the stipend); consumer-directed option uses a financial management services agency for payroll",
+    "waitlist": {
+      "status": "none",
+      "detail": "not an entitlement — waitlist via the CCW Request for Services Registry when slots are full"
+    },
+    "apply": "Call Louisiana Options in Long Term Care at 877-456-1146 to request CCW services and be placed on the registry; OAAS handles level-of-care screening.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/louisiana-community-choices-waiver/",
+      "https://ldh.la.gov/office-of-aging-and-adult-services/community-choices-waiver-ccw",
+      "https://www.law.cornell.edu/regulations/louisiana/La-Admin-Code-tit-50-SS-XXI-8329"
+    ]
+  },
+  {
+    "slug": "maine",
+    "name": "Maine",
+    "programs": [
+      "Consumer Directed Attendant Services (Section 12)",
+      "Home & Community Benefits (Section 19)",
+      "Family Home Health Aide (children, 2026)"
+    ],
+    "agency": "Maine DHHS — Office of Aging and Disability Services (OADS) 855-797-4357; assessments by Maximus 833-525-5784",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — spouses/legally responsible relatives excluded from CDAS and Section 19 hires, EXCEPT Resolves 2019 ch.104 lets a spouse be paid as a Personal Support Specialist for members needing extraordinary care"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — new Family Home Health Aide Program (implementation from early 2026) will reimburse parents of minors; parents who are nurses payable in exceptional circumstances"
+    },
+    "pay": {
+      "low": 17,
+      "high": 27,
+      "unit": "hr",
+      "display": "$17–$27/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "reported ~$17–$27/hr for family caregivers under CDAS/Section 19 (2026, third-party figure)"
+    },
+    "agencyModel": "member is the employer (hires/trains/fires); a fiscal intermediary is required for background checks, taxes, and payments",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "Section 12 CDAS is an entitlement — no waitlist; Section 19 waiver capped (~4,126 slots) and a waitlist forms when full"
+    },
+    "apply": "Apply for MaineCare via My Maine Connection, 855-797-4357, or a district DHHS office; Maximus (833-525-5784) does the functional assessment.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/maine-consumer-directed-attendant-services/",
+      "https://www.medicaidplanningassistance.org/maine-elderly-adults-disabilities-waiver/",
+      "https://www.payingforseniorcare.com/maine/cdas-program"
+    ]
+  },
+  {
+    "slug": "maryland",
+    "name": "Maryland",
+    "programs": [
+      "Community First Choice (CFC)",
+      "CPAS",
+      "Community Options Waiver",
+      "DDA Waivers (children)"
+    ],
+    "agency": "Maryland Dept. of Health — Office of Long Term Services and Supports, CFC 410-767-1739; Maryland Access Point (MAP) 844-627-5465",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — spouse or adult child can be hired under CFC self-direction, provided they are not the participant's guardian or program representative"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — not via CFC (guardian/representative bar); DDA Community Pathways Waiver pays legally responsible parents up to 40 hrs/wk, and the Autism Waiver reimburses extraordinary care"
+    },
+    "pay": {
+      "low": 16,
+      "high": 20,
+      "unit": "hr",
+      "display": "$16–$20/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "reported ~$16–$20/hr depending on region and care level (2026, third-party figure; state sets the range)"
+    },
+    "agencyModel": "caregiver enrolls through a Medicaid personal assistance agency and a fiscal intermediary handles payroll/taxes; participant still selects and directs the caregiver",
+    "waitlist": {
+      "status": "none",
+      "detail": "CFC and CPAS are entitlements — no waitlist; Community Options Waiver has a large registry (~20,616 people as of early 2026, ~700 invited/month)"
+    },
+    "apply": "Call the CFC program (410-767-1739) or MAP (844-627-5465) / visit a local MAP office to start eligibility screening; processing takes up to ~3 months.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/maryland-community-first-choice/",
+      "https://health.maryland.gov/mmcp/ltss/Pages/community-options-waiver.aspx",
+      "https://www.medicaidplanningassistance.org/maryland-community-options-waiver/"
+    ]
+  },
+  {
+    "slug": "massachusetts",
+    "name": "Massachusetts",
+    "programs": [
+      "PCA Program",
+      "Adult Foster Care (AFC)",
+      "Frail Elder Waiver"
+    ],
+    "agency": "MassHealth / Executive Office of Health and Human Services (EOHHS), 800-841-2900",
+    "spouse": {
+      "status": "no",
+      "detail": "no — spouse barred as legally responsible relative in both PCA and AFC"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — parent of a minor member cannot be paid PCA (legally responsible relative); parents of ADULT children can be paid"
+    },
+    "pay": {
+      "low": 19.5,
+      "high": 23.25,
+      "unit": "hr",
+      "display": "$19.50–$23.25/hr",
+      "taxFree": true,
+      "varies": false,
+      "detail": "PCA: $19.50/hr base (7/1/2024), +$0.50 7/1/2025, seniority scale $19.50–$23.25/hr, +$3.25/hr complex-care differential from 1/1/2026 (1199SEIU contract); AFC: tax-free stipend ~$1,000/mo (Level I) to ~$1,600/mo (Level II)"
+    },
+    "agencyModel": "PCA: self-directed — consumer is the employer, works with a Personal Care Management agency and a fiscal intermediary (e.g., Tempus Unlimited) for payroll; AFC: caregiver must go through a MassHealth-contracted AFC provider agency",
+    "waitlist": {
+      "status": "none",
+      "detail": "PCA is an entitlement — no waitlist; AFC no waitlist reported"
+    },
+    "apply": "Apply for MassHealth via the Application for Health Coverage for Seniors/Long-Term Care to a MassHealth Enrollment Center, then get a PCA evaluation through a Personal Care Management agency (or contact an AFC provider agency for AFC).",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/masshealth-personal-care-attendant-program/",
+      "https://www.medicaidplanningassistance.org/masshealth-adult-foster-care-program/",
+      "https://www.mass.gov/info-details/pca-complex-care"
+    ]
+  },
+  {
+    "slug": "michigan",
+    "name": "Michigan",
+    "programs": [
+      "Home Help Program",
+      "MI Choice Waiver"
+    ],
+    "agency": "Michigan Department of Health and Human Services (MDHHS), via county MDHHS offices; MI Choice via regional waiver agencies",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — spouses barred under Home Help; reportedly payable under MI Choice Self-Determination Option"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no under Home Help (parents of minors excluded); other adult relatives 18+ allowed"
+    },
+    "pay": {
+      "low": 15.88,
+      "high": 17.13,
+      "unit": "hr",
+      "display": "$15.88–$17.13/hr",
+      "taxFree": false,
+      "varies": false,
+      "detail": "Home Help individual caregiver: $15.88/hr (eff. 11/1/2024), rising to $17.13/hr ($13.73 + $3.40 pass-through) eff. 1/1/2026 (MDHHS rate bulletins)"
+    },
+    "agencyModel": "self-directed allowed — client hires an individual caregiver who enrolls as a provider in CHAMPS with background check and is paid directly by MDHHS (agency caregivers optional); MI Choice SDO uses a fiscal intermediary",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "Home Help is an entitlement — no waitlist; MI Choice waiver has capped slots and regional waitlists"
+    },
+    "apply": "Contact your county MDHHS office to apply for Home Help and request an adult-services assessment; for MI Choice contact your regional waiver agency for a screening.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/michigan-home-help-program/",
+      "https://www.hcaoa.org/newsletters/michigan-home-help-individual-caregiver-pay-rate-increasing-january-1-2026",
+      "https://www.medicaidplanningassistance.org/michigan-choice-waiver/"
+    ]
+  },
+  {
+    "slug": "minnesota",
+    "name": "Minnesota",
+    "programs": [
+      "CFSS",
+      "CDCS",
+      "Elderly Waiver"
+    ],
+    "agency": "Minnesota Department of Human Services (DHS); county long-term care consultation teams; Senior LinkAge Line 800-333-2433",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — since 10/1/2024 spouses can be paid CFSS/PCA workers (per MN DHS bulletin); spouses also hirable under CDCS"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes — since 10/1/2024 parents of minors can be paid CFSS workers (per MN DHS bulletin)"
+    },
+    "pay": {
+      "low": 22.74,
+      "high": 22.74,
+      "unit": "hr",
+      "display": "$22.74/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "paid-spouse/paid-parent-of-minor CFSS maximum rate ~$22.74/hr (~2025); CDCS wages set by participant within an individual budget"
+    },
+    "agencyModel": "fiscal support: CFSS offers an agency-provider model or a self-directed budget model with a Financial Management Services (FMS) provider; CDCS requires an FMS provider for payroll/taxes",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "CFSS is a state-plan entitlement — no waitlist; Elderly Waiver capped (~40,083/yr) — waitlist can form"
+    },
+    "apply": "Start with a MnCHOICES/long-term care consultation assessment through your county (or call the Senior LinkAge Line); also apply for Medical Assistance (MA-LTC application).",
+    "sources": [
+      "https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/programs-and-services/cfss-faq.jsp",
+      "https://content.govdelivery.com/accounts/MNDHS/bulletins/3abc52c",
+      "https://www.medicaidplanningassistance.org/minnesota-elderly-waiver/"
+    ]
+  },
+  {
+    "slug": "mississippi",
+    "name": "Mississippi",
+    "programs": [
+      "Elderly & Disabled Waiver (agency only)",
+      "Independent Living Waiver"
+    ],
+    "agency": "Mississippi Division of Medicaid, Office of Long Term Care, 800-421-2408; MAC Center 844-822-4622; IL Waiver operated by MS Dept. of Rehabilitation Services, 800-443-1000",
+    "spouse": {
+      "status": "no",
+      "detail": "no — spouses excluded; E&D Waiver has no consumer direction at all"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — current waiver language bars payment to parents/guardians/legally responsible individuals (pandemic-era flexibility removed)"
+    },
+    "pay": {
+      "low": null,
+      "high": null,
+      "unit": null,
+      "display": null,
+      "taxFree": false,
+      "varies": true,
+      "detail": "no published family-caregiver pay rate"
+    },
+    "agencyModel": "E&D: agency-delivered only — family cannot be hired; IL Waiver: participant-directed — friends and some relatives (e.g., adult children NOT living with the participant) can be hired",
+    "waitlist": {
+      "status": "possible",
+      "detail": "both are capped waivers with waitlists — E&D ~22,200 slots/yr, IL ~5,800 slots/yr, slots awarded by application date"
+    },
+    "apply": "Contact your regional Mississippi Division of Medicaid office or the MAC Center (844-822-4622) to request a waiver assessment; for the IL Waiver contact MS Dept. of Rehabilitation Services.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/mississippi-elderly-disabled-waiver/",
+      "https://www.medicaidplanningassistance.org/mississippi-independent-living-waiver/",
+      "https://medicaid.ms.gov/"
+    ]
+  },
+  {
+    "slug": "missouri",
+    "name": "Missouri",
+    "programs": [
+      "Consumer Directed Services (CDS)",
+      "Structured Family Caregiving Waiver"
+    ],
+    "agency": "Missouri Dept. of Health & Senior Services, Division of Senior and Disability Services (DSDS); HCBS referral line 866-835-3505; financial eligibility via Family Support Division 855-373-4636",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — CDS bars spouses and legal guardians; SFCW explicitly allows a spouse or legal guardian to be the paid live-in caregiver (dementia diagnosis required)"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — CDS consumers must be adults able to self-direct; no MO program paying parents of minor children found"
+    },
+    "pay": {
+      "low": 12,
+      "high": 20,
+      "unit": "hr",
+      "display": "$12–$20/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "CDS attendants: ~$12–$20/hr depending on vendor, e.g. Paraquad $15.50/hr as of 7/2025; SFCW pays a daily stipend via provider agency"
+    },
+    "agencyModel": "CDS: self-directed but must enroll with a state-contracted CDS vendor/fiscal agent that handles payroll; SFCW: caregiver is employed and paid by a DSS-enrolled Structured Family Caregiving provider agency",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "CDS/Personal Care is an entitlement — no waitlist; SFCW capped at ~300 participants — waitlist possible"
+    },
+    "apply": "Apply for MO HealthNet (myDSS online or 855-373-9994), then submit an HCBS referral (866-835-3505 or online HCBS referral form) for a DSDS in-home assessment.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/missouri-personal-care-program/",
+      "https://www.medicaidplanningassistance.org/missouri-structured-family-caregiving/",
+      "https://paraquad.org/consumer-directed-services"
+    ]
+  },
+  {
+    "slug": "montana",
+    "name": "Montana",
+    "programs": [
+      "Big Sky Waiver (self-directed)",
+      "Community First Choice & PCS"
+    ],
+    "agency": "Montana DPHHS, Senior & Long Term Care Division (406-444-4077); Public Assistance Helpline 888-706-1535",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — yes under Big Sky Waiver self-directed option; prohibited under CFCS/PCS (spouses and parents of minors excluded there)"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no under CFCS/PCS (explicitly prohibited); Big Sky Waiver serves adults — parent-of-minor not addressed"
+    },
+    "pay": {
+      "low": null,
+      "high": null,
+      "unit": null,
+      "display": null,
+      "taxFree": false,
+      "varies": true,
+      "detail": "not published on fetched pages"
+    },
+    "agencyModel": "hybrid — member hires/fires the caregiver but a financial management services / provider agency handles payroll, taxes, background checks; agency-based model also available",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "BSW: yes, limited slots (~2,800/yr, waitlist forms when full); CFCS/PCS: entitlement, no waitlist"
+    },
+    "apply": "Apply for Montana Medicaid at apply.mt.gov or a local Office of Public Assistance (helpline 888-706-1535); Mountain Pacific Quality Health does the functional assessment (800-219-7035).",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/montana-big-sky-waiver/",
+      "https://www.medicaidplanningassistance.org/montana-community-first-choice/",
+      "https://www.dphhs.mt.gov/assets/sltc/BigSkyWaiver/HCBSPolicyManual/700/BSW722.pdf"
+    ]
+  },
+  {
+    "slug": "nebraska",
+    "name": "Nebraska",
+    "programs": [
+      "Personal Assistance Services (PAS)",
+      "Aged & Disabled Waiver"
+    ],
+    "agency": "Nebraska DHHS (main 402-471-3121; AD Waiver 877-667-6266)",
+    "spouse": {
+      "status": "no",
+      "detail": "no — dhhs.ne.gov: 'a spouse or the parent/guardian of a minor child cannot be paid providers'"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — explicitly excluded on dhhs.ne.gov (legally responsible persons)"
+    },
+    "pay": {
+      "low": 15,
+      "high": 15,
+      "unit": "hr",
+      "display": "$15/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "PAS fee schedule ~$3.75/15 min = ~$15.00/hr for independent providers"
+    },
+    "agencyModel": "no agency required — family member enrolls as a Medicaid independent provider, paid directly by DHHS; EVV via smartphone required; agency option also exists",
+    "waitlist": {
+      "status": "long",
+      "detail": "PAS: entitlement, never a waitlist; AD Waiver: capped (~10,000/yr), waitlist possible with priority for health/safety risk"
+    },
+    "apply": "Apply online via iServe Nebraska or at a local DHHS office; for the AD Waiver call 877-667-6266 to request materials.",
+    "sources": [
+      "https://dhhs.ne.gov/Pages/Medicaid-Home-and-Community-Based-Programs.aspx",
+      "https://www.medicaidplanningassistance.org/nebraska-personal-assistance-services/",
+      "https://www.medicaidplanningassistance.org/nebraska-aged-disabled-waiver/"
+    ]
+  },
+  {
+    "slug": "nevada",
+    "name": "Nevada",
+    "programs": [
+      "Personal Care Services (self-directed)",
+      "Structured Family Caregiving Waiver"
+    ],
+    "agency": "Nevada Medicaid / DHCFP under the Nevada Health Authority (prior-authorization line 800-525-2395); ADSD operates the SFCG Waiver (local ADSD offices)",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — no under PCS (spouses/legally responsible persons excluded); yes under the SFCG Waiver, spouse can be the paid caregiver"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no under PCS (explicitly: 'spouses, legal guardians, and parents of minors, cannot be paid'); SFCG is for adults with dementia so not applicable"
+    },
+    "pay": {
+      "low": null,
+      "high": null,
+      "unit": null,
+      "display": null,
+      "taxFree": false,
+      "varies": true,
+      "detail": "PCS hourly rate not published on fetched pages; SFCG pays a daily stipend — caregiver must receive at least 65% of the Medicaid per diem rate"
+    },
+    "agencyModel": "yes — self-directed PCS must run through an enrolled ISO (Provider Type 83) that handles payroll/taxes/background checks; SFCG paid via a home care agency or ISO; traditional agency model also available",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "PCS: entitlement, never a waitlist; SFCG Waiver: capped (~156 slots in 2026), waitlist forms when full"
+    },
+    "apply": "Apply for Nevada Medicaid via Access Nevada, then call the prior-authorization line (800-525-2395) to request a PCS assessment; for SFCG contact your local ADSD office with the dementia verification form.",
+    "sources": [
+      "https://dhcfp.nv.gov/Pgms/LTSS/LTSSISO/",
+      "https://www.medicaidplanningassistance.org/nevada-personal-care-services-program/",
+      "https://www.medicaidplanningassistance.org/nevada-structured-family-caregiving/"
+    ]
+  },
+  {
+    "slug": "new-hampshire",
+    "name": "New Hampshire",
+    "programs": [
+      "Choices for Independence (CFI) Waiver",
+      "PCAS",
+      "In-Home Supports Waiver (children)"
+    ],
+    "agency": "NH DHHS Bureau of Adult and Aging Services (ADRC/ServiceLink 866-634-9412; DHHS Customer Services 844-275-3447); Granite State Independent Living runs PCAS intake (800-826-3700)",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — CFI participant-directed and PCAS both allow hiring a spouse (PCAS: caregiver may not be the participant's durable power of attorney)"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — CFI/PCAS are adult programs; the In-Home Supports Waiver for children with DD can pay parents for some services when the child's dependency exceeds DD peers"
+    },
+    "pay": {
+      "low": 15,
+      "high": 22,
+      "unit": "hr",
+      "display": "$15–$22/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "reported $15–$22/hr for family caregivers"
+    },
+    "agencyModel": "hybrid — participant hires/manages the caregiver but a financial management services agency handles payroll, taxes, background checks",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "CFI: not an entitlement (~5,951 cap/yr), waitlist exists; PCAS: entitlement, no waitlist"
+    },
+    "apply": "Apply via NH Easy online or a district DHHS office; ServiceLink/ADRC (866-634-9412) assists with CFI; for PCAS enroll in NH Medicaid then submit a Request for Services to Granite State Independent Living.",
+    "sources": [
+      "https://www.dhhs.nh.gov/programs-services/adult-aging-care/nh-choices-independence-waiver-renewal-and-amendments-2022-2027",
+      "https://www.medicaidplanningassistance.org/new-hampshire-choices-for-independence/",
+      "https://www.medicaidplanningassistance.org/new-hampshire-pcas-program/"
+    ]
+  },
+  {
+    "slug": "new-jersey",
+    "name": "New Jersey",
+    "programs": [
+      "Personal Preference Program (PPP)"
+    ],
+    "agency": "NJ Department of Human Services, Division of Medical Assistance & Health Services (PPP office 609-631-2481)",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — spouse, adult child, sibling, relative, friend, or neighbor can be hired as the paid PCA"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — parent of a minor Medicaid recipient is categorically excluded per the federal 1915(j) rule; guardians of incapacitated adults CAN be paid if someone else serves as authorized representative"
+    },
+    "pay": {
+      "low": null,
+      "high": null,
+      "unit": null,
+      "display": null,
+      "taxFree": false,
+      "varies": true,
+      "detail": "monthly cash budget based on assessed PCA hours; dollar amounts not published"
+    },
+    "agencyModel": "self-directed (participant is employer) but a fiscal intermediary is mandatory: Palco (Horizon NJ Health) or Public Partnerships LLC/PPL (Aetna, Fidelis, UnitedHealthcare, Wellpoint); FI transition in progress 2025-26",
+    "waitlist": {
+      "status": "none",
+      "detail": "no waitlist — entitlement for those approved for PCA services"
+    },
+    "apply": "Enroll in NJ FamilyCare Plan A, then call your Managed Care Organization to request a PCA assessment and PPP enrollment; PPP helpline 609-631-2481.",
+    "sources": [
+      "https://www.nj.gov/humanservices/dmahs/individuals-families/njppp.shtml",
+      "https://www.medicaidplanningassistance.org/nj-familycare-personal-preference-program/"
+    ]
+  },
+  {
+    "slug": "new-mexico",
+    "name": "New Mexico",
+    "programs": [
+      "Turquoise Care Self-Directed Community Benefit",
+      "Mi Via Waiver"
+    ],
+    "agency": "New Mexico Health Care Authority (HCA); Aging & Disability Resource Center 800-432-2080; Consolidated Customer Service Center 800-283-4465",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — spouses are Legally Responsible Individuals (LRIs) and can be paid once the member's MCO completes a needs assessment and approves the LRI"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes — parent or guardian of a minor is an LRI and can be paid with MCO approval; reported LRI cap of 40 hrs/week and extraordinary-care requirement for personal care"
+    },
+    "pay": {
+      "low": null,
+      "high": null,
+      "unit": null,
+      "display": null,
+      "taxFree": false,
+      "varies": true,
+      "detail": "no published rate; SDCB member/EOR negotiates caregiver wages within the approved annual budget (adult budget reported up to ~$85,767/yr)"
+    },
+    "agencyModel": "ABCB: caregiver must become an employee of a home health agency; SDCB: member or their Employer of Record hires directly with a Support Broker, and a financial management agency runs payroll; SDCB requires ~120 days in agency-directed care first",
+    "waitlist": {
+      "status": "possible",
+      "detail": "Community Benefit waiver pathway serves ~6,989/yr; a 'Central Registry' waitlist can form when slots fill"
+    },
+    "apply": "Apply for Medicaid via the YesNM portal, 800-283-4465, or an Income Support Division field office; existing members ask their MCO Care Coordinator to approve the family/LRI caregiver.",
+    "sources": [
+      "https://www.hca.nm.gov/wp-content/uploads/Paid-caregivers_Explainer_240708-1.pdf",
+      "https://www.medicaidplanningassistance.org/mexico-centennial-care/",
+      "https://www.hca.nm.gov/lookingforinformation/mi-via/"
+    ]
+  },
+  {
+    "slug": "new-york",
+    "name": "New York",
+    "programs": [
+      "CDPAP"
+    ],
+    "agency": "New York State Department of Health; Medicaid Helpline 1-800-541-2831; local county Department of Social Services determines eligibility",
+    "spouse": {
+      "status": "no",
+      "detail": "no — spouses cannot be hired as CDPAP personal assistants"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — parents cannot be paid caregivers for their own children under 21 (they can be paid for adult children 21+)"
+    },
+    "pay": {
+      "low": 18.65,
+      "high": 20.65,
+      "unit": "hr",
+      "display": "$18.65–$20.65/hr",
+      "taxFree": false,
+      "varies": false,
+      "detail": "PPL minimum base wages eff. 1/1/2026: $20.65/hr NYC, $20.05/hr Nassau/Suffolk/Westchester, $18.65/hr rest of state, plus paid leave/benefits"
+    },
+    "agencyModel": "self-directed (consumer recruits, hires, trains), but since 4/1/2025 every consumer and PA must register with PPL (Public Partnerships LLC), the single statewide fiscal intermediary that runs payroll",
+    "waitlist": {
+      "status": "none",
+      "detail": "no waitlist — CFCO/CDPAP is an entitlement; new 'Minimum Needs' eligibility requirements for most new adult applicants since Sept 2025"
+    },
+    "apply": "Apply through the county Department of Social Services (or Medicaid Helpline); enrolled members go through their care manager/MLTC plan, then consumer and caregiver register with PPL.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/new-york-cfco-cdpap/",
+      "https://pplfirst.com/new-york-cdpap-frequently-asked-questions/",
+      "https://www.health.ny.gov/health_care/medicaid/program/longterm/cdpap.htm"
+    ]
+  },
+  {
+    "slug": "north-carolina",
+    "name": "North Carolina",
+    "programs": [
+      "CAP/DA (consumer-directed)",
+      "Coordinated Caregiving",
+      "CAP/C (children)"
+    ],
+    "agency": "NC Medicaid Division of Health Benefits (NCDHHS); NC LIFTSS 1-833-470-0597",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — spouse can be hired under CAP/Consumer-Directed, and family members including spouses can be the paid live-in 'supportive worker' under Coordinated Caregiving"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes/limited — CAP/C pays parents via three routes: self-direction with an extraordinary circumstance, an RN/LPN/CNA-certified-parent pathway, or Coordinated Caregiving (background check, lives with child, CPR); LRP paid work reportedly capped at 40 hrs/week"
+    },
+    "pay": {
+      "low": null,
+      "high": null,
+      "unit": null,
+      "display": null,
+      "taxFree": false,
+      "varies": true,
+      "detail": "no published family-caregiver rate on pages reviewed"
+    },
+    "agencyModel": "consumer-directed, but a financial management services agency handles payroll/taxes; Coordinated Caregiving runs through a participating agency",
+    "waitlist": {
+      "status": "possible",
+      "detail": "yes — CAP/DA is capped (~14,078 participants/yr) with county-specific waitlists"
+    },
+    "apply": "Contact a CAP/DA (or CAP/C) case management provider in your county to request a referral, and apply for NC Medicaid via ePASS or the local DSS office.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/north-carolina-cap-da/",
+      "https://medicaid.ncdhhs.gov/capc",
+      "https://medicaid.ncdhhs.gov/providers/programs-and-services/long-term-care/community-alternatives-program-children-capc/requirements-legally-responsible-individuals-paid-caregivers"
+    ]
+  },
+  {
+    "slug": "north-dakota",
+    "name": "North Dakota",
+    "programs": [
+      "HCBS Waiver — Family Personal Care",
+      "Qualified Service Provider (QSP)",
+      "Family Paid Caregiver Pilot (children)"
+    ],
+    "agency": "North Dakota Health and Human Services, Aging Services Division; Aging and Disability Resource Link 1-855-462-5465",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — HCBS waiver Family Personal Care pays a spouse, adult child, or adult grandchild who lives with the participant; spouses and legal guardians are excluded from MSP-PC; pilot also covers spouses as LRIs"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes via pilot — Family Paid Caregiver Pilot pays legally responsible individuals (parent/guardian) providing extraordinary care on the Autism Birth-17, Medically Fragile, Children's Hospice, and Traditional IID/DD waivers"
+    },
+    "pay": {
+      "low": 21.76,
+      "high": 21.76,
+      "unit": "hr",
+      "display": "$21.76/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "pilot reported at $77.45/day for a child under 18 and $154.89/day for an adult; individual QSP personal-care rate reported up to ~$21.76/hr"
+    },
+    "agencyModel": "no home-care agency, but the family caregiver must enroll as a Qualified Service Provider (QSP) with ND HHS; the waiver has no fully self-directed option",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "HCBS waiver is not an entitlement (~930 slots/yr) and a waitlist forms when full; pilot is capacity-limited (reported 75 families enrolled of 550+ applicants)"
+    },
+    "apply": "Apply for the HCBS waiver online or through your local Human Service Zone office; the pilot is applied for through the Family Paid Caregiver Portal (familycaregiver.hhs.nd.gov).",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/north-dakota-hcbs-medicaid-waiver/",
+      "https://www.hhs.nd.gov/individuals-disabilities/family-paid-caregiver-pilot-program",
+      "https://www.hhs.nd.gov/news/nd-health-and-human-services-launches-new-pilot-program-support-families-caring-household"
+    ]
+  },
+  {
+    "slug": "ohio",
+    "name": "Ohio",
+    "programs": [
+      "PASSPORT Waiver",
+      "Structured Family Caregiving",
+      "Next Generation MyCare",
+      "Ohio Home Care Waiver"
+    ],
+    "agency": "Ohio Department of Aging (PASSPORT Helpline 1-866-243-5678); Ohio Department of Medicaid (Consumer Hotline 1-800-324-8680); Ohio Benefits Helpline 1-844-640-6446",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — spouses can be hired under PASSPORT's participant-directed options, Next Generation MyCare, and as the live-in Structured Family Caregiving caregiver"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — Ohio Home Care Waiver and the three DD waivers pay parents/guardians of minors, but the parent must work for an agency, be the provider of last resort, and generally work 40 hrs or less; RN/LPN parents can provide paid nursing; litigation pending over these rules"
+    },
+    "pay": {
+      "low": 1500,
+      "high": 3000,
+      "unit": "month",
+      "display": "$1,500–$3,000/month",
+      "taxFree": false,
+      "varies": true,
+      "detail": "no state-published rates on pages reviewed; C-HCAS lets the participant set the hourly rate within a budget, CD-PCS uses a state-set rate, and SFC pays a tiered daily stipend third-party-reported at ~$1,500-$3,000/month"
+    },
+    "agencyModel": "participant-directed options use a financial management services agency for payroll/taxes; SFC runs through an SFC agency; parents of minors on the Home Care Waiver must be agency-employed",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "PASSPORT is capped (~39,807/yr) and a waitlist can form; Next Generation MyCare has no cap and no waitlist"
+    },
+    "apply": "Apply for Ohio Medicaid via the Ohio Benefits portal or county Job and Family Services and answer yes to the waiver/long-term-care question; for PASSPORT call the PASSPORT Helpline (Area Agency on Aging screening).",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/ohio-passport-waiver/",
+      "https://www.medicaidplanningassistance.org/mycare-ohio-program/",
+      "https://www.kidswaivers.org/oh/"
+    ]
+  },
+  {
+    "slug": "oklahoma",
+    "name": "Oklahoma",
+    "programs": [
+      "ADvantage Waiver — CD-PASS"
+    ],
+    "agency": "Oklahoma Human Services (OKDHS), Community Living, Aging and Protective Services — 800-435-4711 / 918-933-4900 (CD-PASS unit)",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — spouse can be hired 'only in rare situations'; adult children, siblings, grandchildren, nieces/nephews routinely allowed"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — ADvantage serves adults; parents of minors not covered by this waiver"
+    },
+    "pay": {
+      "low": 11.46,
+      "high": 13.8,
+      "unit": "hr",
+      "display": "$11.46–$13.80/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "member negotiates wage within a budget cap; older handbook max $11.46/hr PSA, $13.80/hr Advanced PSA"
+    },
+    "agencyModel": "self-directed (member is employer); Acumen Fiscal Agent is the required fiscal/financial management agent",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "not an entitlement — limited slots (~26,972/yr) and a waitlist forms when full"
+    },
+    "apply": "Apply to OKDHS via the online long-term care intake or call 800-435-4711; once on ADvantage, ask the case manager for the CD-PASS option.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/oklahoma-advantage-waiver/",
+      "https://oklahoma.gov/okdhs/services/aging/cdpass.html"
+    ]
+  },
+  {
+    "slug": "oregon",
+    "name": "Oregon",
+    "programs": [
+      "Independent Choices Program (ICP)",
+      "Spousal Pay Program",
+      "Consumer-Employed Provider program"
+    ],
+    "agency": "Oregon Department of Human Services, Aging and People with Disabilities (APD) — 800-282-8096; ADRC 1-855-673-2372",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — spouses can be hired under ICP and the dedicated Spousal Pay Program (spouse must enroll as a provider with the Oregon Home Care Commission)"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — parents of minors historically excluded; new Children's Extraordinary Needs Waiver (2024) pays parents up to 20 hrs/wk but capped at 155 families (230 from 7/1/2026)"
+    },
+    "pay": {
+      "low": 20,
+      "high": 24.1,
+      "unit": "hr",
+      "display": "$20–$24.10/hr",
+      "taxFree": false,
+      "varies": false,
+      "detail": "ICP: participant sets wage from a monthly cash budget (at least minimum wage); state-paid homecare workers earn $20-$24.10/hr under the 2025-27 SEIU/OHCC contract"
+    },
+    "agencyModel": "fully self-directed — participant is the employer; fiscal-agency help optional under ICP; Spousal Pay caregivers need an OHCC provider number",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "ICP: not an entitlement — waitlist can form when slots fill; Spousal Pay Program is an entitlement with no waitlist"
+    },
+    "apply": "Contact the local Area Agency on Aging / APD office or call ODHS at 800-282-8096 (ADRC 1-855-673-2372) to request an assessment and ask for Independent Choices or Spousal Pay.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/oregon-independent-choices-program/",
+      "https://www.medicaidplanningassistance.org/oregon-spousal-pay-program/",
+      "https://www.oregon.gov/odhs/idd/pages/childrens-extraordinary-needs.aspx"
+    ]
+  },
+  {
+    "slug": "pennsylvania",
+    "name": "Pennsylvania",
+    "programs": [
+      "Community HealthChoices (CHC)",
+      "Services My Way",
+      "OBRA Waiver"
+    ],
+    "agency": "PA Department of Human Services, Office of Long-Term Living (OLTL) — CHC Participant Hotline 1-833-735-4416",
+    "spouse": {
+      "status": "no",
+      "detail": "no — spouses and legal guardians cannot be paid; other relatives incl. adult children and parents of adult (21+) disabled children can"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no for CHC (serves adults 21+); PA generally does not pay parents of minor children"
+    },
+    "pay": {
+      "low": 13,
+      "high": 19,
+      "unit": "hr",
+      "display": "$13–$19/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "negotiated per direct care worker, roughly $13-$19/hr reported, subject to county-band maximum rates on the Tempus PA rate sheet"
+    },
+    "agencyModel": "self-directed with a mandatory fiscal intermediary — Tempus Unlimited is the statewide FMS for CHC/Services My Way",
+    "waitlist": {
+      "status": "possible",
+      "detail": "limited enrollment slots (~181,848/yr); waitlist can form when full"
+    },
+    "apply": "Call the PA Independent Enrollment Broker at 1-877-550-4227 (or its online Community Referral Form) to start CHC eligibility; then choose participant-direction/Services My Way with your MCO service coordinator.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/pennsylvania-community-healthchoices-program/",
+      "https://pa.tempusunlimited.org/dcw-pay-rate/",
+      "https://pa.tempusunlimited.org/wp-content/uploads/sites/3/2024/10/Services-My-Way-Manual-DHS-Approved.pdf"
+    ]
+  },
+  {
+    "slug": "rhode-island",
+    "name": "Rhode Island",
+    "programs": [
+      "Personal Choice Program",
+      "Independent Provider Program"
+    ],
+    "agency": "RI Executive Office of Health and Human Services (EOHHS) / DHS — DHS Call Center 855-697-4347; The Point (ADRC) 401-462-4444",
+    "spouse": {
+      "status": "no",
+      "detail": "no — spouses are prohibited from being hired in both Personal Choice and the IP Program (adult children and other relatives allowed)"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — programs serve the adult LTSS population; parent-of-minor payment not addressed"
+    },
+    "pay": {
+      "low": 15,
+      "high": 15,
+      "unit": "hr",
+      "display": "$15/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "participant sets the PCA wage within budget limits — reported range minimum wage up to $15.00/hr"
+    },
+    "agencyModel": "self-directed; a state-contracted service advisement agency + fiscal intermediary handle payroll and taxes (Personal Choice via AccessPointRI / Seven Hills RI / Tri-County)",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "not necessarily an entitlement — slots may be limited and waiting lists may develop (no active waitlist confirmed)"
+    },
+    "apply": "Apply for Medicaid LTSS through RI DHS (call 855-697-4347 or The Point at 401-462-4444), then choose the Personal Choice self-directed option through one of the three partner agencies.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/rhode-island-long-term-services-supports/",
+      "https://eohhs.ri.gov/Consumer/ConsumerInformation/Healthcare/LongTermServicesandSupports/HomeandCommunityBasedServices.aspx"
+    ]
+  },
+  {
+    "slug": "south-carolina",
+    "name": "South Carolina",
+    "programs": [
+      "Community Choices Waiver (self-directed)",
+      "Medically Complex Children Waiver"
+    ],
+    "agency": "South Carolina Department of Health and Human Services (SCDHHS), Community Long Term Care (CLTC) — Healthy Connections 888-549-0820",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — spouses cannot provide companion care but may provide attendant care services; legal guardians excluded"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes for minors via the separate MCC Waiver — parents/relatives/guardians paid hourly for children's attendant care (ages 1-21, max 40 hrs/wk per caregiver, from 7/1/2025); Community Choices itself serves adults 18+"
+    },
+    "pay": {
+      "low": null,
+      "high": null,
+      "unit": null,
+      "display": null,
+      "taxFree": false,
+      "varies": true,
+      "detail": "not published — depends on participant budget and negotiated rate"
+    },
+    "agencyModel": "self-directed with a required financial management services agency handling payroll/taxes (FMS vendor name not confirmed)",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "not an entitlement — limited slots (~25,401/yr) and a waitlist forms when full"
+    },
+    "apply": "Contact the regional Community Long Term Care (CLTC) office or Healthy Connections at 888-549-0820 and file the Application for Nursing Home, Residential or In-Home Care; MCC families request self-direction through their Waiver Nurse Case Manager.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/south-carolina-community-choices-waiver/",
+      "https://www.scdhhs.gov/resources/waivers/medically-complex-children-mcc-waiver",
+      "https://www.scdhhs.gov/sites/dhhs/files/waivers/Self-directed%20Care%20FAQs%20Final%208.11.25.pdf"
+    ]
+  },
+  {
+    "slug": "south-dakota",
+    "name": "South Dakota",
+    "programs": [
+      "Structured Family Caregiving (HOPE Waiver)"
+    ],
+    "agency": "South Dakota Dept. of Human Services, Division of Long-Term Services & Supports (financial eligibility via Dept. of Social Services); Dakota at Home 833-663-9673",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — spouses may serve as the paid SFC caregiver; caregiver and recipient must live in the same home"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — HOPE Waiver serves only adults 65+ or disabled adults 18-64, so a minor child cannot be the care recipient"
+    },
+    "pay": {
+      "low": 392,
+      "high": 392,
+      "unit": "week",
+      "display": "$392/week",
+      "taxFree": true,
+      "varies": true,
+      "detail": "SFC per-diem tiers effective 7/1/2026: base $82.00/day, tier 1 $102.52/day, tier 2 $114.81/day, with a minimum 50% paid to the caregiver; ~up to $392/week tax-free stipend reported"
+    },
+    "agencyModel": "yes — SFC is delivered through an approved SFC provider agency (e.g. Careforth) that pays the caregiver, though the caregiver is not an agency employee; live-in required",
+    "waitlist": {
+      "status": "possible",
+      "detail": "capped at ~3,704 beneficiaries/year; a waitlist can form"
+    },
+    "apply": "Call Dakota at Home at 833-663-9673 or your local DSS office; financial eligibility goes through DSS and the LTSS functional assessment through DHS at the same time.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/south-dakota-hope-waiver/",
+      "https://www.medicaidplanningassistance.org/structured-family-caregiving/",
+      "https://www.dhs.sd.gov/content/dam/digital/united-states/south-dakota/sdo/pdf/long-term-services-and-supports/provider-portal/SFCGuide%20December%2018.pdf"
+    ]
+  },
+  {
+    "slug": "tennessee",
+    "name": "Tennessee",
+    "programs": [
+      "TennCare CHOICES consumer direction",
+      "ECF CHOICES",
+      "Katie Beckett (children)"
+    ],
+    "agency": "TennCare Long-Term Services & Supports (LTSS) Division; AAAD intake 1-866-836-6678; LTSS Help Desk 1-877-224-0219",
+    "spouse": {
+      "status": "no",
+      "detail": "no — spouses, legal guardians, and powers of attorney cannot be hired; adult children and other relatives can"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — CHOICES serves only adults 21+ with disabilities and seniors 65+; children go through Katie Beckett / ECF CHOICES, whose consumer direction may pay family"
+    },
+    "pay": {
+      "low": 11,
+      "high": 19.16,
+      "unit": "hr",
+      "display": "$11–$19.16/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "member-set wage within approved budget via CDTN wage memo; reported ~$11-$15/hr typical, TennCare-approved max ~$19.16/hr for personal care visits"
+    },
+    "agencyModel": "consumer-directed, but all consumer-direction payroll must run through the fiscal employer agent Consumer Direct Care Network Tennessee (CDTN)",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "not an entitlement — CHOICES Groups 2/3 have limited enrollment slots and a waitlist can form"
+    },
+    "apply": "Current TennCare members contact their managed care organization (health plan); everyone else calls their local Area Agency on Aging and Disability at 1-866-836-6678 to start CHOICES screening.",
+    "sources": [
+      "https://www.tn.gov/tenncare/long-term-services-supports/choices.html",
+      "https://www.medicaidplanningassistance.org/tenncare-choices/"
+    ]
+  },
+  {
+    "slug": "texas",
+    "name": "Texas",
+    "programs": [
+      "Consumer Directed Services (CDS)",
+      "STAR+PLUS HCBS",
+      "CLASS & MDCP Waivers"
+    ],
+    "agency": "Texas Health & Human Services Commission (HHSC); interest lists 877-438-5658 (CLASS/MDCP) and 800-964-2777 (STAR+PLUS HCBS)",
+    "spouse": {
+      "status": "no",
+      "detail": "no — spouses cannot be paid attendants in Medicaid CDS programs; reported exception: state-funded CMPAS may allow a spouse"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — a legally responsible parent (or foster parent, or spouse of a parent) cannot be the paid attendant for their minor child (e.g. CAS rule); parents of adult children CAN be paid"
+    },
+    "pay": {
+      "low": 15,
+      "high": 15,
+      "unit": "hr",
+      "display": "$15/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "reported ~$10.60 (state base wage floor) to ~$15.00/hr depending on program, MCO, and approved budget"
+    },
+    "agencyModel": "self-directed, but every CDS employer must use a financial management services agency (FMSA) for payroll, taxes, and background checks",
+    "waitlist": {
+      "status": "long",
+      "detail": "severe — STAR+PLUS HCBS interest list wait is 'many years' (~5,034 reported); CLASS ~48,169 and MDCP ~27,012 on interest lists with waits reported up to ~13-15 years"
+    },
+    "apply": "Call 877-438-5658 to join the CLASS or MDCP interest list, or 800-964-2777 for the STAR+PLUS HCBS interest list; benefits applications go through YourTexasBenefits.com or 2-1-1 Texas.",
+    "sources": [
+      "https://www.hhs.texas.gov/services/disability/consumer-directed-services",
+      "https://www.medicaidplanningassistance.org/texas-medicaid-starplus/"
+    ]
+  },
+  {
+    "slug": "utah",
+    "name": "Utah",
+    "programs": [
+      "DSPD Caregiver Compensation",
+      "New Choices Waiver",
+      "Aging Waiver"
+    ],
+    "agency": "Utah Dept. of Health & Human Services — Division of Integrated Healthcare (Medicaid, 800-662-9651) and Division of Services for People with Disabilities (DSPD, 1-844-275-3773)",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes/limited — spouses payable under DSPD Caregiver Compensation (SB 63, CMS-approved Jan 2022) for extraordinary care; New Choices Waiver allows spouses 'in some cases'; EPAS and state-plan personal care exclude spouses"
+    },
+    "parentMinor": {
+      "status": "yes",
+      "detail": "yes — parents, step-parents, and legal guardians can be paid under DSPD Caregiver Compensation (since 2020) after completing required training; not under state-plan personal care"
+    },
+    "pay": {
+      "low": 2372,
+      "high": 2372,
+      "unit": "month",
+      "display": "$2,372/month",
+      "taxFree": false,
+      "varies": true,
+      "detail": "no published hourly schedule found; parents receiving DSPD caregiver compensation reportedly averaged ~$2,372/month for extraordinary care"
+    },
+    "agencyModel": "participant-directed with a financial management services agency handling payroll (New Choices Waiver); DSPD caregiver compensation runs through the person's DSPD services and requires caregiver training",
+    "waitlist": {
+      "status": "long",
+      "detail": "New Choices Waiver is not an entitlement (~2,500 slots, waitlist possible); DSPD services are known for a multi-year waiting list"
+    },
+    "apply": "For disability waivers call DSPD intake at 1-844-275-3773 or apply online at dspd.utah.gov; for the New Choices Waiver call Utah Medicaid at 800-662-9651 (option 6) after meeting facility-residency requirements.",
+    "sources": [
+      "https://dspd.utah.gov/caregiver-compensation/",
+      "https://www.medicaidplanningassistance.org/utah-new-choices-waiver/",
+      "https://www.medicaidplanningassistance.org/utah-state-plan-personal-care/"
+    ]
+  },
+  {
+    "slug": "vermont",
+    "name": "Vermont",
+    "programs": [
+      "Choices for Care (self-directed)",
+      "Flexible Choices"
+    ],
+    "agency": "Vermont Dept. of Disabilities, Aging & Independent Living (DAIL); Senior HelpLine 800-642-5119; ESD Benefits Service Center 800-479-6151 (financial eligibility)",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — relatives including an adult child or spouse can be hired in the Highest Needs group / Flexible Choices; spouses are NOT payable in the Moderate Needs group; legal guardians excluded"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no via CFC — the program serves adults (18+ with physical disabilities and seniors); children's personal care runs through separate programs"
+    },
+    "pay": {
+      "low": 15.49,
+      "high": 18,
+      "unit": "hr",
+      "display": "$15.49–$18/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "minimum wage on the CFC wage notice $15.49/hr effective 7/6/2025; most self-directed caregivers reportedly earn ~$16-$18/hr, set within the approved budget"
+    },
+    "agencyModel": "self-directed — participant or surrogate is the employer; ARIS Solutions serves as the fiscal intermediary handling payroll, taxes, and background checks",
+    "waitlist": {
+      "status": "possible",
+      "detail": "Highest Needs applicants are prioritized; HCBS slots may be limited and a waitlist can form when full (Moderate Needs is capped)"
+    },
+    "apply": "Submit a Vermont Long-Term Care Medicaid application (DAIL does the clinical assessment, ESD at 800-479-6151 the financial eligibility); the Senior HelpLine at 800-642-5119 can help start the process.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/vermont-choices-for-care-high-need/",
+      "https://arissolutions.org/our-programs/vt-agency-of-human-services-programs/",
+      "https://www.medicaidplanningassistance.org/vermont-choices-for-care-mod-need/"
+    ]
+  },
+  {
+    "slug": "virginia",
+    "name": "Virginia",
+    "programs": [
+      "CCC Plus Waiver consumer direction",
+      "LRI option (spouses & parents)"
+    ],
+    "agency": "Virginia Department of Medical Assistance Services (DMAS), Office of Community Living; CCC Plus Helpline 1-844-374-9159",
+    "spouse": {
+      "status": "limited",
+      "detail": "limited — spouses payable only as Legally Responsible Individuals for 'extraordinary care' (ADLs only, not IADLs/supervision) when circumstances prevent a non-LRI caregiver; capped at 40 hrs/week; LRI rules updated eff. 7/1/2025"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — parents of minors payable under the same LRI rules (extraordinary care, ADLs only, up to 40 hrs/week per child); no respite allowed alongside a paid LRI"
+    },
+    "pay": {
+      "low": null,
+      "high": null,
+      "unit": null,
+      "display": null,
+      "taxFree": false,
+      "varies": true,
+      "detail": "not published on fetched pages; Medicaid consumer-directed attendant rate varies by region"
+    },
+    "agencyModel": "no home-care agency; fully consumer-directed but a fiscal/employer agent is mandatory — PPL (Public Partnerships) or Consumer Direct Care Network depending on the member's managed-care plan, plus a services facilitator",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "not an entitlement — a waitlist can form when slots fill, though it has historically had no waiting list"
+    },
+    "apply": "Apply for Medicaid via Cover Virginia or the local Virginia Department of Social Services (VDSS) office and request a functional (nursing-facility level of care) screening through local DSS.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/virginia-medicaid-ccc-plus/",
+      "https://www.dmas.virginia.gov/for-members/benefits-and-services/waivers/legally-responsible-individuals/",
+      "https://www.dmas.virginia.gov/for-members/benefits-and-services/waivers/consumer-directed-services/"
+    ]
+  },
+  {
+    "slug": "washington",
+    "name": "Washington",
+    "programs": [
+      "Community First Choice (CFC)",
+      "Medicaid Personal Care (MPC)",
+      "Individual Provider (via CDWA)"
+    ],
+    "agency": "WA Dept. of Social and Health Services, Aging and Long-Term Support Administration (ALTSA); HCS regional intake: Region 1 Spokane 800-459-0421, Region 2 Seattle 800-346-9257, Region 3 Tacoma 800-422-5129; CDWA 866-214-9899",
+    "spouse": {
+      "status": "no",
+      "detail": "no — DSHS: 'Spouses cannot be paid to care for each other'; some spouses may qualify via Veteran Directed Care or WA Cares Fund instead"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — DSHS: 'Parents cannot be paid to care for a child under 18'"
+    },
+    "pay": {
+      "low": 22.52,
+      "high": 27.28,
+      "unit": "hr",
+      "display": "$22.52–$27.28/hr",
+      "taxFree": false,
+      "varies": false,
+      "detail": "SEIU 775/CDWA wage scale: $22.52-$26.09/hr from 7/1/2025, rising to $23.54-$27.28/hr on 7/1/2026 (step by cumulative career hours), plus benefits"
+    },
+    "agencyModel": "no traditional agency, but all Individual Providers must be employed through CDWA (Consumer Directed Employer; handles contracting, background check, training, payroll) while the client directs day-to-day care",
+    "waitlist": {
+      "status": "none",
+      "detail": "CFC is an entitlement — no waitlist; MAC & TSOA paused enrollment and started a waitlist 12/1/2025"
+    },
+    "apply": "The care recipient applies for Apple Health LTSS through a DSHS Home & Community Services regional intake office and gets a CARE assessment; the family caregiver then applies as an Individual Provider at consumerdirectwa.com.",
+    "sources": [
+      "https://www.dshs.wa.gov/altsa/home-and-community-services/becoming-paid-caregiver",
+      "https://www.dshs.wa.gov/altsa/home-and-community-services/consumer-directed-employer-clients",
+      "https://seiu775.org/cdwata2025/"
+    ]
+  },
+  {
+    "slug": "west-virginia",
+    "name": "West Virginia",
+    "programs": [
+      "Aged & Disabled Waiver — Personal Options"
+    ],
+    "agency": "WV Bureau of Senior Services (operates ADW) under the Dept. of Human Services / Bureau for Medical Services; 1-866-767-1575 or 304-558-3317",
+    "spouse": {
+      "status": "no",
+      "detail": "no — 'a spouse or legal guardian is excluded' (ex-spouses allowed)"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no for this program — ADW serves ages 18+ only; no minor-child pathway via ADW"
+    },
+    "pay": {
+      "low": null,
+      "high": null,
+      "unit": null,
+      "display": null,
+      "taxFree": false,
+      "varies": true,
+      "detail": "set by the participant within their monthly budget; must be at least WV minimum wage ($8.75 as of 2024 per medicaidplanningassistance.org); capped by Medicaid regulation"
+    },
+    "agencyModel": "no home-care agency under Personal Options; a financial management services agency is required — Palco (WV Personal Options FMS since 2024; previously PPL/Public Partnerships)",
+    "waitlist": {
+      "status": "possible",
+      "detail": "yes but short — waiver capped (~8,750 slots); state reports average waitlist time last fiscal year was ~44 days, application process averages ~56 days"
+    },
+    "apply": "Doctor completes a Medical Necessity Evaluation Request (MNER) and submits it to Acentra Health-ADW; financial eligibility application goes through the county DoHS (DHHR) office first.",
+    "sources": [
+      "https://adwprogram.wv.gov/",
+      "https://www.medicaidplanningassistance.org/west-viriginia-aged-disabled-waiver/",
+      "https://www.palcofirst.com/programs/west-virginia/"
+    ]
+  },
+  {
+    "slug": "wisconsin",
+    "name": "Wisconsin",
+    "programs": [
+      "IRIS",
+      "Family Care",
+      "Personal Care Services (PCS)",
+      "CLTS Waiver (children)"
+    ],
+    "agency": "Wisconsin Department of Health Services, Division of Medicaid Services (IRIS Management Section); IRIS Call Center 888-515-4747",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes — relatives, including spouses, can be hired per medicaidplanningassistance.org"
+    },
+    "parentMinor": {
+      "status": "limited",
+      "detail": "limited — IRIS serves adults 18+ only; a parent caring for a minor disabled child would go through the separate Children's Long-Term Support (CLTS) waiver"
+    },
+    "pay": {
+      "low": 12,
+      "high": 17,
+      "unit": "hr",
+      "display": "$12–$17/hr",
+      "taxFree": false,
+      "varies": true,
+      "detail": "not published on fetched pages; wage set within the participant's IRIS budget through the fiscal employer agent"
+    },
+    "agencyModel": "no agency required — participant is the employer; a fiscal employer agent is mandatory: currently GT Independence, iLIFE, or Premier Financial Management Services; DHS is moving to a single statewide FEA (~April 2026)",
+    "waitlist": {
+      "status": "none",
+      "detail": "no waitlist — IRIS is an entitlement: meeting eligibility requirements equates to immediate receipt of benefits"
+    },
+    "apply": "Contact the local Aging and Disability Resource Center (ADRC) or Tribal aging and disability resource specialist for eligibility screening and an in-person functional assessment, then choose IRIS over Family Care.",
+    "sources": [
+      "https://www.medicaidplanningassistance.org/wisconsin-iris-program/",
+      "https://www.dhs.wisconsin.gov/iris/index.htm",
+      "https://www.dhs.wisconsin.gov/iris/fea.htm"
+    ]
+  },
+  {
+    "slug": "wyoming",
+    "name": "Wyoming",
+    "programs": [
+      "Community Choices Waiver (participant-directed)"
+    ],
+    "agency": "Wyoming Department of Health, Division of Healthcare Financing, Home and Community-Based Services (HCBS) Section; 1-800-510-0280; Long Term Care Eligibility Unit 1-855-203-2936",
+    "spouse": {
+      "status": "yes",
+      "detail": "yes per medicaidplanningassistance.org ('Friends and family, including one's adult child or spouse, can be hired'), but other sources exclude spouses/legal guardians/POAs —"
+    },
+    "parentMinor": {
+      "status": "no",
+      "detail": "no — CCW serves only people 65+ or adults 19-64 with an SSA-verified disability; minors are not in this waiver"
+    },
+    "pay": {
+      "low": null,
+      "high": null,
+      "unit": null,
+      "display": null,
+      "taxFree": false,
+      "varies": true,
+      "detail": "not published on fetched pages; paid through the FMS within the participant's budget"
+    },
+    "agencyModel": "no home-care agency for self-directed care, but an FMS is required — ACES$ Financial Management Services serves the CCW; a case management agency must also be selected at application",
+    "waitlist": {
+      "status": "mixed",
+      "detail": "yes — not an entitlement; slots are limited and a waitlist forms when they are full"
+    },
+    "apply": "Submit the CCW Program Application (CCW Form 01, which requires choosing a county case management agency) to the WDH HCBS Section in Cheyenne; non-Medicaid members also file a Wyoming Medicaid LTC application (1-855-203-2936); an LT-101 nurse assessment determines level of care.",
+    "sources": [
+      "https://health.wyo.gov/wp-content/uploads/2024/06/CCW-Form-01-CCW-Program-Application-and-Fact-Sheet-Fillable.pdf",
+      "https://www.medicaidplanningassistance.org/wyoming-community-choices-waiver/",
+      "https://www.mycil.org/acess/acess-wyoming/"
+    ]
+  }
+]
