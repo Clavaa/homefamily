@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "data": "node scripts/build-data.mjs",
-    "predev": "node scripts/build-data.mjs",
-    "prebuild": "node scripts/build-data.mjs",
+    "predev": "npm run data && npm run data:counties",
+    "prebuild": "npm run data && npm run data:counties",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "data:counties": "node scripts/build-county-facts.mjs"
   },
   "dependencies": {
     "next": "^15.5.2",
