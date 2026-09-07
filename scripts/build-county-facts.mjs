@@ -214,6 +214,28 @@ function buildRucc() {
 }
 
 /* --------------------------------------------------------------------- main */
+/**
+ * county-facts.json is committed, and the three source files are not (they
+ * are 16 MB of federal CSV under a gitignored data-src/). On a clean checkout
+ * — every Vercel build — regenerating it would mean re-downloading all three
+ * from census.gov and ers.usda.gov, so a slow or rate-limiting federal server
+ * would fail a deploy that had nothing wrong with it.
+ *
+ * So: if the output already exists and the sources aren't cached locally,
+ * keep what's committed. `--refresh` always rebuilds, which is how the data
+ * gets updated on purpose.
+ */
+const haveSources = SOURCES.every((s) =>
+  fs.existsSync(path.join(SRC_DIR, s.file))
+);
+if (!REFRESH && fs.existsSync(OUT_PATH) && !haveSources) {
+  console.log(
+    "County facts: using the committed county-facts.json " +
+      "(source CSVs not cached; run with --refresh to rebuild from source)."
+  );
+  process.exit(0);
+}
+
 console.log("Building county facts…");
 await ensureSources();
 

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque, Public_Sans } from "next/font/google";
-import { site } from "@/site.config";
+import { isIndexable, site } from "@/site.config";
 import "./globals.css";
 
 const bricolage = Bricolage_Grotesque({
@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   },
   description:
     "Medicaid programs in all 50 states can pay you to care for a family member at home. Free 2-minute check. We help you enroll — free to apply.",
+  // Belt and braces with robots.ts: a preview URL that leaks into a link
+  // still carries noindex on the page itself.
+  ...(isIndexable ? {} : { robots: { index: false, follow: false } }),
 };
 
 const orgJsonLd = {

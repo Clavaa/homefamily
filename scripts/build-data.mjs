@@ -223,6 +223,26 @@ const PAY_OVERRIDES = {
 };
 
 // ---------- main ----------
+/**
+ * The research CSV lives outside this repo (../../research/), so it is absent
+ * on any clean checkout — including every Vercel build. states.json and
+ * quiz.json are committed, so when the CSV isn't there we keep them rather
+ * than failing the build. Deleting the JSON forces a real error instead of a
+ * silent skip.
+ */
+const QUIZ_PATH = path.resolve(__dirname, "../src/data/quiz.json");
+if (!fs.existsSync(CSV_PATH)) {
+  if (fs.existsSync(OUT_PATH) && fs.existsSync(QUIZ_PATH)) {
+    console.log(
+      "States: research CSV not present — using the committed states.json."
+    );
+    process.exit(0);
+  }
+  throw new Error(
+    `Research CSV missing at ${CSV_PATH} and no committed states.json to fall back on.`
+  );
+}
+
 const raw = fs.readFileSync(CSV_PATH, "utf8");
 const rows = parseCsv(raw);
 const header = rows[0];
@@ -287,7 +307,6 @@ const quiz = states.map((s) => ({
   },
   waitlist: s.waitlist.status,
 }));
-const QUIZ_PATH = path.resolve(__dirname, "../src/data/quiz.json");
 fs.writeFileSync(QUIZ_PATH, JSON.stringify(quiz));
 
 console.log(
