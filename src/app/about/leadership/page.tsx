@@ -13,12 +13,20 @@ import {
   type Leader,
 } from "@/data/leadership";
 
-export const metadata: Metadata = pageMeta({
-  title: "Our Leadership Team",
-  description:
-    "Meet the people who run Sunroom Care — the nurses, operators, and support leaders who help families get paid to care for their loved ones.",
-  path: "/about/leadership/",
-});
+export const metadata: Metadata = {
+  ...pageMeta({
+    title: "Our Leadership Team",
+    description:
+      "Meet the people who run Sunroom Care — the nurses, operators, and support leaders who help families get paid to care for their loved ones.",
+    path: "/about/leadership/",
+  }),
+  // The names in src/data/leadership.ts are placeholders pending real hires —
+  // including a titled RN. Publishing invented credentialed staff on a site
+  // that enrolls families in Medicaid is not a risk worth taking for a page
+  // that ranks for nothing, so this one stays out of the index until the
+  // roster is real. Delete this override the day it is.
+  robots: { index: false, follow: true },
+};
 
 /** Styled initials avatar — no photos of people anywhere on this site. */
 function InitialsAvatar({
