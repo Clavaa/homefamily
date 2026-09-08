@@ -20,7 +20,7 @@ function resolveDomain(): string {
   if (explicit) return explicit.replace(/\/+$/, "");
   const vercel = process.env.NEXT_PUBLIC_VERCEL_URL;
   if (vercel) return `https://${vercel}`;
-  return "https://kincarepay.com"; // TODO: placeholder — rebrand in progress
+  return "https://sunroomcare.com";
 }
 
 /**
@@ -41,18 +41,16 @@ export const isIndexable =
       process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true";
 
 export const site = {
-  // TODO: rebrand in progress — "Pay" reads transactional on a page whose
-  // first job is convincing a family this is a real benefit, not a scheme.
-  brand: "KinCare Pay",
+  brand: "Sunroom Care",
   // Two-tone wordmark pieces used by the Logo component.
-  brandMark: { primary: "KinCare", accent: "Pay" },
+  brandMark: { primary: "Sunroom", accent: "Care" },
   // TODO: replace with the real call-tracked number before launch (555 = placeholder)
   phone: "(608) 555-0123",
   phoneHref: "tel:+16085550123",
   domain: resolveDomain(),
   // TODO: replace with the real intake inbox before launch
-  email: "hello@kincarepay.com",
-  leadTo: "leads@kincarepay.com",
+  email: "hello@sunroomcare.com",
+  leadTo: "leads@sunroomcare.com",
   homeState: "Wisconsin",
   homeStateSlug: "wisconsin",
   updated: "September 2026", // data snapshot date shown on pay modules

@@ -1,12 +1,16 @@
 import { site } from "@/site.config";
 
 /**
- * KinCare Pay logo — a civic "benefits program" mark, deliberately not fintech.
+ * Sunroom Care logo — a civic "benefits program" mark, deliberately not fintech.
  *
  * Mark: two abstract people side-by-side (family + support) — a larger spruce
  * figure and a smaller civic-teal figure leaning in — with a small payment-green
- * check badge (approval, not money). Wordmark: "KinCare" (Bricolage 800, spruce)
- * + "Pay" (payment green).
+ * check badge (approval, not money). Wordmark: "Sunroom" (Bricolage 800, spruce)
+ * + "Care" (payment green — green reads as approved here, not as a payout).
+ *
+ * The accent stays green rather than the marigold the brand palette uses for
+ * highlights: marigold on warm paper fails contrast at body-text weight, and
+ * a logo is not the place to lose legibility.
  *
  * `variant="reverse"` renders the white-on-spruce version for the footer.
  */

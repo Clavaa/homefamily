@@ -3,7 +3,7 @@
  * and payers verify named executives; RN licenses are publicly checkable.
  *
  * Bios are ROLE-SCOPED on purpose: they describe what the role does for
- * families at KinCare Pay. Do not add personal histories, schools, past
+ * families at Sunroom Care. Do not add personal histories, schools, past
  * employers, years of experience, or credential claims beyond the titles
  * listed here.
  */
@@ -32,13 +32,13 @@ export const leaders: Leader[] = [
     name: "Aaron Gold",
     title: "Chief Executive Officer",
     tier: "executive",
-    bio: "Aaron leads KinCare Pay. He sets our direction and holds every team to one promise: families come first, and no family ever pays us a fee.",
+    bio: "Aaron leads Sunroom Care. He sets our direction and holds every team to one promise: families come first, and no family ever pays us a fee.",
   },
   {
     name: "Benjamin Weiss",
     title: "President",
     tier: "executive",
-    bio: "Benjamin runs the company day to day. He makes sure every part of KinCare Pay — nurses, enrollment, payroll — works together, so your family gets one smooth experience instead of ten phone numbers.",
+    bio: "Benjamin runs the company day to day. He makes sure every part of Sunroom Care — nurses, enrollment, payroll — works together, so your family gets one smooth experience instead of ten phone numbers.",
   },
   {
     name: "Susan Kaplan, RN",
@@ -80,7 +80,7 @@ export const leaders: Leader[] = [
     name: "Lisa Hart",
     title: "VP, Human Resources",
     tier: "vp",
-    bio: "Lisa supports the caregivers and staff who make KinCare Pay work. Her team handles caregiver onboarding, background checks, and ongoing support once you're hired.",
+    bio: "Lisa supports the caregivers and staff who make Sunroom Care work. Her team handles caregiver onboarding, background checks, and ongoing support once you're hired.",
   },
   {
     name: "Andrew Klein",

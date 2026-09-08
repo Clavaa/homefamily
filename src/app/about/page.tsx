@@ -8,7 +8,7 @@ import { site } from "@/site.config";
 export const metadata: Metadata = pageMeta({
   title: "About Us — Who We Are and How We Get Paid",
   description:
-    "KinCare Pay helps family members get paid to care for their loved ones through real state Medicaid programs. The program pays us — you never pay a fee.",
+    "Sunroom Care helps family members get paid to care for their loved ones through real state Medicaid programs. The program pays us — you never pay a fee.",
   path: "/about/",
 });
 

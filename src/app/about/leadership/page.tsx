@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = pageMeta({
   title: "Our Leadership Team",
   description:
-    "Meet the people who run KinCare Pay — the nurses, operators, and support leaders who help families get paid to care for their loved ones.",
+    "Meet the people who run Sunroom Care — the nurses, operators, and support leaders who help families get paid to care for their loved ones.",
   path: "/about/leadership/",
 });
 
