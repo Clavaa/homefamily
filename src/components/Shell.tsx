@@ -101,21 +101,26 @@ export function UtilityBar({ lang }: { lang: Lang }) {
           </Link>
         </nav>
         <div className="flex shrink-0 items-center gap-2 sm:gap-3">
-          {/* Full phone pill from md up; icon-only on phones (sticky bar has Call). */}
-          <a
-            href={site.phoneHref}
-            className="hidden items-center gap-2 whitespace-nowrap rounded-full border-2 border-teal px-4 py-1.5 text-sm font-semibold text-teal transition-colors hover:bg-mist md:inline-flex"
-          >
-            <span aria-hidden="true">📞</span>
-            <span className="tnum">{site.phone}</span>
-          </a>
-          <a
-            href={site.phoneHref}
-            aria-label={`${t.call} ${site.phone}`}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border-2 border-teal text-base text-teal md:hidden"
-          >
-            <span aria-hidden="true">📞</span>
-          </a>
+          {/* Full phone pill from md up; icon-only on phones (sticky bar has
+              Call). Both disappear entirely when no number is configured. */}
+          {site.phone && site.phoneHref && (
+            <>
+              <a
+                href={site.phoneHref}
+                className="hidden items-center gap-2 whitespace-nowrap rounded-full border-2 border-teal px-4 py-1.5 text-sm font-semibold text-teal transition-colors hover:bg-mist md:inline-flex"
+              >
+                <span aria-hidden="true">📞</span>
+                <span className="tnum">{site.phone}</span>
+              </a>
+              <a
+                href={site.phoneHref}
+                aria-label={`${t.call} ${site.phone}`}
+                className="inline-flex h-10 w-10 items-center justify-center rounded-full border-2 border-teal text-base text-teal md:hidden"
+              >
+                <span aria-hidden="true">📞</span>
+              </a>
+            </>
+          )}
           <Link
             href="/qualify/"
             className="btn-primary hidden !min-h-10 whitespace-nowrap !px-5 !py-2 text-sm sm:inline-flex"
@@ -134,13 +139,18 @@ export function StickyBar({ lang }: { lang: Lang }) {
   return (
     <div className="fixed inset-x-0 bottom-0 z-50 border-t border-mist bg-white/95 p-2 backdrop-blur md:hidden">
       <div className="mx-auto flex max-w-md gap-2">
-        <a
-          href={site.phoneHref}
-          className="btn-outline w-1/2 !px-3 text-sm"
+        {site.phone && site.phoneHref && (
+          <a
+            href={site.phoneHref}
+            className="btn-outline w-1/2 !px-3 text-sm"
+          >
+            <span aria-hidden="true">📞</span> {t.call}
+          </a>
+        )}
+        <Link
+          href="/qualify/"
+          className={`btn-primary !px-3 text-sm ${site.phone ? "w-1/2" : "w-full"}`}
         >
-          <span aria-hidden="true">📞</span> {t.call}
-        </a>
-        <Link href="/qualify/" className="btn-primary w-1/2 !px-3 text-sm">
           {t.qualify}
         </Link>
       </div>
@@ -165,13 +175,15 @@ export function Footer({ lang }: { lang: Lang }) {
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-white/80">
             {t.tagline}
           </p>
-          <a
-            href={site.phoneHref}
-            className="btn-primary mt-5 !min-h-11 text-sm"
-          >
-            <span aria-hidden="true">📞</span>
-            <span className="tnum">{site.phone}</span>
-          </a>
+          {site.phone && site.phoneHref && (
+            <a
+              href={site.phoneHref}
+              className="btn-primary mt-5 !min-h-11 text-sm"
+            >
+              <span aria-hidden="true">📞</span>
+              <span className="tnum">{site.phone}</span>
+            </a>
+          )}
           <p className="mt-3 text-sm text-white/80">{site.email}</p>
         </div>
         <nav aria-label={t.nav}>

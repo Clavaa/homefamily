@@ -44,13 +44,32 @@ export const site = {
   brand: "Sunroom Care",
   // Two-tone wordmark pieces used by the Logo component.
   brandMark: { primary: "Sunroom", accent: "Care" },
-  // TODO: replace with the real call-tracked number before launch (555 = placeholder)
-  phone: "(608) 555-0123",
-  phoneHref: "tel:+16085550123",
+  /**
+   * Set both of these to a real, answered, call-tracked number and every
+   * phone affordance switches back on by itself: the header pill, the mobile
+   * call icon, the sticky bottom bar, the footer button, the "Call or text"
+   * button on every page, the quiz CTA line, and telephone in the
+   * Organization schema.
+   *
+   * They are null because a placeholder number is worse than no number.
+   * This is a phone-first category — senior-care call leads convert around
+   * 41% against roughly 1.7% for forms — so pointing that path at a dead
+   * line on 3,300 indexed pages loses more than showing no number at all.
+   */
+  phone: null as string | null,
+  phoneHref: null as string | null,
   domain: resolveDomain(),
-  // TODO: replace with the real intake inbox before launch
+  // Publicly displayed address. TODO: no mailbox exists behind this yet.
   email: "hello@sunroomcare.com",
-  leadTo: "leads@sunroomcare.com",
+  /** Where lead notifications are delivered. */
+  leadTo: "support@offendersearch.app",
+  /**
+   * Envelope sender for lead mail. Must be a verified sender on whichever
+   * SendGrid account SENDGRID_API_KEY belongs to — currently the
+   * offendersearch account, so it sends as its verified support address.
+   * This is transactional only and is never shown on the site.
+   */
+  leadFrom: "support@offendersearch.app",
   homeState: "Wisconsin",
   homeStateSlug: "wisconsin",
   updated: "September 2026", // data snapshot date shown on pay modules

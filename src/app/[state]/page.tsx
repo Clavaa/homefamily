@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Shell from "@/components/Shell";
 import {
+  CallButton,
   Faq,
   FaqJsonLd,
   PayRateModule,
@@ -202,9 +203,7 @@ export default async function StatePage({ params }: Props) {
           <Link href={`/qualify/?state=${s.slug}`} className="btn-primary">
             See if you qualify →
           </Link>
-          <a href={site.phoneHref} className="btn-outline">
-            Call or text <span className="tnum">{site.phone}</span>
-          </a>
+          <CallButton />
         </div>
       </section>
 

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Shell from "@/components/Shell";
 import {
+  CallButton,
   Breadcrumbs,
   Faq,
   FaqJsonLd,
@@ -190,9 +191,7 @@ export default async function CaregiverPayPage({ params }: Props) {
           <Link href={`/qualify/?state=${s.slug}`} className="btn-primary">
             See what you&apos;d be paid →
           </Link>
-          <a href={site.phoneHref} className="btn-outline">
-            Call or text <span className="tnum">{site.phone}</span>
-          </a>
+          <CallButton />
         </div>
       </section>
 

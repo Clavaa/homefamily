@@ -288,10 +288,16 @@ export default function Quiz() {
         </h1>
         <p className="mt-3 leading-relaxed">{t.doneBody(name.trim())}</p>
         <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <a href={site.phoneHref} className="btn-primary">
-            📞 {t.doneCall} <span className="tnum">{site.phone}</span>
-          </a>
-          <Link href={lang === "es" ? "/es/" : "/"} className="btn-outline">
+          {site.phone && site.phoneHref && (
+            <a href={site.phoneHref} className="btn-primary">
+              📞 {t.doneCall} <span className="tnum">{site.phone}</span>
+            </a>
+          )}
+          {/* Home becomes the primary action when there is no number to call. */}
+          <Link
+            href={lang === "es" ? "/es/" : "/"}
+            className={site.phone ? "btn-outline" : "btn-primary"}
+          >
             {t.doneHome}
           </Link>
         </div>
@@ -543,12 +549,14 @@ export default function Quiz() {
                   </li>
                 ))}
               </ul>
-              <p className="mt-5 rounded-2xl bg-mist p-4 font-semibold text-spruce">
-                {t.callCheck}{" "}
-                <a href={site.phoneHref} className="tnum text-teal underline">
-                  {site.phone}
-                </a>
-              </p>
+              {site.phone && site.phoneHref && (
+                <p className="mt-5 rounded-2xl bg-mist p-4 font-semibold text-spruce">
+                  {t.callCheck}{" "}
+                  <a href={site.phoneHref} className="tnum text-teal underline">
+                    {site.phone}
+                  </a>
+                </p>
+              )}
               <ContactForm
                 heading={t.contactHeadingNo}
                 body={t.contactBodyNo}

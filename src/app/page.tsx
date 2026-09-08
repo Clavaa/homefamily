@@ -3,6 +3,7 @@ import Link from "next/link";
 import Shell from "@/components/Shell";
 import RotatingWord from "@/components/RotatingWord";
 import {
+  CallButton,
   Faq,
   FaqJsonLd,
   HeroPhoto,
@@ -140,9 +141,7 @@ export default function HomePage() {
               <Link href="/qualify/" className="btn-primary">
                 See if you qualify →
               </Link>
-              <a href={site.phoneHref} className="btn-outline">
-                Call or text <span className="tnum">{site.phone}</span>
-              </a>
+              <CallButton />
             </div>
           </div>
           <HeroPhoto lang="en" />

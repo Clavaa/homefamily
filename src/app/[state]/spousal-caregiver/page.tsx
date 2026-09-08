@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Shell from "@/components/Shell";
 import {
+  CallButton,
   Breadcrumbs,
   Faq,
   FaqJsonLd,
@@ -229,9 +230,7 @@ export default async function SpousalPage({ params }: Props) {
           >
             See if you qualify →
           </Link>
-          <a href={site.phoneHref} className="btn-outline">
-            Call or text <span className="tnum">{site.phone}</span>
-          </a>
+          <CallButton />
         </div>
       </section>
 

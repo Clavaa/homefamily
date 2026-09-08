@@ -85,7 +85,7 @@ ${rows
     },
     body: JSON.stringify({
       personalizations: [{ to: [{ email: site.leadTo }] }],
-      from: { email: site.email, name: site.brand },
+      from: { email: site.leadFrom, name: site.brand },
       subject: `Lead: ${name} — ${body.state || "?"} (${body.relationship || "?"})`,
       content: [{ type: "text/html", value: html }],
     }),

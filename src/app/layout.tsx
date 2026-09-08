@@ -37,7 +37,8 @@ const orgJsonLd = {
   name: site.brand,
   url: site.domain,
   email: site.email,
-  telephone: site.phone,
+  // Omitted entirely rather than published as null when unset.
+  ...(site.phone ? { telephone: site.phone } : {}),
   description:
     "We help family caregivers enroll in state Medicaid programs that pay them to care for a loved one at home.",
   areaServed: "US",

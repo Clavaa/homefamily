@@ -3,6 +3,7 @@ import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import Shell from "@/components/Shell";
 import {
+  CallButton,
   Faq,
   FaqJsonLd,
   Money,
@@ -116,9 +117,7 @@ export default function SpousalPage() {
           <Link href="/qualify/?state=wisconsin&rel=spouse" className="btn-primary">
             See if you qualify →
           </Link>
-          <a href={site.phoneHref} className="btn-outline">
-            Call or text <span className="tnum">{site.phone}</span>
-          </a>
+          <CallButton />
         </div>
       </section>
 

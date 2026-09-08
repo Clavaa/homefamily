@@ -18,9 +18,11 @@ export default function NotFound() {
           <Link href="/qualify/" className="btn-primary">
             See if you qualify →
           </Link>
-          <a href={site.phoneHref} className="btn-outline">
-            📞 <span className="tnum">{site.phone}</span>
-          </a>
+          {site.phone && site.phoneHref && (
+            <a href={site.phoneHref} className="btn-outline">
+              📞 <span className="tnum">{site.phone}</span>
+            </a>
+          )}
         </div>
         <p className="mt-6 text-sm text-muted">
           Or start at the{" "}

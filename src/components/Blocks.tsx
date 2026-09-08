@@ -362,12 +362,17 @@ export function QuizCta({
         >
           {t.button}
         </Link>
-        <p className="text-white/85">
-          {t.call}{" "}
-          <a href={site.phoneHref} className="tnum font-bold text-white underline">
-            {site.phone}
-          </a>
-        </p>
+        {site.phone && site.phoneHref && (
+          <p className="text-white/85">
+            {t.call}{" "}
+            <a
+              href={site.phoneHref}
+              className="tnum font-bold text-white underline"
+            >
+              {site.phone}
+            </a>
+          </p>
+        )}
       </div>
     </section>
   );
@@ -570,5 +575,27 @@ export function TopCountyLinks({
         </li>
       </ul>
     </section>
+  );
+}
+
+/* ------------------------------------------------------------ CallButton -- */
+/**
+ * The "Call or text" secondary CTA. Renders nothing at all when
+ * site.phone is null, so no page ever ships a dead number — and every page
+ * gets the button back the moment a real one is configured.
+ */
+export function CallButton({
+  lang = "en" as Lang,
+  className = "btn-outline",
+}: {
+  lang?: Lang;
+  className?: string;
+}) {
+  if (!site.phone || !site.phoneHref) return null;
+  const label = lang === "es" ? "Llame o mande texto" : "Call or text";
+  return (
+    <a href={site.phoneHref} className={className}>
+      {label} <span className="tnum">{site.phone}</span>
+    </a>
   );
 }
