@@ -12,6 +12,7 @@ import {
   type FaqItem,
 } from "@/components/Blocks";
 import { site } from "@/site.config";
+import { OG_IMAGE } from "@/lib/seo";
 import { getState, states, type StateData } from "@/data/states";
 import {
   countiesByState,
@@ -100,8 +101,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: site.brand,
       type: "website",
       locale: "en_US",
+      images: [OG_IMAGE],
     },
-    twitter: { card: "summary", title, description },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [OG_IMAGE.url],
+    },
   };
 }
 

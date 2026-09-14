@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { site } from "@/site.config";
 import type { StateData } from "@/data/states";
 import type { Lang } from "./Shell";
@@ -378,46 +379,47 @@ export function QuizCta({
   );
 }
 
-/* ------------------------------------------------- Photo placeholder ------ */
+/* ------------------------------------------------------------ Hero photo -- */
 /**
- * Styled placeholder for the hero photograph.
- * Alt-intent: multigenerational pair — adult daughter and her mother at a
- * kitchen table in warm window light, caregiver as the hero of the frame,
- * one marigold accent (a cardigan or mug), 24px mask. Cast for WI reality.
+ * The hero photograph, with one floating proof card over it.
+ *
+ * Different family per locale on purpose — the Spanish page gets its own
+ * photograph rather than the English one mirrored, because a Spanish-speaking
+ * visitor notices when a site was translated but never actually addressed to
+ * them.
+ *
+ * priority + explicit dimensions because this is the LCP element on the two
+ * highest-traffic pages, and a 0.1s mobile improvement is worth roughly 20%
+ * more lead submissions in this category.
  */
 export function HeroPhoto({ lang = "en" as Lang }: { lang?: Lang }) {
   const t =
     lang === "es"
       ? {
-          photo: "Foto: cuidadora con su mamá en casa",
+          photo:
+            "Una hija ayuda a su padre a levantarse de su sillón junto a la ventana",
           proofTitle: "Pago semanal enviado",
           proofNote: "cifra de ejemplo",
+          src: "/photos/hero-latino-family.webp",
         }
       : {
-          photo: "Photo: caregiver with her mom at home",
+          photo:
+            "A daughter sits with her mother at the kitchen table in morning light",
           proofTitle: "Weekly payment sent",
           proofNote: "example figure",
+          src: "/photos/hero-daughter-mother.webp",
         };
   return (
     <div className="relative">
-      <div
-        role="img"
-        aria-label={t.photo}
-        className="flex aspect-[4/5] w-full items-end justify-center overflow-hidden rounded-3xl bg-gradient-to-br from-mist via-marigold-soft to-mist sm:aspect-[5/6]"
-      >
-        <svg
-          aria-hidden="true"
-          viewBox="0 0 200 200"
-          className="w-3/4 text-teal/25"
-          fill="currentColor"
-        >
-          {/* simple two-figure mark standing in for the photo */}
-          <circle cx="78" cy="70" r="22" />
-          <path d="M40 160c0-24 17-42 38-42s38 18 38 42v40H40z" />
-          <circle cx="136" cy="86" r="17" />
-          <path d="M108 166c0-19 13-33 28-33s28 14 28 33v34h-56z" />
-        </svg>
-      </div>
+      <Image
+        src={t.src}
+        alt={t.photo}
+        width={928}
+        height={1152}
+        priority
+        sizes="(max-width: 768px) 100vw, 50vw"
+        className="aspect-[4/5] w-full rounded-3xl object-cover sm:aspect-[5/6]"
+      />
       {/* ONE floating proof card — generic example numbers, labelled as examples */}
       <div className="card absolute -bottom-5 left-4 right-4 flex items-center gap-3 !rounded-2xl !p-4 sm:left-auto sm:right-6 sm:w-72">
         <span
