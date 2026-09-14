@@ -22,9 +22,9 @@ import { pageMeta } from "@/lib/seo";
 import { wisconsin } from "@/data/states";
 
 export const metadata: Metadata = pageMeta({
-  title: "Reciba pago por cuidar a un familiar en Wisconsin",
+  title: "Reciba pago por cuidar a un familiar",
   description:
-    "Programas de Medicaid en Wisconsin, como IRIS, pueden pagarle por cuidar a un familiar en casa — incluso a su esposo(a). Verificación gratis de 2 minutos.",
+    "Los programas de Medicaid en los 50 estados pueden pagarle por cuidar a un familiar en casa — a un padre, a un hijo, incluso a su esposo(a) en algunos estados. Verificación gratis de 2 minutos.",
   path: "/es/",
   locale: "es_US",
   languages: { en: "/", es: "/es/", "x-default": "/" },
@@ -87,15 +87,15 @@ const wiPrograms = [
 const faqs = [
   {
     q: "¿Esto es de verdad?",
-    a: "Sí. Son programas reales de Medicaid del Departamento de Servicios de Salud de Wisconsin — IRIS, Family Care y Servicios de Cuidado Personal. Llevan años pagando a cuidadores familiares. Nosotros solo le ayudamos a inscribirse, y aplicar no le cuesta nada.",
+    a: "Sí. Cada estado tiene programas reales de Medicaid que pagan a cuidadores familiares — con nombres distintos en cada estado, como IRIS en Wisconsin, IHSS en California o CDASS en Colorado. Llevan años pagando a familiares. Nosotros solo le ayudamos a inscribirse, y aplicar no le cuesta nada.",
   },
   {
     q: "¿Por qué me pagaría el gobierno?",
-    a: "El cuidado en casa le cuesta a Medicaid mucho menos que un asilo. Por eso Wisconsin paga a familiares por dar ese cuidado en casa. Es bueno para su ser querido, y es la ley funcionando como debe.",
+    a: "El cuidado en casa le cuesta a Medicaid mucho menos que un asilo. Por eso los estados pagan a familiares por dar ese cuidado en casa. Es bueno para su ser querido, y es la ley funcionando como debe.",
   },
   {
     q: "¿Cuánto me pagarán?",
-    a: "En Wisconsin, los cuidadores familiares generalmente ganan de $12 a $17 por hora. Su pago exacto depende del programa y del plan de cuidado. Le decimos su cifra real antes de inscribirse.",
+    a: "Depende de su estado. Las tarifas publicadas van de unos $11 a más de $29 por hora, y 22 estados no publican ninguna tarifa fija porque el pago se fija dentro del plan de cuidado. Elija su estado y le mostramos su cifra real antes de inscribirse.",
   },
   {
     q: "¿Necesito estudios o una licencia?",
@@ -107,7 +107,7 @@ const faqs = [
   },
   {
     q: "¿Puedo recibir pago por cuidar a mi esposo(a)?",
-    a: "En Wisconsin, sí. El programa IRIS permite contratar a familiares — incluso a un esposo o esposa. No todos los estados lo permiten, así que las familias de Wisconsin tienen suerte.",
+    a: "En 22 estados, sí — sus programas permiten que la persona que necesita cuidado contrate a su propio esposo o esposa. En 13 más depende del programa, y en 16 no se permite directamente, aunque otros familiares casi siempre sí pueden recibir pago.",
   },
   {
     q: "¿Cuánto tiempo toma?",
@@ -123,7 +123,7 @@ export default function HomePageEs() {
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-16 pt-10 sm:px-6 md:grid-cols-2 md:pt-14">
           <div>
             <h1 className="display text-4xl font-extrabold leading-[1.05] tracking-tight text-spruce sm:text-5xl lg:text-6xl">
-              <span className="text-teal">Wisconsin</span> paga a cuidadores
+              <span className="text-teal">Su estado</span> paga a cuidadores
               familiares.{" "}
               <span className="block mt-2">
                 Reciba <span className="text-pay">pago</span> por cuidar a{" "}
@@ -171,7 +171,7 @@ export default function HomePageEs() {
             </h2>
             <p className="mt-4 leading-relaxed">
               Usted ya ayuda con comidas, baños, medicinas y traslados.
-              Wisconsin tiene programas que pagan a familiares por ese mismo
+              Cada estado tiene programas que pagan a familiares por ese mismo
               trabajo — generalmente <Money>$12–$17/hr</Money>, cada semana
               por depósito directo.
             </p>
@@ -183,7 +183,7 @@ export default function HomePageEs() {
               href="/wisconsin/caregiver-pay/"
               className="mt-4 inline-block font-semibold text-teal underline"
             >
-              Vea cómo funciona el pago en Wisconsin (en inglés) →
+              Vea lo que paga su estado (en inglés) →
             </Link>
           </div>
         </div>
@@ -257,7 +257,7 @@ export default function HomePageEs() {
       <section className="mx-auto max-w-6xl px-4 pb-4 sm:px-6" lang="es">
         <div className="rounded-3xl border border-mist bg-white p-6 text-center">
           <p className="font-semibold text-spruce">
-            ¿No vive en Wisconsin? Cada estado tiene su propio programa.
+            Los 50 estados y DC — 3,144 condados cubiertos.
           </p>
           <p className="mt-1 text-sm text-muted">
             Elija su estado en la verificación de 2 minutos y le mostraremos lo
