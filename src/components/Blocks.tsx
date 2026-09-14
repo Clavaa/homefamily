@@ -349,7 +349,7 @@ export function QuizCta({
 }) {
   const t = CTA_T[lang];
   return (
-    <section className="rounded-3xl bg-spruce px-6 py-10 text-center text-white sm:px-10">
+    <section className="rounded-xl bg-spruce px-6 py-10 text-center text-white sm:px-10">
       <h2 className="display text-3xl font-extrabold sm:text-4xl">
         {t.heading}
       </h2>
@@ -392,49 +392,98 @@ export function QuizCta({
  * highest-traffic pages, and a 0.1s mobile improvement is worth roughly 20%
  * more lead submissions in this category.
  */
-export function HeroPhoto({ lang = "en" as Lang }: { lang?: Lang }) {
-  const t =
-    lang === "es"
-      ? {
-          photo:
-            "Una hija ayuda a su padre a levantarse de su sillón junto a la ventana",
-          proofTitle: "Pago semanal enviado",
-          proofNote: "cifra de ejemplo",
-          src: "/photos/hero-latino-family.webp",
-        }
-      : {
-          photo:
-            "A daughter sits with her mother at the kitchen table in morning light",
-          proofTitle: "Weekly payment sent",
-          proofNote: "example figure",
-          src: "/photos/hero-daughter-mother.webp",
-        };
+/**
+ * Full-bleed hero photograph.
+ *
+ * Careforth runs the photograph edge-to-edge at full hero height rather than
+ * as an inset rounded card, and it is the single biggest reason their page
+ * reads like a publication instead of a landing page. On phones it stacks
+ * back to a contained image so the headline still leads.
+ *
+ * Different family per locale on purpose — the Spanish page gets its own
+ * photograph rather than the English one mirrored.
+ */
+function heroAssets(lang: Lang) {
+  return lang === "es"
+    ? {
+        alt: "Una hija ayuda a su padre a levantarse de su sillón junto a la ventana",
+        proofTitle: "Pago semanal enviado",
+        proofNote: "cifra de ejemplo",
+        src: "/photos/hero-latino-family.webp",
+      }
+    : {
+        alt: "A daughter sits with her mother at the kitchen table in morning light",
+        proofTitle: "Weekly payment sent",
+        proofNote: "example figure",
+        src: "/photos/hero-daughter-mother.webp",
+      };
+}
+
+function ProofCard({ lang }: { lang: Lang }) {
+  const t = heroAssets(lang);
   return (
-    <div className="relative">
+    <div className="card flex items-center gap-3 !p-4 shadow-[0_10px_30px_-12px_rgba(18,48,46,0.3)] sm:w-72">
+      <span
+        aria-hidden="true"
+        className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-pay/10 text-pay"
+      >
+        <svg viewBox="0 0 20 20" fill="none" className="h-4 w-4">
+          <path
+            d="M4 10.5l4 4 8-9"
+            stroke="currentColor"
+            strokeWidth="2.4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </span>
+      <div>
+        <p className="text-sm font-bold text-spruce">{t.proofTitle}</p>
+        <p className="text-sm">
+          <Money>$412.00</Money>{" "}
+          <span className="text-xs text-muted">· {t.proofNote}</span>
+        </p>
+      </div>
+    </div>
+  );
+}
+
+/** Edge-bleeding photo panel — desktop only; absolutely positioned. */
+export function HeroPhotoBleed({ lang = "en" as Lang }: { lang?: Lang }) {
+  const t = heroAssets(lang);
+  return (
+    <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-[46%] md:block">
       <Image
         src={t.src}
-        alt={t.photo}
+        alt={t.alt}
+        fill
+        priority
+        sizes="46vw"
+        className="object-cover"
+      />
+      <div className="pointer-events-auto absolute bottom-8 left-8">
+        <ProofCard lang={lang} />
+      </div>
+    </div>
+  );
+}
+
+/** Contained photo for phones, where a bleed would bury the headline. */
+export function HeroPhoto({ lang = "en" as Lang }: { lang?: Lang }) {
+  const t = heroAssets(lang);
+  return (
+    <div className="relative md:hidden">
+      <Image
+        src={t.src}
+        alt={t.alt}
         width={928}
         height={1152}
         priority
-        sizes="(max-width: 768px) 100vw, 50vw"
-        className="aspect-[4/5] w-full rounded-3xl object-cover sm:aspect-[5/6]"
+        sizes="100vw"
+        className="aspect-[4/5] w-full rounded-lg object-cover"
       />
-      {/* ONE floating proof card — generic example numbers, labelled as examples */}
-      <div className="card absolute -bottom-5 left-4 right-4 flex items-center gap-3 !rounded-2xl !p-4 sm:left-auto sm:right-6 sm:w-72">
-        <span
-          aria-hidden="true"
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-pay/10 text-lg"
-        >
-          💵
-        </span>
-        <div>
-          <p className="text-sm font-bold text-spruce">{t.proofTitle}</p>
-          <p className="text-sm">
-            <Money>$412.00</Money>{" "}
-            <span className="text-xs text-muted">· {t.proofNote}</span>
-          </p>
-        </div>
+      <div className="absolute -bottom-5 left-4 right-4">
+        <ProofCard lang={lang} />
       </div>
     </div>
   );
@@ -758,7 +807,7 @@ export function PageHero({
                 width={1376}
                 height={768}
                 sizes="(max-width: 768px) 100vw, 45vw"
-                className="mt-5 aspect-[16/9] w-full rounded-2xl object-cover"
+                className="mt-6 aspect-[16/9] w-full rounded-lg object-cover"
               />
             )}
             {statsFootnote && (
@@ -775,7 +824,7 @@ export function PageHero({
             height={768}
             priority
             sizes="(max-width: 768px) 100vw, 45vw"
-            className="aspect-[4/3] w-full rounded-3xl object-cover"
+            className="aspect-[4/3] w-full rounded-lg object-cover"
           />
         ) : null}
       </div>

@@ -318,7 +318,7 @@ export default async function StatePage({ params }: Props) {
 
       {/* ------------------------------------------------- How to apply --- */}
       <section className="mx-auto mt-12 max-w-6xl px-4 sm:px-6">
-        <div className="rounded-3xl bg-mist p-6 sm:p-8">
+        <div className="rounded-xl bg-mist p-6 sm:p-8">
           <h2 className="display text-3xl font-extrabold text-spruce">
             How to apply in {s.name}
           </h2>
@@ -382,7 +382,7 @@ export default async function StatePage({ params }: Props) {
       {/* ---------------------------------------------- Browse by county -- */}
       {counties.length > 0 && (
         <section className="mx-auto mt-14 max-w-6xl px-4 sm:px-6">
-          <div className="rounded-3xl border border-mist bg-white p-6 sm:p-8">
+          <div className="rounded-xl border border-mist bg-white p-6 sm:p-8">
             <h2 className="display text-3xl font-extrabold text-spruce">
               Browse {s.name} by county
             </h2>

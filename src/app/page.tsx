@@ -7,6 +7,7 @@ import {
   Faq,
   FaqJsonLd,
   HeroPhoto,
+  HeroPhotoBleed,
   NationalPayCard,
   ProofBar,
   RoleSplit,
@@ -124,8 +125,9 @@ export default function HomePage() {
   return (
     <Shell lang="en">
       {/* ------------------------------------------------------------ Hero */}
-      <section className="bg-paper">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-16 pt-10 sm:px-6 md:grid-cols-2 md:pt-14">
+      <section className="relative overflow-hidden bg-paper">
+        <HeroPhotoBleed lang="en" />
+        <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 pb-16 pt-10 sm:px-6 md:grid-cols-2 md:pb-24 md:pt-20">
           <div>
             <h1 className="display text-4xl font-extrabold leading-[1.05] tracking-tight text-spruce sm:text-5xl lg:text-6xl">
               <span className="text-teal">Your state</span> pays family
@@ -159,7 +161,11 @@ export default function HomePage() {
       {/* ----------------------------------------------------- Trust strip */}
       <TrustStrip
         lang="en"
-        programs={["IRIS", "Family Care", "Personal Care (PCS)", "CLTS"]}
+        programs={[
+          "Medicaid self-direction",
+          "50 states + DC",
+          "Census-sourced county data",
+        ]}
       />
 
       {/* ------------------------------------------------- Pay-rate module */}
@@ -266,7 +272,7 @@ export default function HomePage() {
 
       {/* ------------------------------------------- Other states pointer -- */}
       <section className="mx-auto max-w-6xl px-4 pb-4 sm:px-6">
-        <div className="rounded-3xl border border-mist bg-white p-6 text-center">
+        <div className="rounded-xl border border-mist bg-white p-6 text-center">
           <p className="font-semibold text-spruce">
             All 50 states and DC — 3,144 counties covered.
           </p>

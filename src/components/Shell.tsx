@@ -63,22 +63,13 @@ export function UtilityBar({ lang }: { lang: Lang }) {
     <header className="border-b border-mist bg-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
         <div className="flex min-w-0 items-center gap-3 sm:gap-4">
-          <nav aria-label="Language" className="flex shrink-0 items-center rounded-full bg-mist p-1 text-sm font-semibold">
-            <Link
-              href="/"
-              className={`rounded-full px-2.5 py-1 sm:px-3 ${lang === "en" ? "bg-spruce text-white" : "text-spruce hover:bg-white"}`}
-              aria-current={lang === "en" ? "true" : undefined}
-            >
-              EN
-            </Link>
-            <Link
-              href="/es/"
-              className={`rounded-full px-2.5 py-1 sm:px-3 ${lang === "es" ? "bg-spruce text-white" : "text-spruce hover:bg-white"}`}
-              aria-current={lang === "es" ? "true" : undefined}
-            >
-              ES
-            </Link>
-          </nav>
+          <Link
+            href={lang === "es" ? "/" : "/es/"}
+            className="shrink-0 whitespace-nowrap text-sm font-semibold text-muted underline decoration-muted/30 underline-offset-4 transition-colors hover:text-spruce hover:decoration-spruce"
+            lang={lang === "es" ? "en" : "es"}
+          >
+            {lang === "es" ? "English" : "Español"}
+          </Link>
           <Link href={home} aria-label={site.brand} className="shrink-0 no-underline">
             <Logo
               markClassName="h-8 w-8 sm:h-9 sm:w-9"

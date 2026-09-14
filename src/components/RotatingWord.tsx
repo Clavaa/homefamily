@@ -32,8 +32,8 @@ export default function RotatingWord({ words }: { words: string[] }) {
   // swaps; that gets the a11y behaviour without duplicating the keyword.
   return (
     <span
-      className={`inline-block rounded-xl bg-marigold-soft px-2 text-spruce transition-opacity duration-200 ${visible ? "opacity-100" : "opacity-0"}`}
-      style={{ boxShadow: "inset 0 -0.18em 0 0 var(--color-marigold)" }}
+      className={`inline-block text-spruce transition-opacity duration-200 ${visible ? "opacity-100" : "opacity-0"}`}
+      style={{ boxShadow: "inset 0 -0.09em 0 0 var(--color-clay)" }}
     >
       {words[i]}
     </span>

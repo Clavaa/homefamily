@@ -1,45 +1,57 @@
 @import "tailwindcss";
 
-@theme {
-  /* SITE 4 palette — civic-calm gov-tech (see STYLE-BIBLE.md) */
-  --color-spruce: #0f3d44;
-  --color-teal: #14766b;
-  --color-teal-dark: #0f5c53;
-  --color-pay: #178a55;
-  --color-pay-dark: #116b42;
-  --color-marigold: #f2b33d;
-  --color-marigold-soft: #fcf0d8;
-  --color-paper: #faf6ef;
-  --color-mist: #e8f1ee;
-  --color-ink: #1d2826;
-  --color-muted: #5b6b68;
-
-  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
-  --font-sans: var(--font-public-sans), ui-sans-serif, system-ui, sans-serif;
-}
-
 /**
- * Display scale. The category runs big headlines — Careforth 65px, PPL 74px,
- * GT Independence 86px — and ours topped out around 48px, which read timid
- * next to them. These clamp from a comfortable phone size up to something
- * that actually holds a 1440px viewport.
+ * Design system, rebuilt against the premium end of the category.
+ *
+ * The previous system read playful: a chunky grotesque display face, three
+ * saturated colours competing (bright green, teal, marigold), and 24px radii
+ * on everything. That is a consumer-app look, and on a page whose whole job
+ * is convincing a family that a Medicaid benefit is real, playful reads as
+ * unserious.
+ *
+ * Careforth is the grown-up in this market — a serif at 900 weight, one deep
+ * desaturated hue in tints, 22px body copy, and a photograph bleeding to the
+ * viewport edge. This takes that discipline and does not take their palette:
+ * they own plum, Givers owns purple, FreedomCare navy-and-red, Entyre sage.
+ * Ours is a near-black forest green on bone, with a single clay accent.
  */
-.h-hero {
-  font-size: clamp(2.5rem, 1.4rem + 4.4vw, 4.5rem);
-  line-height: 1.02;
-  letter-spacing: -0.028em;
-}
-.h-section {
-  font-size: clamp(1.75rem, 1.2rem + 1.8vw, 2.75rem);
-  line-height: 1.1;
-  letter-spacing: -0.02em;
+@theme {
+  /* Ink — near-black green. Body copy and headlines both. */
+  --color-ink: #14302c;
+  --color-spruce: #12302e;
+  --color-deep: #1c4a43;
+
+  /* One saturated colour, reserved for money and the primary action. */
+  --color-pay: #0f6b45;
+  --color-pay-dark: #0b5235;
+
+  /* Secondary: a muted forest for links and outlines. */
+  --color-teal: #2c6559;
+  --color-teal-dark: #1e4a41;
+
+  /* The single accent. One per viewport, never as text on light ground. */
+  --color-clay: #b4552d;
+  --color-marigold: #c98a2e;
+  --color-marigold-soft: #f3e7d4;
+
+  /* Grounds — warm bone, not cream. */
+  --color-paper: #f7f3ec;
+  --color-mist: #eae4d9;
+  --color-muted: #5e6b66;
+
+  --font-display: var(--font-display), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-public-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
   background-color: var(--color-paper);
   color: var(--color-ink);
   font-family: var(--font-sans);
+  /* Category body copy runs large — Careforth sets 22px. 18 is our floor. */
+  font-size: 1.125rem;
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 /* Every dollar figure gets tabular numerals (Public Sans supports tnum). */
@@ -48,22 +60,42 @@ body {
   font-feature-settings: "tnum";
 }
 
-@layer components {
-  .display {
-    font-family: var(--font-display);
-  }
+.display {
+  font-family: var(--font-display);
+  font-variation-settings: "SOFT" 20, "WONK" 0;
+  letter-spacing: -0.015em;
+}
 
-  /* Pill buttons — primary CTA is ALWAYS payment green. */
+/**
+ * Display scale. Serif headlines carry more weight per pixel than a
+ * grotesque, so these run slightly tighter than the sans versions did.
+ */
+.h-hero {
+  font-size: clamp(2.5rem, 1.5rem + 3.9vw, 4.25rem);
+  line-height: 1.04;
+  letter-spacing: -0.022em;
+}
+.h-section {
+  font-size: clamp(1.875rem, 1.3rem + 1.7vw, 2.75rem);
+  line-height: 1.12;
+  letter-spacing: -0.018em;
+}
+
+@layer components {
+  /**
+   * Buttons stay pills. With the rest of the system squared off, a pill
+   * reads deliberate rather than bubbly — it is the one soft shape left.
+   */
   .btn-primary {
-    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-pay px-7 py-3.5 text-center font-sans text-base font-semibold text-white no-underline transition-colors hover:bg-pay-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spruce;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-pay px-8 py-3.5 text-center font-sans text-base font-semibold text-white no-underline transition-colors hover:bg-pay-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spruce;
   }
   .btn-outline {
-    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full border-2 border-teal bg-transparent px-7 py-3 text-center font-sans text-base font-semibold text-teal no-underline transition-colors hover:bg-mist focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spruce;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-spruce/30 bg-transparent px-8 py-3.5 text-center font-sans text-base font-semibold text-spruce no-underline transition-colors hover:border-spruce hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spruce;
   }
 
   /* Quiz answer chips — big thumb targets (≥48px). */
   .chip {
-    @apply flex min-h-14 w-full cursor-pointer items-center justify-between gap-3 rounded-2xl border-2 border-mist bg-white px-5 py-3.5 text-left font-sans text-base font-semibold text-ink transition-colors hover:border-teal focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spruce;
+    @apply flex min-h-14 w-full cursor-pointer items-center justify-between gap-3 rounded-xl border border-spruce/15 bg-white px-5 py-3.5 text-left font-sans text-base font-semibold text-ink transition-colors hover:border-teal focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spruce;
   }
   .chip[aria-pressed="true"],
   .chip[data-selected="true"] {
@@ -71,20 +103,20 @@ body {
   }
 
   .field {
-    @apply w-full rounded-2xl border-2 border-mist bg-white px-5 py-3.5 text-base text-ink placeholder:text-muted focus:border-teal focus:outline-none;
-  }
-
-  .card {
-    @apply rounded-3xl bg-white p-6 shadow-[0_1px_2px_rgba(15,61,68,0.06),0_10px_30px_-12px_rgba(15,61,68,0.18)];
+    @apply w-full rounded-xl border border-spruce/20 bg-white px-5 py-3.5 text-base text-ink placeholder:text-muted focus:border-teal focus:outline-none;
   }
 
   /**
-   * Alternating tinted bands. The style bible calls for rounded "field"
-   * sections; without them 3,300 long pages are one undifferentiated column
-   * of white and the eye has nothing to hold on to.
+   * Cards: 12px, a hairline, and almost no shadow. The old 24px radius plus
+   * a soft drop shadow is what read "app card" instead of "document".
    */
+  .card {
+    @apply rounded-xl border border-spruce/10 bg-white p-7;
+  }
+
+  /* Alternating bands give 3,300 long pages a reading rhythm. */
   .band {
-    @apply py-14 sm:py-20;
+    @apply py-16 sm:py-24;
   }
   .band-mist {
     @apply bg-mist;
@@ -96,12 +128,10 @@ body {
     @apply bg-white;
   }
 
-  /* Section eyebrow — small caps label above a section heading. */
   .eyebrow {
-    @apply text-sm font-bold uppercase tracking-[0.14em] text-teal;
+    @apply font-sans text-xs font-bold uppercase tracking-[0.18em] text-muted;
   }
 
-  /* Body links inside prose get a real underline, not a colour-only cue. */
   .prose-link {
     @apply font-semibold text-teal underline decoration-teal/35 underline-offset-4 transition-colors hover:decoration-teal;
   }

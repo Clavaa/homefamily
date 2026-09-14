@@ -77,7 +77,11 @@ export default function AboutPage() {
 
       {/* ----------------------------------------------------- Trust strip */}
       <div className="mt-10">
-        <TrustStrip programs={["IRIS", "Family Care", "Personal Care (PCS)", "CLTS"]} />
+        <TrustStrip programs={[
+          "Medicaid self-direction",
+          "50 states + DC",
+          "Census-sourced county data",
+        ]} />
       </div>
 
       {/* ----------------------------------------------------- Why we exist */}
@@ -126,7 +130,7 @@ export default function AboutPage() {
 
       {/* ----------------------------------------------------- Our promise */}
       <section className="mx-auto mt-12 max-w-6xl px-4 sm:px-6">
-        <div className="rounded-3xl bg-mist p-6 sm:p-8">
+        <div className="rounded-xl bg-mist p-6 sm:p-8">
           <h2 className="display text-2xl font-extrabold text-spruce">
             Our promise to your family
           </h2>

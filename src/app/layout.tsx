@@ -1,12 +1,25 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Public_Sans } from "next/font/google";
+import { Fraunces, Public_Sans } from "next/font/google";
 import { isIndexable, site } from "@/site.config";
 import "./globals.css";
 
-const bricolage = Bricolage_Grotesque({
+/**
+ * Display face is a serif now. Bricolage Grotesque is a lively, chunky
+ * grotesque — great for a consumer app, wrong for a page asking a worried
+ * family to believe a Medicaid benefit is real. The premium end of this
+ * category is editorial and serif (Careforth runs Source Serif 4 at 900),
+ * and a serif reads as institution rather than startup.
+ *
+ * Fraunces over Source Serif so we are not wearing a competitor's face:
+ * its SOFT axis keeps the warmth this subject needs, and low WONK keeps it
+ * from getting whimsical.
+ */
+const fraunces = Fraunces({
   subsets: ["latin"],
-  weight: ["700", "800"],
-  variable: "--font-bricolage",
+  // Variable axes require the weight to stay variable; .display sets
+  // SOFT/WONK via font-variation-settings in globals.css.
+  axes: ["SOFT", "WONK", "opsz"],
+  variable: "--font-display",
   display: "swap",
 });
 
@@ -56,7 +69,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${bricolage.variable} ${publicSans.variable}`}>
+    <html lang="en" className={`${fraunces.variable} ${publicSans.variable}`}>
       <body className="min-h-screen">
         <script
           type="application/ld+json"

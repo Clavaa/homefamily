@@ -149,7 +149,7 @@ export default function LeadershipPage() {
         {/* --------------------------------- Who supports your family */}
         <section
           aria-labelledby="support-h"
-          className="mt-14 rounded-3xl bg-mist p-6 sm:p-8"
+          className="mt-14 rounded-xl bg-mist p-6 sm:p-8"
         >
           <h2
             id="support-h"

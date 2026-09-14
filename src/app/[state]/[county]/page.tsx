@@ -494,7 +494,7 @@ export default async function CountyPage({ params }: Props) {
       {/* ---------------------------------------------------- How to apply */}
       <section className="band band-white">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="rounded-3xl bg-mist p-6 sm:p-8">
+        <div className="rounded-xl bg-mist p-6 sm:p-8">
           <h2 className="display h-section font-extrabold text-spruce">
             How families in {c.short} apply
           </h2>

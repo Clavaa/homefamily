@@ -174,7 +174,7 @@ export default function IrisPage() {
       </section>
 
       <section className="mx-auto mt-12 max-w-6xl px-4 sm:px-6">
-        <div className="rounded-3xl bg-mist p-6 sm:p-8">
+        <div className="rounded-xl bg-mist p-6 sm:p-8">
           <h2 className="display text-2xl font-extrabold text-spruce">
             The money part, in plain words
           </h2>

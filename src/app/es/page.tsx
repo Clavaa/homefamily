@@ -7,6 +7,7 @@ import {
   Faq,
   FaqJsonLd,
   HeroPhoto,
+  HeroPhotoBleed,
   NationalPayCard,
   ProofBar,
   RoleSplit,
@@ -158,7 +159,11 @@ export default function HomePageEs() {
       {/* ----------------------------------------------------- Trust strip */}
       <TrustStrip
         lang="es"
-        programs={["IRIS", "Family Care", "Cuidado Personal (PCS)", "CLTS"]}
+        programs={[
+          "Autodirección de Medicaid",
+          "50 estados + DC",
+          "Datos por condado del Census",
+        ]}
       />
 
       {/* ------------------------------------------------- Pay-rate module */}
@@ -255,7 +260,7 @@ export default function HomePageEs() {
 
       {/* ------------------------------------------- Other states pointer -- */}
       <section className="mx-auto max-w-6xl px-4 pb-4 sm:px-6" lang="es">
-        <div className="rounded-3xl border border-mist bg-white p-6 text-center">
+        <div className="rounded-xl border border-mist bg-white p-6 text-center">
           <p className="font-semibold text-spruce">
             Los 50 estados y DC — 3,144 condados cubiertos.
           </p>

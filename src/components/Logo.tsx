@@ -22,17 +22,17 @@ const COLORS: Record<
   { back: string; front: string; halo: string; badge: string; check: string }
 > = {
   default: {
-    back: "#0F3D44", // spruce
-    front: "#14766B", // civic teal
+    back: "#12302E", // spruce
+    front: "#2C6559", // civic teal
     halo: "#FFFFFF",
-    badge: "#178A55", // payment green
+    badge: "#0F6B45", // payment green
     check: "#FFFFFF",
   },
   reverse: {
     back: "#FFFFFF",
-    front: "#9AD6CC", // light teal, reads on spruce
-    halo: "#0F3D44", // spruce ground shows through the gap
-    badge: "#1FB271", // brightened payment green for dark ground
+    front: "#A9C6BC", // light teal, reads on spruce
+    halo: "#12302E", // spruce ground shows through the gap
+    badge: "#22855B", // brightened payment green for dark ground
     check: "#FFFFFF",
   },
 };
@@ -49,33 +49,27 @@ export function LogoMark({
   const c = COLORS[variant];
   return (
     <svg
-      viewBox="0 0 64 64"
+      viewBox="0 0 40 40"
       className={className}
       role={title ? "img" : undefined}
       aria-hidden={title ? undefined : true}
       focusable="false"
+      fill="none"
     >
       {title ? <title>{title}</title> : null}
-      {/* back figure — larger, holding space */}
-      <circle cx="24" cy="17.5" r="9.5" fill={c.back} />
-      <path d="M7 56 V44 a17 17 0 0 1 34 0 V56 Z" fill={c.back} />
-      {/* front figure — leaning in, halo gap keeps the overlap legible at 16px */}
-      <g stroke={c.halo} strokeWidth="3" paintOrder="stroke" fill={c.front}>
-        <circle cx="45.5" cy="23.5" r="7.5" />
-        <path d="M32 56 V46.5 a13.5 13.5 0 0 1 27 0 V56 Z" />
-      </g>
-      {/* payment-green check badge — approved benefit, not a coin */}
-      <g stroke={c.halo} strokeWidth="3" paintOrder="stroke" fill={c.badge}>
-        <circle cx="53.5" cy="11" r="8" />
-      </g>
-      <path
-        d="M49.5 11.2 l2.8 2.8 5.6-6"
-        fill="none"
-        stroke={c.check}
-        strokeWidth="2.4"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+      {/* A sunroom window: four panes, with light coming through the top two. */}
+      <rect
+        x="6.5"
+        y="6.5"
+        width="27"
+        height="27"
+        rx="2"
+        stroke={c.back}
+        strokeWidth="2.5"
       />
+      <path d="M20 7v26M7 20h26" stroke={c.back} strokeWidth="2.5" />
+      <rect x="9" y="9" width="9" height="9" fill={c.badge} opacity="0.9" />
+      <rect x="22" y="9" width="9" height="9" fill={c.front} opacity="0.35" />
     </svg>
   );
 }
@@ -96,7 +90,7 @@ export function Logo({
     <span className={`inline-flex items-center gap-2 ${className}`}>
       <LogoMark variant={variant} className={markClassName} />
       <span
-        className={`display font-extrabold tracking-tight ${textClassName} ${
+        className={`display font-semibold tracking-tight ${textClassName} ${
           reverse ? "text-white" : "text-spruce"
         }`}
       >
