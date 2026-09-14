@@ -21,6 +21,7 @@ import {
   type HeroStat,
 } from "@/components/Blocks";
 import { site } from "@/site.config";
+import { neighborStates } from "@/data/adjacency";
 import { OG_IMAGE } from "@/lib/seo";
 import { getState, states, type StateData } from "@/data/states";
 import { BESPOKE_STATE_PAGES } from "@/data/counties";
@@ -167,7 +168,11 @@ export default async function CaregiverPayPage({ params }: Props) {
   ];
 
   return (
-    <Shell lang="en" state={{ slug: s.slug, name: s.name }}>
+    <Shell
+      lang="en"
+      state={{ slug: s.slug, name: s.name }}
+      nearbyStates={neighborStates(s.slug).map((n) => ({ slug: n.slug, name: n.name }))}
+    >
       <PageJsonLd
         url={url}
         name={`What family caregivers are paid in ${s.name}`}

@@ -991,3 +991,134 @@ export function HowToJsonLd({
     />
   );
 }
+
+/* ---------------------------------------------------------- NearbyLinks -- */
+/**
+ * Counties that actually touch this one, with cross-state neighbours called
+ * out. Border counties are the only links on the site that jump between
+ * state clusters, so they are worth marking rather than hiding — both for a
+ * reader who lives nearer the next state's county seat than their own, and
+ * for a crawler that would otherwise see 51 sealed silos.
+ */
+export function NearbyLinks({
+  neighbors,
+  fallback,
+  stateSlug,
+  stateName,
+  countyShort,
+}: {
+  neighbors: {
+    slug: string;
+    short: string;
+    stateSlug: string;
+    stateAbbr: string;
+    crossState: boolean;
+  }[];
+  fallback: { slug: string; short: string }[];
+  stateSlug: string;
+  stateName: string;
+  countyShort: string;
+}) {
+  const items = neighbors.length
+    ? neighbors.map((n) => ({
+        href: `/${n.stateSlug}/${n.slug}/`,
+        label: n.crossState ? `${n.short}, ${n.stateAbbr}` : n.short,
+        crossState: n.crossState,
+      }))
+    : fallback.map((c) => ({
+        href: `/${stateSlug}/${c.slug}/`,
+        label: c.short,
+        crossState: false,
+      }));
+  if (!items.length) return null;
+  const anyCross = items.some((i) => i.crossState);
+  return (
+    <section className="band band-mist">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <p className="eyebrow">Nearby</p>
+        <h2 className="display h-section mt-2 font-extrabold text-spruce">
+          Counties next to {countyShort}
+        </h2>
+        <p className="mt-3 max-w-2xl leading-relaxed text-muted">
+          {neighbors.length
+            ? `The counties ${countyShort} touches, by Census boundaries — a few of those borders run across water.`
+            : `Other counties in ${stateName}.`}
+          {anyCross
+            ? " Ones marked with a state abbreviation are across the line, and their rules are their state's, not this one's."
+            : ""}
+        </p>
+        <ul className="mt-5 flex flex-wrap gap-2">
+          {items.map((i) => (
+            <li key={i.href}>
+              <Link
+                href={i.href}
+                className={`inline-flex items-center rounded-full border px-4 py-2 text-sm font-semibold no-underline transition-colors ${
+                  i.crossState
+                    ? "border-clay/40 bg-white text-clay hover:bg-clay/5"
+                    : "border-spruce/20 bg-white text-teal hover:bg-mist"
+                }`}
+              >
+                {i.label}
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link
+              href={`/${stateSlug}/`}
+              className="inline-flex items-center rounded-full bg-spruce px-4 py-2 text-sm font-semibold text-white no-underline"
+            >
+              All of {stateName} →
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+/* -------------------------------------------------------- NeighborStates -- */
+/** Border-state links, for the bottom of a state page. */
+export function NeighborStateLinks({
+  stateName,
+  neighbors,
+}: {
+  stateName: string;
+  neighbors: { slug: string; name: string }[];
+}) {
+  if (!neighbors.length) return null;
+  return (
+    <section className="band band-white">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <p className="eyebrow">Across the line</p>
+        <h2 className="display h-section mt-2 font-extrabold text-spruce">
+          States that border {stateName}
+        </h2>
+        <p className="mt-3 max-w-2xl leading-relaxed text-muted">
+          Each state writes its own rules, and they differ more than people
+          expect — a spouse who can be paid on one side of the line often
+          cannot be on the other.
+        </p>
+        <ul className="mt-5 flex flex-wrap gap-2">
+          {neighbors.map((n) => (
+            <li key={n.slug}>
+              <Link
+                href={`/${n.slug}/`}
+                className="inline-flex items-center rounded-full border border-spruce/20 bg-white px-4 py-2 text-sm font-semibold text-teal no-underline transition-colors hover:bg-mist"
+              >
+                {n.name}
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link
+              href="/states/"
+              className="inline-flex items-center rounded-full bg-spruce px-4 py-2 text-sm font-semibold text-white no-underline"
+            >
+              All 50 states + DC →
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}

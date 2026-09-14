@@ -8,6 +8,7 @@ import {
   FaqJsonLd,
   PayRateModule,
   PageHero,
+  NeighborStateLinks,
   ProofBar,
   QuizCta,
   VerdictBadge,
@@ -19,6 +20,7 @@ import { OG_IMAGE } from "@/lib/seo";
 import { getState, states, type StateData } from "@/data/states";
 import { countiesByState, STATE_ABBR } from "@/data/counties";
 import { countPeople, getStateRollup, pct } from "@/data/county-facts";
+import { neighborStates } from "@/data/adjacency";
 
 export function generateStaticParams() {
   return states.map((s) => ({ state: s.slug }));
@@ -146,6 +148,7 @@ export default async function StatePage({ params }: Props) {
   const url = `${site.domain}/${s.slug}/`;
   const counties = countiesByState[s.slug] ?? [];
   const roll = getStateRollup(s.slug);
+  const borders = neighborStates(s.slug).map((n) => ({ slug: n.slug, name: n.name }));
   const webPageJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -168,7 +171,11 @@ export default async function StatePage({ params }: Props) {
   };
 
   return (
-    <Shell lang="en" state={{ slug: s.slug, name: s.name }}>
+    <Shell
+      lang="en"
+      state={{ slug: s.slug, name: s.name }}
+      nearbyStates={borders}
+    >
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
@@ -405,6 +412,8 @@ export default async function StatePage({ params }: Props) {
           </div>
         </section>
       )}
+
+      <NeighborStateLinks stateName={s.name} neighbors={borders} />
 
       <section className="mx-auto mt-12 max-w-6xl px-4 sm:px-6">
         <QuizCta lang="en" state={s.slug} />

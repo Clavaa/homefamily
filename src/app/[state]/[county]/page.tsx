@@ -8,6 +8,7 @@ import {
   FaqJsonLd,
   PageHero,
   PayRateModule,
+  NearbyLinks,
   ProofBar,
   QuizCta,
   VerdictBadge,
@@ -15,6 +16,7 @@ import {
   type HeroStat,
 } from "@/components/Blocks";
 import { site } from "@/site.config";
+import { adjacentCounties, neighborStates } from "@/data/adjacency";
 import { OG_IMAGE } from "@/lib/seo";
 import { getState, states, type StateData } from "@/data/states";
 import {
@@ -263,7 +265,11 @@ export default async function CountyPage({ params }: Props) {
   const roll = getStateRollup(s.slug);
   const faqs = buildFaqs(s, c, f);
   const url = `${site.domain}/${s.slug}/${c.slug}/`;
-  const neighbors = nearbyCounties(s.slug, c.slug, 6);
+  // Real geography first; population-rank only where the federal adjacency
+  // file has no entry (Connecticut's planning regions, a few Alaska areas).
+  const adjacent = adjacentCounties(s.slug, c, 8);
+  const neighbors = nearbyCounties(s.slug, c.slug, 8);
+  const borderStates = neighborStates(s.slug).map((n) => ({ slug: n.slug, name: n.name }));
   const abbr = STATE_ABBR[s.name] ?? s.name;
 
   const breadcrumbJsonLd = {
@@ -309,7 +315,11 @@ export default async function CountyPage({ params }: Props) {
   };
 
   return (
-    <Shell lang="en" state={{ slug: s.slug, name: s.name }}>
+    <Shell
+      lang="en"
+      state={{ slug: s.slug, name: s.name }}
+      nearbyStates={borderStates}
+    >
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
@@ -532,37 +542,13 @@ export default async function CountyPage({ params }: Props) {
         </div>
       </section>
 
-      {/* ------------------------------------------------ Nearby counties */}
-      {neighbors.length > 0 && (
-        <section className="mx-auto mt-12 max-w-6xl px-4 sm:px-6">
-          <h2 className="display text-2xl font-extrabold text-spruce">
-            More {s.name} counties
-          </h2>
-          <p className="mt-2 text-sm text-muted">
-            The programs are the same statewide — pick your county:
-          </p>
-          <ul className="mt-4 flex flex-wrap gap-2">
-            {neighbors.map((n) => (
-              <li key={n.slug}>
-                <Link
-                  href={`/${s.slug}/${n.slug}/`}
-                  className="inline-flex items-center rounded-full border border-teal/30 bg-white px-4 py-1.5 text-sm font-semibold text-teal no-underline transition-colors hover:bg-mist"
-                >
-                  {n.short}
-                </Link>
-              </li>
-            ))}
-            <li>
-              <Link
-                href={`/${s.slug}/`}
-                className="inline-flex items-center rounded-full bg-spruce px-4 py-1.5 text-sm font-semibold text-white no-underline"
-              >
-                All of {s.name} →
-              </Link>
-            </li>
-          </ul>
-        </section>
-      )}
+      <NearbyLinks
+        neighbors={adjacent}
+        fallback={neighbors}
+        stateSlug={s.slug}
+        stateName={s.name}
+        countyShort={c.short}
+      />
 
       <section className="mx-auto mt-12 max-w-6xl px-4 sm:px-6">
         <QuizCta lang="en" state={s.slug} />

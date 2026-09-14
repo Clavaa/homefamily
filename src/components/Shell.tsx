@@ -155,114 +155,107 @@ export function StickyBar({ lang }: { lang: Lang }) {
   );
 }
 
-export function Footer({ lang, state }: { lang: Lang; state?: PageState }) {
+export function Footer({
+  lang,
+  state,
+  nearbyStates = [],
+}: {
+  lang: Lang;
+  state?: PageState;
+  /** Border states, when the page is about one. */
+  nearbyStates?: PageState[];
+}) {
   const t = T[lang];
   const year = new Date().getFullYear();
+  const es = lang === "es";
+
+  /**
+   * The bottom nav is a real directory, not a courtesy list.
+   *
+   * On a 3,300-page site the footer is the only block on every single page,
+   * which makes it the strongest lever there is over how crawl depth and
+   * internal equity are distributed. It used to be one column of nine links
+   * that pointed at Wisconsin from every page on the site. Now it is four
+   * columns, and the state column changes with the page: a visitor in Texas
+   * gets Texas's pages, and so does Googlebot.
+   */
+  const bigStates: PageState[] = [
+    { slug: "california", name: "California" },
+    { slug: "texas", name: "Texas" },
+    { slug: "florida", name: "Florida" },
+    { slug: "new-york", name: "New York" },
+    { slug: "pennsylvania", name: "Pennsylvania" },
+    { slug: "ohio", name: "Ohio" },
+  ];
+  const stateLinks = state
+    ? [
+        { href: `/${state.slug}/`, label: es ? `Programas de ${state.name}` : `${state.name} programs` },
+        { href: `/${state.slug}/caregiver-pay/`, label: es ? `Tarifas en ${state.name}` : `${state.name} caregiver pay` },
+        { href: `/${state.slug}/spousal-caregiver/`, label: es ? `Pago para esposos` : `Spousal pay in ${state.name}` },
+        ...(state.slug === "wisconsin"
+          ? [{ href: "/wisconsin/iris/", label: "Wisconsin IRIS" }]
+          : []),
+      ]
+    : bigStates.map((s) => ({ href: `/${s.slug}/`, label: s.name }));
+
+  const startLinks = [
+    { href: "/qualify/", label: t.navQuiz },
+    { href: "/states/", label: t.navStates },
+    { href: es ? "/es/" : "/", label: t.navHome },
+    { href: "/about/", label: t.navAbout },
+  ];
+
+  const column = (heading: string, links: { href: string; label: string }[]) => (
+    <div>
+      <p className="text-xs font-bold uppercase tracking-[0.16em] text-white/50">
+        {heading}
+      </p>
+      <ul className="mt-4 space-y-2.5 text-sm">
+        {links.map((l) => (
+          <li key={l.href + l.label}>
+            <Link href={l.href} className="text-white/85 underline-offset-4 hover:text-white hover:underline">
+              {l.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+
   return (
-    <footer className="mt-16 bg-spruce pb-28 pt-12 text-white md:pb-12">
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 sm:px-6 md:grid-cols-3">
-        <div>
-          <p>
-            <Logo
-              variant="reverse"
-              markClassName="h-10 w-10"
-              textClassName="text-2xl"
-            />
-          </p>
-          <p className="mt-3 max-w-xs text-sm leading-relaxed text-white/80">
-            {t.tagline}
-          </p>
-          {site.phone && site.phoneHref && (
-            <a
-              href={site.phoneHref}
-              className="btn-primary mt-5 !min-h-11 text-sm"
-            >
-              <span aria-hidden="true">📞</span>
-              <span className="tnum">{site.phone}</span>
-            </a>
-          )}
-          <p className="mt-3 text-sm text-white/80">{site.email}</p>
-        </div>
-        <nav aria-label={t.nav}>
-          <p className="text-sm font-bold uppercase tracking-wide text-white/60">
-            {t.nav}
-          </p>
-          <ul className="mt-3 space-y-2 text-sm">
-            <li>
-              <Link href={lang === "es" ? "/es/" : "/"} className="text-white/90 hover:text-white">
-                {t.navHome}
-              </Link>
-            </li>
-            <li>
-              <Link href="/qualify/" className="text-white/90 hover:text-white">
-                {t.navQuiz}
-              </Link>
-            </li>
-            <li>
-              <Link href="/states/" className="text-white/90 hover:text-white">
-                {t.navStates}
-              </Link>
-            </li>
-            <li>
-              <Link href="/about/" className="text-white/90 hover:text-white">
-                {t.navAbout}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/about/leadership/"
-                className="text-white/90 hover:text-white"
-              >
-                {t.navLeadership}
-              </Link>
-            </li>
-            {/* State-aware. Every county page used to link only Wisconsin's
-                money pages, so 3,144 pages sent their internal link equity to
-                the wrong state and never to their own. */}
-            {state ? (
-              <>
-                <li>
-                  <Link href={`/${state.slug}/`} className="text-white/90 hover:text-white">
-                    {state.name}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={`/${state.slug}/caregiver-pay/`}
-                    className="text-white/90 hover:text-white"
-                  >
-                    {lang === "es" ? `Tarifas de pago (${state.name})` : `${state.name} caregiver pay`}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={`/${state.slug}/spousal-caregiver/`}
-                    className="text-white/90 hover:text-white"
-                  >
-                    {lang === "es" ? `Pago para esposos (${state.name})` : `Spousal pay in ${state.name}`}
-                  </Link>
-                </li>
-                {state.slug === "wisconsin" && (
-                  <li>
-                    <Link href="/wisconsin/iris/" className="text-white/90 hover:text-white">
-                      Wisconsin IRIS
-                    </Link>
-                  </li>
-                )}
-              </>
-            ) : (
-              <li>
-                <Link href="/states/" className="text-white/90 hover:text-white">
-                  {t.navStates}
-                </Link>
-              </li>
+    <footer className="mt-0 bg-spruce pb-28 pt-16 text-white md:pb-14">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="grid gap-10 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
+          <div>
+            <Logo variant="reverse" markClassName="h-9 w-9" textClassName="text-xl" />
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/75">
+              {t.tagline}
+            </p>
+            {site.phone && site.phoneHref && (
+              <a href={site.phoneHref} className="btn-primary mt-6 !min-h-11 text-sm">
+                <span className="tnum">{site.phone}</span>
+              </a>
             )}
-          </ul>
-        </nav>
-        <div className="text-sm leading-relaxed text-white/70">
+            <p className="mt-4 text-sm text-white/70">{site.email}</p>
+          </div>
+
+          {column(es ? "Empezar" : "Start here", startLinks)}
+          {column(
+            state ? (es ? state.name : state.name) : es ? "Estados" : "States",
+            stateLinks
+          )}
+          {column(
+            es ? "Cerca" : "Nearby",
+            nearbyStates.length
+              ? nearbyStates.map((s) => ({ href: `/${s.slug}/`, label: s.name }))
+              : bigStates.slice(0, 4).map((s) => ({ href: `/${s.slug}/`, label: s.name }))
+          )}
+        </div>
+
+        <div className="mt-12 grid gap-6 border-t border-white/15 pt-8 text-sm leading-relaxed text-white/65 md:grid-cols-3">
           <p>{t.notAgency}</p>
-          <p className="mt-4">{t.privacy}</p>
-          <p className="mt-4">
+          <p>{t.privacy}</p>
+          <p>
             © <span className="tnum">{year}</span> {site.brand}. {t.rights}
           </p>
         </div>
@@ -275,18 +268,21 @@ export function Footer({ lang, state }: { lang: Lang; state?: PageState }) {
 export default function Shell({
   lang,
   state,
+  nearbyStates,
   children,
 }: {
   lang: Lang;
   /** Set on any page about one state, so the footer links that state. */
   state?: PageState;
+  /** Border states, so the footer cross-links out of the state silo. */
+  nearbyStates?: PageState[];
   children: React.ReactNode;
 }) {
   return (
     <>
       <UtilityBar lang={lang} />
       <main>{children}</main>
-      <Footer lang={lang} state={state} />
+      <Footer lang={lang} state={state} nearbyStates={nearbyStates} />
       <StickyBar lang={lang} />
     </>
   );

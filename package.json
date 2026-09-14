@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "data": "node scripts/build-data.mjs",
-    "predev": "npm run data && npm run data:counties",
-    "prebuild": "npm run data && npm run data:counties",
+    "predev": "npm run data && npm run data:counties && npm run data:adjacency",
+    "prebuild": "npm run data && npm run data:counties && npm run data:adjacency",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "data:counties": "node scripts/build-county-facts.mjs"
+    "data:counties": "node scripts/build-county-facts.mjs",
+    "data:adjacency": "node scripts/build-adjacency.mjs"
   },
   "dependencies": {
     "next": "^15.5.2",
