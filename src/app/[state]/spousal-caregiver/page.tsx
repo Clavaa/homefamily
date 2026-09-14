@@ -7,11 +7,14 @@ import {
   Breadcrumbs,
   Faq,
   FaqJsonLd,
+  PageHero,
   PageJsonLd,
   PayRateModule,
+  ProofBar,
   QuizCta,
   TopCountyLinks,
   type FaqItem,
+  type HeroStat,
 } from "@/components/Blocks";
 import { site } from "@/site.config";
 import { OG_IMAGE } from "@/lib/seo";
@@ -233,27 +236,39 @@ export default async function SpousalPage({ params }: Props) {
       <FaqJsonLd items={faqs} url={url} />
       <Breadcrumbs crumbs={crumbs} />
 
-      <section className="mx-auto max-w-6xl px-4 pt-6 sm:px-6">
-        <h1 className="display max-w-3xl text-4xl font-extrabold leading-tight tracking-tight text-spruce sm:text-5xl">
-          Can I get <span className="text-pay">paid</span> to care for my
-          spouse in <span className="text-teal">{s.name}</span>?
-        </h1>
-        <p
-          className={`mt-4 max-w-2xl text-2xl font-bold ${HEADLINE_TONE[verdict]}`}
-        >
-          {HEADLINE[verdict](s.name)}
-        </p>
-        <p className="mt-3 max-w-2xl text-lg leading-relaxed">{lead(s)}</p>
-        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-          <Link
-            href={`/qualify/?state=${s.slug}&rel=spouse`}
-            className="btn-primary"
-          >
-            See if you qualify →
-          </Link>
-          <CallButton />
-        </div>
-      </section>
+      <PageHero
+        eyebrow={`The ${s.name} spouse rule, in plain words`}
+        title={
+          <>
+            Can I get paid to care for my spouse in{" "}
+            <span className="text-teal">{s.name}</span>?
+          </>
+        }
+        lead={lead(s)}
+        ctaHref={`/qualify/?state=${s.slug}&rel=spouse`}
+        ctaLabel="See if you qualify →"
+        statsHeading="The short answer"
+        stats={[
+          {
+            label: "Spouse can be paid",
+            value: verdict === "yes" ? "Yes" : verdict === "limited" ? "Sometimes" : "Not directly",
+            note: verdict === "no" ? "other relatives usually can" : "see the full rule below",
+          },
+          { label: "Programs", value: String(s.programs.length), note: "in this state" },
+          { label: "Reported pay", value: s.pay.display ?? "Varies", note: "set inside the care plan" },
+          {
+            label: "Waitlist",
+            value: s.waitlist.status === "none" ? "None" : s.waitlist.status === "mixed" ? "Mixed" : s.waitlist.status === "long" ? "Long" : "Possible",
+            note: "apply early either way",
+          },
+        ] satisfies HeroStat[]}
+        photo={{
+          src: "/photos/hero-latino-family.webp",
+          alt: "A woman helping her husband settle into a chair by the window",
+        }}
+      />
+
+      <ProofBar />
 
       <section className="mx-auto mt-10 grid max-w-6xl gap-6 px-4 sm:px-6 md:grid-cols-2">
         <div className="card !p-6">

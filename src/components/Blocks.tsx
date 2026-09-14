@@ -601,3 +601,184 @@ export function CallButton({
     </a>
   );
 }
+
+/* -------------------------------------------------------------- ProofBar -- */
+/**
+ * The band directly under the hero. Every competitor runs one — Givers
+ * ("275,000+ families supported · 93% satisfaction · 5.0 Google · SOC2 ·
+ * HIPAA"), FreedomCare ("162,000+ families · 97% satisfaction") — because it
+ * answers "is this real?" before the visitor has to scroll.
+ *
+ * Ours claims only things that are true today. We have no customers yet, so
+ * there are no family counts, no satisfaction percentages and no star
+ * ratings here — those are the numbers competitors lead with and the ones we
+ * are not going to invent. What we do have is coverage and sourcing, which
+ * is a real advantage: nobody else in this category publishes county-level
+ * figures at all.
+ */
+export function ProofBar({ lang = "en" as Lang }: { lang?: Lang }) {
+  const items =
+    lang === "es"
+      ? [
+          { big: "50 + DC", small: "estados cubiertos" },
+          { big: "3,144", small: "condados con datos locales" },
+          { big: "$0", small: "aplicar siempre es gratis" },
+          { big: "2 min", small: "para ver si califica" },
+        ]
+      : [
+          { big: "50 + DC", small: "states covered" },
+          { big: "3,144", small: "counties with local data" },
+          { big: "$0", small: "it is always free to apply" },
+          { big: "2 min", small: "to see if you qualify" },
+        ];
+  const note =
+    lang === "es"
+      ? "Cifras de población del U.S. Census Bureau · Reglas de cada programa estatal de Medicaid"
+      : "Population figures from the U.S. Census Bureau · Rules from each state's published Medicaid program";
+  return (
+    <section aria-label="Coverage" className="border-y border-mist bg-white">
+      <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
+        <dl className="grid grid-cols-2 gap-x-6 gap-y-5 sm:grid-cols-4">
+          {items.map((s) => (
+            <div key={s.small} className="flex flex-col">
+              <dt className="display text-2xl font-extrabold tabular-nums text-spruce sm:text-3xl">
+                {s.big}
+              </dt>
+              <dd className="mt-0.5 text-sm leading-snug text-muted">{s.small}</dd>
+            </div>
+          ))}
+        </dl>
+        <p className="mt-5 border-t border-mist pt-4 text-xs text-muted">{note}</p>
+      </div>
+    </section>
+  );
+}
+
+/* -------------------------------------------------------------- PageHero -- */
+export interface HeroStat {
+  label: string;
+  value: string;
+  note?: string;
+}
+
+/**
+ * Two-column hero for state and county pages.
+ *
+ * Structure borrowed from the best of the category and then beaten on
+ * substance: Givers puts an eyebrow pill with a micro-CTA above a short H1
+ * with the location in brand colour, a one-line lead, one button, and a photo
+ * bleeding off the right edge with a floating status card over it. It reads
+ * beautifully — and then says nothing about the state it names ("Find a
+ * program that can help you care for a loved one").
+ *
+ * So we keep the shape and fill the right rail with this place's actual
+ * federal figures, which nobody else in the category publishes. The long
+ * fact-led prose moves below the fold where it belongs, instead of being the
+ * first thing a worried person has to read.
+ */
+export function PageHero({
+  eyebrow,
+  title,
+  lead,
+  ctaHref,
+  ctaLabel,
+  stats,
+  statsHeading,
+  statsFootnote,
+  photo,
+  lang = "en" as Lang,
+}: {
+  eyebrow: string;
+  title: React.ReactNode;
+  lead: string;
+  ctaHref: string;
+  ctaLabel: string;
+  stats?: HeroStat[];
+  statsHeading?: string;
+  statsFootnote?: string;
+  photo?: { src: string; alt: string };
+  lang?: Lang;
+}) {
+  const micro = lang === "es" ? "Herramienta gratis" : "Free tool";
+  return (
+    <section className="bg-paper">
+      <div className="mx-auto grid max-w-6xl items-start gap-10 px-4 pb-12 pt-8 sm:px-6 md:grid-cols-[1.05fr_0.95fr] md:pt-12">
+        <div>
+          {/* Eyebrow pill doubles as a low-commitment second entry point. */}
+          <Link
+            href={ctaHref}
+            className="inline-flex items-center gap-2 rounded-full bg-mist px-3 py-1.5 text-sm font-semibold text-teal no-underline transition-colors hover:bg-teal/10"
+          >
+            <span className="rounded-full bg-white px-2 py-0.5 text-xs font-bold uppercase tracking-wide">
+              {micro}
+            </span>
+            {eyebrow} →
+          </Link>
+          <h1 className="display h-hero mt-4 font-extrabold text-spruce">
+            {title}
+          </h1>
+          <p className="mt-4 max-w-xl text-lg leading-relaxed">{lead}</p>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+            <Link href={ctaHref} className="btn-primary">
+              {ctaLabel}
+            </Link>
+            <CallButton lang={lang} />
+          </div>
+        </div>
+
+        {/* Right rail: this place's real figures, or the photograph. */}
+        {stats && stats.length > 0 ? (
+          <div className="card !p-6">
+            {statsHeading && (
+              <h2 className="display text-lg font-bold text-spruce">
+                {statsHeading}
+              </h2>
+            )}
+            <dl className="mt-4 grid grid-cols-2 gap-x-5 gap-y-5">
+              {stats.map((s) => (
+                <div key={s.label}>
+                  <dt className="text-xs font-bold uppercase tracking-wide text-muted">
+                    {s.label}
+                  </dt>
+                  <dd className="display mt-1 text-3xl font-extrabold tabular-nums text-spruce">
+                    {s.value}
+                  </dd>
+                  {s.note && (
+                    <p className="mt-0.5 text-xs leading-snug text-muted">
+                      {s.note}
+                    </p>
+                  )}
+                </div>
+              ))}
+            </dl>
+            {photo && (
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                width={1376}
+                height={768}
+                sizes="(max-width: 768px) 100vw, 45vw"
+                className="mt-5 aspect-[16/9] w-full rounded-2xl object-cover"
+              />
+            )}
+            {statsFootnote && (
+              <p className="mt-4 border-t border-mist pt-3 text-xs leading-relaxed text-muted">
+                {statsFootnote}
+              </p>
+            )}
+          </div>
+        ) : photo ? (
+          <Image
+            src={photo.src}
+            alt={photo.alt}
+            width={1376}
+            height={768}
+            priority
+            sizes="(max-width: 768px) 100vw, 45vw"
+            className="aspect-[4/3] w-full rounded-3xl object-cover"
+          />
+        ) : null}
+      </div>
+    </section>
+  );
+}

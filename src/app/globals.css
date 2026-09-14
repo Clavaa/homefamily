@@ -18,6 +18,23 @@
   --font-sans: var(--font-public-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
+/**
+ * Display scale. The category runs big headlines — Careforth 65px, PPL 74px,
+ * GT Independence 86px — and ours topped out around 48px, which read timid
+ * next to them. These clamp from a comfortable phone size up to something
+ * that actually holds a 1440px viewport.
+ */
+.h-hero {
+  font-size: clamp(2.5rem, 1.4rem + 4.4vw, 4.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.028em;
+}
+.h-section {
+  font-size: clamp(1.75rem, 1.2rem + 1.8vw, 2.75rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
 body {
   background-color: var(--color-paper);
   color: var(--color-ink);
@@ -58,7 +75,35 @@ body {
   }
 
   .card {
-    @apply rounded-3xl bg-white p-6 shadow-[0_1px_3px_rgba(15,61,68,0.08),0_8px_24px_rgba(15,61,68,0.06)];
+    @apply rounded-3xl bg-white p-6 shadow-[0_1px_2px_rgba(15,61,68,0.06),0_10px_30px_-12px_rgba(15,61,68,0.18)];
+  }
+
+  /**
+   * Alternating tinted bands. The style bible calls for rounded "field"
+   * sections; without them 3,300 long pages are one undifferentiated column
+   * of white and the eye has nothing to hold on to.
+   */
+  .band {
+    @apply py-14 sm:py-20;
+  }
+  .band-mist {
+    @apply bg-mist;
+  }
+  .band-paper {
+    @apply bg-paper;
+  }
+  .band-white {
+    @apply bg-white;
+  }
+
+  /* Section eyebrow — small caps label above a section heading. */
+  .eyebrow {
+    @apply text-sm font-bold uppercase tracking-[0.14em] text-teal;
+  }
+
+  /* Body links inside prose get a real underline, not a colour-only cue. */
+  .prose-link {
+    @apply font-semibold text-teal underline decoration-teal/35 underline-offset-4 transition-colors hover:decoration-teal;
   }
 }
 

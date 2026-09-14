@@ -8,13 +8,16 @@ import {
   Faq,
   FaqJsonLd,
   Money,
+  PageHero,
   PageJsonLd,
+  ProofBar,
   PayRateModule,
   QuizCta,
   StepTimeline,
   TopCountyLinks,
   VerdictBadge,
   type FaqItem,
+  type HeroStat,
 } from "@/components/Blocks";
 import { site } from "@/site.config";
 import { OG_IMAGE } from "@/lib/seo";
@@ -173,34 +176,43 @@ export default async function CaregiverPayPage({ params }: Props) {
       <FaqJsonLd items={faqs} url={url} />
       <Breadcrumbs crumbs={crumbs} />
 
-      <section className="mx-auto max-w-6xl px-4 pt-6 sm:px-6">
-        <h1 className="display max-w-3xl text-4xl font-extrabold leading-tight tracking-tight text-spruce sm:text-5xl">
-          How much do family caregivers get paid in{" "}
-          <span className="text-teal">{s.name}</span>?
-        </h1>
-        {s.pay.display ? (
-          <p className="mt-4 max-w-2xl text-2xl font-bold text-spruce">
-            Around <Money className="text-3xl">{s.pay.display}</Money>
-            {s.pay.varies ? " — and here is what moves that number." : "."}
-          </p>
-        ) : (
-          <p className="mt-4 max-w-2xl text-2xl font-bold text-spruce">
-            {s.name} doesn&apos;t publish one flat rate — and we won&apos;t
-            invent one.
-          </p>
-        )}
-        <p className="mt-3 max-w-2xl text-lg leading-relaxed">
-          {s.pay.display
-            ? `Your pay is not a posted wage. It comes out of a care budget that ${s.name} sets from your relative's assessed needs, which is why two caregivers in the same town can be paid differently.`
-            : `Your pay comes out of a care budget that ${s.name} sets from your relative's assessed needs. Any site quoting you a single ${s.name} hourly figure is guessing. We get you the real number before you enroll.`}
-        </p>
-        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-          <Link href={`/qualify/?state=${s.slug}`} className="btn-primary">
-            See what you&apos;d be paid →
-          </Link>
-          <CallButton />
-        </div>
-      </section>
+      <PageHero
+        eyebrow={`See your real ${s.name} number`}
+        title={
+          <>
+            What family caregivers are paid in{" "}
+            <span className="text-teal">{s.name}</span>
+          </>
+        }
+        lead={
+          s.pay.display
+            ? `Around ${s.pay.display}. Your pay is not a posted wage — it comes out of a care budget ${s.name} sets from your relative's assessed needs, which is why two caregivers on the same street can be paid differently.`
+            : `${s.name} doesn't publish one flat rate, and we won't invent one. Your pay comes out of a care budget the state sets from your relative's assessed needs. We get you the real number before you enroll.`
+        }
+        ctaHref={`/qualify/?state=${s.slug}`}
+        ctaLabel="See what you'd be paid →"
+        statsHeading={`${s.name} at a glance`}
+        stats={[
+          { label: "Reported pay", value: s.pay.display ?? "Varies", note: s.pay.display ? "set inside the care plan" : "no flat rate published" },
+          { label: "Programs", value: String(s.programs.length), note: "that can pay a relative" },
+          {
+            label: "Spouse pay",
+            value: s.spouse.status === "yes" ? "Yes" : s.spouse.status === "limited" ? "Sometimes" : "No",
+            note: "full rule on the spouse page",
+          },
+          {
+            label: "Waitlist",
+            value: s.waitlist.status === "none" ? "None" : s.waitlist.status === "mixed" ? "Mixed" : s.waitlist.status === "long" ? "Long" : "Possible",
+            note: "apply early either way",
+          },
+        ] satisfies HeroStat[]}
+        photo={{
+          src: "/photos/qualify-laptop.webp",
+          alt: "Hands at a laptop and notepad on a kitchen table",
+        }}
+      />
+
+      <ProofBar />
 
       <section className="mx-auto mt-10 grid max-w-6xl gap-6 px-4 sm:px-6 md:grid-cols-2">
         <PayRateModule state={s} lang="en" />

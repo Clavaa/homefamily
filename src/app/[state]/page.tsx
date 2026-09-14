@@ -3,18 +3,22 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Shell from "@/components/Shell";
 import {
-  CallButton,
+  Breadcrumbs,
   Faq,
   FaqJsonLd,
   PayRateModule,
+  PageHero,
+  ProofBar,
   QuizCta,
   VerdictBadge,
   type FaqItem,
+  type HeroStat,
 } from "@/components/Blocks";
 import { site } from "@/site.config";
 import { OG_IMAGE } from "@/lib/seo";
 import { getState, states, type StateData } from "@/data/states";
 import { countiesByState, STATE_ABBR } from "@/data/counties";
+import { countPeople, getStateRollup, pct } from "@/data/county-facts";
 
 export function generateStaticParams() {
   return states.map((s) => ({ state: s.slug }));
@@ -141,6 +145,7 @@ export default async function StatePage({ params }: Props) {
   const faqs = buildFaqs(s);
   const url = `${site.domain}/${s.slug}/`;
   const counties = countiesByState[s.slug] ?? [];
+  const roll = getStateRollup(s.slug);
   const webPageJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -174,45 +179,41 @@ export default async function StatePage({ params }: Props) {
       />
       <FaqJsonLd items={faqs} url={url} />
 
-      {/* ------------------------------------------------------ Breadcrumbs */}
-      <nav
-        aria-label="Breadcrumb"
-        className="mx-auto max-w-6xl px-4 pt-6 text-sm text-muted sm:px-6"
-      >
-        <ol className="flex flex-wrap items-center gap-1">
-          <li>
-            <Link href="/" className="hover:text-teal">
-              Home
-            </Link>
-          </li>
-          <li aria-hidden="true">›</li>
-          <li aria-current="page" className="font-semibold text-spruce">
-            {s.name}
-          </li>
-        </ol>
-      </nav>
+      <Breadcrumbs crumbs={[{ name: s.name, path: `/${s.slug}/` }]} />
 
-      {/* --------------------------------------------------------- Header */}
-      <section className="mx-auto max-w-6xl px-4 pt-4 sm:px-6">
-        <p className="text-sm font-bold uppercase tracking-wide text-teal">
-          {s.name}
-        </p>
-        <h1 className="display mt-1 max-w-3xl text-4xl font-extrabold leading-tight tracking-tight text-spruce sm:text-5xl">
-          Get Paid as a Family Caregiver in{" "}
-          <span className="text-teal">{s.name}</span>
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg leading-relaxed">
-          {s.name} has real Medicaid programs that pay family members to care
-          for a loved one at home. Here's what they pay, who can be paid, and
-          how to start.
-        </p>
-        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-          <Link href={`/qualify/?state=${s.slug}`} className="btn-primary">
-            See if you qualify →
-          </Link>
-          <CallButton />
-        </div>
-      </section>
+      <PageHero
+        eyebrow={`See what ${s.name} pays`}
+        title={
+          <>
+            Get paid as a family caregiver in{" "}
+            <span className="text-teal">{s.name}</span>
+          </>
+        }
+        lead={`${s.name} runs real Medicaid programs that pay family members to care for a loved one at home. Here is what they pay, who can be paid, and how to start.`}
+        ctaHref={`/qualify/?state=${s.slug}`}
+        ctaLabel="See if you qualify →"
+        statsHeading={`${s.name} at a glance`}
+        stats={
+          roll
+            ? ([
+                { label: "Aged 65+", value: countPeople(roll.pop65), note: `${pct(roll.share65)} of the state` },
+                { label: "Counties", value: String(roll.countyCount), note: "each with its own page" },
+                { label: "Programs", value: String(s.programs.length), note: "that can pay a relative" },
+                {
+                  label: "Spouse pay",
+                  value: s.spouse.status === "yes" ? "Yes" : s.spouse.status === "limited" ? "Sometimes" : "No",
+                  note: "see the full rule below",
+                },
+              ] satisfies HeroStat[])
+            : undefined
+        }
+        photo={{
+          src: "/photos/sunroom-grandmother.webp",
+          alt: "An older woman and her adult granddaughter in a bright sunroom",
+        }}
+      />
+
+      <ProofBar />
 
       {/* ------------------------------------------------------ Pay module */}
       <section className="mx-auto mt-10 grid max-w-6xl gap-6 px-4 sm:px-6 md:grid-cols-2">

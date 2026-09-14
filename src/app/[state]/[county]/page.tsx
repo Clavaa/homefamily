@@ -3,13 +3,16 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Shell from "@/components/Shell";
 import {
-  CallButton,
+  Breadcrumbs,
   Faq,
   FaqJsonLd,
+  PageHero,
   PayRateModule,
+  ProofBar,
   QuizCta,
   VerdictBadge,
   type FaqItem,
+  type HeroStat,
 } from "@/components/Blocks";
 import { site } from "@/site.config";
 import { OG_IMAGE } from "@/lib/seo";
@@ -126,6 +129,25 @@ const WAITLIST_SHORT: Record<string, string> = {
   long: "Waitlists can be long — apply early.",
 };
 
+/* ------------------------------------------------------------ photography */
+/**
+ * The photograph follows the county's archetype. A page that tells a family
+ * in a remote county that the nearest agency is an hour away should not be
+ * illustrated with a suburban porch — and no competitor varies imagery below
+ * the state level at all.
+ */
+function countyPhoto(f: CountyFacts, c: CountyData) {
+  return f.archetype === "rural" || f.archetype === "frontier"
+    ? {
+        src: "/photos/rural-home.webp",
+        alt: `A farmhouse set back from a gravel road, typical of ${c.display}`,
+      }
+    : {
+        src: "/photos/county-porch.webp",
+        alt: `The front porch of an ordinary home, typical of ${c.display}`,
+      };
+}
+
 /* -------------------------------------------------- local, fact-led copy -- */
 /**
  * The opening paragraph is built from this county's own federal figures, and
@@ -133,6 +155,18 @@ const WAITLIST_SHORT: Record<string, string> = {
  * people over 65 and no agency for an hour in any direction does not get the
  * same advice as Los Angeles County — and shouldn't get the same page.
  */
+/** One line for the hero — the whole argument, compressed. */
+function heroLead(c: CountyData, f: CountyFacts, s: StateData): string {
+  const who =
+    f.pop65 < 100
+      ? `the ${f.pop65} people here who are 65 or older`
+      : `the ${countPeople(f.pop65)} people in ${c.display} who are 65 or older`;
+  return (
+    `Most of ${who} are cared for at home, by a relative. ` +
+    `${s.name} Medicaid can pay you for that work.`
+  );
+}
+
 function localLead(c: CountyData, f: CountyFacts, s: StateData): string {
   const share = pct(f.share65);
 
@@ -286,117 +320,96 @@ export default async function CountyPage({ params }: Props) {
       />
       <FaqJsonLd items={faqs} url={url} />
 
-      {/* ------------------------------------------------------ Breadcrumbs */}
-      <nav
-        aria-label="Breadcrumb"
-        className="mx-auto max-w-6xl px-4 pt-6 text-sm text-muted sm:px-6"
-      >
-        <ol className="flex flex-wrap items-center gap-1">
-          <li>
-            <Link href="/" className="hover:text-teal">
-              Home
-            </Link>
-          </li>
-          <li aria-hidden="true">›</li>
-          <li>
-            <Link href={`/${s.slug}/`} className="hover:text-teal">
-              {s.name}
-            </Link>
-          </li>
-          <li aria-hidden="true">›</li>
-          <li aria-current="page" className="font-semibold text-spruce">
-            {c.short}
-          </li>
-        </ol>
-      </nav>
+      <Breadcrumbs
+        crumbs={[
+          { name: s.name, path: `/${s.slug}/` },
+          { name: c.short, path: `/${s.slug}/${c.slug}/` },
+        ]}
+      />
 
-      {/* ----------------------------------------------------------- Header */}
-      <section className="mx-auto max-w-6xl px-4 pt-6 sm:px-6">
-        <p className="text-sm font-bold uppercase tracking-wide text-teal">
-          {c.display}, {abbr}
-        </p>
-        <h1 className="display mt-1 max-w-3xl text-4xl font-extrabold leading-tight tracking-tight text-spruce sm:text-5xl">
-          Get paid to care for your family member in{" "}
-          <span className="text-teal">{c.display}</span>, {s.name}
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg leading-relaxed">
-          {f ? (
-            localLead(c, f, s)
-          ) : (
-            <>
-              {s.name} has real Medicaid programs that pay family members to
-              care for a parent, a spouse, or a child at home. Here is how it
-              works for {c.short} families.
-            </>
-          )}
-        </p>
-        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-          <Link href={`/qualify/?state=${s.slug}`} className="btn-primary">
-            See if you qualify →
-          </Link>
-          <CallButton />
-        </div>
-      </section>
+      {/* ------------------------------------------------------------- Hero */}
+      <PageHero
+        eyebrow={`See what ${c.short} families get paid`}
+        title={
+          <>
+            Get paid to care for family in{" "}
+            <span className="text-teal">{c.display}</span>
+          </>
+        }
+        lead={
+          f
+            ? heroLead(c, f, s)
+            : `${s.name} Medicaid programs pay family members to care for a loved one at home. Here is how it works for ${c.short} families.`
+        }
+        ctaHref={`/qualify/?state=${s.slug}`}
+        ctaLabel="See if you qualify →"
+        statsHeading={f ? `${c.display} at a glance` : undefined}
+        stats={
+          f
+            ? ([
+                {
+                  label: "Aged 65+",
+                  value: countPeople(f.pop65),
+                  note: `${pct(f.share65)} of residents`,
+                },
+                {
+                  label: "Aged 85+",
+                  value: countPeople(f.pop85),
+                  note: "when daily help usually starts",
+                },
+                {
+                  label: `Rank in ${abbr}`,
+                  value: f.rank65 ? ordinal(f.rank65) : "—",
+                  note: `of ${f.stateCountyCount} counties, by residents 65+`,
+                },
+                {
+                  label: "Median age",
+                  value: f.medianAge ? f.medianAge.toFixed(1) : "—",
+                  note:
+                    f.vsNationPts >= 2
+                      ? "older than the country"
+                      : f.vsNationPts <= -2
+                        ? "younger than the country"
+                        : "close to the national average",
+                },
+              ] satisfies HeroStat[])
+            : undefined
+        }
+        photo={f ? countyPhoto(f, c) : undefined}
+        statsFootnote={
+          f
+            ? `${VINTAGE.pop}. ${c.display} is ${f.setting}${f.rucc ? ` (Rural-Urban Continuum Code ${f.rucc})` : ""}.`
+            : undefined
+        }
+      />
 
-      {/* -------------------------------------------- Who needs care here -- */}
+      <ProofBar />
+
+      {/* ------------------------------------------ What this means locally */}
       {f && (
-        <section className="mx-auto mt-10 max-w-6xl px-4 sm:px-6">
-          <h2 className="display text-2xl font-extrabold text-spruce sm:text-3xl">
-            Who needs care in {c.short}
-          </h2>
-          <dl className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              {
-                k: "People 65 and older",
-                v: countPeople(f.pop65),
-                note: `${pct(f.share65)} of ${c.short} residents`,
-              },
-              {
-                k: "People 85 and older",
-                v: countPeople(f.pop85),
-                note: "the age daily help usually starts",
-              },
-              {
-                k: "Median age",
-                v: f.medianAge ? f.medianAge.toFixed(1) : "—",
-                note:
-                  f.vsNationPts >= 2
-                    ? "older than the country as a whole"
-                    : f.vsNationPts <= -2
-                      ? "younger than the country as a whole"
-                      : "close to the national average",
-              },
-              {
-                k: `Rank in ${s.name}`,
-                v: f.rank65 ? ordinal(f.rank65) : "—",
-                note: `of ${f.stateCountyCount} counties, by residents 65+`,
-              },
-            ].map((stat) => (
-              <div key={stat.k} className="card !p-5">
-                <dt className="text-sm font-bold uppercase tracking-wide text-muted">
-                  {stat.k}
-                </dt>
-                <dd className="display mt-1 text-3xl font-extrabold tabular-nums text-spruce">
-                  {stat.v}
-                </dd>
-                <p className="mt-1 text-sm leading-relaxed text-muted">
-                  {stat.note}
-                </p>
-              </div>
-            ))}
-          </dl>
-          <p className="mt-3 text-xs text-muted">
-            Source: {VINTAGE.pop}. {c.display} is {f.setting}
-            {f.rucc ? ` (USDA Rural-Urban Continuum Code ${f.rucc})` : ""}.
-            {roll
-              ? ` ${s.name} as a whole is ${pct(roll.share65)} aged 65 or older.`
-              : ""}
-          </p>
+        <section className="band band-paper">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
+            <p className="eyebrow">Care in {c.short}</p>
+            <h2 className="display h-section mt-2 max-w-3xl font-extrabold text-spruce">
+              What being a paid caregiver looks like here
+            </h2>
+            <p className="mt-5 max-w-3xl text-lg leading-relaxed">
+              {localLead(c, f, s)}
+            </p>
+            {roll && (
+              <p className="mt-4 max-w-3xl leading-relaxed text-muted">
+                Statewide, {countPeople(roll.pop65)} people in {s.name} are 65
+                or older — {pct(roll.share65)} of the state, across{" "}
+                {roll.countyCount} counties.
+              </p>
+            )}
+          </div>
         </section>
       )}
 
       {/* -------------------------------------- Pay module + state summary */}
-      <section className="mx-auto mt-12 grid max-w-6xl gap-6 px-4 sm:px-6 md:grid-cols-2">
+      <section className="band band-white">
+        <div className="mx-auto grid max-w-6xl gap-6 px-4 sm:px-6 md:grid-cols-2">
         <PayRateModule state={s} lang="en" />
         <div className="card !p-6">
           <h2 className="display text-lg font-bold text-spruce">
@@ -445,12 +458,14 @@ export default async function CountyPage({ params }: Props) {
             </Link>
           </p>
         </div>
+        </div>
       </section>
 
       {/* --------------------------------------------------- Towns we cover */}
       {f && f.towns.length > 1 && (
-        <section className="mx-auto mt-12 max-w-6xl px-4 sm:px-6">
-          <h2 className="display text-2xl font-extrabold text-spruce">
+        <section className="band band-mist">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <h2 className="display h-section font-extrabold text-spruce">
             Towns and cities in {c.display}
           </h2>
           <p className="mt-2 max-w-2xl leading-relaxed">
@@ -472,13 +487,15 @@ export default async function CountyPage({ params }: Props) {
             ))}
           </ul>
           <p className="mt-3 text-xs text-muted">Source: {VINTAGE.places}.</p>
+          </div>
         </section>
       )}
 
       {/* ---------------------------------------------------- How to apply */}
-      <section className="mx-auto mt-12 max-w-6xl px-4 sm:px-6">
+      <section className="band band-white">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="rounded-3xl bg-mist p-6 sm:p-8">
-          <h2 className="display text-3xl font-extrabold text-spruce">
+          <h2 className="display h-section font-extrabold text-spruce">
             How families in {c.short} apply
           </h2>
           <p className="mt-3 max-w-2xl leading-relaxed">
@@ -496,10 +513,12 @@ export default async function CountyPage({ params }: Props) {
             See if you qualify →
           </Link>
         </div>
+        </div>
       </section>
 
       {/* ------------------------------------------------------------- FAQ */}
-      <section className="mx-auto mt-14 max-w-3xl px-4 sm:px-6">
+      <section className="band band-paper">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <Faq
           heading={`${c.short} questions, answered honestly`}
           items={faqs}
@@ -510,6 +529,7 @@ export default async function CountyPage({ params }: Props) {
           rules · Population figures from the U.S. Census Bureau · Updated{" "}
           {site.updated}. Rules change — always confirm with the program.
         </p>
+        </div>
       </section>
 
       {/* ------------------------------------------------ Nearby counties */}
