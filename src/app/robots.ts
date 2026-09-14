@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
 import { isIndexable, site } from "@/site.config";
-import { states } from "@/data/states";
 
 /**
  * Production serves the real robots.txt. Every other deployment — previews,
@@ -13,9 +12,8 @@ export default function robots(): MetadataRoute.Robots {
   }
   return {
     rules: [{ userAgent: "*", allow: "/", disallow: ["/api/"] }],
-    sitemap: [
-      `${site.domain}/sitemap/core.xml`,
-      ...states.map((s) => `${site.domain}/sitemap/${s.slug}.xml`),
-    ],
+    // One line, not 52: /sitemap.xml is an index and Google walks it to the
+    // shards. Listing every shard here as well just duplicates the index.
+    sitemap: `${site.domain}/sitemap.xml`,
   };
 }
