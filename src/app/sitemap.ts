@@ -41,6 +41,7 @@ export default function sitemap({
       { url: `${base}/qualify/`, lastModified: now, priority: 0.9 },
       { url: `${base}/states/`, lastModified: now, priority: 0.8 },
       { url: `${base}/about/`, lastModified: now, priority: 0.6 },
+      { url: `${base}/privacy/`, lastModified: now, priority: 0.3 },
       { url: `${base}/wisconsin/iris/`, lastModified: now, priority: 0.9 },
       // Every state carries the two money pages; the home state ranks highest.
       ...states.flatMap((s) => [

@@ -30,7 +30,7 @@ const T = {
     navAbout: "About us",
     navLeadership: "Our leadership",
     privacy:
-      "Your info is confidential and HIPAA-protected. We never sell your information.",
+      "We never sell your information, set no cookies, and never store your IP address.",
     rights: "All rights reserved.",
   },
   es: {
@@ -53,7 +53,7 @@ const T = {
     navAbout: "Quiénes somos (en inglés)",
     navLeadership: "Nuestro equipo (en inglés)",
     privacy:
-      "Su información es confidencial y protegida por HIPAA. Nunca vendemos su información.",
+      "Nunca vendemos su información, no usamos cookies y nunca guardamos su dirección IP.",
     rights: "Todos los derechos reservados.",
   },
 } as const;
@@ -254,7 +254,12 @@ export function Footer({
 
         <div className="mt-12 grid gap-6 border-t border-white/15 pt-8 text-sm leading-relaxed text-white/65 md:grid-cols-3">
           <p>{t.notAgency}</p>
-          <p>{t.privacy}</p>
+          <p>
+            {t.privacy}{" "}
+            <Link href="/privacy/" className="underline hover:text-white">
+              {lang === "es" ? "Privacidad" : "Privacy"}
+            </Link>
+          </p>
           <p>
             © <span className="tnum">{year}</span> {site.brand}. {t.rights}
           </p>

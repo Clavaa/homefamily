@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Public_Sans } from "next/font/google";
+import { Suspense } from "react";
+import Analytics from "@/components/Analytics";
 import { isIndexable, site } from "@/site.config";
 import "./globals.css";
 
@@ -76,6 +78,12 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
         />
         {children}
+        {/* useSearchParams needs a boundary or every one of the 3,305 pages
+            opts out of static rendering. The beacon renders nothing, so the
+            fallback is null. */}
+        <Suspense fallback={null}>
+          <Analytics />
+        </Suspense>
       </body>
     </html>
   );
