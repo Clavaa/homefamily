@@ -21,7 +21,15 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: {
     default: `Get Paid to Care for a Family Member | ${site.brand}`,
-    template: `%s | ${site.brand}`,
+    /**
+     * No brand suffix on inner pages. Every generator already budgets its
+     * title to ~60 characters — appending " | Sunroom Care" pushed 3,249 of
+     * 3,305 pages past where Google truncates, so the brand was being cut off
+     * anyway while eating the space the location and the offer need. A new
+     * site has no brand equity to trade that width for; the wordmark, the H1
+     * and the OG tags carry the name instead.
+     */
+    template: "%s",
   },
   description:
     "Medicaid programs in all 50 states can pay you to care for a family member at home. Free 2-minute check. We help you enroll — free to apply.",

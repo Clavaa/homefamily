@@ -126,7 +126,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : `${s.name} doesn't publish one flat rate — here's what actually sets your pay, who pays it, and how to apply. No made-up numbers. Free 2-minute check.`;
   const path = `/${s.slug}/${SLUG}/`;
   return {
-    title: title.length <= 62 ? title : `Family Caregiver Pay in ${s.name}`,
+    title: title.length <= 60 ? title : `Family Caregiver Pay in ${s.name}`,
     description: description.slice(0, 158),
     alternates: { canonical: path },
     openGraph: {

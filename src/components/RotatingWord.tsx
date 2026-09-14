@@ -24,16 +24,18 @@ export default function RotatingWord({ words }: { words: string[] }) {
     return () => clearInterval(t);
   }, [words.length]);
 
+  // One element, not two. The previous version paired a visually-hidden
+  // static word with an aria-hidden visible one — correct for screen readers,
+  // but sr-only text is still in the DOM, so the rendered H1 read "care for
+  // mom mom" to anything parsing text content, Google included. A plain span
+  // is not a live region, so screen readers announce it once and ignore the
+  // swaps; that gets the a11y behaviour without duplicating the keyword.
   return (
-    <>
-      <span className="sr-only">{words[0]}</span>
-      <span
-        aria-hidden="true"
-        className={`inline-block rounded-xl bg-marigold-soft px-2 text-spruce transition-opacity duration-200 ${visible ? "opacity-100" : "opacity-0"}`}
-        style={{ boxShadow: "inset 0 -0.18em 0 0 var(--color-marigold)" }}
-      >
-        {words[i]}
-      </span>
-    </>
+    <span
+      className={`inline-block rounded-xl bg-marigold-soft px-2 text-spruce transition-opacity duration-200 ${visible ? "opacity-100" : "opacity-0"}`}
+      style={{ boxShadow: "inset 0 -0.18em 0 0 var(--color-marigold)" }}
+    >
+      {words[i]}
+    </span>
   );
 }

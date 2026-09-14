@@ -156,18 +156,32 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = getState(state);
   if (!s) return {};
   const verdict = s.spouse.status as Verdict;
-  const title =
-    verdict === "yes"
-      ? `Get Paid to Care for Your Spouse in ${s.name}`
-      : verdict === "limited"
-        ? `Can I Get Paid to Care for My Spouse in ${s.name}?`
-        : `Paid to Care for a Spouse in ${s.name}: the Real Answer`;
+  // Longest variant that still fits where Google truncates. "District of
+  // Columbia" is 20 characters on its own and overruns every long form.
+  const titleTiers: Record<Verdict, string[]> = {
+    yes: [
+      `Get Paid to Care for Your Spouse in ${s.name}`,
+      `Spousal Caregiver Pay in ${s.name}`,
+    ],
+    limited: [
+      `Can I Get Paid to Care for My Spouse in ${s.name}?`,
+      `Spousal Caregiver Pay in ${s.name}: the Rules`,
+      `Spousal Caregiver Pay in ${s.name}`,
+    ],
+    no: [
+      `Paid to Care for a Spouse in ${s.name}: the Real Answer`,
+      `Spousal Caregiver Pay in ${s.name}: the Real Answer`,
+      `Spousal Caregiver Pay in ${s.name}`,
+    ],
+  };
+  const tiers = titleTiers[verdict];
+  const title = tiers.find((t) => t.length <= 60) ?? tiers[tiers.length - 1];
   const description =
     verdict === "yes"
       ? `${s.name} allows a husband or wife to be the paid caregiver. See the rule, the pay, and how to apply. Free 2-minute eligibility check.`
       : verdict === "limited"
         ? `In ${s.name} it depends on the program. See which routes can pay a spouse, what the rule actually says, and how to apply. Free 2-minute check.`
-        : `${s.name} generally won't pay a husband or wife — but other relatives can be paid. See the rule, the alternatives, and how to apply. Free 2-minute check.`;
+        : `${s.name} generally won't pay a husband or wife — but other relatives can be. See the rule, the alternatives, and how to apply. Free 2-minute check.`;
   const path = `/${s.slug}/${SLUG}/`;
   return {
     title,

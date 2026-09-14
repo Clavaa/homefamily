@@ -19,9 +19,14 @@ import { pageMeta } from "@/lib/seo";
 import { wisconsin } from "@/data/states";
 
 export const metadata: Metadata = pageMeta({
-  title: `Wisconsin Pays Family Caregivers — Get Paid to Care for Mom | ${site.brand}`,
+  // National, not Wisconsin. This page is the site's highest-authority URL and
+  // it was targeting one of the 51 states it covers — conceding the head term
+  // ("get paid to care for a family member") while competing with our own
+  // /wisconsin/ pages for Wisconsin intent. The state pages carry state
+  // intent; the home page carries the category.
+  title: `Get Paid to Care for a Family Member | ${site.brand}`,
   description:
-    "Wisconsin Medicaid programs like IRIS can pay you to care for a family member at home — even a spouse. Free 2-minute eligibility check. Free to apply.",
+    "Medicaid programs in all 50 states can pay you to care for a family member at home — a parent, a child, even a spouse in some states. Free 2-minute check.",
   path: "/",
   languages: { en: "/", es: "/es/", "x-default": "/" },
   absoluteTitle: true,
@@ -84,15 +89,15 @@ const wiPrograms = [
 const faqs = [
   {
     q: "Is this legit?",
-    a: "Yes. These are real Medicaid programs run by the Wisconsin Department of Health Services — IRIS, Family Care, and Personal Care Services. They have paid family caregivers for years. We simply help you enroll, and applying costs you nothing.",
+    a: "Yes. Every state runs Medicaid programs that pay family caregivers — they have different names in each state, like IRIS in Wisconsin, IHSS in California, or CDASS in Colorado, and they have paid relatives for years. We simply help you enroll, and applying costs you nothing.",
   },
   {
     q: "Why would the government pay me?",
-    a: "Care at home costs Medicaid far less than a nursing home. So Wisconsin pays family members to give that care at home. It is good for your loved one, and it is the law working the way it should.",
+    a: "Care at home costs Medicaid far less than a nursing home. So states pay family members to give that care at home instead. It is good for your loved one, and it is the law working the way it should.",
   },
   {
     q: "How much will I get paid?",
-    a: "In Wisconsin, family caregivers typically earn about $12 to $17 per hour. Your exact pay depends on the program and your loved one's care plan. We tell you your real number before you enroll.",
+    a: "It depends on your state. Published hourly figures run from about $11 to just over $29, and 22 states do not publish a single rate at all, because pay is set inside your loved one's care plan and budget. Pick your state and we will show you its real number before you enroll.",
   },
   {
     q: "Do I need training or a license?",
@@ -104,7 +109,7 @@ const faqs = [
   },
   {
     q: "Can I get paid to care for my spouse?",
-    a: "In Wisconsin, yes. The IRIS program lets you hire relatives — including a husband or wife. Not every state allows this, so Wisconsin families are lucky here.",
+    a: "In 22 states, yes — their programs let the person who needs care hire their own husband or wife. In 13 more it depends on the program, and in 16 it is not allowed directly, though other relatives usually can be paid. Your state page gives you the straight answer.",
   },
   {
     q: "How long does it take?",
@@ -120,7 +125,7 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-16 pt-10 sm:px-6 md:grid-cols-2 md:pt-14">
           <div>
             <h1 className="display text-4xl font-extrabold leading-[1.05] tracking-tight text-spruce sm:text-5xl lg:text-6xl">
-              <span className="text-teal">Wisconsin</span> pays family
+              <span className="text-teal">Your state</span> pays family
               caregivers.{" "}
               <span className="block mt-2">
                 Get <span className="text-pay">paid</span> to care for{" "}
@@ -163,20 +168,22 @@ export default function HomePage() {
               Real pay for the care you already give
             </h2>
             <p className="mt-4 leading-relaxed">
-              You already help with meals, baths, meds, and rides. Wisconsin
-              has programs that pay family members for exactly that work —
-              usually <Money>$12–$17/hr</Money>, paid weekly by direct
-              deposit.
+              You already help with meals, baths, meds, and rides. Every state
+              has a program that pays family members for exactly that work.
+              Published rates run from about <Money>$11/hr</Money> to over{" "}
+              <Money>$29/hr</Money> depending on where you live.
             </p>
             <p className="mt-3 leading-relaxed text-muted">
-              Your exact rate is set inside the program's budget. We'll show
-              you your real number before you sign anything.
+              Your exact rate is set inside the program's budget, not by a
+              posted wage. We'll show you your real number before you sign
+              anything — and if your state doesn't publish a rate, we say so
+              rather than making one up.
             </p>
             <Link
-              href="/wisconsin/caregiver-pay/"
+              href="/states/"
               className="mt-4 inline-block font-semibold text-teal underline"
             >
-              See how Wisconsin caregiver pay works →
+              See what your state pays →
             </Link>
           </div>
         </div>
@@ -203,8 +210,12 @@ export default function HomePage() {
           Wisconsin's programs, in plain words
         </h2>
         <p className="mt-2 max-w-xl text-muted">
-          Every family fits a different program. The 2-minute check tells you
-          yours.
+          Wisconsin is where we started, so its programs are the ones we can
+          explain in the most detail. Every other state has its own —{" "}
+          <Link href="/states/" className="text-teal underline">
+            pick yours
+          </Link>
+          .
         </p>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {wiPrograms.map((p) => (
@@ -250,7 +261,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 pb-4 sm:px-6">
         <div className="rounded-3xl border border-mist bg-white p-6 text-center">
           <p className="font-semibold text-spruce">
-            Not in Wisconsin? Every state has its own program.
+            All 50 states and DC — 3,144 counties covered.
           </p>
           <p className="mt-1 text-sm text-muted">
             Pick your state in the 2-minute check and we'll show you what it
