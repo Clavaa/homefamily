@@ -7,6 +7,9 @@ import {
   Faq,
   FaqJsonLd,
   HeroPhoto,
+  NationalPayCard,
+  ProofBar,
+  RoleSplit,
   Money,
   PayRateModule,
   QuickStart,
@@ -162,7 +165,7 @@ export default function HomePage() {
       {/* ------------------------------------------------- Pay-rate module */}
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
         <div className="grid items-center gap-8 md:grid-cols-2">
-          <PayRateModule state={wisconsin} lang="en" />
+          <NationalPayCard low="$11" high="$29" publishing={29} total={51} />
           <div>
             <h2 className="display text-3xl font-extrabold text-spruce">
               Real pay for the care you already give
@@ -188,6 +191,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <ProofBar />
+
+      <RoleSplit />
 
       {/* ---------------------------------------------------- Step timeline */}
       <section id="how-it-works" className="scroll-mt-20 bg-mist">

@@ -782,3 +782,122 @@ export function PageHero({
     </section>
   );
 }
+
+
+/* ------------------------------------------------------------ RoleSplit -- */
+/**
+ * Two doors, asked on arrival. CaringPays opens its state pages with exactly
+ * this ("I Want To Get Paid To Care For My Loved One" / "I Want My Loved One
+ * To Care For Me") and it is the right question: the two visitors want
+ * opposite things and the same page cannot speak to both at once.
+ *
+ * Both routes feed one role-tagged quiz rather than two funnels, so the split
+ * costs nothing operationally.
+ */
+export function RoleSplit({ lang = "en" as Lang }: { lang?: Lang }) {
+  const t =
+    lang === "es"
+      ? {
+          heading: "¿Qué le trae aquí hoy?",
+          a: { h: "Quiero recibir pago por cuidar", b: "Cuido a un familiar y quiero que me paguen por ese trabajo.", cta: "Ver si califico" },
+          b: { h: "Necesito cuidado en casa", b: "Necesito ayuda en casa y quiero elegir quién me la da.", cta: "Ver mis opciones" },
+        }
+      : {
+          heading: "What brings you here today?",
+          a: { h: "I want to get paid to care", b: "I already care for a relative, and I want to be paid for that work.", cta: "See if I qualify" },
+          b: { h: "I need care at home", b: "I need help at home, and I want to choose who gives it.", cta: "See my options" },
+        };
+  const cards = [
+    { ...t.a, href: "/qualify/?role=caregiver", tint: "border-pay" },
+    { ...t.b, href: "/qualify/?role=recipient", tint: "border-teal" },
+  ];
+  return (
+    <section className="band band-white">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <h2 className="display h-section font-extrabold text-spruce">
+          {t.heading}
+        </h2>
+        <div className="mt-7 grid gap-5 md:grid-cols-2">
+          {cards.map((c) => (
+            <Link
+              key={c.h}
+              href={c.href}
+              className={`card group flex flex-col border-t-8 no-underline transition-shadow hover:shadow-[0_2px_4px_rgba(15,61,68,0.08),0_16px_40px_-12px_rgba(15,61,68,0.25)] ${c.tint}`}
+            >
+              <h3 className="display text-2xl font-extrabold text-spruce">
+                {c.h}
+              </h3>
+              <p className="mt-3 flex-1 leading-relaxed text-muted">{c.b}</p>
+              <span className="mt-5 font-semibold text-teal underline decoration-teal/35 underline-offset-4 group-hover:decoration-teal">
+                {c.cta} →
+              </span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+/* ------------------------------------------------------ NationalPayCard -- */
+/**
+ * The pay module for the national home page. The state version of this card
+ * showed Wisconsin's $12–$17 next to copy describing the whole country, which
+ * read as a contradiction on the site's most-visited page.
+ *
+ * Both figures are derived in the data layer, not asserted: the range is the
+ * min and max of every published hourly rate in states.json, and the count is
+ * how many of the 51 jurisdictions publish one at all. The honest half — that
+ * 22 don't — is the part competitors leave out.
+ */
+export function NationalPayCard({
+  low,
+  high,
+  publishing,
+  total,
+  lang = "en" as Lang,
+}: {
+  low: string;
+  high: string;
+  publishing: number;
+  total: number;
+  lang?: Lang;
+}) {
+  const t =
+    lang === "es"
+      ? {
+          heading: "Lo que los estados pagan a cuidadores familiares",
+          vary: "Las tarifas varían según el estado",
+          note: `${publishing} de ${total} estados publican una tarifa por hora. Los demás la fijan dentro del plan de cuidado — se lo diremos antes de inscribirse.`,
+          source: "Reglas publicadas de Medicaid de cada estado",
+        }
+      : {
+          heading: "What states pay family caregivers",
+          vary: "Rates vary by state",
+          note: `${publishing} of ${total} states publish an hourly figure. The rest set it inside the care plan — we get you that number before you enroll.`,
+          source: "Each state's published Medicaid program rules",
+        };
+  return (
+    <section
+      aria-label={t.heading}
+      className="card border-l-8 border-marigold"
+    >
+      <h2 className="display text-lg font-bold text-spruce">{t.heading}</h2>
+      <p className="mt-2">
+        <Money className="display text-5xl tracking-tight sm:text-6xl">
+          {low}–{high}
+        </Money>
+      </p>
+      <div className="mt-3 flex flex-wrap items-center gap-2">
+        <span className="rounded-full bg-mist px-3 py-1 text-sm font-semibold text-teal">
+          {t.vary}
+        </span>
+      </div>
+      <p className="mt-3 text-sm leading-relaxed text-muted">{t.note}</p>
+      <p className="mt-4 border-t border-mist pt-3 text-xs text-muted">
+        {t.source} · {lang === "es" ? site.updatedEs : site.updated}
+      </p>
+    </section>
+  );
+}

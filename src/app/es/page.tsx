@@ -7,6 +7,9 @@ import {
   Faq,
   FaqJsonLd,
   HeroPhoto,
+  NationalPayCard,
+  ProofBar,
+  RoleSplit,
   Money,
   PayRateModule,
   QuickStart,
@@ -148,6 +151,10 @@ export default function HomePageEs() {
         </div>
       </section>
 
+      <ProofBar lang="es" />
+
+      <RoleSplit lang="es" />
+
       {/* ----------------------------------------------------- Trust strip */}
       <TrustStrip
         lang="es"
@@ -157,7 +164,7 @@ export default function HomePageEs() {
       {/* ------------------------------------------------- Pay-rate module */}
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6" lang="es">
         <div className="grid items-center gap-8 md:grid-cols-2">
-          <PayRateModule state={wisconsin} lang="es" />
+          <NationalPayCard low="$11" high="$29" publishing={29} total={51} lang="es" />
           <div>
             <h2 className="display text-3xl font-extrabold text-spruce">
               Pago real por el cuidado que ya da
