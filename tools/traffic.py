@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Traffic report for sproutwellaba.com.
+Traffic report for sunroomcare.com.
 
     tools/traffic.sh            # today
     tools/traffic.sh 2          # last 2 days
@@ -70,7 +70,7 @@ def main():
     label = "last 24 hours" if days == 1 else f"last {days} days"
 
     scope = "humans only, internal included" if HUMAN == "NOT is_bot" else "humans only, internal excluded"
-    print(f"\n\033[1msproutwellaba.com — {label}\033[0m   ({scope})")
+    print(f"\n\033[1msunroomcare.com — {label}\033[0m   ({scope})")
 
     tot = bq(f"""
       SELECT
