@@ -15,12 +15,23 @@ export function generateSitemaps(): { id: string }[] {
   return [{ id: "core" }, ...states.map((s) => ({ id: s.slug }))];
 }
 
+/**
+ * lastmod has to mean something. It was new Date() at build time, so all
+ * 3,305 URLs carried the same timestamp and it changed on every deploy —
+ * which is exactly the pattern Google treats as a build artifact and
+ * ignores. These are the real dates the underlying content last changed:
+ * the data vintage for pages built from the county/state datasets, and the
+ * content review date for hand-written pages.
+ */
+const DATA_UPDATED = new Date("2026-09-06T00:00:00Z");
+const CONTENT_UPDATED = new Date("2026-09-14T00:00:00Z");
+
 export default function sitemap({
   id,
 }: {
   id: string;
 }): MetadataRoute.Sitemap {
-  const now = new Date();
+  const now = CONTENT_UPDATED;
   const base = site.domain;
 
   if (id === "core") {
@@ -51,7 +62,7 @@ export default function sitemap({
   const counties = countiesByState[id] ?? [];
   return counties.map((c) => ({
     url: `${base}/${id}/${c.slug}/`,
-    lastModified: now,
+    lastModified: DATA_UPDATED,
     priority: 0.5,
   }));
 }

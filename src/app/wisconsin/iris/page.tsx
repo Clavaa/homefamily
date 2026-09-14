@@ -74,7 +74,7 @@ const steps = [
 export default function IrisPage() {
   const url = `${site.domain}/wisconsin/iris/`;
   return (
-    <Shell lang="en">
+    <Shell lang="en" state={{ slug: "wisconsin", name: "Wisconsin" }}>
       <FaqJsonLd items={faqs} url={url} />
       <script
         type="application/ld+json"

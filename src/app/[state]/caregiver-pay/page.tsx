@@ -7,6 +7,7 @@ import {
   Breadcrumbs,
   Faq,
   FaqJsonLd,
+  HowToJsonLd,
   Money,
   PageHero,
   PageJsonLd,
@@ -166,7 +167,7 @@ export default async function CaregiverPayPage({ params }: Props) {
   ];
 
   return (
-    <Shell lang="en">
+    <Shell lang="en" state={{ slug: s.slug, name: s.name }}>
       <PageJsonLd
         url={url}
         name={`What family caregivers are paid in ${s.name}`}
@@ -174,6 +175,12 @@ export default async function CaregiverPayPage({ params }: Props) {
         crumbs={crumbs}
       />
       <FaqJsonLd items={faqs} url={url} />
+      <HowToJsonLd
+        url={url}
+        name={`How to get paid as a family caregiver in ${s.name}`}
+        description={`The steps from first check to first paycheck for a family caregiver in ${s.name}.`}
+        steps={steps(s)}
+      />
       <Breadcrumbs crumbs={crumbs} />
 
       <PageHero

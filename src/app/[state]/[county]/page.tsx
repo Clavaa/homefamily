@@ -309,7 +309,7 @@ export default async function CountyPage({ params }: Props) {
   };
 
   return (
-    <Shell lang="en">
+    <Shell lang="en" state={{ slug: s.slug, name: s.name }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}

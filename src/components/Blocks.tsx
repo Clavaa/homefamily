@@ -950,3 +950,44 @@ export function NationalPayCard({
     </section>
   );
 }
+
+
+/* ------------------------------------------------------------ HowTo ------ */
+/**
+ * HowTo schema for the enrollment steps. The teardown found FAQPage on most
+ * competitors and HowTo on none of them, and "how to get paid to care for a
+ * family member" is a how-to query in the most literal sense.
+ */
+export function HowToJsonLd({
+  name,
+  description,
+  steps,
+  url,
+}: {
+  name: string;
+  description: string;
+  steps: Step[];
+  url: string;
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "@id": `${url}#howto`,
+    name,
+    description,
+    totalTime: "P21D",
+    estimatedCost: { "@type": "MonetaryAmount", currency: "USD", value: "0" },
+    step: steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.title,
+      text: s.body,
+    })),
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}

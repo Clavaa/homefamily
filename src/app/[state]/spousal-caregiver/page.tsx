@@ -226,7 +226,7 @@ export default async function SpousalPage({ params }: Props) {
   ];
 
   return (
-    <Shell lang="en">
+    <Shell lang="en" state={{ slug: s.slug, name: s.name }}>
       <PageJsonLd
         url={url}
         name={`Getting paid to care for a spouse in ${s.name}`}

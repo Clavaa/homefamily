@@ -4,6 +4,12 @@ import { Logo } from "@/components/Logo";
 
 export type Lang = "en" | "es";
 
+/** The state a page is about, when it is about one. */
+export interface PageState {
+  slug: string;
+  name: string;
+}
+
 const T = {
   en: {
     hablamos: "Hablamos español",
@@ -149,7 +155,7 @@ export function StickyBar({ lang }: { lang: Lang }) {
   );
 }
 
-export function Footer({ lang }: { lang: Lang }) {
+export function Footer({ lang, state }: { lang: Lang; state?: PageState }) {
   const t = T[lang];
   const year = new Date().getFullYear();
   return (
@@ -210,32 +216,47 @@ export function Footer({ lang }: { lang: Lang }) {
                 {t.navLeadership}
               </Link>
             </li>
-            <li>
-              <Link href="/wisconsin/" className="text-white/90 hover:text-white">
-                {t.navWi}
-              </Link>
-            </li>
-            <li>
-              <Link href="/wisconsin/iris/" className="text-white/90 hover:text-white">
-                Wisconsin IRIS
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/wisconsin/spousal-caregiver/"
-                className="text-white/90 hover:text-white"
-              >
-                {lang === "es" ? "Pago para esposos (WI)" : "Spousal caregiver pay (WI)"}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/wisconsin/caregiver-pay/"
-                className="text-white/90 hover:text-white"
-              >
-                {lang === "es" ? "Tarifas de pago (WI)" : "Caregiver pay rates (WI)"}
-              </Link>
-            </li>
+            {/* State-aware. Every county page used to link only Wisconsin's
+                money pages, so 3,144 pages sent their internal link equity to
+                the wrong state and never to their own. */}
+            {state ? (
+              <>
+                <li>
+                  <Link href={`/${state.slug}/`} className="text-white/90 hover:text-white">
+                    {state.name}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={`/${state.slug}/caregiver-pay/`}
+                    className="text-white/90 hover:text-white"
+                  >
+                    {lang === "es" ? `Tarifas de pago (${state.name})` : `${state.name} caregiver pay`}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={`/${state.slug}/spousal-caregiver/`}
+                    className="text-white/90 hover:text-white"
+                  >
+                    {lang === "es" ? `Pago para esposos (${state.name})` : `Spousal pay in ${state.name}`}
+                  </Link>
+                </li>
+                {state.slug === "wisconsin" && (
+                  <li>
+                    <Link href="/wisconsin/iris/" className="text-white/90 hover:text-white">
+                      Wisconsin IRIS
+                    </Link>
+                  </li>
+                )}
+              </>
+            ) : (
+              <li>
+                <Link href="/states/" className="text-white/90 hover:text-white">
+                  {t.navStates}
+                </Link>
+              </li>
+            )}
           </ul>
         </nav>
         <div className="text-sm leading-relaxed text-white/70">
@@ -253,16 +274,19 @@ export function Footer({ lang }: { lang: Lang }) {
 /** Page chrome wrapper — utility bar on top, sticky call bar + footer below. */
 export default function Shell({
   lang,
+  state,
   children,
 }: {
   lang: Lang;
+  /** Set on any page about one state, so the footer links that state. */
+  state?: PageState;
   children: React.ReactNode;
 }) {
   return (
     <>
       <UtilityBar lang={lang} />
       <main>{children}</main>
-      <Footer lang={lang} />
+      <Footer lang={lang} state={state} />
       <StickyBar lang={lang} />
     </>
   );
