@@ -120,8 +120,9 @@ export default function HomePageEs() {
   return (
     <Shell lang="es">
       {/* ------------------------------------------------------------ Hero */}
-      <section className="bg-paper" lang="es">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-16 pt-10 sm:px-6 md:grid-cols-2 md:pt-14">
+      <section className="relative overflow-hidden bg-paper" lang="es">
+        <HeroPhotoBleed lang="es" />
+        <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 pb-16 pt-10 sm:px-6 md:grid-cols-2 md:pb-24 md:pt-20">
           <div>
             <h1 className="display text-4xl font-extrabold leading-[1.05] tracking-tight text-spruce sm:text-5xl lg:text-6xl">
               <span className="text-teal">Su estado</span> paga a cuidadores
