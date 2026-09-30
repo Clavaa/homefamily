@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Shell from "@/components/Shell";
+import LibraryLinks from "@/components/LibraryLinks";
 import {
   CallButton,
   Breadcrumbs,
@@ -360,6 +361,8 @@ export default async function SpousalPage({ params }: Props) {
           program.
         </p>
       </section>
+
+      <LibraryLinks state={s} />
 
       <TopCountyLinks
         stateSlug={s.slug}

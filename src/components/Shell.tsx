@@ -15,6 +15,7 @@ const T = {
     hablamos: "Hablamos español",
     navTopStates: "States",
     navTopHow: "How it works",
+    navTopGuides: "Guides",
     navTopAbout: "About",
     call: "Call",
     qualify: "See if you qualify",
@@ -37,6 +38,7 @@ const T = {
     hablamos: "We speak English",
     navTopStates: "Estados",
     navTopHow: "Cómo funciona",
+    navTopGuides: "Guías (en inglés)",
     navTopAbout: "Quiénes somos",
     call: "Llamar",
     qualify: "Vea si califica",
@@ -89,6 +91,9 @@ export function UtilityBar({ lang }: { lang: Lang }) {
         >
           <Link href="/states/" className="hover:text-teal">
             {t.navTopStates}
+          </Link>
+          <Link href="/guides/" className="hover:text-teal">
+            {t.navTopGuides}
           </Link>
           <Link href={how} className="hover:text-teal">
             {t.navTopHow}
@@ -192,6 +197,7 @@ export function Footer({
         { href: `/${state.slug}/`, label: es ? `Programas de ${state.name}` : `${state.name} programs` },
         { href: `/${state.slug}/caregiver-pay/`, label: es ? `Tarifas en ${state.name}` : `${state.name} caregiver pay` },
         { href: `/${state.slug}/spousal-caregiver/`, label: es ? `Pago para esposos` : `Spousal pay in ${state.name}` },
+        { href: `/${state.slug}/caregiver-program/`, label: es ? `Programa de ${state.name}` : `${state.name} caregiver program` },
         ...(state.slug === "wisconsin"
           ? [{ href: "/wisconsin/iris/", label: "Wisconsin IRIS" }]
           : []),
@@ -203,6 +209,23 @@ export function Footer({
     { href: "/states/", label: t.navStates },
     { href: es ? "/es/" : "/", label: t.navHome },
     { href: "/about/", label: t.navAbout },
+  ];
+
+  /**
+   * The library column. Sitewide links are the strongest internal signal a
+   * page can get, so this points at the pillar guides and both hubs — the
+   * pages every other guide in the library links back to.
+   */
+  const guideLinks = [
+    { href: "/guides/get-paid-to-care-for-family-member/", label: es ? "Cómo recibir pago" : "Get paid to care for family" },
+    { href: "/guides/medicaid-family-caregiver-program/", label: es ? "Programas de Medicaid" : "Medicaid caregiver programs" },
+    { href: "/guides/family-caregiver-pay-rates/", label: es ? "Tarifas por estado" : "Caregiver pay by state" },
+    { href: "/guides/cdpap/", label: "CDPAP" },
+    { href: "/guides/ihss/", label: "IHSS" },
+    { href: "/guides/cost-of-in-home-care/", label: es ? "Costo del cuidado en casa" : "Cost of in-home care" },
+    { href: "/guides/does-medicare-pay-family-caregivers/", label: es ? "¿Medicare paga?" : "Does Medicare pay?" },
+    { href: "/guides/", label: es ? "Todas las guías" : "All guides" },
+    { href: "/compare/", label: es ? "Comparar compañías" : "Compare companies" },
   ];
 
   const column = (heading: string, links: { href: string; label: string }[]) => (
@@ -225,7 +248,7 @@ export function Footer({
   return (
     <footer className="mt-0 bg-spruce pb-28 pt-16 text-white md:pb-14">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="grid gap-10 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
+        <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-[1.3fr_1fr_1fr_1fr_1fr]">
           <div>
             <Logo variant="reverse" markClassName="h-9 w-9" textClassName="text-xl" />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/75">
@@ -240,6 +263,7 @@ export function Footer({
           </div>
 
           {column(es ? "Empezar" : "Start here", startLinks)}
+          {column(es ? "Guías" : "Guides", guideLinks)}
           {column(
             state ? (es ? state.name : state.name) : es ? "Estados" : "States",
             stateLinks

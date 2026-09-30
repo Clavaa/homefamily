@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/site.config";
 import { states } from "@/data/states";
+import { guides, guidePath } from "@/content";
 import {
   countiesByState,
   UNIVERSAL_STATE_SUBROUTES,
@@ -25,6 +26,8 @@ export function generateSitemaps(): { id: string }[] {
  */
 const DATA_UPDATED = new Date("2026-09-06T00:00:00Z");
 const CONTENT_UPDATED = new Date("2026-09-14T00:00:00Z");
+/** The library (/guides, /compare) and the state caregiver-program pages. */
+const LIBRARY_UPDATED = new Date("2026-09-30T00:00:00Z");
 
 export default function sitemap({
   id,
@@ -43,6 +46,15 @@ export default function sitemap({
       { url: `${base}/about/`, lastModified: now, priority: 0.6 },
       { url: `${base}/privacy/`, lastModified: now, priority: 0.3 },
       { url: `${base}/wisconsin/iris/`, lastModified: now, priority: 0.9 },
+      { url: `${base}/guides/`, lastModified: LIBRARY_UPDATED, priority: 0.8 },
+      { url: `${base}/compare/`, lastModified: LIBRARY_UPDATED, priority: 0.7 },
+      // Each guide carries its own review date, so lastmod moves only when
+      // that page's content actually changes.
+      ...guides.map((g) => ({
+        url: `${base}${guidePath(g)}`,
+        lastModified: new Date(`${g.updated}T00:00:00Z`),
+        priority: g.section === "guides" ? 0.8 : 0.7,
+      })),
       // Every state carries the two money pages; the home state ranks highest.
       ...states.flatMap((s) => [
         {
@@ -52,7 +64,7 @@ export default function sitemap({
         },
         ...UNIVERSAL_STATE_SUBROUTES.map((sub) => ({
           url: `${base}/${s.slug}/${sub}/`,
-          lastModified: now,
+          lastModified: sub === "caregiver-program" ? LIBRARY_UPDATED : now,
           priority: s.slug === site.homeStateSlug ? 0.9 : 0.8,
         })),
       ]),

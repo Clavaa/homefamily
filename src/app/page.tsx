@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Shell from "@/components/Shell";
+import GuideShelf from "@/components/GuideShelf";
 import RotatingWord from "@/components/RotatingWord";
 import {
   CallButton,
@@ -269,6 +270,8 @@ export default function HomePage() {
           </Link>
         </p>
       </section>
+
+      <GuideShelf />
 
       {/* ------------------------------------------- Other states pointer -- */}
       <section className="mx-auto max-w-6xl px-4 pb-4 sm:px-6">

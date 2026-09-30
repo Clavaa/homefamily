@@ -14,7 +14,7 @@ import { states } from "@/data/states";
  * timestamp here would be the same artifact Google discounts on the shards.
  */
 const DATA_UPDATED = "2026-09-06T00:00:00.000Z";
-const CONTENT_UPDATED = "2026-09-14T00:00:00.000Z";
+const CONTENT_UPDATED = "2026-09-30T00:00:00.000Z";
 
 export const dynamic = "force-static";
 

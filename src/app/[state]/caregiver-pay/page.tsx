@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Shell from "@/components/Shell";
+import LibraryLinks from "@/components/LibraryLinks";
 import {
   CallButton,
   Breadcrumbs,
@@ -329,6 +330,8 @@ export default async function CaregiverPayPage({ params }: Props) {
           {site.updated}. Rates change — always confirm with the program.
         </p>
       </section>
+
+      <LibraryLinks state={s} />
 
       <TopCountyLinks
         stateSlug={s.slug}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Shell from "@/components/Shell";
+import GuideShelf from "@/components/GuideShelf";
 import { QuizCta, VerdictBadge } from "@/components/Blocks";
 import { site } from "@/site.config";
 import { states } from "@/data/states";
@@ -84,11 +85,17 @@ export default function StatesPage() {
           ))}
         </ul>
         <p className="mt-4 text-xs text-muted">
+          Each state also has a caregiver program page — for example the{" "}
+          <Link href="/new-york/caregiver-program/" className="underline hover:text-teal">New York</Link>,{" "}
+          <Link href="/california/caregiver-program/" className="underline hover:text-teal">California</Link> and{" "}
+          <Link href="/texas/caregiver-program/" className="underline hover:text-teal">Texas</Link> programs.{" "}
           The badge shows whether a spouse can be paid there ·{" "}
           <abbr title="Updated">Updated</abbr> {site.updated}. Rules change —
           always confirm with the program.
         </p>
       </section>
+
+      <GuideShelf />
 
       <section className="mx-auto mt-12 max-w-6xl px-4 sm:px-6">
         <QuizCta lang="en" />

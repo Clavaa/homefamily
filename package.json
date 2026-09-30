@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "data": "node scripts/build-data.mjs",
-    "predev": "npm run data && npm run data:counties && npm run data:adjacency",
-    "prebuild": "npm run data && npm run data:counties && npm run data:adjacency",
+    "predev": "npm run data && npm run data:counties && npm run data:adjacency && npm run data:content",
+    "prebuild": "npm run data && npm run data:counties && npm run data:adjacency && npm run data:content",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "data:counties": "node scripts/build-county-facts.mjs",
-    "data:adjacency": "node scripts/build-adjacency.mjs"
+    "data:adjacency": "node scripts/build-adjacency.mjs",
+    "data:content": "node scripts/build-content-index.mjs"
   },
   "dependencies": {
     "google-auth-library": "^11.0.2",

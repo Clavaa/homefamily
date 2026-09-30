@@ -43,6 +43,7 @@ export interface CountyData {
 export const UNIVERSAL_STATE_SUBROUTES = [
   "caregiver-pay",
   "spousal-caregiver",
+  "caregiver-program",
 ] as const;
 
 /**

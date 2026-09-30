@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Shell from "@/components/Shell";
+import LibraryLinks from "@/components/LibraryLinks";
 import {
   Breadcrumbs,
   Faq,
@@ -541,6 +542,8 @@ export default async function CountyPage({ params }: Props) {
         </p>
         </div>
       </section>
+
+      <LibraryLinks state={s} place={c.display} />
 
       <NearbyLinks
         neighbors={adjacent}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Shell from "@/components/Shell";
+import LibraryLinks from "@/components/LibraryLinks";
 import {
   Breadcrumbs,
   Faq,
@@ -320,6 +321,12 @@ export default async function StatePage({ params }: Props) {
           >
             {s.name} pay rates →
           </Link>
+          <Link
+            href={`/${s.slug}/caregiver-program/`}
+            className="btn-outline !min-h-11 text-sm"
+          >
+            The {s.name} caregiver program →
+          </Link>
         </div>
       </section>
 
@@ -412,6 +419,8 @@ export default async function StatePage({ params }: Props) {
           </div>
         </section>
       )}
+
+      <LibraryLinks state={s} />
 
       <NeighborStateLinks stateName={s.name} neighbors={borders} />
 

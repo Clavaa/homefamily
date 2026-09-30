@@ -28,6 +28,8 @@ export function pageMeta(opts: {
   languages?: Record<string, string>;
   /** Set when the title should be used verbatim (no "| brand" template). */
   absoluteTitle?: boolean;
+  /** Long-form library pages are articles, with real publish/modify dates. */
+  article?: { published: string; modified: string; section: string };
 }): Metadata {
   const {
     title,
@@ -36,6 +38,7 @@ export function pageMeta(opts: {
     locale = "en_US",
     languages,
     absoluteTitle,
+    article,
   } = opts;
   return {
     title: absoluteTitle ? { absolute: title } : title,
@@ -46,7 +49,14 @@ export function pageMeta(opts: {
       description,
       url: path,
       siteName: site.brand,
-      type: "website",
+      ...(article
+        ? {
+            type: "article" as const,
+            publishedTime: article.published,
+            modifiedTime: article.modified,
+            section: article.section,
+          }
+        : { type: "website" as const }),
       locale,
       images: [OG_IMAGE],
     },
