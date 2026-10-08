@@ -1,0 +1,166 @@
+[
+  {
+    "slug": "cap-da-consumer-directed",
+    "name": "CAP/DA Consumer-Directed Services (CAP/Choice)",
+    "aka": ["CAP/DA", "CAP DA", "CAP/Choice", "CAP Choice", "Community Alternatives Program for Disabled Adults", "consumer directed CAP/DA"],
+    "kind": "self-direction option",
+    "summary": "The Community Alternatives Program for Disabled Adults (CAP/DA) is North Carolina Medicaid's home and community waiver for adults who would otherwise need nursing facility care. Its consumer-directed option lets the member, or a designated representative, act as employer: they choose, hire and supervise their own personal assistant, set the pay rate and assign tasks. A financial management services agency runs payroll and taxes.",
+    "who_qualifies": [
+      "Has full North Carolina Medicaid.",
+      "Is a disabled adult age 18 or older (the program also serves older adults who meet the level of care).",
+      "Needs an institutional (nursing facility) level of care under the NC Medicaid State Plan.",
+      "Needs at least one CAP/DA service, based on an assessment coordinated by a CAP/DA case manager."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the member chooses who provides care within program limits, which can include adult children and other relatives.",
+      "spouse": "limited — a spouse is a legally responsible person and can be paid only when an extraordinary circumstance applies, capped at 40 hours a week.",
+      "parent_of_minor": "n/a — CAP/DA serves adults 18 and older; see CAP/C for children.",
+      "live_together": "optional — consumer-directed workers do not have to live with the member."
+    },
+    "pay": {
+      "display": "Not published (member sets the rate)",
+      "detail": "Under consumer direction, the member or representative sets the personal assistant's pay rate within program limits. North Carolina does not publish a family-caregiver rate on the pages reviewed."
+    },
+    "hours_or_budget": "A CAP/DA case manager assesses needs and builds a service plan. Approved personal assistance hours come from that plan. Paid care by a spouse is limited to 40 hours or less per week.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "CAP/DA is a capped 1915(c) waiver with a set number of slots, so county waitlists can form."
+    },
+    "self_directed_or_agency": "Self-directed in this option: the member or designated representative is employer of record and can recruit, hire, supervise and dismiss assistants. A financial management services agency pays the worker and handles taxes. Members can instead use agency-provided CAP in-home aide services.",
+    "how_to_apply": [
+      "Apply for North Carolina Medicaid through ePASS or your county Department of Social Services if you do not have it.",
+      "Contact a CAP/DA case management entity in your county to request a referral (providers can also refer through e-CAP or NC LIFTSS).",
+      "Complete the CAP/DA assessment with the case manager.",
+      "Choose consumer direction, complete the consumer-direction training, and enroll your chosen worker with the financial management services agency.",
+      "If the worker will be your spouse, ask the case manager to review the extraordinary-circumstance rules."
+    ],
+    "contacts": [
+      { "name": "NC LIFTSS (CAP referrals)", "phone": "833-522-5429", "url": "https://medicaid.ncdhhs.gov/capda" },
+      { "name": "NC Medicaid Contact Center", "phone": "888-245-0179", "url": "https://medicaid.ncdhhs.gov/capda" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my parent through CAP/DA in North Carolina?", "a": "Yes, if your parent is on CAP/DA and chooses consumer direction. They can hire you as their personal assistant, and a financial management agency pays you." },
+      { "q": "Can a spouse be paid under CAP/DA?", "a": "Only when an extraordinary circumstance applies, such as a cognitive limitation that makes a stranger's care harmful, very limited providers with five or more hours a day of care needed, or behaviors that put unfamiliar workers at risk. Paid spouse care is capped at 40 hours a week." },
+      { "q": "Who sets the pay rate in CAP/DA consumer direction?", "a": "The member or designated representative sets the personal assistant's pay rate within program limits." },
+      { "q": "Is there a waiting list for CAP/DA?", "a": "CAP/DA has a limited number of slots, so a waitlist can form in some counties." },
+      { "q": "How do I start a CAP/DA referral?", "a": "Contact the CAP/DA case management entity in your county. Providers can also refer through the e-CAP system or by calling NC LIFTSS." }
+    ],
+    "keywords": ["cap/da consumer directed", "cap choice nc", "get paid to care for parent north carolina", "nc medicaid pay family caregiver", "cap/da spouse paid caregiver", "cap/da waitlist", "community alternatives program disabled adults"],
+    "sources": [
+      "https://medicaid.ncdhhs.gov/capda",
+      "https://medicaid.ncdhhs.gov/providers/programs-and-services/long-term-care/community-alternatives-program-children-capc/requirements-legally-responsible-individuals-paid-caregivers",
+      "https://www.medicaidplanningassistance.org/north-carolina-cap-da/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "coordinated-caregiving",
+    "name": "Coordinated Caregiving (CAP/DA and CAP/C)",
+    "aka": ["coordinated caregiving NC", "CAP coordinated caregiving", "supportive worker", "live-in caregiver stipend North Carolina"],
+    "kind": "waiver service",
+    "summary": "Coordinated Caregiving is a service in North Carolina's CAP/DA and CAP/C waivers that pays a live-in family caregiver, called a supportive worker, a daily stipend for personal care and homemaker help. The caregiver works through a Coordinated Caregiving provider agency, which gives training, coaching and the stipend. Spouses and other family members can be the paid caregiver.",
+    "who_qualifies": [
+      "Enrolled in CAP/DA (adults) or CAP/C (children ages 0 through 20).",
+      "Needs help with daily activities that a live-in caregiver can provide.",
+      "Chooses Coordinated Caregiving in the CAP service plan with the case manager.",
+      "Is not using services that duplicate a daily stipend on the same day, such as private duty nursing or respite."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — family members can be the paid live-in caregiver.",
+      "spouse": "yes — spouses can be the paid supportive worker; legally responsible persons must meet the state's paid-caregiver rules.",
+      "parent_of_minor": "yes — in CAP/C a parent can be paid through Coordinated Caregiving if they live with the child, meet the agency's hiring rules and have CPR certification, and the state's legally responsible person rules are met.",
+      "live_together": "required — the caregiver must live in the same home and be willing to be a live-in caregiver."
+    },
+    "pay": {
+      "display": "Daily stipend (amount not published)",
+      "detail": "The caregiver is paid a per-day stipend at low, high or skilled acuity levels, passed through by the Coordinated Caregiving provider agency. North Carolina does not publish the dollar amount on the pages reviewed."
+    },
+    "hours_or_budget": "Paid by the day, not the hour. The acuity level (low, high or skilled) from the CAP assessment sets the stipend tier. Coordinated Caregiving cannot be billed on the same day as private duty nursing or respite.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "You must first be enrolled in CAP/DA or CAP/C, and both waivers have capped slots."
+    },
+    "self_directed_or_agency": "Agency. A Coordinated Caregiving provider agency supports the caregiver with education, coaching and supervision and pays the stipend. The caregiver must meet that agency's in-home aide or home health hiring requirements.",
+    "how_to_apply": [
+      "Get enrolled in CAP/DA or CAP/C through your county CAP case management entity.",
+      "Tell your CAP case manager you want Coordinated Caregiving with a live-in family caregiver.",
+      "Choose a Coordinated Caregiving provider agency that serves your county.",
+      "The caregiver completes the agency's hiring steps, background check, competency assessment and CPR certification."
+    ],
+    "contacts": [
+      { "name": "NC LIFTSS (CAP referrals)", "phone": "833-522-5429", "url": "https://medicaid.ncdhhs.gov/capda" },
+      { "name": "NC Medicaid Contact Center", "phone": "888-245-0179", "url": "https://medicaid.ncdhhs.gov/capc" }
+    ],
+    "faqs": [
+      { "q": "What is Coordinated Caregiving in North Carolina?", "a": "It is a CAP/DA and CAP/C service that pays a live-in caregiver a daily stipend for personal care and homemaker help, with coaching from a provider agency." },
+      { "q": "Can a spouse be paid through Coordinated Caregiving?", "a": "Yes. Family members, including spouses, can be the paid live-in supportive worker." },
+      { "q": "Do I have to live with the person?", "a": "Yes. The caregiver must live in the same home and be willing to be a live-in caregiver." },
+      { "q": "How much does Coordinated Caregiving pay?", "a": "It pays a daily stipend at low, high or skilled acuity levels. The state does not publish the amount; the provider agency can tell you." },
+      { "q": "Can I combine Coordinated Caregiving with respite or nursing?", "a": "Not on the same day for respite, and it should not be combined with private duty nursing, because the daily stipend would duplicate those services." }
+    ],
+    "keywords": ["coordinated caregiving north carolina", "nc live in caregiver stipend", "cap/da coordinated caregiving", "cap/c coordinated caregiving parent", "get paid to care for spouse north carolina", "supportive worker nc medicaid"],
+    "sources": [
+      "https://medicaid.ncdhhs.gov/capda",
+      "https://medicaid.ncdhhs.gov/capc",
+      "https://medicaid.ncdhhs.gov/capc-stakeholder-meeting-presentation-05182026/download",
+      "https://medicaid.ncdhhs.gov/providers/programs-and-services/long-term-care/community-alternatives-program-children-capc/requirements-legally-responsible-individuals-paid-caregivers"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "cap-c",
+    "name": "Community Alternatives Program for Children (CAP/C)",
+    "aka": ["CAP/C", "CAP C", "CAPC", "CAP for children", "NC medically fragile children waiver"],
+    "kind": "children's waiver",
+    "summary": "CAP/C is North Carolina Medicaid's waiver for medically fragile or medically complex children from birth through age 20 who would otherwise need institutional care. It pays for in-home aide and nursing help, consumer-directed care and Coordinated Caregiving. Parents can be paid in some cases: through consumer direction with an extraordinary circumstance, as a licensed or certified caregiver, or through Coordinated Caregiving.",
+    "who_qualifies": [
+      "Has North Carolina Medicaid.",
+      "Is age 0 through 20.",
+      "Is medically fragile or medically complex and needs an institutional level of care under the NC Medicaid State Plan.",
+      "Needs at least one CAP/C service, based on an assessment coordinated by a CAP/C case manager."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — other relatives can be hired as in-home aides or consumer-directed assistants.",
+      "spouse": "limited — for participants 18 and older, a spouse can be paid only when an extraordinary circumstance applies.",
+      "parent_of_minor": "limited — a parent can be paid when at least one extraordinary circumstance is met (such as no available aides in the county, or a doctor-ordered need for 24-hour supervision), capped at 40 hours a week; parents of children under 3 cannot be paid for care that is normal for the child's age.",
+      "live_together": "optional — required only for Coordinated Caregiving."
+    },
+    "pay": {
+      "display": "Not published (varies by service)",
+      "detail": "In consumer direction the family sets the assistant's pay rate within program limits. Coordinated Caregiving pays a daily stipend. North Carolina does not publish a parent caregiver rate on the pages reviewed."
+    },
+    "hours_or_budget": "A CAP/C case manager assesses the child's needs. Approved hours come mainly from that assessment, and paid parent care is limited to 40 hours or less per week.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "CAP/C has a set number of slots. The renewed waiver raises capacity by 500 a year, from 4,000 in year one to 6,000 in year five."
+    },
+    "self_directed_or_agency": "Either. Families can use agency in-home aide or pediatric nurse aide services, consumer-directed care (the family is employer of record and a financial management agency runs payroll), or Coordinated Caregiving through a provider agency.",
+    "how_to_apply": [
+      "Make sure the child has North Carolina Medicaid, or apply through ePASS or your county DSS.",
+      "Contact a CAP/C case management entity in your county to request a referral (providers can refer through e-CAP or NC LIFTSS).",
+      "Complete the CAP/C assessment and build the service plan with the case manager.",
+      "If a parent wants to be paid, ask the case manager to review the extraordinary-circumstance rules and the paid-caregiver pathway that fits your family."
+    ],
+    "contacts": [
+      { "name": "NC LIFTSS (CAP referrals)", "phone": "833-522-5429", "url": "https://medicaid.ncdhhs.gov/capc" },
+      { "name": "NC Medicaid Contact Center", "phone": "888-245-0179", "url": "https://medicaid.ncdhhs.gov/capc" }
+    ],
+    "faqs": [
+      { "q": "Can a parent get paid to care for a child on CAP/C?", "a": "Yes, in some cases. The parent must meet at least one extraordinary circumstance, paid care is capped at 40 hours a week, and the child is enrolled in consumer direction or Coordinated Caregiving." },
+      { "q": "What counts as an extraordinary circumstance?", "a": "Examples include no available aides in the county or nearby counties, a short-term isolation need of 90 days or less, a doctor-ordered need for 24-hour supervision that keeps the parent from working, or care only the parent can safely give." },
+      { "q": "Does medical fragility alone qualify a parent for pay?", "a": "No. The state says being medically fragile alone does not qualify a parent to be paid." },
+      { "q": "What ages does CAP/C cover?", "a": "Children from birth through age 20." },
+      { "q": "Is there a waiting list for CAP/C?", "a": "CAP/C has capped slots, though the renewed waiver adds 500 slots each year." },
+      { "q": "Can parents of babies be paid?", "a": "Parents of children under 3 cannot be paid for care that falls within the child's normal developmental range." }
+    ],
+    "keywords": ["cap/c north carolina", "cap/c paid parent caregiver", "get paid to care for disabled child north carolina", "nc medically fragile children waiver", "cap/c extraordinary circumstances", "capc waitlist"],
+    "sources": [
+      "https://medicaid.ncdhhs.gov/capc",
+      "https://medicaid.ncdhhs.gov/providers/programs-and-services/long-term-care/community-alternatives-program-children-capc/requirements-legally-responsible-individuals-paid-caregivers"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

@@ -22,3 +22,8 @@ Apply in one pass before deploy; each line cites the program record that holds t
 ## other
 - missouri: Family Support Division phone 855-373-4636 not found on official pages; 855-373-9994 used
 - pennsylvania: OBRA payroll vendor is PPL (877-908-1750), not Tempus; OBRA ages 18–59
+
+## batch: WA WV WI WY
+- wisconsin: IRIS single statewide FEA = PPL selected 1/29/2026, bid protest pending, participants move "sometime in 2027" (dhs.wisconsin.gov/iris/fea-announcement.htm) — states.json agencyModel AND bespoke /wisconsin/iris/ page say ~April 2026 → fix both
+- wyoming: spouse yes → **limited** (CCW renewal WY.0236.R07.00 eff. 7/1/2026: no financial authority, beyond normal spousal duties; guardian/employer of record barred)
+- wyoming: waitlist "mixed" → possible (~2,891–2,903 funded/yr, enrolled by eligibility date)
