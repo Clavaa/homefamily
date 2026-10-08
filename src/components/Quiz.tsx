@@ -1,7 +1,8 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import { track } from "@/components/Analytics";
 import { useSearchParams } from "next/navigation";
 import quizData from "@/data/quiz.json";
 import { site } from "@/site.config";
@@ -239,12 +240,19 @@ export default function Quiz() {
   function go(n: number) {
     setErr(null);
     setStep(n);
+    track("quiz_step", { step: n, state: stateSlug, rel, lang });
     // Move focus to the new question for screen readers / keyboard users.
     requestAnimationFrame(() => headingRef.current?.focus());
   }
 
   const verdict: RuleStatus | null =
     stateData && rel ? matchStatus(stateData, rel) : null;
+
+  // One "quiz_open" per mount: the top of the funnel.
+  useEffect(() => {
+    track("quiz_open", { step, state: stateSlug, rel, lang });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
@@ -270,8 +278,10 @@ export default function Quiz() {
         }),
       });
       if (!res.ok) throw new Error("bad status");
+      track("lead_submit", { ok: true, state: stateSlug, rel, verdict, medicaid, together, lang });
       setDone(true);
     } catch {
+      track("lead_submit", { ok: false, state: stateSlug, rel, verdict, lang });
       setErr(t.sendErr);
     } finally {
       setSending(false);

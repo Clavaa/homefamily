@@ -139,6 +139,37 @@ def main():
         for r in ent:
             print(f"  {n(r['v']):>5}  {r['path'][:62]}")
 
+    # Funnel: quiz events + lead submits (no PII is ever in these rows).
+    LAUNCH = ("wisconsin", "maryland", "montana", "new-hampshire", "arkansas")
+    f = bq(f"""
+      SELECT
+        COUNT(DISTINCT IF(kind='event' AND event='quiz_open', session, NULL)) AS opened,
+        COUNT(DISTINCT IF(kind='event' AND event='quiz_step' AND SAFE_CAST(JSON_VALUE(props,'$.step') AS INT64)>=2, session, NULL)) AS step2,
+        COUNT(DISTINCT IF(kind='event' AND event='quiz_step' AND SAFE_CAST(JSON_VALUE(props,'$.step') AS INT64)>=4, session, NULL)) AS result,
+        COUNT(DISTINCT IF(kind='event' AND event='lead_submit' AND JSON_VALUE(props,'$.ok')='true', session, NULL)) AS leads,
+        COUNT(DISTINCT IF(kind='event' AND event='lead_submit' AND JSON_VALUE(props,'$.ok')='false', session, NULL)) AS failed
+      FROM {T} WHERE {window} AND {HUMAN}
+    """)
+    fr = f[0] if f else {}
+    if n(fr.get("opened")) or n(fr.get("leads")):
+        rule("Funnel — contact rate")
+        sessions = max(s, 1)
+        print(f"  Quiz opened       {n(fr['opened']):>5}   {100*n(fr['opened'])/sessions:5.1f}% of sessions")
+        print(f"  Reached step 3    {n(fr['step2']):>5}")
+        print(f"  Saw their result  {n(fr['result']):>5}")
+        print(f"  Lead submitted    {n(fr['leads']):>5}   {100*n(fr['leads'])/sessions:5.1f}% of sessions · {100*n(fr['leads'])/max(n(fr['opened']),1):.0f}% of quiz opens")
+        if n(fr.get("failed")):
+            print(f"  ⚠ Lead send FAILED {n(fr['failed'])}x — check SendGrid")
+        by_state = bq(f"""
+          SELECT JSON_VALUE(props,'$.state') AS st, COUNT(DISTINCT session) AS c
+          FROM {T} WHERE {window} AND {HUMAN} AND kind='event' AND event='lead_submit' AND JSON_VALUE(props,'$.ok')='true'
+          GROUP BY st ORDER BY c DESC
+        """)
+        if by_state:
+            served = sum(n(r["c"]) for r in by_state if r["st"] in LAUNCH)
+            print("  Leads by state:   " + "  ".join(f"{r['st']}:{n(r['c'])}" for r in by_state))
+            print(f"  In launch states (WI/MD/MT/NH/AR): {served} of {sum(n(r['c']) for r in by_state)}")
+
     rule("Who and what")
     geo = bq(f"""
       SELECT IFNULL(country,'?') AS c, IFNULL(region,'') AS r, COUNT(DISTINCT visitor) AS v

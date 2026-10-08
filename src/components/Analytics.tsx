@@ -62,6 +62,18 @@ function send(payload: Record<string, unknown>, beacon: boolean) {
   }
 }
 
+/**
+ * Funnel events (quiz steps, results, lead submits). Carries only the step,
+ * state and relationship — never a name, phone or anything typed into a field.
+ */
+export function track(event: string, props: Record<string, string | number | boolean | null> = {}) {
+  if (typeof window === "undefined") return;
+  send(
+    { k: "event", ev: event, pr: props, p: window.location.pathname, s: sessionId(), i: isInternal() },
+    false
+  );
+}
+
 export default function Analytics() {
   const pathname = usePathname();
   const search = useSearchParams();

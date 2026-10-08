@@ -63,6 +63,8 @@ export const site = {
   email: "hello@sunroomcare.com",
   /** Where lead notifications are delivered. */
   leadTo: "support@offendersearch.app",
+  /** Also copied on every lead, so a lead never sits only in a shared inbox. */
+  leadCc: ["yechielgartenhaus@gmail.com"] as string[],
   /**
    * Envelope sender for lead mail. Must be a verified sender on whichever
    * SendGrid account SENDGRID_API_KEY belongs to — currently the

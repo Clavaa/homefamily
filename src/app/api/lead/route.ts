@@ -84,7 +84,12 @@ ${rows
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      personalizations: [{ to: [{ email: site.leadTo }] }],
+      personalizations: [
+        {
+          to: [{ email: site.leadTo }],
+          ...(site.leadCc.length ? { cc: site.leadCc.map((email) => ({ email })) } : {}),
+        },
+      ],
       from: { email: site.leadFrom, name: site.brand },
       subject: `Lead: ${name} — ${body.state || "?"} (${body.relationship || "?"})`,
       content: [{ type: "text/html", value: html }],

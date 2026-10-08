@@ -70,7 +70,7 @@ export async function POST(req: NextRequest) {
   const path = str(body.p, 300);
   if (!path || !path.startsWith("/")) return ok;
 
-  const kind = body.k === "leave" ? "leave" : "view";
+  const kind = body.k === "leave" ? "leave" : body.k === "event" ? "event" : "view";
   const referrer = str(body.r, 500);
   const referrerHost = hostOf(referrer);
   const selfHost = hostOf(site.domain) ?? "sunroomcare.com";
@@ -111,6 +111,11 @@ export async function POST(req: NextRequest) {
     dwell_ms: kind === "leave" ? int(body.d, 6 * 60 * 60 * 1000) : null,
     scroll_pct: int(body.sc, 100),
     entry: body.e === true,
+    event: kind === "event" ? str(body.ev, 60) : null,
+    props:
+      kind === "event" && body.pr && typeof body.pr === "object"
+        ? JSON.stringify(body.pr).slice(0, 500)
+        : null,
   };
 
   try {
