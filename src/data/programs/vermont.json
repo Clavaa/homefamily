@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "choices-for-care-self-directed",
+    "name": "Choices for Care — Participant/Surrogate-Directed Personal Care",
+    "aka": ["Choices for Care", "CFC", "CFC self-directed", "surrogate-directed care", "Vermont Choices for Care Highest Needs", "ARIS"],
+    "kind": "waiver service",
+    "summary": "Choices for Care is Vermont's long-term care Medicaid program for adults 18 and older who need nursing-home-level care. In the home-based setting, the participant (or a surrogate) can be the employer and hire their own personal care attendant, including a relative, with ARIS Solutions acting as fiscal intermediary for payroll and taxes. A spouse can be paid for hands-on personal care but not for household tasks.",
+    "who_qualifies": [
+      "Vermont resident age 18 or older.",
+      "Meets clinical eligibility for the Highest or High Needs group (nursing-home level of care), as decided by DAIL.",
+      "Meets financial eligibility for long-term care Medicaid, decided by the Economic Services Division.",
+      "Chooses the home-based setting and meets Choices for Care employer certification, or has a surrogate employer who does."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — participant- or surrogate-directed employees can be relatives such as an adult child, as long as they are 18+ and pass DAIL's background check policy.",
+      "spouse": "limited — the CFC High/Highest manual says a spouse or civil union partner shall not be paid for help with instrumental activities of daily living (IADLs, like housework), which implies paid help with hands-on personal care is allowed; spouses are not payable in the separate Moderate Needs group.",
+      "parent_of_minor": "n/a — the program serves adults 18 and older.",
+      "live_together": "optional — relatives may live in or out of the home; a legal guardian or the surrogate employer cannot be the paid attendant."
+    },
+    "pay": {
+      "display": "$15.49–$18/hr",
+      "detail": "The Choices for Care wage notice set a minimum of $15.49 per hour effective 7/6/2025; self-directed caregivers reportedly earn about $16–$18 per hour. The employer sets the wage within the approved plan, and ARIS processes payroll."
+    },
+    "hours_or_budget": "DAIL approves a Service Plan with a maximum number of personal care hours. Help with IADLs (not counting meal preparation and medication management) is limited to 4.5 hours per week.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "Everyone who meets Highest Needs criteria is enrolled. High Needs enrollment is limited by funding, and eligible applicants go on a waiting list when funds are not available."
+    },
+    "self_directed_or_agency": "Either. Participants can use a home health agency or be (or name a surrogate as) the employer, with ARIS Solutions as the fiscal intermediary handling payroll, taxes and background checks.",
+    "how_to_apply": [
+      "Call the Senior HelpLine at 800-642-5119 or your local Area Agency on Aging for help starting the process.",
+      "Submit a Vermont Long-Term Care Medicaid application; ESD (800-479-6151) decides financial eligibility.",
+      "A DAIL nurse completes the clinical assessment to decide Highest or High Needs.",
+      "Choose participant- or surrogate-directed care and complete employer certification and ARIS paperwork to hire your relative."
+    ],
+    "contacts": [
+      { "name": "Senior HelpLine", "phone": "800-642-5119", "url": "https://asd.vermont.gov/services/choices-for-care-program" },
+      { "name": "Economic Services Division Benefits Service Center", "phone": "800-479-6151", "url": "https://asd.vermont.gov/services/choices-for-care-program" },
+      { "name": "DAIL Adult Services Division", "phone": "(802) 241-0294", "url": "https://asd.vermont.gov/services/choices-for-care-program" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my mother through Choices for Care?", "a": "Yes. If your mother qualifies and chooses self-directed or surrogate-directed care, she or her surrogate can hire you, and ARIS pays you." },
+      { "q": "Can a spouse be paid in Vermont's Choices for Care?", "a": "Partly. The program manual bars paying a spouse for household tasks (IADLs), but it does not bar paying a spouse for hands-on personal care in the Highest and High Needs groups. Spouses are not paid in the Moderate Needs group." },
+      { "q": "Can the person who manages the care also be paid?", "a": "No. The manual says a surrogate employer cannot be paid to provide personal care to the person they manage, and a court-appointed legal guardian cannot be paid either." },
+      { "q": "What is the minimum wage for Choices for Care caregivers?", "a": "The CFC wage notice set $15.49 per hour starting 7/6/2025. Many self-directed caregivers reportedly earn $16 to $18 per hour." },
+      { "q": "Is there a waiting list?", "a": "Highest Needs applicants are always enrolled. High Needs enrollment depends on funding, and a waiting list is used when funds run short." }
+    ],
+    "keywords": ["vermont choices for care", "choices for care self directed", "vermont get paid to care for family member", "vermont pay spouse caregiver", "aris solutions vermont caregiver", "choices for care surrogate"],
+    "sources": [
+      "https://asd.vermont.gov/sites/asd/files/documents/_Merged%20CFC_High_Highest_Manual.pdf",
+      "https://asd.vermont.gov/services/choices-for-care-program",
+      "https://arissolutions.org/our-programs/vt-agency-of-human-services-programs/",
+      "https://www.medicaidplanningassistance.org/vermont-choices-for-care-high-need/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "flexible-choices",
+    "name": "Flexible Choices (Choices for Care)",
+    "aka": ["Flexible Choices", "Flex Choices", "Vermont cash and counseling", "Transition II", "Flexible Choices allowance"],
+    "kind": "self-direction option",
+    "summary": "Flexible Choices is a Choices for Care option that turns a participant's home-based service plan into a monthly cash allowance. With help from a consultant agency (Transition II), the participant or surrogate builds a budget and uses it to hire caregivers, including family, and buy approved goods and services. ARIS acts as the fiscal intermediary.",
+    "who_qualifies": [
+      "Enrolled in Choices for Care (Highest or High Needs) in the home-based setting.",
+      "Meets all clinical and financial eligibility for Choices for Care.",
+      "Meets the Choices for Care employer certification for participant or surrogate direction.",
+      "Is not out of Vermont for more than 7 days in a row while receiving services."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — participants can hire family members, including adult children, as Flexible Choices employees if they are 18 or older and pass DAIL's background check policy.",
+      "spouse": "limited — the manual says a spouse or civil union partner shall not be paid for help with IADLs (household tasks); it does not bar paying a spouse for hands-on personal care.",
+      "parent_of_minor": "n/a — Choices for Care serves adults 18 and older.",
+      "live_together": "optional — not a requirement; a court-appointed guardian and the surrogate employer cannot be paid."
+    },
+    "pay": {
+      "display": "$15.49–$18/hr",
+      "detail": "The participant sets wages within their allowance budget. Choices for Care's wage notice set a $15.49 per hour minimum effective 7/6/2025; reported pay is about $16–$18 per hour."
+    },
+    "hours_or_budget": "The monthly allowance is a base amount (case management, respite/companion, emergency response, equipment, fiscal fees) plus a personal care amount equal to the approved Service Plan hours times the participant/surrogate personal care hourly rate, plus any adult day amount. Up to $50 per two weeks can be taken as cash, and no more than $500 of savings can carry from one state fiscal year to the next.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "Flexible Choices follows Choices for Care enrollment: Highest Needs is always enrolled, High Needs can have a waiting list when funding is short."
+    },
+    "self_directed_or_agency": "Self-directed. The participant or surrogate is the employer; Transition II is the consultant agency and ARIS is the fiscal intermediary that runs payroll and pays vendors.",
+    "how_to_apply": [
+      "Apply for Choices for Care (long-term care Medicaid) and get approved for the home-based setting.",
+      "Tell your case manager or DAIL you want Flexible Choices.",
+      "Work with a Transition II consultant (866-572-7127) to build your budget.",
+      "Complete employer paperwork with ARIS and hire your caregiver."
+    ],
+    "contacts": [
+      { "name": "Transition II (Flexible Choices consultant)", "phone": "(866) 572-7127", "url": "https://arissolutions.org/our-programs/vt-agency-of-human-services-programs/" },
+      { "name": "Senior HelpLine", "phone": "800-642-5119", "url": "https://asd.vermont.gov/services/choices-for-care-program" }
+    ],
+    "faqs": [
+      { "q": "What is Flexible Choices in Vermont?", "a": "It's a Choices for Care option that gives you a monthly allowance instead of set services. You budget it to hire caregivers and buy approved items." },
+      { "q": "Can I pay my son or daughter with Flexible Choices?", "a": "Yes. Adult family members can be hired as Flexible Choices employees and paid through ARIS." },
+      { "q": "Can my spouse be paid through Flexible Choices?", "a": "For hands-on personal care, the manual does not bar it. A spouse cannot be paid for help with household tasks (IADLs)." },
+      { "q": "How is my allowance calculated?", "a": "It's a fixed base amount plus your approved personal care hours times the self-directed hourly rate, plus adult day hours if you use them." },
+      { "q": "Can I save unused money?", "a": "Yes, within limits. Unused allowance can be saved for a planned purchase or a rainy day, but no more than $500 carries over into the next state fiscal year." }
+    ],
+    "keywords": ["flexible choices vermont", "vermont flexible choices allowance", "transition ii flexible choices", "vermont cash and counseling", "pay family caregiver vermont medicaid"],
+    "sources": [
+      "https://asd.vermont.gov/sites/asd/files/documents/_Merged%20CFC_High_Highest_Manual.pdf",
+      "https://arissolutions.org/our-programs/vt-agency-of-human-services-programs/",
+      "https://asd.vermont.gov/sites/asd/files/AAA%20CM%20Training%20FAQs_9.30.2025.pdf",
+      "https://www.medicaidplanningassistance.org/vermont-choices-for-care-high-need/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

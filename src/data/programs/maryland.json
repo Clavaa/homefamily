@@ -1,0 +1,225 @@
+[
+  {
+    "slug": "community-first-choice",
+    "name": "Community First Choice (CFC)",
+    "aka": ["CFC", "Community First Choice Program", "Maryland CFC", "CFC personal assistance", "CFC self-directed"],
+    "kind": "state plan",
+    "summary": "Community First Choice is a Maryland Medicaid state plan benefit that pays for personal assistance and related supports at home for people of any age who need an institutional level of care. Since October 1, 2023, participants can choose an agency model or a self-directed model, and a family member can be the paid personal assistant. Because CFC is a state plan benefit, there is no waiting list.",
+    "who_qualifies": [
+      "Already has full Maryland Medicaid (the red and white card).",
+      "Needs an institutional level of care (for example, nursing facility level of care), assessed with the interRAI tool.",
+      "Lives in a community setting.",
+      "No age limit."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — participants may hire relatives such as adult children; the current CFC regulation bars only the participant's representative from being assigned as the worker.",
+      "spouse": "limited — current COMAR 10.09.84 text does not bar spouses, and states.json reports spouses can be hired, but an older Maryland Department of Health memo listed spouses and parents of minor children as barred; confirm with your supports planner.",
+      "parent_of_minor": "limited — not confirmed under CFC (the older memo barred parents of minor dependent children); paid-parent options are clearer in the DDA Community Pathways Waiver.",
+      "live_together": "optional — the worker does not have to live with the participant."
+    },
+    "pay": {
+      "display": "$16–$20/hr reported wage; agency rate $25.58/hr (FY2025)",
+      "detail": "Medicaid paid personal assistance at $6.3962 per 15-minute unit ($25.58/hour) from July 1, 2024 (FY2025 transmittal), with a 3% yearly increase in rule subject to the budget. People needing more than 12 hours a day are paid a daily rate. That rate goes to the agency or the self-direction budget; workers' take-home pay is lower. Third-party sources report about $16–$20/hour for family caregivers; Maryland does not publish a family-caregiver wage."
+    },
+    "hours_or_budget": "A supports planner writes a plan of service and the Department preauthorizes hours based on the interRAI assessment and standardized task times. Payment is in 15-minute units up to 12 hours a day, and a daily rate above that.",
+    "waitlist": {
+      "status": "none",
+      "detail": "CFC is a Medicaid state plan entitlement. Eligible people do not wait for a slot, though processing can take up to about three months."
+    },
+    "self_directed_or_agency": "Either. In the agency model a personal assistance provider agency employs the worker; in the self-directed model (all CFC participants eligible since October 1, 2023) the participant hires and directs the worker and a fiscal intermediary handles payroll.",
+    "how_to_apply": [
+      "Make sure you have full Maryland Medicaid; if not, apply through your local department of social services or Maryland Health Connection.",
+      "Call Maryland Access Point at 844-627-5465 or the Community First Choice Program at 410-767-1739 to request CFC.",
+      "Complete the interRAI level-of-care assessment and choose a supports planning agency.",
+      "Build the plan of service, choose agency or self-directed, and name the family member you want as your personal assistant."
+    ],
+    "contacts": [
+      { "name": "Community First Choice Program (Office of Long Term Services and Supports)", "phone": "410-767-1739", "url": "https://health.maryland.gov/mmcp/ltss/Pages/community-first-choice.aspx" },
+      { "name": "Maryland Access Point", "phone": "844-627-5465", "url": "https://health.maryland.gov/mmcp/ltss/Pages/community-first-choice.aspx" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my parent in Maryland?", "a": "Yes, through Community First Choice if your parent has full Medicaid and needs an institutional level of care. Your parent can hire you through an agency or the self-directed model." },
+      { "q": "Is there a waiting list for CFC?", "a": "No. CFC is a state plan benefit, so there is no waiting list. Approval can still take up to about three months." },
+      { "q": "Can a spouse be paid under CFC?", "a": "It is not clear. The current CFC regulation only bars the participant's representative, and some sources say spouses can be hired. An older state memo said spouses could not. Ask your supports planner before counting on it." },
+      { "q": "What is the difference between CFC and CPAS?", "a": "CFC requires an institutional level of care and offers more services, like home-delivered meals and assistive technology. CPAS is for people who need help with at least one daily activity but do not meet institutional level of care." },
+      { "q": "How much does CFC pay per hour?", "a": "Medicaid paid $25.58 an hour for personal assistance in FY2025, but that goes to the agency or self-direction budget. Family caregivers are reported to earn about $16–$20 an hour." },
+      { "q": "Can I use CFC with the Community Options Waiver?", "a": "Yes. Community Options Waiver participants get all Medicaid benefits, including CFC personal assistance." }
+    ],
+    "keywords": ["community first choice maryland", "maryland cfc program", "get paid to care for parent maryland", "maryland medicaid personal assistance family", "maryland cfc self directed", "maryland paid family caregiver"],
+    "sources": [
+      "https://health.maryland.gov/mmcp/ltss/Pages/community-first-choice.aspx",
+      "https://dsd.maryland.gov/regulations/Pages/10.09.84.06.aspx",
+      "https://dsd.maryland.gov/regulations/Pages/10.09.84.24.aspx",
+      "https://health.maryland.gov/mmcp/provider/Documents/Transmittals_FY2025/PT%2003-25%20Fiscal%20Year%202025%20Rates%20for%20CFC%20and%20CPAS.pdf",
+      "https://www.medicaidplanningassistance.org/maryland-community-first-choice/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "community-personal-assistance-services",
+    "name": "Community Personal Assistance Services (CPAS)",
+    "aka": ["CPAS", "Community Personal Assistance Services Program", "Maryland CPAS", "Medical Assistance Personal Care"],
+    "kind": "state plan",
+    "summary": "Community Personal Assistance Services is a Maryland Medicaid state plan benefit for people who need help with at least one daily activity but do not need an institutional level of care. It pays for personal assistance, nurse monitoring and supports planning. Like CFC, it can be delivered through an agency or self-directed, and relatives can be hired as the personal assistant.",
+    "who_qualifies": [
+      "Already has full Maryland Medicaid (red and white card).",
+      "Needs help with at least one activity of daily living, such as bathing, dressing or eating.",
+      "Lives in a community setting.",
+      "No age limit."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives such as adult children can be hired as personal assistants, as in CFC.",
+      "spouse": "limited — the same uncertainty as CFC: older state guidance barred spouses and parents of minors, while current sources report spouses can be hired; confirm with your supports planner.",
+      "parent_of_minor": "limited — not confirmed; older guidance barred parents of minor dependent children.",
+      "live_together": "optional — the worker does not need to live with the participant."
+    },
+    "pay": {
+      "display": "$16–$20/hr reported wage; agency rate $25.58/hr (FY2025)",
+      "detail": "CPAS uses the same personal assistance rate as CFC: $6.3962 per 15-minute unit ($25.58/hour) from July 1, 2024 per the FY2025 CFC/CPAS rate transmittal. Workers are paid less than the rate. The family-caregiver wage is not published by the state; third-party sources report about $16–$20/hour."
+    },
+    "hours_or_budget": "Hours come from the interRAI assessment and plan of service, using the Department's standardized times for help with daily activities and household tasks.",
+    "waitlist": {
+      "status": "none",
+      "detail": "CPAS is a Medicaid state plan benefit, so there is no waiting list."
+    },
+    "self_directed_or_agency": "Either. A personal assistance agency can employ the worker, or the participant can self-direct with a fiscal intermediary for payroll.",
+    "how_to_apply": [
+      "Get full Maryland Medicaid if you do not already have it.",
+      "Call Maryland Access Point at 844-627-5465 or the Community First Choice Program at 410-767-1739 and ask about CPAS.",
+      "Complete the interRAI assessment to show you need help with at least one daily activity.",
+      "Work with a supports planner on the plan of service and choose the family member or agency worker you want."
+    ],
+    "contacts": [
+      { "name": "Community First Choice Program (handles CPAS)", "phone": "410-767-1739", "url": "https://health.maryland.gov/mmcp/ltss/Pages/community-personal-assistance-services-program.aspx" },
+      { "name": "Maryland Access Point", "phone": "844-627-5465", "url": "https://health.maryland.gov/mmcp/ltss/Pages/community-personal-assistance-services-program.aspx" }
+    ],
+    "faqs": [
+      { "q": "Who is CPAS for?", "a": "People on full Maryland Medicaid who need help with at least one daily activity but do not need nursing-home-level care. People who need that higher level of care usually get CFC instead." },
+      { "q": "Can a family member be paid through CPAS?", "a": "Yes, relatives such as adult children can be hired. Whether a spouse or the parent of a minor can be paid is not clearly stated in current state materials, so check with your supports planner." },
+      { "q": "Is there a waiting list for CPAS?", "a": "No. CPAS is a state plan benefit, not a waiver, so there are no limited slots." },
+      { "q": "What services does CPAS cover?", "a": "Personal assistance, nurse monitoring and supports planning, plus all regular Medicaid benefits." },
+      { "q": "What rule governs CPAS?", "a": "The Code of Maryland Regulations, COMAR chapter 10.09.20." }
+    ],
+    "keywords": ["maryland cpas", "community personal assistance services maryland", "maryland medicaid personal care family member", "get paid to care for family maryland", "maryland personal assistance program"],
+    "sources": [
+      "https://health.maryland.gov/mmcp/ltss/Pages/community-personal-assistance-services-program.aspx",
+      "https://health.maryland.gov/mmcp/longtermcare/Documents/SOP_Personal-Support-Services-Personal-Assistance%20Services.pdf",
+      "https://health.maryland.gov/mmcp/provider/Documents/Transmittals_FY2025/PT%2003-25%20Fiscal%20Year%202025%20Rates%20for%20CFC%20and%20CPAS.pdf",
+      "https://www.medicaidplanningassistance.org/maryland-community-first-choice/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "community-options-waiver",
+    "name": "Community Options Waiver (Home and Community-Based Options Waiver)",
+    "aka": ["Community Options Waiver", "HCBOW", "Home and Community-Based Options Waiver", "Maryland Medicaid waiver for seniors", "Community Options Registry"],
+    "kind": "waiver service",
+    "summary": "The Community Options Waiver helps adults 18 and older who need nursing facility level of care live at home or in assisted living. It lets people with income up to 300% of the SSI benefit qualify for Medicaid, and members get all Medicaid benefits, including Community First Choice personal assistance, where a family member can be the paid worker. There is a long registry to get in.",
+    "who_qualifies": [
+      "Age 18 or older and living at home or in the community.",
+      "Needs nursing facility level of care.",
+      "Monthly income no more than 300% of the SSI benefit; countable assets no more than $2,000 or $2,500 depending on category.",
+      "Not enrolled in another waiver or PACE at the same time, and community services cost no more than institutional care."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — paid in-home help comes through Community First Choice personal assistance, where relatives such as adult children can be hired.",
+      "spouse": "limited — follows the CFC rules; reported allowed, but older state guidance barred spouses, so confirm.",
+      "parent_of_minor": "no — the waiver serves adults 18 and older.",
+      "live_together": "optional — the worker can live with the participant or not."
+    },
+    "pay": {
+      "display": "Via CFC: $16–$20/hr reported; agency rate $25.58/hr (FY2025)",
+      "detail": "Personal assistance for waiver members is paid through Community First Choice at $6.3962 per 15-minute unit ($25.58/hour) as of July 1, 2024. Waiver-specific services such as case management and assisted living are paid separately. Family-caregiver wages are not published by the state."
+    },
+    "hours_or_budget": "A plan of service based on the interRAI assessment; total community service cost must not exceed the cost of institutional care.",
+    "waitlist": {
+      "status": "long",
+      "detail": "There is a waitlist. You call Maryland Access Point to join the Community Options Waiver Registry and are invited to apply when it is your turn; states.json reports about 20,616 people on it in early 2026 with about 700 invited per month. People in a nursing facility for at least 30 days paid by Medicaid can apply with no wait."
+    },
+    "self_directed_or_agency": "Either, for personal assistance through CFC: agency model or self-directed model with a fiscal intermediary.",
+    "how_to_apply": [
+      "Call Maryland Access Point at 844-627-5465 to put your name on the Community Options Waiver Registry.",
+      "Wait for an invitation to apply (or, if you have been in a nursing facility on Medicaid for 30+ days, ask the facility social worker to help you apply now).",
+      "Complete the Medicaid long-term care application and the level-of-care assessment; you may ask for an options counselor.",
+      "With your case manager, set up CFC personal assistance and name the relative you want to hire."
+    ],
+    "contacts": [
+      { "name": "Maryland Access Point (registry)", "phone": "844-627-5465", "url": "https://health.maryland.gov/mmcp/ltss/Pages/community-options-waiver.aspx" },
+      { "name": "Office of Long Term Services and Supports", "phone": "410-767-1739", "url": "https://health.maryland.gov/mmcp/ltss/Pages/community-options-waiver.aspx" }
+    ],
+    "faqs": [
+      { "q": "How long is the Community Options Waiver waiting list?", "a": "Long. Reports put it around 20,000 people in early 2026, with several hundred invited each month. Nursing home residents on Medicaid for 30 days or more can skip the wait." },
+      { "q": "Why join the waiver if CFC has no waitlist?", "a": "The waiver lets people with income up to 300% of SSI qualify for Medicaid and adds services like assisted living, medical day care and case management." },
+      { "q": "Can my daughter be my paid caregiver on the waiver?", "a": "Yes. Paid personal assistance comes through Community First Choice, which lets you hire relatives such as adult children." },
+      { "q": "What if my income is too high?", "a": "The state says you may qualify for the Increased Community Services Program instead." },
+      { "q": "Which rule governs this waiver?", "a": "COMAR chapter 10.09.54." }
+    ],
+    "keywords": ["maryland community options waiver", "hcbow maryland", "maryland waiver waitlist", "community options waiver registry", "maryland medicaid waiver elderly family caregiver"],
+    "sources": [
+      "https://health.maryland.gov/mmcp/ltss/Pages/community-options-waiver.aspx",
+      "https://health.maryland.gov/mmcp/ltss/Pages/community-first-choice.aspx",
+      "https://health.maryland.gov/mmcp/provider/Documents/Transmittals_FY2025/PT%2003-25%20Fiscal%20Year%202025%20Rates%20for%20CFC%20and%20CPAS.pdf",
+      "https://www.medicaidplanningassistance.org/maryland-community-options-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "dda-waivers",
+    "name": "DDA Waivers (Community Pathways Waiver)",
+    "aka": ["DDA waiver", "Community Pathways Waiver", "Family Supports Waiver", "Community Supports Waiver", "Maryland DDA self-directed services", "family as staff"],
+    "kind": "children's waiver",
+    "summary": "Maryland's Developmental Disabilities Administration (DDA) runs Medicaid waivers for children and adults with intellectual and developmental disabilities. Starting October 6, 2025, the Family Supports Waiver (birth to 21) and Community Supports Waiver were folded into the Community Pathways Waiver. Through Personal Supports and self-directed services, relatives, legal guardians and legally responsible persons, including parents of minors, can be paid as staff, with new hour caps in the FY2027 budget.",
+    "who_qualifies": [
+      "Found eligible by DDA as having a developmental disability, through the DDA eligibility application, documents and interview.",
+      "Eligible for Maryland Medical Assistance (Medicaid), which you must apply for before DDA can fund services.",
+      "Meets the waiver's level-of-care rules; children were served from birth through 21 under the former Family Supports Waiver.",
+      "Is offered a waiver slot from the DDA Waiting List, which is prioritized by need."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives can be paid as staff, now capped at 40 hours a week per relative and 60 hours a week total across all family caregivers; in-laws now count as relatives.",
+      "spouse": "limited — spouses count as legally responsible persons and fall under the same family-as-staff limits.",
+      "parent_of_minor": "limited — legally responsible persons, including parents of minors, can be paid for waiver services, subject to the 40-hour-per-person and 60-hour-total weekly caps.",
+      "live_together": "optional — family staff may live with the participant."
+    },
+    "pay": {
+      "display": "Set by self-directed budget or provider — not published",
+      "detail": "In self-directed services the participant sets staff wages within an approved budget; the FY2027 budget created a separate self-directed rate that removes agency indirect costs. Agency staff are paid what the agency sets, and the FY2027 budget cut provider rates 2%. No single family-caregiver wage is published."
+    },
+    "hours_or_budget": "A Coordinator of Community Services builds a person-centered plan and DDA authorizes services and a budget. Family-as-staff hours are capped at 40 per week per relative, guardian or legally responsible person and 60 per week total for the participant.",
+    "waitlist": {
+      "status": "long",
+      "detail": "DDA cannot meet all requests, so it keeps a Waiting List prioritized so people with the greatest need are helped first. People who will not need services within three years go on the Future Needs Registry."
+    },
+    "self_directed_or_agency": "Either. Self-Directed Services (participant is the employer, with a fiscal management service) or the Community Provider-Managed model through a DDA-licensed agency; family-as-staff limits apply in both.",
+    "how_to_apply": [
+      "Apply for Medical Assistance (Medicaid) for the person with a disability.",
+      "Complete the DDA Application for Eligibility through the DDA regional office for your county, with supporting documents and an interview.",
+      "If found eligible, you are placed on the DDA Waiting List by priority; a Coordinator of Community Services can help while you wait.",
+      "When a waiver slot is offered, build the person-centered plan, choose self-directed or provider-managed services, and add family members as staff within the hour limits."
+    ],
+    "contacts": [
+      { "name": "Developmental Disabilities Administration", "phone": "844-253-8694", "url": "https://health.maryland.gov/dda/Pages/DDA_Eligibility_Application_Process.aspx" },
+      { "name": "DDA Regional Offices (eligibility teams)", "phone": "not published on this page", "url": "https://health.maryland.gov/dda/Pages/Regional%20Offices.aspx" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid to care for a child with a disability in Maryland?", "a": "Yes, through the DDA Community Pathways Waiver. Legally responsible persons, including parents of minors, can be paid as staff, but each family member is capped at 40 hours a week and all family staff together at 60 hours a week." },
+      { "q": "What happened to the Family Supports Waiver?", "a": "On October 6, 2025 DDA combined the Family Supports and Community Supports Waivers into the Community Pathways Waiver. Participants were moved automatically and kept their services." },
+      { "q": "What is the 60/40 rule?", "a": "A FY2027 budget policy that caps paid hours at 40 per week for each relative, guardian or legally responsible person, and 60 per week total for the participant across all family caregivers." },
+      { "q": "Is there a waiting list for DDA services?", "a": "Yes. The DDA Waiting List is prioritized by need. People who do not need services in the next three years go on the Future Needs Registry." },
+      { "q": "Can I hire my sibling under self-directed services?", "a": "Yes. Relatives can be hired as staff in self-directed services, within the family-as-staff hour limits. In-laws now count as relatives for those limits." }
+    ],
+    "keywords": ["maryland dda waiver", "community pathways waiver", "maryland family supports waiver", "maryland parent paid caregiver disabled child", "dda self directed services maryland", "maryland 60/40 rule family as staff"],
+    "sources": [
+      "https://health.maryland.gov/dda/Documents/DDA%20Budget%20FAQs%20-%20June%202026.pdf",
+      "https://health.maryland.gov/dda/Documents/Waiver%20Changes%20and%20You%20Webinar.9.16.25.pdf",
+      "https://health.maryland.gov/dda/supportingmdfamilies/Pages/DDAWaiverprogram.aspx",
+      "https://health.maryland.gov/dda/Pages/DDA_Eligibility_Application_Process.aspx",
+      "https://health.maryland.gov/dda/Pages/Regional%20Offices.aspx"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

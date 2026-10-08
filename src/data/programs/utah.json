@@ -1,0 +1,169 @@
+[
+  {
+    "slug": "dspd-caregiver-compensation",
+    "name": "DSPD Caregiver Compensation",
+    "aka": ["caregiver compensation Utah", "DSPD caregiver compensation", "parent caregiver compensation", "spouse caregiver compensation", "CM2", "CM3"],
+    "kind": "waiver service",
+    "summary": "Caregiver Compensation is an ongoing supported-living service from Utah's Division of Services for People with Disabilities (DSPD). It lets a parent, step-parent, legal guardian or spouse be paid for the care they give a family member who already receives DSPD services. The caregiver is paid either through a fiscal agent (self-administered services) or as an employee of a provider agency.",
+    "who_qualifies": [
+      "Already receives services through a Home and Community-Based waiver managed by DSPD (for example the Community Supports, Acquired Brain Injury, or Physical Disabilities waivers).",
+      "Qualifies for living supports, with needs documented by assessment (UCANS and/or CBIA) and a medical and behavioral certification form.",
+      "For the Physical Disabilities track, one of these must apply: lives in a rural area with no other help within 15 miles, the parent has special training to run health-related technology, the person is functionally quadriplegic, or the person needs critical support during non-traditional work hours.",
+      "The paid caregiver completes DSPD's required training video and knowledge check."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "no — this service is specifically for parents, step-parents, legal guardians and spouses; other relatives are hired through regular DSPD self-administered services instead.",
+      "spouse": "yes — DSPD lists spouses as eligible paid caregivers (separate spouse service code CM2).",
+      "parent_of_minor": "yes — parents, step-parents and legal guardians can be paid after completing required training.",
+      "live_together": "n/a — not stated as a requirement; the caregiver is a household family member by design."
+    },
+    "pay": {
+      "display": "$2,372/month (reported average)",
+      "detail": "No hourly wage schedule is published. A May 2024 FAQ says DSPD reimburses fiscal agencies $6.23 per quarter hour and providers $6.85 per quarter hour, and the amount families receive varies by fiscal agency or provider. Parents have reportedly averaged about $2,372 per month. Caregivers cannot be paid more than an employee would be, and overtime is not allowed."
+    },
+    "hours_or_budget": "Assessments and documentation place the person in one of four categories with weekly caps of 10, 20, 30 or 40 hours. Changes go through DSPD's Request for Services committee. Caregiver Compensation generally replaces services already in the budget rather than adding to them. The case manager reviews billed hours monthly.",
+    "waitlist": {
+      "status": "long",
+      "detail": "Only people already receiving DSPD services can use it, and DSPD services are known for a multi-year waiting list."
+    },
+    "self_directed_or_agency": "Either. Under self-administered services an unpaid administrator (who cannot be the paid caregiver) is the employer and a contracted fiscal agent runs payroll; under the provider model the caregiver is employed by a provider agency that sets the wage.",
+    "how_to_apply": [
+      "If not yet in DSPD services, apply online at dspd.utah.gov or call DSPD intake at 1-844-275-3773.",
+      "Once receiving DSPD services, ask your support coordinator to request Caregiver Compensation.",
+      "Have a clinician or doctor complete the medical and behavioral certification form.",
+      "Complete the DSPD caregiver training video and knowledge check, then submit monthly summaries and timesheets."
+    ],
+    "contacts": [
+      { "name": "DSPD (applications and eligibility)", "phone": "1-844-275-3773", "url": "https://dspd.utah.gov/caregiver-compensation/" },
+      { "name": "DSPD (alternate line)", "phone": "1-801-538-4200", "url": "https://dspd.utah.gov/caregiver-compensation/" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid to care for a disabled child in Utah?", "a": "Yes, if the child already receives DSPD waiver services and qualifies for living supports. Parents, step-parents and legal guardians can be paid after finishing DSPD's training." },
+      { "q": "Can a spouse be paid in Utah?", "a": "Yes, under DSPD Caregiver Compensation, which has a separate spouse service code. Spousal pay came out of Utah's 2021 SB 63." },
+      { "q": "How many hours can I be paid for?", "a": "DSPD uses four categories capped at 10, 20, 30 or 40 hours a week, based on assessments and medical or behavioral documentation." },
+      { "q": "Can one parent manage the program and the other be paid?", "a": "Yes. The administrator role is unpaid, and the administrator cannot also be paid as a caregiver, so one parent can manage while the other is paid." },
+      { "q": "How much does Caregiver Compensation pay?", "a": "It depends on your fiscal agency or provider. DSPD pays fiscal agencies $6.23 per 15 minutes; parents have reportedly averaged about $2,372 a month." },
+      { "q": "Is caregiver pay taxable?", "a": "DSPD tells families to talk to a tax advisor about difficulty-of-care rules." }
+    ],
+    "keywords": ["dspd caregiver compensation", "utah get paid to care for disabled child", "utah parent caregiver pay", "utah pay spouse caregiver", "dspd utah family caregiver"],
+    "sources": [
+      "https://dspd.utah.gov/caregiver-compensation/",
+      "https://dspd.utah.gov/wp-content/uploads/Caregiver-Compensation-Program-Guidance-PD.pdf",
+      "https://utahparentcenter.org/wp-content/uploads/2024/05/FINAL-Caregiver-Comp-FAQs.pdf",
+      "https://le.utah.gov/lfa/fnotes/2021/SB0063_270.pna.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "new-choices-waiver",
+    "name": "New Choices Waiver (NCW)",
+    "aka": ["New Choices Waiver", "NCW", "Utah New Choices", "New Choices Medicaid waiver"],
+    "kind": "waiver service",
+    "summary": "The New Choices Waiver helps Utah adults who have lived long term in a nursing home, assisted living or similar facility move back to a home or community setting. Its services include attendant care and homemaker services, and some can be self-directed with financial management services, which lets the participant hire a relative such as an adult child.",
+    "who_qualifies": [
+      "Age 18 or older and meets Utah Medicaid financial rules.",
+      "Needs nursing-facility level of care at application and throughout participation.",
+      "Primary condition is not mental illness; does not need an 'Intensive Skilled' level of care; not eligible for an ICF/ID.",
+      "Has been in Medicaid nursing-facility care 90+ days, or in a licensed medical institution 30+ days with discharge to a nursing facility for 60+ days, or in assisted living or a Type N facility 365+ days, or is in another Utah waiver with an immediate need for nursing-facility care."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — participant-directed attendant and homemaker services let participants hire friends and relatives such as an adult child (secondary sources).",
+      "spouse": "limited — secondary sources disagree (some say spouses and legal guardians cannot be paid, others say 'in some cases'); the state does not publish the rule on its New Choices pages.",
+      "parent_of_minor": "n/a — the waiver serves adults 18 and older.",
+      "live_together": "optional — participants may live in their own home or the home of a friend or family member."
+    },
+    "pay": {
+      "display": "Not published",
+      "detail": "Utah does not publish a caregiver wage for New Choices. Under self-direction the wage is set between the participant and the worker within the authorized services, and a financial management services agency handles payroll and taxes."
+    },
+    "hours_or_budget": "Participants get only the services they are assessed as needing, written into a care plan by their chosen case management agency.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "The waiver serves a limited number of people and most slots are reserved for people in nursing facilities, hospitals or other medical facilities. The state says it does not expect to hit the cap."
+    },
+    "self_directed_or_agency": "Either. Services can come from agencies, or some services can be participant-directed with financial management services handling payroll.",
+    "how_to_apply": [
+      "Confirm the person meets the facility-stay requirement (for example 90+ days in a Medicaid nursing facility).",
+      "Apply online through the PRISM 'Apply for New Choices Waiver' link on medicaid.utah.gov (a UtahID account is required), or call the program office for a paper application.",
+      "Choose a case management agency from the list for your county.",
+      "Ask your case manager about self-directed attendant care if you want to hire a relative."
+    ],
+    "contacts": [
+      { "name": "New Choices Waiver program office (Salt Lake area)", "phone": "801-538-6155, option 6", "url": "https://medicaid.utah.gov/ltc-2/nc/" },
+      { "name": "New Choices Waiver program office (outside Salt Lake)", "phone": "800-662-9651, option 6", "url": "https://medicaid.utah.gov/ltc-2/nc/" }
+    ],
+    "faqs": [
+      { "q": "Do you have to be in a nursing home to get New Choices?", "a": "Yes, you must be living in a qualifying facility when you apply, such as a nursing home for 90+ days or assisted living for 365+ days. You cannot apply from your own home." },
+      { "q": "Can my daughter be paid to care for me on New Choices?", "a": "Self-directed attendant care lets participants hire relatives such as an adult child, according to program guides. Confirm with your case manager." },
+      { "q": "Can a spouse be paid under New Choices?", "a": "It is unclear. Published guides disagree, and the state's New Choices pages don't say. Ask the program office before you count on it." },
+      { "q": "Is there a waiting list?", "a": "The waiver has a participant cap, but the state says it does not expect to reach it, and people in facilities can apply any time." },
+      { "q": "Can I live with family after leaving the nursing home?", "a": "Yes. The state lists the home of a friend or family member as an allowed setting." }
+    ],
+    "keywords": ["new choices waiver utah", "utah new choices waiver family caregiver", "utah medicaid waiver nursing home to home", "new choices waiver hire family", "utah attendant care self directed"],
+    "sources": [
+      "https://medicaid.utah.gov/ltc-2/nc/",
+      "https://medicaid.utah.gov/Documents/pdfs/ltc/nc/New%20Choices%20Waiver%20Fact%20Sheet.pdf",
+      "https://www.medicaidplanningassistance.org/utah-new-choices-waiver/",
+      "https://payingforseniorcare.com/utah/medicaid-waivers/new-choices"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "aging-waiver",
+    "name": "Home and Community Based Services Waiver for Individuals Age 65 or Older (Aging Waiver)",
+    "aka": ["Aging Waiver", "Utah Aging Waiver", "Waiver for Individuals Age 65 or Older", "SAS model", "self-administered services"],
+    "kind": "waiver service",
+    "summary": "Utah's Aging Waiver helps people 65 and older who need nursing-home-level care stay at home. It is run by the Division of Aging and Adult Services through local Area Agencies on Aging. Under the Self-Administered Services (SAS) model, the participant hires and manages their own personal attendant, such as an adult child, and a financial management services agency runs payroll.",
+    "who_qualifies": [
+      "Age 65 or older.",
+      "Needs nursing-facility level of care.",
+      "Meets Utah Medicaid financial rules.",
+      "Lives at home, not in an assisted living residence or adult foster care home.",
+      "Has a personal attendant who is trained, or willing to be trained, and available to give authorized services."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — under the SAS model participants can hire friends and relatives such as an adult child (secondary sources; the provider manual confirms participant-employed attendants).",
+      "spouse": "limited — secondary sources say spouses may be hired 'in some cases'; the state's rule is not published on the pages reviewed.",
+      "parent_of_minor": "n/a — the waiver serves adults 65 and older.",
+      "live_together": "optional — not published as a requirement."
+    },
+    "pay": {
+      "display": "Not published",
+      "detail": "The hourly wage is negotiated between the participant and the employee. The Utah Medicaid provider manual says employer taxes and workers' comp are paid on top of the negotiated wage, using $10 per hour only as an example."
+    },
+    "hours_or_budget": "A comprehensive needs assessment by the Area Agency on Aging sets the services and hours in the person-centered care plan; participants get only services they are assessed as needing.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "The waiver serves a limited number of people. If no capacity exists, the applicant is told in writing they can use a nursing facility or wait for an opening."
+    },
+    "self_directed_or_agency": "Either. Personal attendant services can come from an agency or be participant-employed under the SAS model with a required financial management services provider.",
+    "how_to_apply": [
+      "Contact your local Area Agency on Aging and ask for an Aging Waiver assessment.",
+      "Apply for Utah Medicaid if not already enrolled.",
+      "If capacity exists, a case manager completes the assessment and you choose waiver services over a nursing facility.",
+      "Choose the SAS model and enroll with a financial management services provider to hire your relative."
+    ],
+    "contacts": [
+      { "name": "Utah Medicaid (long-term care line)", "phone": "800-662-9651, option 6", "url": "https://medicaid.utah.gov/ltc-2/nc/" },
+      { "name": "Utah Division of Aging and Adult Services", "phone": "not published", "url": "https://daas.utah.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my parent on Utah's Aging Waiver?", "a": "Usually yes. Under the Self-Administered Services model, your parent can hire you as their personal attendant and a financial management agency pays you." },
+      { "q": "Can a spouse be paid on the Aging Waiver?", "a": "Possibly in some cases, according to program guides, but Utah does not publish a clear rule. Ask your Area Agency on Aging case manager." },
+      { "q": "How is the hourly wage set?", "a": "You and your parent agree on a wage. Employer taxes and workers' comp are paid on top of that wage." },
+      { "q": "Is there a waiting list?", "a": "There can be. If the waiver is full, you're told in writing that you can wait for an opening or use a nursing facility." },
+      { "q": "Can someone in assisted living use the Aging Waiver?", "a": "No. Participants cannot live in an assisted living residence or adult foster care home." }
+    ],
+    "keywords": ["utah aging waiver", "utah aging waiver family caregiver", "utah get paid to care for elderly parent", "utah self administered services", "utah medicaid waiver 65 and older"],
+    "sources": [
+      "https://medicaid.utah.gov/Documents/manuals/pdfs/Medicaid%20Provider%20Manuals/Home%20And%20Community-Based%20Waiver%20Services/Individuals%20Aged%2065%20And%20Over/AgingWaiver4-22.pdf",
+      "https://medicaid.utah.gov/Documents/pdfs/Aging%20Waiver%20Renewal%20SIP%201.15.2025.pdf",
+      "https://www.payingforseniorcare.com/utah/medicaid-waivers/aging-individuals-age-65-older",
+      "https://www.medicaidplanningassistance.org/utah-aging-waiver/"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  }
+]

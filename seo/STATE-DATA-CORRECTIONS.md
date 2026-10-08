@@ -27,3 +27,9 @@ Apply in one pass before deploy; each line cites the program record that holds t
 - wisconsin: IRIS single statewide FEA = PPL selected 1/29/2026, bid protest pending, participants move "sometime in 2027" (dhs.wisconsin.gov/iris/fea-announcement.htm) — states.json agencyModel AND bespoke /wisconsin/iris/ page say ~April 2026 → fix both
 - wyoming: spouse yes → **limited** (CCW renewal WY.0236.R07.00 eff. 7/1/2026: no financial authority, beyond normal spousal duties; guardian/employer of record barred)
 - wyoming: waitlist "mixed" → possible (~2,891–2,903 funded/yr, enrolled by eligibility date)
+
+## batch: ID IL IN IA KS KY
+- kentucky: spouse yes → **limited** for HCB (907 KAR 7:010: immediate family/spouse via PDS only with written state approval); Michelle P. allows spouse/parents 40 hr/wk; PDS rates from 1/1/2025 $6.36/15min attendant, $9.08/15min personal care; waitlist attestation due 1/31/2027
+- indiana: SFC agency rate $77.54–$133.44/day (BT2025105); $46–$80/day is a ceiling for the caregiver share, not guaranteed; attendant care $34.36/hr to agency (70% to worker)
+- illinois: MFTD legally responsible (parent/spouse) CNAs payable since 5/20/2026 for participants 21+ only; HSP phone 800-843-6154 (not 877-581-3690)
+- kansas: TA waiver amendment (waitlist + LRI pay, 5/1/2026) CMS approval unconfirmed; FE waitlist reported from 7/6/2026 (secondary)

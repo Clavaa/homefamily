@@ -1,0 +1,230 @@
+[
+  {
+    "slug": "passport-waiver",
+    "name": "PASSPORT Medicaid Waiver",
+    "aka": ["PASSPORT", "PASSPORT waiver", "Pre-Admission Screening System Providing Options and Resources Today", "Ohio PASSPORT program", "PASSPORT participant direction", "Choices home care attendant"],
+    "kind": "waiver service",
+    "summary": "PASSPORT is Ohio's Medicaid waiver for adults 60 and older who need nursing-home-level care but want to stay at home. It is run by the Ohio Department of Aging through local PASSPORT administrative agencies (Area Agencies on Aging). Through its participant-directed options, a member can hire a relative as their paid worker, and PASSPORT also offers Structured Family Caregiving for a live-in caregiver.",
+    "who_qualifies": [
+      "Age 60 or older.",
+      "Financially eligible for long-term care Medicaid.",
+      "Needs a nursing facility level of care, confirmed by an in-home assessment.",
+      "Can live safely at home with PASSPORT services.",
+      "People who get both Medicare and Medicaid are generally served through Next Generation MyCare instead."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives can be hired through participant-directed personal care or Choices home care attendant services; a relative who holds legal decision-making authority (such as a power of attorney) is limited to 40 paid hours a week.",
+      "spouse": "limited — a spouse can be paid only if no other willing and able provider is available, the care meets Ohio's extraordinary-care test, and the spouse works through an agency or a financial management service; paid care is capped at 40 hours a week. A spouse can also be the live-in Structured Family Caregiving caregiver under the same rules.",
+      "parent_of_minor": "n/a — PASSPORT serves adults 60 and older.",
+      "live_together": "optional — required only for Structured Family Caregiving."
+    },
+    "pay": {
+      "display": "Varies (not published as a caregiver wage)",
+      "detail": "Ohio sets maximum rates for PASSPORT services in Ohio Administrative Code 5160-1-06.1, but does not publish a single family-caregiver wage. In Choices home care attendant, the participant sets the hourly rate within their budget; participant-directed personal care uses a state-set rate. Structured Family Caregiving is paid to the SFC agency at up to $102.68 a day, and the agency pays the caregiver a share."
+    },
+    "hours_or_budget": "A PASSPORT case manager from your local administrative agency assesses your needs and writes a person-centered services plan that sets which services and how many hours you get. Paid care from a spouse or a relative with legal authority is limited to 40 hours a week unless the state grants an exception.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "PASSPORT has a capped number of slots each year, and a waiting list can form when they fill."
+    },
+    "self_directed_or_agency": "Either. You can use agency providers, or participant direction, where you hire your own worker and a financial management service handles payroll. Structured Family Caregiving runs through a certified SFC agency.",
+    "how_to_apply": [
+      "Call your local Area Agency on Aging (statewide number below) and ask for a PASSPORT screening.",
+      "Apply for Ohio Medicaid through the Ohio Benefits portal or your county Job and Family Services office, and answer yes to the waiver or long-term-care question (form ODM 02399 requests waiver services).",
+      "Complete the in-home assessment with a PASSPORT case manager.",
+      "Choose participant direction or Structured Family Caregiving if you want a family member to be paid, and enroll that person with the financial management service or SFC agency."
+    ],
+    "contacts": [
+      { "name": "Local Area Agency on Aging / PASSPORT (Ohio Department of Aging statewide line)", "phone": "1-866-243-5678", "url": "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/NextGen_MyCare_Member_Help_Desk_One-Pager.pdf" },
+      { "name": "Ohio Department of Medicaid Consumer Hotline", "phone": "1-800-324-8680", "url": "https://medicaid.ohio.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my mom through PASSPORT?", "a": "Yes. If she is on PASSPORT, she can use participant direction to hire you as her worker, or choose Structured Family Caregiving if you live with her." },
+      { "q": "Can a spouse be paid under PASSPORT?", "a": "Only in limited cases: no other willing provider is available, the care passes Ohio's extraordinary-care test, the spouse works through an agency or financial management service, and paid hours stay at 40 a week or less." },
+      { "q": "What is the age limit for PASSPORT?", "a": "You must be 60 or older. People under 60 use the Ohio Home Care Waiver." },
+      { "q": "Is there a waiting list for PASSPORT?", "a": "There can be. PASSPORT has a capped number of slots each year." },
+      { "q": "Who runs PASSPORT locally?", "a": "Your regional Area Agency on Aging acts as the PASSPORT administrative agency and does assessments and case management." },
+      { "q": "How much does PASSPORT pay a family caregiver?", "a": "It depends on the service. In Choices home care attendant, the participant sets the rate within a budget. Structured Family Caregiving pays the agency up to $102.68 a day." }
+    ],
+    "keywords": ["passport waiver ohio", "ohio passport paid family caregiver", "get paid to care for parent ohio", "passport participant direction", "choices home care attendant ohio", "ohio passport spouse caregiver", "passport waiver age 60"],
+    "sources": [
+      "https://codes.ohio.gov/ohio-administrative-code/rule-5160-31-03",
+      "https://codes.ohio.gov/ohio-administrative-code/rule-5160-44-32",
+      "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5160/0/44/5160-44-33_20250812.pdf",
+      "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/NextGen_MyCare_Member_Help_Desk_One-Pager.pdf",
+      "https://www.medicaidplanningassistance.org/ohio-passport-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "structured-family-caregiving",
+    "name": "Structured Family Caregiving (SFC)",
+    "aka": ["SFC", "Structured Family Caregiving Ohio", "SFC Ohio", "live-in family caregiver Ohio", "structured family care"],
+    "kind": "waiver service",
+    "summary": "Structured Family Caregiving is a waiver service in Ohio's PASSPORT, Ohio Home Care and MyCare waivers for adults 18 and older. It pays an SFC agency a daily rate when a caregiver lives with the member and gives daily care and support, and the agency passes a share to the caregiver along with coaching from a nurse or social worker. Family members, including spouses under Ohio's legally-responsible-person rules, can be the caregiver.",
+    "who_qualifies": [
+      "Age 18 or older and enrolled in the PASSPORT, Ohio Home Care, or MyCare waiver.",
+      "Lives with the caregiver, in either the member's or the caregiver's private home.",
+      "Needs help with daily personal care, household support, and activities that support independence.",
+      "Chooses SFC and agrees to monthly care-management contacts.",
+      "Is not medically unstable or medically complex in a way that needs skilled nursing instead."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — an adult child or other relative who lives with the member can be the SFC caregiver.",
+      "spouse": "limited — spouses and relatives with legal decision-making authority may provide SFC only under rule 5160-44-32: no other willing provider, extraordinary care, and the state's health and safety review.",
+      "parent_of_minor": "n/a — SFC is for members 18 and older.",
+      "live_together": "required — the caregiver must live with the member."
+    },
+    "pay": {
+      "display": "$102.68/day to the SFC agency",
+      "detail": "Ohio Administrative Code 5160-46-06 (effective April 17, 2026) sets SFC at $102.68 per day or $51.34 per half day (code S5136). This is the agency's rate; the caregiver receives a share set by the agency. Third parties report caregiver stipends of roughly $1,500–$3,000 a month, which the state does not publish. A lower group rate applies when one caregiver serves two or three members at the same address."
+    },
+    "hours_or_budget": "SFC is paid by the day. It is authorized as a full day unless the member also needs more than two hours of certain other services (home care attendant, homemaker or personal care) that day, in which case it is a half day. It cannot be billed on a day of out-of-home respite.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "SFC has no waitlist of its own, but the member must be on PASSPORT, Ohio Home Care, or MyCare. PASSPORT is capped; MyCare is not."
+    },
+    "self_directed_or_agency": "Agency. The caregiver is employed by or contracted with an SFC provider agency (an ODA-certified agency for PASSPORT, or an accredited or Medicare-certified agency for Ohio Home Care). The agency trains the caregiver, provides monthly coaching from an RN, LPN or social worker, and pays the caregiver.",
+    "how_to_apply": [
+      "Get enrolled in PASSPORT, the Ohio Home Care Waiver, or MyCare (apply for Medicaid and request waiver services).",
+      "Tell your waiver case manager or care coordinator you want Structured Family Caregiving with a live-in family caregiver.",
+      "Choose an SFC provider agency that serves your area.",
+      "The caregiver completes the agency's hiring steps and at least eight hours of initial training (more for Medicare-certified agencies).",
+      "The agency's coach visits in person at the start and stays in monthly contact."
+    ],
+    "contacts": [
+      { "name": "Local Area Agency on Aging (PASSPORT and MyCare waiver questions)", "phone": "1-866-243-5678", "url": "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/NextGen_MyCare_Member_Help_Desk_One-Pager.pdf" },
+      { "name": "Ohio Department of Medicaid Consumer Hotline", "phone": "1-800-324-8680", "url": "https://medicaid.ohio.gov/" }
+    ],
+    "faqs": [
+      { "q": "How much does Structured Family Caregiving pay in Ohio?", "a": "Ohio pays the SFC agency $102.68 per full day or $51.34 per half day. The agency passes a share to the caregiver; ask each agency what it pays." },
+      { "q": "Can a spouse be the SFC caregiver in Ohio?", "a": "Yes, but only under Ohio's legally-responsible-person rule: no other willing provider is available, the care is extraordinary, and the state confirms health and safety." },
+      { "q": "Do I have to live with my parent for SFC?", "a": "Yes. The caregiver must live with the member, either in the member's home or the caregiver's home." },
+      { "q": "Which Ohio waivers offer SFC?", "a": "PASSPORT, the Ohio Home Care Waiver, and the MyCare waiver." },
+      { "q": "Can one caregiver care for more than one person?", "a": "Yes, up to three members at the same address, paid at a group rate." },
+      { "q": "What training does an SFC caregiver need?", "a": "At least eight hours of initial training for ODA-certified and accredited agencies, plus ongoing monthly coaching." }
+    ],
+    "keywords": ["structured family caregiving ohio", "sfc ohio pay rate", "ohio structured family caregiving spouse", "get paid to live with and care for parent ohio", "ohio live in caregiver medicaid", "passport structured family caregiving"],
+    "sources": [
+      "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5160/0/44/5160-44-33_20250812.pdf",
+      "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5160/0/46/5160-46-06_20260417.pdf",
+      "https://codes.ohio.gov/ohio-administrative-code/rule-5160-44-32"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "next-generation-mycare",
+    "name": "Next Generation MyCare Ohio",
+    "aka": ["MyCare Ohio", "Next Gen MyCare", "NextGen MyCare", "MyCare waiver", "Ohio dual eligible plan"],
+    "kind": "waiver service",
+    "summary": "Next Generation MyCare is Ohio's managed care program for adults who have both full Medicare and full Medicaid. It launched January 1, 2026 in the 29 former MyCare counties and was scheduled to reach every county by August 1, 2026. Members who need nursing-home-level care can get MyCare waiver services, including participant-directed care where a relative or spouse can be hired and Structured Family Caregiving.",
+    "who_qualifies": [
+      "Has both full Medicare and full Medicaid (dual eligible).",
+      "Age 21 or older (as reported; confirm with ODM).",
+      "Lives in a county where Next Generation MyCare is available (scheduled to be statewide from August 1, 2026).",
+      "For waiver services, needs a nursing facility level of care."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives can be hired through participant-directed personal care or Choices home care attendant; a relative with legal decision-making authority is limited to 40 paid hours a week.",
+      "spouse": "limited — a spouse can be paid through an agency or financial management service only if no other willing provider is available and the care meets Ohio's extraordinary-care test, up to 40 hours a week.",
+      "parent_of_minor": "n/a — MyCare serves adults.",
+      "live_together": "optional — required only for Structured Family Caregiving."
+    },
+    "pay": {
+      "display": "Varies (not published as a caregiver wage)",
+      "detail": "No single family-caregiver wage is published. In Choices home care attendant the member sets the hourly rate within a budget; participant-directed personal care uses a state-set rate; Structured Family Caregiving pays the SFC agency up to $102.68 a day."
+    },
+    "hours_or_budget": "Your MyCare plan's care coordinator assesses your needs and writes a person-centered services plan that sets the waiver services and hours. Waiver service coordination for MyCare members is handled with the local Area Agency on Aging in many regions.",
+    "waitlist": {
+      "status": "none",
+      "detail": "MyCare has no enrollment cap and no waiting list for eligible members."
+    },
+    "self_directed_or_agency": "Either. Members can use agency providers, participant direction with a financial management service, or an SFC agency for a live-in caregiver.",
+    "how_to_apply": [
+      "Make sure you have full Medicaid and Medicare; apply for Medicaid through the Ohio Benefits portal or your county Job and Family Services office if needed.",
+      "Choose a Next Generation MyCare plan (Anthem, CareSource or Molina were listed as statewide plans).",
+      "Ask your plan's care coordinator for a waiver assessment.",
+      "If approved, choose participant direction or Structured Family Caregiving to have a family member paid, and enroll that person with the financial management service or SFC agency."
+    ],
+    "contacts": [
+      { "name": "Ohio Department of Medicaid Consumer Hotline", "phone": "1-800-324-8680", "url": "https://medicaid.ohio.gov/" },
+      { "name": "Local Area Agency on Aging (MyCare waiver members)", "phone": "1-866-243-5678", "url": "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/NextGen_MyCare_Member_Help_Desk_One-Pager.pdf" }
+    ],
+    "faqs": [
+      { "q": "Who can join Next Generation MyCare?", "a": "Adults who have both full Medicare and full Medicaid and live in a county where it is available. It was scheduled to be statewide from August 1, 2026." },
+      { "q": "Can I be paid to care for a family member on MyCare?", "a": "Yes. MyCare waiver members can hire relatives through participant-directed services or use Structured Family Caregiving with a live-in caregiver." },
+      { "q": "Can a spouse be paid under MyCare?", "a": "In limited cases: no other willing provider, extraordinary care, through an agency or financial management service, and 40 hours a week or less." },
+      { "q": "Is there a waiting list for MyCare?", "a": "No. MyCare is not capped." },
+      { "q": "Which plans offer Next Generation MyCare?", "a": "ODM listed Anthem Blue Cross and Blue Shield, CareSource and Molina HealthCare of Ohio as the statewide plans." }
+    ],
+    "keywords": ["next generation mycare ohio", "mycare ohio paid caregiver", "mycare waiver family caregiver", "ohio dual eligible caregiver pay", "mycare structured family caregiving", "mycare statewide 2026"],
+    "sources": [
+      "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/Providers/Billing/09092025_ODM_Next_Gen_MyCare.pdf",
+      "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/NextGen_MyCare_Member_Help_Desk_One-Pager.pdf",
+      "https://codes.ohio.gov/ohio-administrative-code/rule-5160-44-32",
+      "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5160/0/44/5160-44-33_20250812.pdf",
+      "https://www.ohiohospitals.org/hospital-newswire/next-generation-mycare-program-expands-across-additional-ohio-counties",
+      "https://www.medicaidplanningassistance.org/mycare-ohio-program/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "ohio-home-care-waiver",
+    "name": "Ohio Home Care Waiver",
+    "aka": ["OHCW", "Ohio Home Care", "Ohio home care waiver program", "ODM home care waiver"],
+    "kind": "waiver service",
+    "summary": "The Ohio Home Care Waiver is an Ohio Department of Medicaid program for people 59 and younger with disabilities who need nursing-facility-level care at home. It pays personal care aides, nurses and Structured Family Caregiving. Parents of minor children and spouses can be paid only as agency employees and only under Ohio's strict legally-responsible-person rules.",
+    "who_qualifies": [
+      "Age 59 or younger (members move to PASSPORT at 60).",
+      "Meets Medicaid financial rules, decided by your county Job and Family Services office.",
+      "Needs a nursing facility (or hospital) level of care.",
+      "Has a need for waiver services that can be met safely at home."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives can work as personal care aides through an agency or as non-agency providers; a relative with legal decision-making authority is limited to 40 paid hours a week.",
+      "spouse": "limited — a spouse must be employed through an agency, there must be no other willing provider, the care must meet Ohio's extraordinary-care test, and paid care is capped at 40 hours a week.",
+      "parent_of_minor": "limited — a parent of a minor must work for an agency, be the provider of last resort, meet the extraordinary-care test, and generally work 40 hours a week or less; nurse parents can provide paid waiver nursing through an agency.",
+      "live_together": "optional — required only for Structured Family Caregiving."
+    },
+    "pay": {
+      "display": "Agency rate $28.96/hr; non-agency $22.32/hr (Medicaid rates, not wages)",
+      "detail": "Ohio Administrative Code 5160-46-06 (effective April 17, 2026) sets personal care aide rates at $28.96 per hour for agency aides and $22.32 per hour for non-agency aides (plus 15-minute unit rates). These are what Medicaid pays the provider; an agency sets the wage it pays an employed family member. Structured Family Caregiving pays the agency $102.68 a day."
+    },
+    "hours_or_budget": "A case manager assesses needs and writes a person-centered services plan that sets the hours of personal care aide and other services. Paid care from a parent of a minor or a spouse is capped at 40 hours a week unless the state grants an exception.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "Enrollment depends on waiver capacity; no current waitlist figure was published on the pages reviewed."
+    },
+    "self_directed_or_agency": "Mostly agency. Parents of minors and spouses must be employed by an agency. Other relatives can work for an agency or enroll as a non-agency (independent) provider. Structured Family Caregiving runs through an accredited or Medicare-certified agency.",
+    "how_to_apply": [
+      "Apply for Ohio Medicaid through the Ohio Benefits portal or your county Job and Family Services office.",
+      "Submit form ODM 02399, Request for Medicaid Home and Community-Based Services Waiver, to your county JFS or Ohio Benefits Long Term Services and Supports.",
+      "Complete the level-of-care assessment with the case management agency.",
+      "If a parent or spouse will be the caregiver, ask the case manager about the Ohio Extraordinary Care Instrument (ODM 10372) and find an agency to employ them."
+    ],
+    "contacts": [
+      { "name": "Ohio Department of Medicaid Consumer Hotline", "phone": "1-800-324-8680", "url": "https://medicaid.ohio.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can a parent be paid to care for a disabled child on the Ohio Home Care Waiver?", "a": "Only in limited cases. The parent must work through an agency, there must be no other willing provider, the care must pass the extraordinary-care test, and paid hours are generally 40 a week or less." },
+      { "q": "Can I be paid to care for my spouse on the Ohio Home Care Waiver?", "a": "The same limits apply: agency employment, no other willing provider, extraordinary care, and 40 hours a week or less." },
+      { "q": "What is the age limit for the Ohio Home Care Waiver?", "a": "It serves people 59 and younger. At 60, members move to PASSPORT." },
+      { "q": "How much does a personal care aide get paid?", "a": "Medicaid pays agencies $28.96 per hour and non-agency aides $22.32 per hour under the April 2026 rule. An agency decides the wage it pays its employees." },
+      { "q": "Does the Ohio Home Care Waiver offer Structured Family Caregiving?", "a": "Yes, for members 18 and older who live with their caregiver." },
+      { "q": "Can other relatives be paid without these limits?", "a": "Adult children and other relatives without legal decision-making authority are not under the parent and spouse rules, but those who hold a power of attorney or guardianship are capped at 40 paid hours a week." }
+    ],
+    "keywords": ["ohio home care waiver", "ohio home care waiver parent paid caregiver", "ohcw spouse caregiver", "get paid to care for disabled child ohio", "ohio home care waiver age limit", "ohio personal care aide rate 2026"],
+    "sources": [
+      "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/Families,%20Individuals/Programs/Waivers/HCBSWaivers/ProgramInformation/Ohio_Home_Care.pdf",
+      "https://codes.ohio.gov/assets/laws/administrative-code/authenticated/5160/0/46/5160-46-06_20260417.pdf",
+      "https://codes.ohio.gov/ohio-administrative-code/rule-5160-44-32",
+      "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/Families%2C%20Individuals/Programs/Waivers/HCBSWaivers/2025/Waiver_Comparison_Chart-SFY_2025.pdf",
+      "https://www.kidswaivers.org/oh/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "slug": "consumer-directed-services",
+    "name": "Consumer Directed Services (CDS) Option",
+    "aka": ["CDS", "CDS employer option", "consumer directed services texas", "FMSA", "CDSA"],
+    "kind": "self-direction option",
+    "summary": "CDS is a way to get Texas Medicaid and waiver services where the person (or their legally authorized representative) is the employer and hires their own attendant, often a relative or friend. A Financial Management Services Agency (FMSA, also called a CDS agency) handles payroll, taxes and background checks. CDS is offered in programs such as STAR+PLUS, CLASS, MDCP, HCS, TxHmL, DBMD, Community First Choice and Primary Home Care.",
+    "who_qualifies": [
+      "Already eligible for a Texas program that offers the CDS option (for example STAR+PLUS HCBS, CLASS, MDCP, HCS, TxHmL, DBMD, Community First Choice, Primary Home Care, Community Attendant Services, or CMPAS).",
+      "The person or their legally authorized representative is willing to take on employer duties (hiring, training, timesheets, firing if needed).",
+      "Must work with an FMSA, which gives employer orientation and approves the budget.",
+      "Program rules on hours and services still apply."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — HHSC says a CDS employer may hire eligible service providers such as family members and friends; an adult child, sibling or a parent of an adult child can usually be the attendant.",
+      "spouse": "no — HHSC handbook text says federal and state rules prohibit a spouse from being the paid personal attendant; the reported exception is CMPAS, which HHSC says can be authorized when the attendant is the spouse.",
+      "parent_of_minor": "no — a legally responsible parent (or foster parent, or a parent's spouse) generally cannot be the paid attendant for their minor child; parents of adult children can be paid.",
+      "live_together": "optional — HHSC does not publish a ban on hiring a relative who lives in the home for CDS attendant care."
+    },
+    "pay": {
+      "display": "$13–$15/hr",
+      "detail": "The employer sets the wage within the budget the FMSA approves. Texas raised the attendant base wage assumed in Medicaid rates to $13.00 per hour effective September 1, 2025 (SB 1, 89th Legislature, HHSC Rider 23; CMS state plan amendment TX-25-0002), up from $10.60. Reported CDS wages run up to about $15 per hour depending on program, health plan and budget."
+    },
+    "hours_or_budget": "Hours come from the program's service plan (for STAR+PLUS, set by the health plan's service coordinator after an assessment). The FMSA helps build and approves a budget that covers wages, employer taxes and any other approved costs.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "CDS itself has no waiting list, but many waiver programs that offer it (STAR+PLUS HCBS, CLASS, MDCP) have long interest lists."
+    },
+    "self_directed_or_agency": "The member or legally authorized representative is the employer of record; an FMSA is required for payroll, taxes and background checks. People who don't want employer duties can use the agency option instead.",
+    "how_to_apply": [
+      "Get approved for a program that offers CDS (call 2-1-1 Texas or apply for benefits at YourTexasBenefits.com).",
+      "Tell your case manager or health plan service coordinator you want the CDS option and pick an FMSA from the list they give you.",
+      "Complete FMSA employer orientation and build your budget.",
+      "Have your chosen attendant pass the FMSA's criminal history and registry checks, then start submitting time through EVV."
+    ],
+    "contacts": [
+      { "name": "2-1-1 Texas", "phone": "2-1-1", "url": "https://www.hhs.texas.gov/services/disability/consumer-directed-services" },
+      { "name": "HHSC Interest List Management (waiver interest lists)", "phone": "877-438-5658", "url": "https://www.hhs.texas.gov/node/2593" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my parent in Texas?", "a": "Often yes. If your parent is in a program that offers CDS, such as STAR+PLUS or Primary Home Care, they can hire you as their attendant and an FMSA pays you." },
+      { "q": "Can a spouse be paid through CDS in Texas?", "a": "Generally no. HHSC says federal and state rules bar a spouse from being the paid personal attendant. Texas does list CMPAS as a program that can be authorized when the attendant is the spouse." },
+      { "q": "Can I be paid to care for my disabled adult child?", "a": "Yes. Parents of adult children are not treated as legally responsible and can be hired as the attendant under CDS." },
+      { "q": "What does the FMSA do?", "a": "The Financial Management Services Agency runs payroll, pays employer taxes, checks criminal history and registries, approves the budget and trains the employer." },
+      { "q": "How much do CDS attendants make?", "a": "The employer sets the wage within the budget. Texas raised the base attendant wage built into Medicaid rates to $13.00 per hour on September 1, 2025; reported CDS pay runs up to about $15 per hour." },
+      { "q": "Can the person who manages my CDS also be my paid attendant?", "a": "No. A designated representative must be a volunteer and cannot be a paid service provider." }
+    ],
+    "keywords": ["consumer directed services texas", "cds texas family caregiver", "texas get paid to care for family member", "texas fmsa cds", "can a spouse be paid caregiver texas", "texas medicaid pay family caregiver"],
+    "sources": [
+      "https://www.hhs.texas.gov/services/disability/consumer-directed-services",
+      "https://fhb.hhs.texas.gov/node/314841",
+      "https://fhb.hhs.texas.gov/sites/default/files/documents/appendix-xx-mutually-exclusiive-services-12-25.pdf",
+      "https://www.medicaid.gov/medicaid/spa/downloads/TX-25-0002.pdf",
+      "https://brevy.com/caregiver/texas/get-paid-to-care-for-spouse"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "star-plus-hcbs",
+    "name": "STAR+PLUS Home and Community Based Services (HCBS) Program",
+    "aka": ["STAR+PLUS HCBS", "STAR PLUS waiver", "STAR+PLUS waiver", "Texas STAR+PLUS", "formerly Community Based Alternatives (CBA)"],
+    "kind": "waiver service",
+    "summary": "STAR+PLUS HCBS is the Texas Medicaid managed-care program that gives adults who need nursing-home-level care the services to stay at home instead. Members can choose the CDS option and hire a family member, such as an adult child, as their personal attendant, paid through an FMSA.",
+    "who_qualifies": [
+      "Age 65 or older, or age 21 or older with a disability.",
+      "Meets medical necessity for nursing facility level of care.",
+      "Meets Medicaid financial rules for the program.",
+      "Cost of services must fit within the program's cost limit.",
+      "Reaches the top of the HHSC interest list, or is already a STAR+PLUS member who qualifies to bypass the list through the upgrade process."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — HHSC handbook text says a member may choose a relative or legal guardian, other than a legally responsible individual, as their personal assistance provider.",
+      "spouse": "no — HHSC says federal and state rules prohibit a spouse from being the paid personal attendant in STAR+PLUS; HHSC lists CMPAS as a separate option when the attendant is the spouse.",
+      "parent_of_minor": "n/a — STAR+PLUS HCBS serves adults 21 and older.",
+      "live_together": "optional — HHSC does not publish a rule barring a live-in relative from being the attendant."
+    },
+    "pay": {
+      "display": "$13–$15/hr",
+      "detail": "Under CDS the member sets the wage inside an FMSA-approved budget. The attendant base wage built into Texas Medicaid rates, including STAR+PLUS HCBS, rose to $13.00 per hour on September 1, 2025; reported pay is up to about $15 per hour depending on health plan and budget."
+    },
+    "hours_or_budget": "The member's health plan (MCO) service coordinator assesses needs and builds a service plan; personal assistance hours come from that plan, and total waiver costs must stay within the program's cost limit.",
+    "waitlist": {
+      "status": "long",
+      "detail": "New applicants who are not already on Medicaid go on the STAR+PLUS HCBS interest list, reported at several thousand people with waits of years. Current STAR+PLUS members may bypass the list through the upgrade process."
+    },
+    "self_directed_or_agency": "Either. Members can use a home care agency or the CDS option, where the member is the employer and an FMSA runs payroll.",
+    "how_to_apply": [
+      "If you are not on Medicaid, call HHSC Interest List Management at 877-438-5658 to be added to the STAR+PLUS HCBS interest list.",
+      "If you are already a STAR+PLUS member, call your health plan and ask for an assessment for HCBS (the upgrade process).",
+      "When your name reaches the top of the list, complete the Medicaid application and assessment.",
+      "Once approved, tell your service coordinator you want CDS so you can hire a relative as your attendant."
+    ],
+    "contacts": [
+      { "name": "HHSC Interest List Management", "phone": "877-438-5658", "url": "https://hhs.texas.gov/node/1890" },
+      { "name": "Area Agency on Aging", "phone": "1-800-252-9240", "url": "https://hhs.texas.gov/node/1890" },
+      { "name": "Aging and Disability Resource Center", "phone": "1-855-937-2372", "url": "https://hhs.texas.gov/node/1890" }
+    ],
+    "faqs": [
+      { "q": "Can my daughter be paid as my caregiver under STAR+PLUS?", "a": "Yes. If you choose the CDS option, you can hire an adult child or other relative who is not your spouse as your personal attendant." },
+      { "q": "How long is the STAR+PLUS HCBS wait?", "a": "The interest list wait has been reported as many years. People already in STAR+PLUS may be able to skip the list through the upgrade process." },
+      { "q": "Can my husband be paid to care for me in STAR+PLUS?", "a": "No. HHSC says a spouse cannot be the paid personal attendant in STAR+PLUS. Ask about CMPAS, which HHSC lists as an option when the attendant is the spouse." },
+      { "q": "What age do you have to be?", "a": "STAR+PLUS HCBS serves adults 65 and older and adults 21 and older with disabilities who need nursing-home-level care." },
+      { "q": "Who can help while I wait on the interest list?", "a": "HHSC points people to the Area Agency on Aging at 1-800-252-9240 and the Aging and Disability Resource Center at 1-855-937-2372." }
+    ],
+    "keywords": ["star+plus hcbs", "star plus waiver texas family caregiver", "star+plus cds hire family", "texas star plus interest list", "star plus waiver pay family member"],
+    "sources": [
+      "https://hhs.texas.gov/node/1890",
+      "https://fhb.hhs.texas.gov/book/export/html/310866",
+      "https://fhb.hhs.texas.gov/handbooks/starplus-program-support-unit-operational-procedures-handbook/1300-starplus-services-service-delivery-options",
+      "https://medicaid.communityfirsthealthplans.com/2025/08/25/attendant-rate-increases-rate-enhancement-changes-effective-september-1-2025/",
+      "https://www.medicaidplanningassistance.org/texas-medicaid-starplus/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "class-and-mdcp",
+    "name": "CLASS and MDCP Waivers (Community Living Assistance and Support Services; Medically Dependent Children Program)",
+    "aka": ["CLASS waiver", "CLASS Texas", "MDCP", "Medically Dependent Children Program", "STAR Kids MDCP"],
+    "kind": "waiver service",
+    "summary": "CLASS serves Texans with a related condition (a disability that began before age 22), and MDCP serves children and young adults under 21 who need nursing-facility-level care. Both offer the CDS option, so families can hire a relative such as a grandparent, sibling or a parent of an adult child as the paid attendant or respite worker. Both have very long interest lists.",
+    "who_qualifies": [
+      "CLASS: has a related condition (a disability other than intellectual disability that began before age 22), meets ICF/IID Level of Care VIII, meets the waiver's financial rules, and needs Community First Choice personal attendant services or habilitation.",
+      "MDCP: age 20 or younger, needs nursing-facility level of care (medical necessity), lives in Texas, is Medicaid-eligible based on the child's own income and resources, and has an MDCP slot.",
+      "Both: name must reach the top of the HHSC interest list, then the person completes eligibility."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — CDS employers may hire family members and friends; a sibling, grandparent or other relative can be the paid provider.",
+      "spouse": "no — spouses cannot be paid attendants in Texas Medicaid CDS programs.",
+      "parent_of_minor": "no — a legally responsible parent, foster parent, or a parent's spouse cannot be the paid attendant for their minor child; parents of an adult child in CLASS can be paid.",
+      "live_together": "optional — no live-together rule is published for CDS attendants."
+    },
+    "pay": {
+      "display": "$13–$15/hr",
+      "detail": "The CDS employer sets the wage within the budget. The attendant base wage built into Medicaid rates for CLASS and other attendant services rose to $13.00 per hour effective September 1, 2025; reported pay is up to about $15 per hour."
+    },
+    "hours_or_budget": "CLASS: the service planning team builds an individual plan within the waiver's cost ceiling. MDCP: services such as respite and flexible family support are authorized by the STAR Kids health plan based on an assessment. CDS budgets are approved by the FMSA.",
+    "waitlist": {
+      "status": "long",
+      "detail": "Both waivers use first-come, first-served interest lists. Reported list sizes are about 48,000 for CLASS and 27,000 for MDCP, with waits reported up to roughly 13–15 years. People can get other Medicaid services while waiting without losing their place."
+    },
+    "self_directed_or_agency": "Either. CLASS services can come from a program provider or through CDS; MDCP respite, flexible family support and some other services can be consumer directed with an FMSA.",
+    "how_to_apply": [
+      "Call HHSC Interest List Management at 877-438-5658 (or send a written request) to put the person's name on the CLASS and/or MDCP interest list.",
+      "Call the same number each year to confirm your contact information so you don't miss the release letter.",
+      "When notified that your name is at the top, answer promptly and complete the eligibility and level-of-care process.",
+      "After enrollment, choose the CDS option and an FMSA if you want to hire a relative."
+    ],
+    "contacts": [
+      { "name": "HHSC Interest List Management (CLASS and MDCP)", "phone": "877-438-5658", "url": "https://www.hhs.texas.gov/node/2593" },
+      { "name": "IDD Program Eligibility and Support (CLASS)", "phone": "512-438-2484", "url": "https://www.hhs.texas.gov/node/2593" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid through MDCP?", "a": "Not as the paid attendant for their own minor child. Texas bars legally responsible parents of minors from being paid CDS providers. Other relatives, like a grandparent or adult sibling, can be hired." },
+      { "q": "Can I be paid to care for my adult son in CLASS?", "a": "Yes. Parents of adult children are not legally responsible individuals, so they can be hired through CDS in CLASS." },
+      { "q": "How long is the CLASS waiting list?", "a": "Very long. Reported waits for CLASS and MDCP run up to about 13 to 15 years, so sign up as early as possible." },
+      { "q": "Does being on the interest list stop us from getting other help?", "a": "No. HHSC says people can get Medicaid or other community services while waiting, and that doesn't change their place on the list." },
+      { "q": "What services can be self-directed in MDCP?", "a": "HHSC lists respite, flexible family support, adaptive aids, minor home modifications, and employment supports as MDCP services that can use CDS." }
+    ],
+    "keywords": ["class waiver texas", "mdcp texas", "medically dependent children program pay family", "texas class waiver interest list", "can parents get paid mdcp texas", "texas disability waiver hire family"],
+    "sources": [
+      "https://www.hhs.texas.gov/node/2593",
+      "https://fhb.hhs.texas.gov/node/314841",
+      "https://fhb.hhs.texas.gov/sites/default/files/documents/the-medically-dependent-children-program.pdf",
+      "https://regulations.justia.com/states/texas/title-26/part-1/chapter-259/subchapter-b/division-1/section-259-51",
+      "https://www.hhs.texas.gov/services/disability/consumer-directed-services"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

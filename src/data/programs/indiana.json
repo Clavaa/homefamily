@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "structured-family-caregiving",
+    "name": "Structured Family Caregiving (SFC)",
+    "aka": ["SFC", "structured family care", "Indiana structured family caregiving", "SFC Indiana PathWays", "SFC Health and Wellness waiver"],
+    "kind": "waiver service",
+    "summary": "Structured Family Caregiving is a service on Indiana's PathWays for Aging, Health and Wellness, and Traumatic Brain Injury waivers. A family caregiver who lives with the member works with an approved SFC agency, which provides a caregiver coach and nurse oversight and pays the caregiver a daily stipend. It is the main Indiana option that lets a spouse or a parent of a minor child be paid.",
+    "who_qualifies": [
+      "Enrolled in Indiana Medicaid and in the PathWays for Aging (age 60+), Health and Wellness (disability, under 60) or Traumatic Brain Injury waiver.",
+      "Needs a nursing-facility level of care, set by an Area Agency on Aging assessment.",
+      "Lives full time with the chosen caregiver in a private home.",
+      "The SFC level (1, 2 or 3) is based on how much daily help the member needs."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children, other relatives, guardians, POAs and health care representatives may provide SFC.",
+      "spouse": "yes — FSSA lists the spouse of the waiver recipient as allowed to provide structured family care.",
+      "parent_of_minor": "yes — on the Health and Wellness waiver, biological or adoptive parents, guardians, foster parents and stepparents of a minor may provide SFC.",
+      "live_together": "required — the caregiver and member must live together."
+    },
+    "pay": {
+      "display": "$77.54–$133.44/day (agency rate)",
+      "detail": "Effective July 1, 2025 the state pays the SFC agency $77.54/day (Level 1), $99.71 (Level 2) or $133.44 (Level 3). Agencies must spend at least 60% of the daily rate on the caregiver stipend and direct-care costs, which per FSSA also covers caregiver coaching, nurse supervision and respite. That puts the caregiver's tax-free stipend at roughly $46–$80/day or less, depending on the agency."
+    },
+    "hours_or_budget": "SFC is paid per day, not per hour. The level is set from the member's assessed needs in the service plan.",
+    "waitlist": { "status": "long", "detail": "PathWays and Health and Wellness hit federally approved capacity in April 2024 and use waiting lists; FSSA posts counts on its waiver waiting list page (6,836 on the Health and Wellness list as of August 2026)." },
+    "self_directed_or_agency": "Agency. The caregiver must be enrolled with an approved SFC provider agency that supervises the home and pays the stipend.",
+    "how_to_apply": [
+      "Contact your local Area Agency on Aging (INconnect Alliance, 800-986-3505) for intake and a level-of-care screening.",
+      "Apply for Indiana Medicaid through FSSA and get placed on the waiver waiting list if slots are full.",
+      "When invited, accept within 30 days and finish the service plan within 180 days.",
+      "Ask your care manager or care coordinator for SFC and choose an SFC agency."
+    ],
+    "contacts": [
+      { "name": "INconnect Alliance (Area Agencies on Aging)", "phone": "800-986-3505", "url": "https://www.in.gov/fssa/ddars/resources/individuals/hcbs-waiver-waiting-list-information" },
+      { "name": "Indiana Health Coverage Programs customer assistance", "phone": "800-457-4584", "url": "https://www.in.gov/medicaid/providers/files/bulletins/BT2025105.pdf" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my spouse in Indiana?", "a": "Yes, through Structured Family Caregiving if you live together and your spouse is on a qualifying waiver. Spouses cannot be paid for attendant care." },
+      { "q": "Can a parent get paid to care for a disabled child in Indiana?", "a": "Yes, through SFC on the Health and Wellness waiver. Parents of minors cannot provide attendant care since July 1, 2024." },
+      { "q": "How much does structured family caregiving pay in Indiana?", "a": "The agency gets $77.54 to $133.44 a day by level. At least 60% must go to the caregiver and direct-care costs, so the stipend is often about $46 to $80 a day." },
+      { "q": "Is the SFC stipend taxable?", "a": "SFC stipends are commonly treated as tax-free difficulty-of-care payments under IRS Notice 2014-7 when the caregiver lives with the member. Ask your agency or a tax adviser." },
+      { "q": "Why is there a waiting list?", "a": "PathWays and Health and Wellness reached their federal slot limits in 2024. FSSA invites people off the list as slots open." }
+    ],
+    "keywords": ["structured family caregiving indiana", "sfc indiana pay rate", "indiana paid spouse caregiver", "indiana pathways structured family caregiving", "get paid to care for parent indiana"],
+    "sources": [
+      "https://www.in.gov/fssa/files/ATTCandSFCRelationshipGuidance.pdf",
+      "https://www.in.gov/medicaid/providers/files/bulletins/BT2025105.pdf",
+      "https://www.in.gov/fssa/ddars/resources/individuals/hcbs-waiver-waiting-list-information"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "attendant-care",
+    "name": "Attendant Care (PathWays and Health & Wellness Waivers)",
+    "aka": ["ATTC", "attendant care Indiana", "participant directed attendant care", "Indiana attendant care services"],
+    "kind": "waiver service",
+    "summary": "Attendant Care is an hourly in-home help service on Indiana's PathWays for Aging, Health and Wellness, and Traumatic Brain Injury waivers. It can be delivered through an agency or self-directed. Adult children and many other relatives can be paid attendants, but since July 1, 2024 spouses and parents of minor children cannot.",
+    "who_qualifies": [
+      "Enrolled in Indiana Medicaid and the PathWays for Aging, Health and Wellness or Traumatic Brain Injury waiver.",
+      "Needs a nursing-facility level of care.",
+      "Needs hands-on help with daily tasks, approved in the service plan."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — parents of an adult, stepparents, other relatives, POAs and health care representatives may provide attendant care; a legal guardian of an adult is capped at 40 hours a week.",
+      "spouse": "no — since July 1, 2024 a spouse may not provide attendant care (spouses can use SFC instead).",
+      "parent_of_minor": "no — biological or adoptive parents and guardians of a minor may not provide attendant care; a stepparent may.",
+      "live_together": "optional — the attendant may live with the member or elsewhere."
+    },
+    "pay": {
+      "display": "$34.36/hr (agency rate)",
+      "detail": "Effective July 1, 2025 the state pays agencies $34.36 an hour for attendant care, and agencies must spend at least 70% of it on the direct worker's wages and related costs. The worker's actual hourly wage is set by the agency."
+    },
+    "hours_or_budget": "Hours are approved in the waiver service plan based on assessed need.",
+    "waitlist": { "status": "long", "detail": "PathWays and Health and Wellness use waiting lists since reaching capacity in April 2024." },
+    "self_directed_or_agency": "Either. Attendant care can be agency-based or participant-directed, but legally responsible individuals (spouses, parents of minors) are barred from self-directed attendant care by Indiana Code 12-10-17.1-10(b).",
+    "how_to_apply": [
+      "Contact your local Area Agency on Aging (800-986-3505) for intake and screening.",
+      "Apply for Indiana Medicaid and join the waiver waiting list if needed.",
+      "When enrolled, ask your care manager to add attendant care and choose an agency or self-direction."
+    ],
+    "contacts": [
+      { "name": "INconnect Alliance (Area Agencies on Aging)", "phone": "800-986-3505", "url": "https://www.in.gov/fssa/" },
+      { "name": "Indiana Health Coverage Programs customer assistance", "phone": "800-457-4584", "url": "https://www.in.gov/medicaid/providers/files/bulletins/BT2025105.pdf" }
+    ],
+    "faqs": [
+      { "q": "Can an adult child be paid for attendant care in Indiana?", "a": "Yes. Adult children and other relatives can be paid attendants." },
+      { "q": "Why can't my spouse be my attendant anymore?", "a": "Indiana changed its waivers on July 1, 2024 so spouses and parents of minors cannot provide attendant care. They can provide Structured Family Caregiving instead." },
+      { "q": "How much do attendants make?", "a": "The agency gets $34.36 an hour and must use at least 70% on the worker. Your wage depends on the agency." },
+      { "q": "Can a guardian be paid?", "a": "A legal guardian of an adult can provide up to 40 hours of attendant care a week. Other attendants can cover more hours." },
+      { "q": "Is there a waitlist?", "a": "Yes, for PathWays and Health and Wellness. Attendant care is only available once you are on the waiver." }
+    ],
+    "keywords": ["indiana attendant care family", "indiana attendant care spouse", "indiana pathways attendant care", "attendant care rate indiana 2025", "indiana paid caregiver relative"],
+    "sources": [
+      "https://www.in.gov/fssa/files/ATTCandSFCRelationshipGuidance.pdf",
+      "https://www.in.gov/medicaid/providers/files/bulletins/BT2025105.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

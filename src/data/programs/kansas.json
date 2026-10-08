@@ -1,0 +1,199 @@
+[
+  {
+    "slug": "frail-elderly-waiver",
+    "name": "Frail Elderly (FE) Waiver",
+    "aka": ["FE Waiver", "HCBS FE", "Kansas frail elderly waiver", "KanCare FE waiver"],
+    "kind": "waiver service",
+    "summary": "The Frail Elderly Waiver is a KanCare (Kansas Medicaid) program that pays for in-home help for people 65 and older who would otherwise need a nursing home. Members can self-direct personal care and hire a relative, including a spouse. A Financial Management Services agency handles payroll and taxes.",
+    "who_qualifies": [
+      "Kansas resident age 65 or older.",
+      "Meets the nursing-facility level of care on the functional assessment done through the Aging and Disability Resource Center (ADRC).",
+      "Financially eligible for KanCare.",
+      "A waiver slot is available (new applicants have been placed on a waitlist since July 6, 2026)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children and other relatives can be hired for self-directed personal care.",
+      "spouse": "yes — a spouse can be hired as the self-directed attendant.",
+      "parent_of_minor": "n/a — the FE waiver serves people 65 and older.",
+      "live_together": "optional — the worker may live with the member or not."
+    },
+    "pay": {
+      "display": "$13–$17/hr (reported)",
+      "detail": "KDADS sets personal care rates; KMAP posted SFY 2025 FE personal care rates of $6.83–$7.50 per 15 minutes (paid to the provider or FMS). Self-directed worker wages are reported at about $13–$17 an hour; the worker's wage is set with the member inside the plan."
+    },
+    "hours_or_budget": "The ADRC functional assessment and the KanCare plan care coordinator set the personal care hours in the person-centered service plan.",
+    "waitlist": { "status": "long", "detail": "KDADS started a waitlist for new FE applicants on July 6, 2026 because funding did not cover demand; people already in process continue and emergency exceptions exist." },
+    "self_directed_or_agency": "Either. Members can use an agency or self-direct (hire, train, fire) with a Financial Management Services agency doing payroll and taxes.",
+    "how_to_apply": [
+      "Apply for KanCare online, by phone at 800-792-4884, or on paper, and check the box for HCBS services.",
+      "Call the ADRC at 855-200-2372 to schedule the functional assessment.",
+      "If found eligible, you may be placed on the FE waitlist until a slot opens.",
+      "When enrolled, choose self-direction and an FMS provider through your KanCare plan, then hire your relative."
+    ],
+    "contacts": [
+      { "name": "KanCare Clearinghouse", "phone": "800-792-4884", "url": "https://www.kancare.ks.gov/" },
+      { "name": "Aging and Disability Resource Center (ADRC)", "phone": "855-200-2372", "url": "https://www.kdads.ks.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my wife or husband in Kansas?", "a": "Yes. On the FE waiver, a spouse can be hired as the self-directed attendant." },
+      { "q": "Is there a waiting list for the Frail Elderly waiver?", "a": "Yes, since July 6, 2026 for new applicants. People already being processed continue, and emergencies can be considered." },
+      { "q": "What does FMS do?", "a": "The Financial Management Services agency runs payroll, withholds taxes and pays the worker. The member is still the boss." },
+      { "q": "How much do self-directed workers earn?", "a": "Reported wages are about $13 to $17 an hour. KDADS sets the service rate and the FMS pays the worker." },
+      { "q": "Who does the assessment?", "a": "The Aging and Disability Resource Center, at 855-200-2372." }
+    ],
+    "keywords": ["kansas frail elderly waiver", "fe waiver kansas waitlist", "get paid to care for spouse kansas", "kancare self directed care", "kansas paid family caregiver elderly"],
+    "sources": [
+      "https://www.kdads.ks.gov/Home/Components/News/News/84/316",
+      "https://portal.kmap-state-ks.us/Documents/Provider/Bulletins/24116%20-%20General%20-%20HCBS_Rate_Changes_for_SFY_2025.pdf",
+      "https://www.medicaidplanningassistance.org/kansas-frail-elderly-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "physical-disability-waiver",
+    "name": "Physical Disability (PD) Waiver",
+    "aka": ["PD Waiver", "HCBS PD", "Kansas physical disability waiver", "KanCare PD waiver"],
+    "kind": "waiver service",
+    "summary": "The Physical Disability Waiver is a KanCare program for people ages 16 to 64 with physical disabilities who need a nursing-facility level of care. Members can self-direct personal care and hire a family member. Kansas lets spouses and parents of minors be paid personal care workers on this waiver if they meet provider rules.",
+    "who_qualifies": [
+      "Kansas resident ages 16 to 64 with a physical disability (Social Security disability determination or equivalent).",
+      "Meets nursing-facility level of care on the ADRC functional assessment.",
+      "Financially eligible for KanCare (for minors, only the youth's income counts)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives can be hired as self-directed personal care workers.",
+      "spouse": "yes — spouses may be paid for personal care if they meet provider qualifications.",
+      "parent_of_minor": "yes — parents of members under 18 may be paid for personal care if they meet provider qualifications.",
+      "live_together": "optional — the worker may live with the member or not."
+    },
+    "pay": {
+      "display": "$13–$17/hr (reported)",
+      "detail": "KMAP's SFY 2025 PD personal care rates were $4.10–$4.88 per 15 minutes depending on modifier (about $16–$20 an hour paid to the provider or FMS); SFY 2026 brought further increases. Self-directed worker wages are reported at about $13–$17 an hour."
+    },
+    "hours_or_budget": "Hours come from the ADRC assessment and the person-centered service plan built with the KanCare plan.",
+    "waitlist": { "status": "possible", "detail": "Kansas eliminated the PD waitlist at the end of FY2025; some sources still report a list, so ask the ADRC about current status." },
+    "self_directed_or_agency": "Either. Self-direction uses a Financial Management Services agency for payroll and taxes; agency-directed care is also available.",
+    "how_to_apply": [
+      "Apply for KanCare (800-792-4884 or online), checking the HCBS box.",
+      "Contact the ADRC (855-200-2372) for the functional assessment.",
+      "After enrollment, choose self-direction and an FMS agency, then hire your relative."
+    ],
+    "contacts": [
+      { "name": "Aging and Disability Resource Center (ADRC)", "phone": "855-200-2372", "url": "https://www.kdads.ks.gov/" },
+      { "name": "KanCare Clearinghouse", "phone": "800-792-4884", "url": "https://www.kancare.ks.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can a parent be paid to care for a teen on the PD waiver?", "a": "Yes. Kansas allows parents of minors to be paid for personal care on the PD waiver if they meet provider qualifications." },
+      { "q": "What ages does the PD waiver serve?", "a": "Ages 16 to 64. People who turn 65 can move to the Frail Elderly waiver." },
+      { "q": "Is there a waitlist for the PD waiver?", "a": "Kansas eliminated the PD waitlist at the end of fiscal year 2025. Check with the ADRC for current status." },
+      { "q": "Can I be paid to care for my disabled spouse in Kansas?", "a": "Yes, on the PD waiver a spouse can be the paid personal care worker." }
+    ],
+    "keywords": ["kansas physical disability waiver", "pd waiver kansas family caregiver", "kansas paid caregiver spouse disability", "kancare pd self directed", "kansas pd waiver waitlist"],
+    "sources": [
+      "https://www.kidswaivers.org/ks/",
+      "https://portal.kmap-state-ks.us/Documents/Provider/Bulletins/24116%20-%20General%20-%20HCBS_Rate_Changes_for_SFY_2025.pdf",
+      "https://www.kdads.ks.gov/"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "brain-injury-waiver",
+    "name": "Brain Injury (BI) Waiver",
+    "aka": ["BI Waiver", "HCBS BI", "Kansas brain injury waiver", "Kansas TBI waiver"],
+    "kind": "waiver service",
+    "summary": "The Brain Injury Waiver is a KanCare program for children and adults with an acquired or traumatic brain injury who would otherwise need institutional care. It covers personal care plus therapies and skill-building services. Personal care can be self-directed, and Kansas allows spouses and parents of minors to be paid personal care workers.",
+    "who_qualifies": [
+      "Kansas resident with a qualifying brain injury, birth to age 64.",
+      "Meets the required level of care on the functional assessment.",
+      "Financially eligible for KanCare (for children, only the child's income counts)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives can be hired as personal care workers.",
+      "spouse": "yes — spouses may be paid for personal care if they meet provider qualifications.",
+      "parent_of_minor": "yes — parents of minors may be paid for personal care if they meet provider qualifications.",
+      "live_together": "optional — the worker may live with the member or not."
+    },
+    "pay": {
+      "display": "$13–$17/hr (reported)",
+      "detail": "KDADS sets BI personal care rates (raised for SFY 2026 per KMAP Bulletin 25122). Self-directed worker wages are reported at about $13–$17 an hour."
+    },
+    "hours_or_budget": "Personal care hours are set in the person-centered service plan after the functional assessment.",
+    "waitlist": { "status": "possible", "detail": "No BI waitlist is published, but reporting after 2025 budget cuts said BI could see its first-ever waitlist." },
+    "self_directed_or_agency": "Either. Self-directed care uses a Financial Management Services agency; agency-directed care is also available.",
+    "how_to_apply": [
+      "Apply for KanCare (800-792-4884 or online), checking the HCBS box.",
+      "Contact the ADRC (855-200-2372) to request the BI functional assessment.",
+      "Once enrolled, choose self-direction and an FMS agency, then hire your relative."
+    ],
+    "contacts": [
+      { "name": "Aging and Disability Resource Center (ADRC)", "phone": "855-200-2372", "url": "https://www.kdads.ks.gov/" },
+      { "name": "KanCare Clearinghouse", "phone": "800-792-4884", "url": "https://www.kancare.ks.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I be paid to care for my son with a brain injury in Kansas?", "a": "Yes. Kansas allows parents, including parents of minors, to be paid personal care workers on the BI waiver." },
+      { "q": "Does the BI waiver have a waiting list?", "a": "None is published now, but budget cuts in 2025 raised the risk of a first-time waitlist. Apply early." },
+      { "q": "What services does the BI waiver cover?", "a": "Personal care, therapies, cognitive rehabilitation, transitional living skills, home changes, meals and more." },
+      { "q": "Can a spouse be paid on the BI waiver?", "a": "Yes, if the spouse meets provider qualifications." },
+      { "q": "Who handles my relative's paycheck if we self-direct?", "a": "A Financial Management Services agency runs payroll and taxes. The member, or a chosen representative, still hires and supervises the worker." }
+    ],
+    "keywords": ["kansas brain injury waiver", "bi waiver kansas family caregiver", "kansas tbi waiver paid parent", "kancare brain injury self directed", "kansas brain injury waiver waitlist"],
+    "sources": [
+      "https://www.kidswaivers.org/ks/",
+      "https://www.sunflowerhealthplan.com/newsroom/kmap-25122.html",
+      "https://kansasreflector.com/?p=52972"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "technology-assisted-waiver",
+    "name": "Technology Assisted (TA) Waiver",
+    "aka": ["TA Waiver", "HCBS TA", "Kansas technology assisted waiver", "Kansas medically fragile waiver"],
+    "kind": "children's waiver",
+    "summary": "The Technology Assisted Waiver is a KanCare program for medically fragile children and young adults up to age 21 who rely on technology such as a ventilator, trach or feeding tube. Parents' income is not counted. Parents can be paid for personal care up to 12 hours a day, and parents who are RNs or LPNs can be paid for nursing.",
+    "who_qualifies": [
+      "Kansas resident from birth to age 21.",
+      "Depends on medical technology and needs a hospital level of care.",
+      "Financially eligible based on the child's own income; parents' income is not counted."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — other relatives can be hired as personal care workers.",
+      "spouse": "n/a — the TA waiver serves children and young adults.",
+      "parent_of_minor": "yes — parents can be paid for up to 12 hours a day of personal care (40 hours a week max, no overnight respite); RN/LPN parents may also provide up to 8 hours a day of nursing.",
+      "live_together": "optional — not required by published rules, though most paid parents live with the child."
+    },
+    "pay": {
+      "display": "$13–$17/hr (reported)",
+      "detail": "KDADS sets TA personal care and nursing rates (raised for SFY 2026 per KMAP Bulletin 25122). Self-directed personal care wages are reported at about $13–$17 an hour."
+    },
+    "hours_or_budget": "The assessment and plan of care set daily personal care and nursing hours; paid-parent hours are capped as above.",
+    "waitlist": { "status": "possible", "detail": "A 2026 KDADS amendment proposed adding a TA waitlist (proposed effective May 1, 2026) along with updated legally-responsible-individual rules; CMS approval was not confirmed." },
+    "self_directed_or_agency": "Either. Personal care can be self-directed with a Financial Management Services agency or agency-delivered.",
+    "how_to_apply": [
+      "Contact the TA waiver assessor, Family Waiver Care, at 785-296-9551.",
+      "Apply for KanCare for the child (800-792-4884), checking the HCBS box.",
+      "After approval, choose self-direction and an FMS agency, and enroll the parent as the personal care worker."
+    ],
+    "contacts": [
+      { "name": "Family Waiver Care (TA waiver)", "phone": "785-296-9551", "url": "https://www.kidswaivers.org/ks/" },
+      { "name": "KDADS HCBS Programs", "phone": "not published", "url": "https://www.kdads.ks.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid to care for a medically fragile child in Kansas?", "a": "Yes. On the TA waiver, parents can be paid for up to 12 hours a day of personal care, capped at 40 hours a week." },
+      { "q": "Can a nurse parent be paid for nursing?", "a": "Yes. Parents who are RNs or LPNs can provide up to 8 hours a day of nursing." },
+      { "q": "Does my income count?", "a": "No. Only the child's income counts for TA waiver eligibility." },
+      { "q": "Is there a waitlist for the TA waiver?", "a": "Historically no. A 2026 amendment proposed adding one, so ask the assessor about current status." },
+      { "q": "What happens at age 21?", "a": "The TA waiver serves birth to 21. Older youth may move to the PD or BI waiver." }
+    ],
+    "keywords": ["kansas technology assisted waiver", "ta waiver kansas parent paid", "get paid to care for medically fragile child kansas", "kansas ta waiver waitlist", "family waiver care kansas"],
+    "sources": [
+      "https://sos.ks.gov/publications/Register/Volume-45/Issues/Issue-04/01-22-26-53821.html",
+      "https://www.kidswaivers.org/ks/",
+      "https://www.sunflowerhealthplan.com/newsroom/kmap-25122.html"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  }
+]

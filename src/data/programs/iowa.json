@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "consumer-choices-option",
+    "name": "Consumer Choices Option (CCO)",
+    "aka": ["CCO", "Consumer Choice Option", "Iowa self-directed waiver", "Iowa CCO Veridian"],
+    "kind": "self-direction option",
+    "summary": "The Consumer Choices Option lets Iowa Medicaid waiver members control a set monthly budget and hire their own workers, including adult children and other relatives. Veridian Fiscal Solutions acts as the financial management service and pays the workers. Since individual CDAC ended on December 31, 2025, CCO is the main way to hire a family member directly.",
+    "who_qualifies": [
+      "Enrolled in Iowa Medicaid and in an Iowa Home and Community-Based Services (HCBS) waiver (for example the Elderly, Health and Disability, Physical Disability, Brain Injury or Intellectual Disability waiver).",
+      "Meets the waiver's level-of-care requirement.",
+      "Willing to act as employer, or to name someone to help manage the budget."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children, siblings, grandchildren and friends can be hired as CCO employees.",
+      "spouse": "no — a spouse cannot be the paid worker.",
+      "parent_of_minor": "no — parents, stepparents and guardians of a child 17 or under cannot be paid.",
+      "live_together": "optional — the worker may live with the member or not."
+    },
+    "pay": {
+      "display": "$2,691/month (reported)",
+      "detail": "The member sets the worker's wage within a monthly individual budget built from the waiver services in the plan. Iowa does not publish a single CCO wage; third-party guides report up to about $2,691 a month (2026)."
+    },
+    "hours_or_budget": "The case manager or MCO turns the approved waiver services into a monthly dollar budget; the member decides how many hours and what wage to pay within it.",
+    "waitlist": { "status": "possible", "detail": "CCO has no list of its own, but the waiver must have a slot. The Elderly Waiver had no waitlist in January 2026; most other Iowa waivers had waitlists (about 26,665 Iowans waiting in December 2025)." },
+    "self_directed_or_agency": "Self-directed. The member is the employer; Veridian Fiscal Solutions handles payroll and taxes; an optional Independent Support Broker helps with budgeting and hiring.",
+    "how_to_apply": [
+      "Apply for Iowa Medicaid and the right HCBS waiver through Iowa HHS (hhs.iowa.gov or 800-338-8366).",
+      "Complete the waiver level-of-care assessment.",
+      "Ask your case manager or managed-care organization to enroll you in CCO.",
+      "Pick an Independent Support Broker if you want one, sign the Veridian FMS agreement, and have your worker sign the employment agreement."
+    ],
+    "contacts": [
+      { "name": "Iowa Medicaid Member Services", "phone": "1-800-338-8366", "url": "https://hhs.iowa.gov/medicaid/member-services/cco" },
+      { "name": "Veridian Fiscal Solutions — CCO", "phone": "not published on the HHS page", "url": "https://www.veridianfiscalsolutions.org/cco/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my parent in Iowa?", "a": "Yes. If your parent is on an Iowa HCBS waiver and uses CCO, they can hire you, and Veridian pays you." },
+      { "q": "Can a spouse be paid under CCO?", "a": "No. Iowa does not let a spouse be the paid worker." },
+      { "q": "What happened to individual CDAC?", "a": "Iowa stopped individual Consumer Directed Attendant Care on December 31, 2025. Members had to move to CCO or an agency provider." },
+      { "q": "Who decides my worker's wage?", "a": "You do, within your monthly CCO budget. The budget must also cover employer taxes." },
+      { "q": "What is an Independent Support Broker?", "a": "A person you can choose to help you build your budget and hire workers. It is optional." }
+    ],
+    "keywords": ["iowa consumer choices option", "cco iowa family caregiver", "get paid to care for parent iowa", "iowa medicaid self directed", "veridian fiscal solutions cco"],
+    "sources": [
+      "https://hhs.iowa.gov/medicaid/member-services/cco",
+      "https://hhs.iowa.gov/medicaid/services-care/individual-consumer-directed-attendant-care-icdac-transition",
+      "https://www.iowatotalcare.com/content/dam/centene/iowa-total-care/PDF/CDAC-Guide-2021.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "cdac-agency",
+    "name": "Consumer Directed Attendant Care (CDAC) — agency-delivered",
+    "aka": ["CDAC", "agency CDAC", "Iowa consumer directed attendant care", "Iowa attendant care agency"],
+    "kind": "waiver service",
+    "summary": "Consumer Directed Attendant Care pays for hands-on help at home for Iowa Medicaid waiver members. After December 31, 2025, CDAC can only be delivered by an enrolled agency, not an individual provider. An agency can hire a member's adult child or other relative as the attendant and pay them a wage.",
+    "who_qualifies": [
+      "Enrolled in Iowa Medicaid and an Iowa HCBS waiver that covers CDAC.",
+      "Meets the waiver's level-of-care requirement.",
+      "CDAC is listed in the member's service plan."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — an enrolled agency can employ an adult child or other relative as the attendant.",
+      "spouse": "no — a spouse is not eligible to be the CDAC provider.",
+      "parent_of_minor": "no — a parent or stepparent of a minor cannot be the CDAC provider.",
+      "live_together": "optional — the attendant may live with the member or not."
+    },
+    "pay": {
+      "display": "Agency wage (not published)",
+      "detail": "Iowa Medicaid or the MCO pays the agency under the HCBS fee schedule; the agency sets the attendant's wage."
+    },
+    "hours_or_budget": "Units of CDAC are set in the service plan by the case manager or MCO based on assessed need and waiver limits.",
+    "waitlist": { "status": "possible", "detail": "Depends on the waiver: the Elderly Waiver had no waitlist in January 2026, but most other Iowa waivers have waitlists." },
+    "self_directed_or_agency": "Agency. Since individual CDAC ended December 31, 2025, an enrolled agency employs the attendant. Members who want to be the employer use CCO.",
+    "how_to_apply": [
+      "Apply for Iowa Medicaid and the HCBS waiver through Iowa HHS (800-338-8366).",
+      "Ask your case manager or MCO to add CDAC to your service plan.",
+      "Choose an enrolled CDAC agency and ask whether it will hire your relative."
+    ],
+    "contacts": [
+      { "name": "Iowa Medicaid Member Services", "phone": "1-800-338-8366", "url": "https://hhs.iowa.gov/medicaid/services-care/individual-consumer-directed-attendant-care-icdac-transition" },
+      { "name": "Iowa HHS", "phone": "800-972-2017", "url": "https://hhs.iowa.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I still be an individual CDAC provider in Iowa?", "a": "No. Iowa ended individual CDAC on December 31, 2025 after a federal tax compliance issue. You can work for a CDAC agency or be hired under CCO." },
+      { "q": "Can a CDAC agency hire me to care for my dad?", "a": "Yes, if the agency agrees to hire you and you meet its requirements. Spouses and parents of minors cannot be paid." },
+      { "q": "What is the difference between CDAC and CCO?", "a": "With agency CDAC, the agency is your employer. With CCO, the member is the employer and Veridian handles payroll." },
+      { "q": "How much do CDAC agency workers earn?", "a": "The agency sets the wage. Iowa does not publish a family-caregiver wage." }
+    ],
+    "keywords": ["iowa cdac agency", "consumer directed attendant care iowa", "icdac ending iowa", "iowa attendant care family member", "cdac iowa 2026"],
+    "sources": [
+      "https://hhs.iowa.gov/medicaid/services-care/individual-consumer-directed-attendant-care-icdac-transition",
+      "https://hhs.iowa.gov/medicaid/member-services/cco",
+      "https://provider.wellpoint.com/docs/gpp/IA_CAID_AttendantCareGuide2022.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

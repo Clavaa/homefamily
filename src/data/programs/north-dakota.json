@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "hcbs-waiver-family-personal-care",
+    "name": "HCBS Waiver — Family Personal Care (FPC)",
+    "aka": ["Family Personal Care", "FPC", "ND HCBS waiver", "aged and disabled waiver North Dakota", "Medicaid Waiver for Home and Community Based Services"],
+    "kind": "waiver service",
+    "summary": "Family Personal Care is a service in North Dakota's Medicaid Waiver for Home and Community Based Services, which serves older adults and adults with physical disabilities who would otherwise need nursing home care. It pays a family member who lives with the participant, such as a spouse, adult child or adult grandchild, a flat daily rate to provide personal care. The family member must enroll with North Dakota Health and Human Services as an individual Qualified Service Provider (QSP).",
+    "who_qualifies": [
+      "Qualifies for North Dakota Medicaid.",
+      "Is an older adult or an adult with a physical disability who meets nursing facility level of care.",
+      "Is approved for the HCBS waiver and for Family Personal Care by an HCBS case manager.",
+      "Lives with the family member who will provide the care."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — an adult child, adult grandchild or other eligible relative who lives with the participant can be paid.",
+      "spouse": "yes — a spouse who lives with the participant can be paid as the Family Personal Care provider.",
+      "parent_of_minor": "n/a — this waiver serves adults; see the Family Paid Caregiver Pilot for children.",
+      "live_together": "required — the family caregiver must live with the participant."
+    },
+    "pay": {
+      "display": "Up to $165.98/day",
+      "detail": "North Dakota HHS's QSP rate sheet effective July 1, 2026 lists Family Personal Care (code S5136) at a $165.98 daily flat rate for individual QSPs. This is newer than the older $21.76/hr individual personal-care figure. The daily amount authorized for your case is on the service authorization from the case manager. QSPs are self-employed, so taxes are not withheld."
+    },
+    "hours_or_budget": "An HCBS case manager assesses the participant's needs and issues a service authorization that lists the tasks, dates and the rate the QSP may bill. Family Personal Care is paid by the day.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "The HCBS waiver is not an entitlement and has a limited number of slots each year (reported at roughly 850–930). A waitlist forms when slots are full."
+    },
+    "self_directed_or_agency": "Neither an agency nor a fiscal agent. The family caregiver enrolls directly with ND HHS as an individual Qualified Service Provider, works as a self-employed independent contractor, and bills HHS for authorized days.",
+    "how_to_apply": [
+      "Contact the Aging and Disability Resource Link or your local Human Service Zone office to ask about the HCBS waiver.",
+      "An HCBS case manager assesses functional and financial eligibility.",
+      "If Family Personal Care is approved, the family member enrolls as an individual QSP through the QSP Enrollment Portal (only after the case manager has approved the service).",
+      "Send the Monthly Rate Worksheet and other enrollment documents; enrollment cannot start before the participant signs the care plan.",
+      "Provide care under the service authorization and bill HHS."
+    ],
+    "contacts": [
+      { "name": "Aging and Disability Resource Link (ADRL)", "phone": "1-855-462-5465", "url": "https://www.hhs.nd.gov/adults-and-aging" },
+      { "name": "QSP Hub (enrollment help)", "phone": "(701) 777-3432", "url": "https://www.hhs.nd.gov/qsp" },
+      { "name": "ND Medicaid Provider Relations Call Center", "phone": "(877) 328-7098", "url": "https://www.hhs.nd.gov/qsp" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my spouse in North Dakota?", "a": "Yes. Under the HCBS waiver's Family Personal Care service, a spouse who lives with the participant can be paid after enrolling as a Qualified Service Provider." },
+      { "q": "How much does Family Personal Care pay?", "a": "The July 1, 2026 QSP rate sheet lists a $165.98 daily flat rate. Your service authorization shows the exact rate you may bill." },
+      { "q": "Do I have to live with the person?", "a": "Yes. The family caregiver must live with the participant." },
+      { "q": "Are taxes taken out of QSP payments?", "a": "No. QSPs are self-employed, so Social Security and income taxes are not withheld. You are responsible for paying them." },
+      { "q": "Is there a waiting list for the ND HCBS waiver?", "a": "It can have one. The waiver has a limited number of slots each year." },
+      { "q": "When should I apply to be a QSP?", "a": "Only after a case manager has approved the participant for Family Personal Care." }
+    ],
+    "keywords": ["north dakota family personal care", "nd hcbs waiver spouse paid", "get paid to care for spouse north dakota", "family personal care rate north dakota", "nd qsp family caregiver", "north dakota medicaid pay family caregiver"],
+    "sources": [
+      "https://www.hhs.nd.gov/sites/default/files/documents/Adult%20and%20Aging/qsp-rate-sheet.pdf",
+      "https://www.hhs.nd.gov/qsp",
+      "https://regulations.justia.com/states/north-dakota/title-75/article-75-03/chapter-75-03-23/section-75-03-23-06",
+      "https://www.medicaidplanningassistance.org/north-dakota-hcbs-medicaid-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "qualified-service-provider",
+    "name": "Qualified Service Provider (QSP) — Family Home Care",
+    "aka": ["QSP", "QSP North Dakota", "individual QSP", "Family Home Care", "FHC", "become a QSP"],
+    "kind": "state-funded",
+    "summary": "In North Dakota, family caregivers are paid by enrolling with Health and Human Services as an individual Qualified Service Provider (QSP). A QSP is a self-employed contractor who is paid for services the state authorizes. One main family option is Family Home Care, which pays a spouse or close relative who lives with an older or disabled person a flat daily rate for room, board, supervision and personal care.",
+    "who_qualifies": [
+      "The person receiving care is elderly or disabled and found eligible for HHS home and community-based services by a case manager (functional and financial review).",
+      "For Family Home Care, the person needs help with daily activities and lives with the caregiver.",
+      "The caregiver meets QSP standards, including competency and background attestations.",
+      "Private-pay caregivers do not have to enroll as a QSP."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — for Family Home Care: an adult child or stepchild, adult grandchild, adult sibling, adult niece or nephew, parent or stepparent, grandparent, aunt or uncle, or the current or former spouse of one of these.",
+      "spouse": "yes — a spouse can be the Family Home Care provider.",
+      "parent_of_minor": "no — Family Home Care serves elderly or disabled adults; see the Family Paid Caregiver Pilot for children.",
+      "live_together": "required — for Family Home Care the QSP and client must live together, and the QSP is responsible for 24-hour care."
+    },
+    "pay": {
+      "display": "$77.69/day (Family Home Care)",
+      "detail": "The ND HHS QSP rate sheet effective July 1, 2026 lists Family Home Care (code T2033) at a $77.69 daily flat rate. Individual QSP personal care is $6.98 per 15 minutes (about $27.92/hr), which replaces the older $21.76/hr figure. Any client cost share is deducted from the QSP's payment, and taxes are not withheld."
+    },
+    "hours_or_budget": "A case manager writes a service authorization listing the tasks, dates and maximum service per month. Family Home Care is billed by the day; other QSP services are billed in 15-minute units up to the authorized amount.",
+    "waitlist": {
+      "status": "none",
+      "detail": "No waitlist is published for QSP enrollment itself; access depends on the person being found eligible for an HHS-funded service."
+    },
+    "self_directed_or_agency": "Individual. The QSP is a self-employed independent contractor enrolled with ND HHS, not an employee of HHS or an agency. Agency QSPs also exist for workers who prefer an employer.",
+    "how_to_apply": [
+      "Have the person needing care contact a case manager (through the Aging and Disability Resource Link or a Human Service Zone office) for an assessment.",
+      "Once the case manager approves the service, create an account in the QSP Enrollment Portal and complete the online application.",
+      "Submit the required forms and documents to QSP Enrollment (Noridian), including the Monthly Rate Worksheet for Family Home Care.",
+      "After approval, receive the service authorization from the case manager, provide care, and bill HHS.",
+      "Revalidate your QSP enrollment every five years."
+    ],
+    "contacts": [
+      { "name": "QSP Hub (enrollment help)", "phone": "(701) 777-3432", "url": "https://www.hhs.nd.gov/qsp" },
+      { "name": "ND Medicaid Provider Relations Call Center", "phone": "(877) 328-7098", "url": "https://www.hhs.nd.gov/qsp" },
+      { "name": "Aging and Disability Resource Link (ADRL)", "phone": "1-855-462-5465", "url": "https://www.hhs.nd.gov/adults-and-aging" }
+    ],
+    "faqs": [
+      { "q": "What is a QSP in North Dakota?", "a": "A Qualified Service Provider is an individual or agency enrolled with ND Health and Human Services to be paid for home and community-based services. Individual QSPs are self-employed contractors." },
+      { "q": "How much does Family Home Care pay?", "a": "The July 1, 2026 rate sheet lists $77.69 per day as a flat rate. Any client cost share is subtracted from the payment." },
+      { "q": "Which relatives can be paid for Family Home Care?", "a": "A spouse, parent, grandparent, adult child, adult sibling, adult grandchild, adult niece or nephew, aunt or uncle, or the current or former spouse of one of these relatives." },
+      { "q": "Do I need to be a QSP to be paid by a family member privately?", "a": "No. If you are only paid privately with the person's own money, you do not need to enroll as a QSP." },
+      { "q": "Are taxes withheld from QSP payments?", "a": "No. You are self-employed and must pay your own Social Security and income taxes." },
+      { "q": "Who can help me fill out the QSP application?", "a": "The QSP Hub gives free one-on-one help with enrollment, billing and revalidation." }
+    ],
+    "keywords": ["qsp north dakota", "how to become a qsp nd", "family home care north dakota", "nd qsp rate 2026", "get paid to care for family north dakota", "north dakota qsp enrollment portal"],
+    "sources": [
+      "https://www.hhs.nd.gov/qsp",
+      "https://hhs.nd.gov/sites/www/files/documents/qsp-family-home-care-handbook.pdf",
+      "https://www.hhs.nd.gov/sites/default/files/documents/Adult%20and%20Aging/qsp-rate-sheet.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "family-paid-caregiver-pilot",
+    "name": "Family Paid Caregiver Pilot Program",
+    "aka": ["Family Paid Caregiver Pilot", "ND family caregiver pilot", "paid parent caregiver North Dakota", "familycaregiver.hhs.nd.gov", "SB 2305 pilot"],
+    "kind": "state-funded",
+    "summary": "The Family Paid Caregiver Pilot is a state-funded North Dakota program that pays legally responsible family members, such as parents of minors and spouses, who give extraordinary care to someone on one of four Medicaid waivers. It started in April 2024, and Senate Bill 2305 (2025) extended it for two more years at a higher rate. Families apply through an online portal, and payment is a daily amount claimed twice a month.",
+    "who_qualifies": [
+      "Enrolled in one of four Medicaid waivers: Autism Spectrum Disorder Birth Through 17, Children with Medically Fragile Needs, Children's Hospice, or Traditional IID/DD.",
+      "Cared for by a legally responsible individual (for example a parent of a minor, a guardian, or a spouse).",
+      "Has assessed needs that meet the definition of extraordinary care: medical or behavioral care beyond what a legally responsible person would normally do.",
+      "Support needs are not already paid for through other waiver or Medicaid State Plan services. There is no age requirement."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "n/a — the pilot is for legally responsible individuals; other relatives are paid through regular waiver services.",
+      "spouse": "yes — a spouse is a legally responsible individual and can be paid if the participant is on an eligible waiver and needs extraordinary care.",
+      "parent_of_minor": "yes — this is the main group the pilot serves: parents or guardians of children on the four eligible waivers.",
+      "live_together": "n/a — the state pages reviewed do not set a separate live-in rule; the pilot was announced to support families caring for someone in their household."
+    },
+    "pay": {
+      "display": "About $166/day (reported, 2025 increase)",
+      "detail": "The state's original 2024 FAQ set $77.45 per day for participants ages 0–17 and $154.89 per day for ages 18 and up, with a maximum of five days per week. SB 2305 (2025) raised the rate; news coverage reports about $166 per day and about $43,000 a year at most. The state page does not publish the new amount."
+    },
+    "hours_or_budget": "Paid by the day, not by the hour. Caregivers can claim up to five days per week (Sunday through Saturday) and submit payment requests twice a month in the Family Caregiver Portal.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "Funding is limited. Applications are processed in the order received as funds become available, and applicants may be placed on a waitlist. Reports say far more families applied than were enrolled in the first round."
+    },
+    "self_directed_or_agency": "Neither. The legally responsible family member applies directly to ND HHS through the Family Caregiver Portal and is paid by the state; there is no agency or fiscal agent.",
+    "how_to_apply": [
+      "Make sure the person is enrolled in one of the four eligible waivers.",
+      "Sign in to the Family Caregiver Portal (familycaregiver.hhs.nd.gov) with a North Dakota Login account.",
+      "Enter the family caregiver's information, add the person receiving care, and submit an application (one per person needing care).",
+      "Complete the assessment and Child Abuse and Neglect Inquiry when HHS asks; check status in the portal's Applications tab.",
+      "Once approved, submit payment requests twice a month."
+    ],
+    "contacts": [
+      { "name": "Family Paid Caregiver Pilot (email familycaregiver@nd.gov)", "phone": "(701) 328-2310 (ND HHS main line)", "url": "https://www.hhs.nd.gov/individuals-disabilities/family-paid-caregiver-pilot-program" },
+      { "name": "Family Caregiver Portal", "phone": "not published", "url": "https://familycaregiver.hhs.nd.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid to care for a disabled child in North Dakota?", "a": "Yes, through the Family Paid Caregiver Pilot, if the child is on one of the four eligible waivers and needs extraordinary care." },
+      { "q": "Which waivers qualify for the pilot?", "a": "The Autism Spectrum Disorder Birth Through 17 Waiver, the Children with Medically Fragile Needs Waiver, the Children's Hospice Waiver, and the Traditional IID/DD Waiver." },
+      { "q": "How much does the pilot pay?", "a": "It started at $77.45 per day for children and $154.89 per day for adults. A 2025 law raised the rate; news reports put it at about $166 per day. Ask HHS for the current amount." },
+      { "q": "How many days can I be paid?", "a": "Up to five days per week, claimed twice a month in the portal." },
+      { "q": "Is there a waitlist?", "a": "Yes, it can have one. The pilot has limited funding, and applications are handled in the order received." },
+      { "q": "Will I get an email when my application is approved?", "a": "No. The state does not send emails; check your status in the portal's Applications tab." }
+    ],
+    "keywords": ["north dakota family paid caregiver pilot", "nd paid parent caregiver", "get paid to care for disabled child north dakota", "familycaregiver.hhs.nd.gov", "nd extraordinary care pilot", "north dakota sb 2305 caregiver"],
+    "sources": [
+      "https://www.hhs.nd.gov/individuals-disabilities/family-paid-caregiver-pilot-program",
+      "https://www.hhs.nd.gov/news/nd-health-and-human-services-launches-new-pilot-program-support-families-caring-household",
+      "https://www.hhs.nd.gov/sites/www/files/documents/Developmental%20Disabilities/FAQ%20Family%20Paid%20Caregiver.pdf",
+      "https://www.newscoopnd.org/states-turn-to-parents-to-fill-a-home-care-workforce-gap/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

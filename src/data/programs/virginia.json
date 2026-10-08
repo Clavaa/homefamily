@@ -1,0 +1,115 @@
+[
+  {
+    "slug": "ccc-plus-waiver-consumer-direction",
+    "name": "CCC Plus Waiver — Consumer-Directed Services",
+    "aka": ["CCC Plus Waiver", "Commonwealth Coordinated Care Plus Waiver", "Virginia consumer directed care", "CD services Virginia", "Cardinal Care waiver", "EDCD waiver"],
+    "kind": "waiver service",
+    "summary": "The Commonwealth Coordinated Care (CCC) Plus Waiver gives Virginians who need nursing-facility-level care home services instead. With consumer direction, the member (or a representative) is the employer of record and hires their own attendant, often a relative such as an adult child, for personal care, respite and companion services. A fiscal/employer agent (PPL or Consumer Direct Care Network) pays the attendant.",
+    "who_qualifies": [
+      "Any age; meets nursing-facility level of care (functionally dependent with medical or nursing needs) and is at imminent risk of nursing-facility placement, or depends on technology and needs substantial ongoing skilled nursing.",
+      "Health and safety can be maintained at home when the aide is not present.",
+      "Qualifies for long-term care Medicaid.",
+      "Completes a long-term services and supports (LTSS) screening by a local or hospital screening team."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the member can hire relatives such as an adult child; parents who are the attendant for an adult child are not treated as legally responsible.",
+      "spouse": "limited — only under the Legally Responsible Individual (LRI) rules: extraordinary care, ADLs only, up to 40 hours a week.",
+      "parent_of_minor": "limited — only under the LRI rules (extraordinary care, ADLs only, up to 40 hours a week per child).",
+      "live_together": "optional — no live-together rule is published, but the employer of record cannot also be the paid attendant."
+    },
+    "pay": {
+      "display": "$13.88–$17.97/hr",
+      "detail": "DMAS's consumer-directed personal care rate (code S5126) is $17.97 per hour in Northern Virginia and $13.88 per hour in the rest of the state, effective 7/1/2025 and unchanged on the DMAS rate file for 7/1/2026. The same rates apply to consumer-directed respite (S5150). This is a newer primary figure than states.json, which listed pay as not published."
+    },
+    "hours_or_budget": "The services facilitator and member build a Plan of Care. Personal care has a soft cap of 56 hours per week (exceptions available based on criteria), and respite is limited to 480 hours per state fiscal year.",
+    "waitlist": {
+      "status": "none",
+      "detail": "The CCC Plus Waiver has historically had no waiting list, unlike Virginia's developmental disability waivers; it is not an entitlement, so this could change."
+    },
+    "self_directed_or_agency": "Either. Agency-directed care uses a personal care agency; consumer-directed care makes the member or representative the employer of record, with a services facilitator and a fiscal/employer agent (PPL for Aetna, Anthem and UnitedHealthcare members; CDCN for Molina, Sentara and fee-for-service members; Aetna uses both).",
+    "how_to_apply": [
+      "Apply for Medicaid online at CommonHelp.virginia.gov, by calling Cover Virginia at 1-833-522-5582, or through your local Department of Social Services (ask for Appendix D for long-term care).",
+      "Ask your local Department of Social Services for an LTSS screening (done in the hospital by a discharge planner if you're an inpatient).",
+      "Once approved, choose consumer direction and a services facilitator.",
+      "Enroll your attendant with the fiscal/employer agent for your health plan and start submitting timesheets."
+    ],
+    "contacts": [
+      { "name": "Cover Virginia Call Center", "phone": "1-833-522-5582", "url": "https://coverva.dmas.virginia.gov/media/hnsl1cwi/waiver-fact-sheet-1.pdf" },
+      { "name": "DMAS consumer-directed services (fee-for-service)", "phone": "not published (email cdsf@dmas.virginia.gov)", "url": "https://www.dmas.virginia.gov/for-members/benefits-and-services/waivers/consumer-directed-services/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my parent in Virginia?", "a": "Yes. If your parent is on the CCC Plus Waiver and chooses consumer direction, they can hire you as their attendant. You cannot also be their employer of record." },
+      { "q": "How much does Virginia pay consumer-directed attendants?", "a": "DMAS pays $17.97 per hour in Northern Virginia and $13.88 per hour in the rest of the state for consumer-directed personal care, effective July 1, 2025." },
+      { "q": "Is there a waiting list for the CCC Plus Waiver?", "a": "Historically no. Unlike the developmental disability waivers, the CCC Plus Waiver has not had a waiting list." },
+      { "q": "Who pays the caregiver, PPL or Consumer Direct?", "a": "It depends on your health plan. Aetna, Anthem and UnitedHealthcare members use PPL; Molina, Sentara and fee-for-service members use Consumer Direct Care Network." },
+      { "q": "How many hours can I get?", "a": "Personal care has a soft cap of 56 hours per week, with exceptions based on need. Respite is capped at 480 hours per state fiscal year." },
+      { "q": "Can my spouse be my paid caregiver?", "a": "Only in limited cases under the Legally Responsible Individual rules, which allow up to 40 hours a week of extraordinary hands-on care." }
+    ],
+    "keywords": ["ccc plus waiver virginia", "virginia consumer directed care family member", "get paid to care for parent virginia", "virginia cd attendant pay rate", "ccc plus waiver ppl", "cardinal care waiver family caregiver"],
+    "sources": [
+      "https://www.dmas.virginia.gov/for-members/benefits-and-services/waivers/consumer-directed-services/",
+      "https://www.dmas.virginia.gov/media/kali1um2/ccc-plus-waiver-fact-sheet-2025-english.pdf",
+      "https://www.dmas.virginia.gov/media/thmbvxph/cccplus-waiver-web-file-6-29-2026.pdf",
+      "https://vamedicaid.dmas.virginia.gov/sites/default/files/2026-09/CCC%20Plus%20Waiver%20chapter%204%20%28updated%209.2.26%29_Final.pdf",
+      "https://coverva.dmas.virginia.gov/media/hnsl1cwi/waiver-fact-sheet-1.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "legally-responsible-individuals",
+    "name": "Legally Responsible Individuals (LRI) Option",
+    "aka": ["LRI", "LRI Virginia", "paid spouse caregiver Virginia", "paid parent caregiver Virginia", "extraordinary care", "DMAS 95B"],
+    "kind": "waiver service",
+    "summary": "Virginia lets a legally responsible individual — a spouse, or a parent, stepparent or legal guardian of a minor — be paid as the personal care aide or attendant on a 1915(c) waiver when the care is 'extraordinary.' Payment covers hands-on activities of daily living only, up to 40 hours a week, under rules updated effective July 1, 2025.",
+    "who_qualifies": [
+      "The person receiving care is enrolled in a Virginia 1915(c) HCBS waiver with personal care (such as the CCC Plus Waiver).",
+      "The paid caregiver is a spouse, or a natural, adoptive or foster parent, stepparent, or legal guardian of a child under 18.",
+      "The care is 'extraordinary' — above what a person of the same age would typically need — and documented by the RN supervisor or services facilitator.",
+      "The LRI meets the same requirements as any other Medicaid aide or attendant."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "n/a — adult children and other relatives are not LRIs and can be hired under regular consumer direction; a parent of an adult child is not an LRI.",
+      "spouse": "limited — payable for extraordinary ADL care only, up to 40 hours a week; IADLs and supervision are not paid.",
+      "parent_of_minor": "limited — payable for extraordinary ADL care only, up to 40 hours a week per minor child.",
+      "live_together": "n/a — not a requirement; LRIs typically live with the person."
+    },
+    "pay": {
+      "display": "$13.88–$17.97/hr",
+      "detail": "An LRI is paid the same consumer-directed (or agency) personal care rate as other attendants; DMAS's consumer-directed rate is $17.97 per hour in Northern Virginia and $13.88 per hour in the rest of the state (effective 7/1/2025, unchanged on the 7/1/2026 rate file)."
+    },
+    "hours_or_budget": "Up to 40 hours per week per person (per child when caring for more than one). If more than 40 hours of personal care are needed, a separate Plan of Care covers another aide's hours. The Extraordinary Care Guide is used to decide which tasks qualify.",
+    "waitlist": {
+      "status": "none",
+      "detail": "No separate waiting list for the LRI option; it depends on the person's waiver enrollment (the CCC Plus Waiver has historically had no waiting list)."
+    },
+    "self_directed_or_agency": "Either. An LRI can be a consumer-directed attendant (paid through the fiscal/employer agent) or an agency aide; the employer of record cannot also be the paid attendant.",
+    "how_to_apply": [
+      "Get the person enrolled in a waiver with personal care (for example the CCC Plus Waiver).",
+      "Tell the services facilitator or RN supervisor you want an LRI to be the paid caregiver; the DMAS 95B form is used when someone other than the member is employer of record.",
+      "The facilitator documents the extraordinary care needs and builds an LRI Plan of Care for up to 40 hours a week.",
+      "Submit for service authorization review; questions can go to CDLRI@dmas.virginia.gov."
+    ],
+    "contacts": [
+      { "name": "DMAS LRI questions", "phone": "not published (email CDLRI@dmas.virginia.gov)", "url": "https://www.dmas.virginia.gov/for-members/benefits-and-services/waivers/legally-responsible-individuals/" },
+      { "name": "Cover Virginia Call Center", "phone": "1-833-522-5582", "url": "https://coverva.dmas.virginia.gov/media/hnsl1cwi/waiver-fact-sheet-1.pdf" }
+    ],
+    "faqs": [
+      { "q": "Can a spouse get paid as a caregiver in Virginia?", "a": "Yes, in limited cases. Under the LRI rules a spouse can be paid for extraordinary hands-on care (ADLs) up to 40 hours a week, but not for housework or supervision." },
+      { "q": "Can parents get paid to care for a disabled child in Virginia?", "a": "Yes, for extraordinary care. A parent, stepparent or guardian of a minor can be paid up to 40 hours a week per child for ADL care beyond what a child that age normally needs." },
+      { "q": "What counts as extraordinary care?", "a": "Care above and beyond what a person of the same age typically needs. DMAS uses an Extraordinary Care Guide, and general statements like 'safety concerns' are not enough." },
+      { "q": "Can we still get respite if a parent is the paid aide?", "a": "No. Respite is not available when a paid LRI is providing personal care." },
+      { "q": "I'm the parent of an adult child. Do the LRI limits apply to me?", "a": "No. DMAS says parents who are the attendant for an adult child are not LRIs, so the 40-hour and extraordinary-care limits don't apply." },
+      { "q": "Can I be both the employer of record and the paid LRI?", "a": "No. The person serving as employer of record cannot be the paid caregiver." }
+    ],
+    "keywords": ["legally responsible individual virginia", "virginia pay spouse caregiver", "virginia parent paid caregiver disabled child", "lri dmas extraordinary care", "virginia 40 hours lri"],
+    "sources": [
+      "https://www.dmas.virginia.gov/for-members/benefits-and-services/waivers/legally-responsible-individuals/",
+      "https://vamedicaid.dmas.virginia.gov/sites/default/files/2026-09/CCC%20Plus%20Waiver%20chapter%204%20%28updated%209.2.26%29_Final.pdf",
+      "https://www.dmas.virginia.gov/media/thmbvxph/cccplus-waiver-web-file-6-29-2026.pdf",
+      "https://www.medicaidplanningassistance.org/virginia-medicaid-ccc-plus/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

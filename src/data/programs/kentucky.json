@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "participant-directed-services",
+    "name": "Participant Directed Services (PDS)",
+    "aka": ["PDS", "Consumer Directed Option", "CDO", "Kentucky self-directed waiver", "Kentucky PDS family caregiver"],
+    "kind": "self-direction option",
+    "summary": "Participant Directed Services is Kentucky's self-direction option across its Medicaid waivers (HCB, Michelle P., SCL and the two ABI waivers). The member hires, trains and schedules their own workers, who can be friends or relatives, and a financial management agency handles payroll. A support broker or case manager helps build the plan and budget.",
+    "who_qualifies": [
+      "Enrolled in a Kentucky 1915(c) waiver: Home and Community Based (HCB), Michelle P. (MPW), Supports for Community Living (SCL), Acquired Brain Injury (ABI) or ABI Long Term Care.",
+      "Willing to act as employer (or choose an authorized representative).",
+      "Follows the person-centered service plan and spending plan, and meets any patient liability set by DCBS."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — friends, adult children and other relatives can be hired; on HCB, immediate family members need written approval from the Department for Medicaid Services.",
+      "spouse": "limited — allowed under Michelle P. PDS (capped at 40 hours a week); on HCB a spouse needs written DMS approval under specific conditions.",
+      "parent_of_minor": "limited — parents of minors can be paid under Michelle P./HCB only within the rules for legally responsible individuals, capped at 40 hours a week combined.",
+      "live_together": "optional — the worker may live with the member or not."
+    },
+    "pay": {
+      "display": "$29.04/hr (reported max)",
+      "detail": "PDS pay cannot exceed what Medicaid allows for the same service from an agency. Kentucky's Michelle P. regulation lists PDS rates effective January 1, 2025 of $6.36 per 15 minutes for attendant care and $9.08 per 15 minutes for personal care; a 2026 attendant care maximum of $29.04/hr is reported. Take-home pay is lower after employer taxes and FMS costs."
+    },
+    "hours_or_budget": "The support broker builds a budget from the person-centered service plan; PDS providers are generally limited to 40 hours a week.",
+    "waitlist": { "status": "long", "detail": "PDS itself has no list, but the member must first get a waiver slot. HCB, MPW, SCL and ABI waivers have waiting lists." },
+    "self_directed_or_agency": "Self-directed. The member is the employer; a mandatory financial management agency handles payroll and taxes; a support broker or case manager assists.",
+    "how_to_apply": [
+      "Apply for Medicaid and the waiver at kynect.ky.gov or by calling 855-306-8959.",
+      "Get on the waiver waiting list if needed and complete the level-of-care assessment.",
+      "Once on the waiver, ask your case manager to enroll you in PDS.",
+      "Work with your support broker on the plan and budget, then hire your worker through the financial management agency."
+    ],
+    "contacts": [
+      { "name": "Dept. for Aging and Independent Living (DAIL)", "phone": "877-315-0589", "url": "https://www.chfs.ky.gov/agencies/dail/Pages/pds.aspx" },
+      { "name": "kynect (apply for Medicaid)", "phone": "855-306-8959", "url": "https://kynect.ky.gov/" },
+      { "name": "Medicaid Waiver Help Desk", "phone": "844-784-5614", "url": "https://www.chfs.ky.gov/agencies/dms/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my mother in Kentucky?", "a": "Yes, if she is on a Kentucky waiver and uses PDS. She can hire you, and the financial management agency pays you." },
+      { "q": "Can a spouse be paid under PDS in Kentucky?", "a": "On the Michelle P. waiver, yes, up to 40 hours a week. On the HCB waiver, a spouse needs written approval from the Department for Medicaid Services." },
+      { "q": "How many hours can a family PDS worker work?", "a": "Generally no more than 40 hours a week per PDS provider." },
+      { "q": "What does the support broker do?", "a": "Helps you build your plan and budget, find training, and hire workers." },
+      { "q": "Can I switch back to agency services?", "a": "Yes. You can return to traditional waiver services without losing eligibility." }
+    ],
+    "keywords": ["kentucky participant directed services", "pds kentucky family caregiver", "get paid to care for parent kentucky", "kentucky consumer directed option", "kentucky pds pay rate"],
+    "sources": [
+      "https://www.chfs.ky.gov/agencies/dail/Pages/pds.aspx",
+      "https://apps.legislature.ky.gov/law/kar/titles/907/001/835/",
+      "https://apps.legislature.ky.gov/law/kar/titles/907/007/010/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "hcb-waiver",
+    "name": "Home and Community Based (HCB) Waiver",
+    "aka": ["HCB Waiver", "HCB 2", "Home and Community Based Waiver version 2", "Kentucky HCB waiver"],
+    "kind": "waiver service",
+    "summary": "The HCB Waiver is a Kentucky Medicaid program for older adults and people with physical disabilities who need a nursing-facility level of care but want to live at home. It covers personal care, attendant care, homemaker, adult day health and more. Family members can be paid only through the PDS self-direction option, and immediate family, guardians and spouses need written approval from the state.",
+    "who_qualifies": [
+      "Kentucky Medicaid eligible.",
+      "Aged or has a physical disability.",
+      "Meets nursing-facility level of care, as determined by the Department for Medicaid Services.",
+      "A waiver slot is available."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — relatives outside the immediate family can be hired through PDS; immediate family members need written DMS approval.",
+      "spouse": "limited — a spouse may be paid through PDS only with written DMS approval (unique abilities, not natural supports, and no qualified provider within 30 miles or able to meet needs).",
+      "parent_of_minor": "limited — a parent of a minor is a legally responsible individual and needs the same written DMS approval.",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "$29.04/hr (reported PDS max)",
+      "detail": "PDS pay cannot exceed the agency rate for the same service. A maximum of $29.04/hr for attendant care is reported for 2026; take-home pay is lower after FMS and employer taxes."
+    },
+    "hours_or_budget": "The person-centered service plan sets services; a PDS provider may not work more than 40 hours in a calendar week.",
+    "waitlist": { "status": "long", "detail": "HCB slots are limited and a waitlist forms when full. A July 2026 DMS letter requires people on the HCB and Michelle P. waitlists to submit a provider attestation by January 31, 2027 to stay on the list." },
+    "self_directed_or_agency": "Either. Traditional agency services, or PDS with a financial management agency.",
+    "how_to_apply": [
+      "Apply at kynect.ky.gov or call 855-306-8959.",
+      "Complete the nursing-facility level-of-care assessment.",
+      "If slots are full, join the waitlist and file the provider attestation by January 31, 2027.",
+      "Once enrolled, choose PDS and, for an immediate family member, submit the PDS Request Form for Immediate Family Member, Guardian, or Legally Responsible Individual."
+    ],
+    "contacts": [
+      { "name": "Medicaid Waiver Help Desk", "phone": "844-784-5614", "url": "https://www.chfs.ky.gov/agencies/dms/" },
+      { "name": "kynect", "phone": "855-306-8959", "url": "https://kynect.ky.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my husband on the HCB waiver?", "a": "Only with written approval from the Department for Medicaid Services, and only through PDS. The state must find you have unique abilities and that a qualified provider is not available." },
+      { "q": "Is there a waiting list for the HCB waiver?", "a": "Yes, when slots are full. People on the list must file a provider attestation by January 31, 2027." },
+      { "q": "What services does the HCB waiver cover?", "a": "Personal care, attendant care, homemaker, adult day health, respite, home changes and more." },
+      { "q": "How many hours can a family member work?", "a": "No more than 40 hours of PDS in a calendar week." }
+    ],
+    "keywords": ["kentucky hcb waiver", "hcb waiver family caregiver kentucky", "kentucky home and community based waiver spouse", "kentucky hcb waitlist attestation", "kentucky elderly waiver"],
+    "sources": [
+      "https://apps.legislature.ky.gov/law/kar/titles/907/007/010/",
+      "https://www.chfs.ky.gov/agencies/dms/ProviderLetters/HB2%20Waitlist%20Verification%20Letter.pdf",
+      "https://www.chfs.ky.gov/agencies/dail/Pages/pds.aspx"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "michelle-p-waiver",
+    "name": "Michelle P. Waiver (MPW)",
+    "aka": ["MPW", "Michelle P", "Michelle P. Waiver", "Kentucky Michelle P waiver"],
+    "kind": "waiver service",
+    "summary": "The Michelle P. Waiver is a Kentucky Medicaid waiver for children and adults with intellectual or developmental disabilities who can live at home. Through PDS, the member or family can hire friends, relatives, spouses or parents. Parents and spouses together are capped at 40 paid hours a week, and the yearly PDS budget is generally $40,000.",
+    "who_qualifies": [
+      "Has an intellectual or developmental disability and meets ICF/IID level of care.",
+      "Kentucky resident eligible for Medicaid.",
+      "Gets a slot from the statewide Michelle P. waiting list."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — friends, family members and other relatives can be PDS providers.",
+      "spouse": "yes — a spouse can be paid, capped at 40 hours a week.",
+      "parent_of_minor": "limited — parents can be paid but a parent, or both parents combined, may not exceed 40 hours a week regardless of how many children get waiver services.",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "$29.04/hr (reported PDS max)",
+      "detail": "Per 907 KAR 1:835, PDS rates effective January 1, 2025 include attendant care $6.36 and personal care $9.08 per 15 minutes; a 2026 attendant care maximum of $29.04/hr is reported. The 12-month PDS budget is capped at $40,000 unless DMS approves more, within a $63,000 overall annual limit."
+    },
+    "hours_or_budget": "The support broker sets a 12-month budget from the plan (up to $40,000 unless an adjustment is approved). Many services combined are capped at 40 hours a week.",
+    "waitlist": { "status": "long", "detail": "Michelle P. has a long-standing multi-year statewide waitlist (9,133 people in June 2024). People on it must file a provider attestation by January 31, 2027 to stay on the list." },
+    "self_directed_or_agency": "Either. Agency-delivered services, or PDS where the member hires workers and a financial management agency handles payroll.",
+    "how_to_apply": [
+      "Apply at kynect.ky.gov or call 855-306-8959 to be placed on the Michelle P. waiting list.",
+      "Keep your place by filing the provider attestation (diagnosis, services needed, approved provider signature) by January 31, 2027.",
+      "When a slot opens, complete the level-of-care assessment and choose PDS to hire a family member."
+    ],
+    "contacts": [
+      { "name": "Medicaid Waiver Help Desk", "phone": "844-784-5614", "url": "https://www.chfs.ky.gov/agencies/dms/" },
+      { "name": "kynect", "phone": "855-306-8959", "url": "https://kynect.ky.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid on the Michelle P. waiver?", "a": "Yes, through PDS, but a parent or both parents combined may not exceed 40 hours a week." },
+      { "q": "How long is the Michelle P. waiting list?", "a": "Long. It had over 9,000 people in 2024, and about 25 slots open per month on average." },
+      { "q": "What do I need to do by January 31, 2027?", "a": "Submit a provider attestation with the diagnosis, needed services and an approved provider's signature to stay on the waitlist." },
+      { "q": "What is the Michelle P. PDS budget?", "a": "Up to $40,000 a year unless the support broker asks for and DMS approves an increase." },
+      { "q": "Can a spouse be paid?", "a": "Yes, up to 40 hours a week." }
+    ],
+    "keywords": ["michelle p waiver", "michelle p waiver paid parent", "kentucky michelle p waitlist", "michelle p pds family caregiver", "kentucky developmental disability waiver"],
+    "sources": [
+      "https://apps.legislature.ky.gov/law/kar/titles/907/001/835/",
+      "https://www.chfs.ky.gov/agencies/dms/ProviderLetters/HB2%20Waitlist%20Verification%20Letter.pdf",
+      "https://apps.legislature.ky.gov/AgencyReports/IJC/AR/HFS/DeptMS/WWL/2024 10 Waiver Wait List Management Assessment.docx"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]
