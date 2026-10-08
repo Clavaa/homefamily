@@ -39,3 +39,9 @@ Apply in one pass before deploy; each line cites the program record that holds t
 - texas: pay $15/hr → **$13–$15/hr** (attendant base wage $13.00 from 9/1/2025; $15 top reported)
 - vermont: spouse yes → **limited** (Choices for Care manual: spouse not paid for IADLs; guardians/surrogate employer barred)
 - tennessee: CHOICES — worker living with the member can't be paid for PCV/attendant/in-home respite (Wellpoint handbook); ECF CHOICES Group 4 family caregiver stipend up to $500/mo (<18) and $1,000/mo (adults)
+
+## batch: NJ NM NY NC ND OH
+- north-dakota: pay $21.76/hr → **$27.92/hr** individual PCS ($6.98/15min, eff. 7/1/2026); Family Personal Care $165.98/day; Family Home Care $77.69/day
+- ohio: SFC Medicaid rate $102.68/day (half day $51.34) to the agency (OAC 5160-46-06 eff. 4/17/2026); Home Care Waiver aide $28.96 agency / $22.32 non-agency; parents/spouses via OAC 5160-44-32 (agency or FMS, no other willing provider, extraordinary care, 40 hr/wk)
+- north-carolina: LIFTSS phone 833-522-5429 (833-470-0597 is the referral FAX)
+- new-mexico: DD waiver waitlist eliminated 2025 (Central Registry remains) → waitlist "possible"
