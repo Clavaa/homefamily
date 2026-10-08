@@ -1,0 +1,165 @@
+[
+  {
+    "slug": "smmc-ltc-participant-directed-option",
+    "name": "SMMC Long-Term Care Participant Directed Option (PDO)",
+    "aka": ["PDO", "Participant Directed Option", "SMMC LTC", "Florida Long-Term Care waiver", "LTC waiver self-directed", "Statewide Medicaid Managed Care Long-Term Care"],
+    "kind": "self-direction option",
+    "summary": "Florida's Statewide Medicaid Managed Care Long-Term Care (SMMC LTC) program covers home care for people who need nursing-home-level care. Under the Participant Directed Option, a member who lives in their own home or a family member's home can hire a friend or relative as their worker for services such as personal care, attendant care, homemaker and companion care. The managed care plan sets the pay rate and a fiscal agent runs payroll.",
+    "who_qualifies": [
+      "Age 65 or older, or 18–64 and found disabled by Social Security.",
+      "Needs nursing facility level of care.",
+      "Medicaid-eligible under long-term care financial rules.",
+      "Released from the statewide LTC waitlist and enrolled with an LTC managed care plan.",
+      "Lives in their own home or the home of a family member (not assisted living)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — PDO lets members hire a friend, family member or other person they choose.",
+      "spouse": "limited — consumer guides report spouses may be paid only for care beyond normal spousal duties; this is not spelled out in a public AHCA document, so confirm with your plan.",
+      "parent_of_minor": "n/a — SMMC LTC serves adults 18 and older.",
+      "live_together": "optional — the member must live in their own or a family member's home, but the worker does not have to live there."
+    },
+    "pay": {
+      "display": "set by each plan (~$15/hr reported)",
+      "detail": "The LTC plan sets the hourly rate; the participant does not set it. Rates are not published by AHCA. A floor of about $15/hour for unskilled care is reported by third parties."
+    },
+    "hours_or_budget": "The plan's care manager authorizes the type and amount of each service in the care plan based on medical necessity. Self-directed services include adult companion, homemaker, attendant care, intermittent and skilled nursing, and personal care.",
+    "waitlist": {
+      "status": "long",
+      "detail": "SMMC LTC is not an entitlement for home care. Applicants are screened by phone, given a priority score and rank based on frailty, and released from the statewide waitlist by priority, not by date. People already on Medicaid and some high-risk groups may move faster."
+    },
+    "self_directed_or_agency": "Either. Members can use plan network agencies or self-direct through PDO. In PDO the member is the employer — training the worker, setting schedules and submitting timesheets — and a fiscal/employer agent arranged by the plan pays the worker.",
+    "how_to_apply": [
+      "Call your local Aging and Disability Resource Center through the Elder Helpline at 1-800-963-5337 to be screened for the LTC waitlist.",
+      "Wait for release from the waitlist; then complete the CARES level-of-care assessment and the DCF Medicaid application (you get 45 days after the release notice).",
+      "Enroll with an LTC managed care plan.",
+      "Tell your plan care manager you want the Participant Directed Option and name the person you want to hire; the plan's fiscal agent completes background screening and payroll setup."
+    ],
+    "contacts": [
+      { "name": "Florida Elder Helpline (ADRC screening for LTC waitlist)", "phone": "1-800-963-5337", "url": "https://elderaffairs.org/" },
+      { "name": "AHCA Statewide Medicaid Managed Care", "phone": "not published", "url": "https://ahca.myflorida.com/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my parent in Florida?", "a": "Yes, if your parent is enrolled in an SMMC Long-Term Care plan and chooses the Participant Directed Option. Adult children and other relatives can be hired." },
+      { "q": "Can my spouse be paid under the PDO?", "a": "Possibly, but only for care beyond what a spouse would normally do, according to consumer guides. AHCA does not publish this rule clearly, so ask your plan before counting on it." },
+      { "q": "Who sets the pay rate?", "a": "Your LTC plan sets it. Participants train workers, set schedules and submit timesheets, but they do not set wages." },
+      { "q": "How long is the Florida LTC waitlist?", "a": "It can be long. Florida ranks people by a frailty-based priority score, not by how long they have waited." },
+      { "q": "What if my relative isn't paid on time?", "a": "Workers are owed full payment for approved hours. Ask the plan first; if that fails, file a complaint with AHCA or contact local legal aid." }
+    ],
+    "keywords": ["florida participant directed option", "smmc ltc pdo", "get paid to care for parent florida", "florida medicaid pay family caregiver", "florida long term care waiver hire family", "florida ltc waitlist"],
+    "sources": [
+      "https://floridahealthjustice.org/wp-content/uploads/2025/11/Advocates-Guide-to-Florida-Medicaid-Long-Term-Care-Waiver_6th-Ed_Final-Version.pdf",
+      "https://floridahealthjustice.org/wp-content/uploads/2024/04/kyr_particpant_directed_care_pdf.pdf",
+      "https://www.medicaidplanningassistance.org/florida-medicaid-smmc-ltc/",
+      "https://ahca.myflorida.com/"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "cdc-plus",
+    "name": "Consumer-Directed Care Plus (CDC+)",
+    "aka": ["CDC+", "CDC Plus", "Consumer Directed Care Plus Florida", "APD CDC+", "iBudget CDC+"],
+    "kind": "self-direction option",
+    "summary": "CDC+ is a self-directed option inside Florida's iBudget waiver for people with developmental disabilities, run by the Agency for Persons with Disabilities (APD). The participant gets a monthly budget, becomes the employer, and can hire workers outside the Medicaid provider network. Florida law says those workers may include a neighbor, friend, spouse or relative.",
+    "who_qualifies": [
+      "Enrolled in APD's iBudget Florida waiver (a developmental disability such as intellectual disability, autism, cerebral palsy, spina bifida, Down syndrome, Prader-Willi or Phelan-McDermid).",
+      "Has an approved iBudget cost plan and meets CDC+ enrollment requirements.",
+      "Willing to act as employer, or has a representative who will (representatives must pass background screening).",
+      "Lives in their own or family home."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — section 409.221(4)(f), Florida Statutes, says providers may include a consumer's neighbor, friend, spouse or relative.",
+      "spouse": "yes — the statute and CDC+ handbook list spouses as allowed providers.",
+      "parent_of_minor": "limited — CDC+ uses federal 1915(j) authority, which allows paying legally liable relatives for personal assistance in the budget, but parents cannot be paid for respite, and some services carry other limits.",
+      "live_together": "optional — workers do not have to live with the participant."
+    },
+    "pay": {
+      "display": "set by participant within budget",
+      "detail": "The participant sets each worker's pay within a monthly budget converted from the iBudget cost plan (the handbook mentions a discount/administrative rate). APD does not publish a standard caregiver wage."
+    },
+    "hours_or_budget": "The monthly budget comes from the person's iBudget allocation. The participant writes a purchasing plan that the CDC+ consultant reviews, choosing which services and workers to pay for.",
+    "waitlist": {
+      "status": "long",
+      "detail": "CDC+ is open only to people already on the iBudget waiver, and the iBudget waitlist is years long for people not in crisis categories."
+    },
+    "self_directed_or_agency": "Self-directed. The participant or representative is the employer of directly hired employees; a state fiscal/employer agent processes payroll and a CDC+ consultant helps with planning.",
+    "how_to_apply": [
+      "Apply to APD for the iBudget waiver through your APD regional office if not already enrolled.",
+      "Once on iBudget, ask your waiver support coordinator about CDC+ — since July 2024 coordinators must explain CDC+ at each annual support plan meeting.",
+      "Review the CDC+ Welcome Packet and call the CDC+ helpline at 1-866-761-7043.",
+      "Complete enrollment training, choose a CDC+ consultant, write a purchasing plan and hire workers."
+    ],
+    "contacts": [
+      { "name": "APD CDC+ Helpline", "phone": "1-866-761-7043", "url": "https://apd.myflorida.com/medicaid/cdc/index.htm" }
+    ],
+    "faqs": [
+      { "q": "Can a spouse be paid through CDC+?", "a": "Yes. Florida Statutes s. 409.221(4)(f) and the CDC+ handbook list a spouse as an allowed provider." },
+      { "q": "Can parents be paid under CDC+?", "a": "Often yes for personal supports. CDC+ runs under federal 1915(j) authority, which allows paying legally liable relatives for personal assistance. Parents cannot be paid for respite." },
+      { "q": "Do I need to be on iBudget first?", "a": "Yes. CDC+ is an option inside the iBudget waiver." },
+      { "q": "How long is the wait?", "a": "The iBudget waitlist can last years for people not in a crisis category. CDC+ itself has no separate list once you are on iBudget." },
+      { "q": "Who helps me manage the budget?", "a": "A CDC+ consultant helps with planning, and a fiscal/employer agent pays workers and handles taxes." }
+    ],
+    "keywords": ["cdc+ florida", "consumer directed care plus", "apd cdc+ pay family", "florida ibudget hire family member", "cdc plus spouse paid florida"],
+    "sources": [
+      "https://apd.myflorida.com/medicaid/cdc/index.htm",
+      "https://www.apd.myflorida.com/cdcplus/docs/CDC_Plus_Program_Handbook_2015.pdf",
+      "https://www.apd.myflorida.com/waiver/support-coordination/docs/WSC%20Advisory%202024-008%20Educating%20Clients%20on%20Consumer%20Directed%20Care.pdf",
+      "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-59G-13-088"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "family-home-health-aide",
+    "name": "Family Home Health Aide (FHHA) Program",
+    "aka": ["FHHA", "Home Health Aide for Medically Fragile Children", "HHAMFC", "Florida paid parent caregiver", "CNA parent program Florida"],
+    "kind": "state plan",
+    "summary": "The Family Home Health Aide program lets a parent, guardian or other family caregiver of a medically fragile child be trained and hired by a licensed home health agency to provide aide care at home. Florida Medicaid pays the agency at least $25 an hour. The family member is an employee of the agency.",
+    "who_qualifies": [
+      "Child under 21 enrolled in Florida Medicaid.",
+      "Medically fragile and already eligible for Private Duty Nursing (PDN).",
+      "Caregiver is a related provider, legal guardian or caretaker relative, age 18+, who can read and write at a basic level.",
+      "Caregiver completes approved training (at least 76 hours) or is a nursing-school graduate awaiting licensure, and passes background screening."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — a family caregiver of an eligible relative, including a caretaker relative, can be hired.",
+      "spouse": "n/a — the program serves children.",
+      "parent_of_minor": "yes — parents and legal guardians are the main group this program pays.",
+      "live_together": "optional — not stated as required; care is provided in the child's home."
+    },
+    "pay": {
+      "display": "$25/hr (agency rate)",
+      "detail": "Section 400.4765, Florida Statutes, sets a Medicaid fee schedule of at least $25/hour for agencies employing these aides. AHCA confirms $25/hour under fee-for-service; managed care plans may negotiate rates. The aide's own wage is set by the agency. Newer statute (2025) caps use at 12 hours a day and 40 hours a week per child, replacing the earlier 8-hours-a-day cap."
+    },
+    "hours_or_budget": "FHHA hours supplement Private Duty Nursing; they cannot duplicate or add to nurse hours or run at the same time. The statute caps use at 12 hours a day and 40 hours a week per child; more than 40 needs proof no other provider is available plus agency and plan approval.",
+    "waitlist": {
+      "status": "none",
+      "detail": "No waitlist; access depends on PDN eligibility and finding a participating home health agency."
+    },
+    "self_directed_or_agency": "Agency. The family member must be employed by a licensed, participating home health agency, and a non-related registered nurse supervises the care.",
+    "how_to_apply": [
+      "Confirm the child is eligible for Private Duty Nursing.",
+      "Contact a participating home health agency about the FHHA program.",
+      "Complete the AHCA-approved training and background screening (the parent does not have to repay the agency for training).",
+      "Submit the FHHA SSN Request Form to DCF so FHHA wages can be excluded from the child's Medicaid eligibility, then start services as scheduled by the agency."
+    ],
+    "contacts": [
+      { "name": "AHCA Medicaid Program Assistance", "phone": "(239) 335-1313", "url": "https://ahca.myflorida.com/family-home-health-aide.html" }
+    ],
+    "faqs": [
+      { "q": "How much do parents get paid as Family Home Health Aides?", "a": "Florida Medicaid pays the agency at least $25 an hour. The agency sets the parent's actual wage, so ask each agency what it pays." },
+      { "q": "How many hours can a parent work?", "a": "Current law caps it at 12 hours a day and 40 hours a week per child, and the hours cannot overlap with nursing. More than 40 hours needs special approval." },
+      { "q": "Will my paycheck affect my child's Medicaid?", "a": "FHHA wages count as income, but Florida law lets families ask DCF to exclude them from the child's eligibility by sending the FHHA SSN Request Form." },
+      { "q": "What training is required?", "a": "At least 76 hours, including 40 hours of home health aide training, 20 hours of basic nursing skills and 16 hours of supervised clinical training, plus HIV training and CPR. Aides also need 12 hours of in-service training each year." },
+      { "q": "Does my child need to qualify for nursing?", "a": "Yes. The child must be under 21, medically fragile and eligible for Private Duty Nursing." }
+    ],
+    "keywords": ["florida family home health aide", "fhha florida", "get paid to care for medically fragile child florida", "florida parent cna program", "home health aide for medically fragile children", "florida paid parent $25 hour"],
+    "sources": [
+      "https://ahca.myflorida.com/family-home-health-aide.html",
+      "https://flsenate.gov/Laws/Statutes/2025/400.4765",
+      "https://flsenate.gov/Session/Bill/2023/391/BillText/c2/PDF"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

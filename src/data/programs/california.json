@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "ihss",
+    "name": "In-Home Supportive Services (IHSS)",
+    "aka": ["IHSS", "IHSS California", "In-Home Supportive Services", "IHSS provider", "IHSS caregiver", "CFCO", "IPO", "IHSS-R", "PCSP"],
+    "kind": "state plan",
+    "summary": "IHSS is California's Medi-Cal program that pays an in-home caregiver so older adults, blind people and people with disabilities (including children) can stay safely at home. The recipient is the employer and can hire almost anyone, including adult children, a spouse or a parent of a minor child. The state pays the caregiver directly through its payroll system at the county's wage rate.",
+    "who_qualifies": [
+      "California resident with a Medi-Cal eligibility determination.",
+      "Aged (65+), blind or disabled, including children with disabilities.",
+      "Lives in their own home or a home of their choosing (not a hospital, nursing home or licensed care facility).",
+      "Has a licensed health care professional complete the Health Care Certification form (SOC 873)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — recipients can hire adult children and other relatives once they finish provider enrollment.",
+      "spouse": "limited — a spouse can be a paid provider, but under the 'able and available spouse' rule is generally paid only for personal care and paramedical services, not domestic and related tasks.",
+      "parent_of_minor": "yes — since February 2024 (AB 120 and All County Letter 23-106), parents can be paid for a minor child in the CFCO, IPO and IHSS-R programs on the same basis as any enrolled provider; children in PCSP must first move to one of those programs.",
+      "live_together": "optional — providers may live with the recipient or elsewhere; live-in family providers may qualify for a federal tax exclusion."
+    },
+    "pay": {
+      "display": "$16.90–$22/hr",
+      "detail": "Wages are set county by county through bargaining, from about $16.90/hour (California's minimum wage as of January 1, 2026) to $22+/hour. The state budget estimates an average IHSS cost of about $21.85/hour for 2025–26. The state issues paychecks and withholds Social Security and disability insurance when applicable."
+    },
+    "hours_or_budget": "A county social worker does an in-home needs assessment and authorizes hours for each task. The monthly maximum is 283 hours for severely impaired recipients; lower limits (such as 195 hours) apply in some cases.",
+    "waitlist": {
+      "status": "none",
+      "detail": "IHSS is a Medi-Cal entitlement with no waitlist."
+    },
+    "self_directed_or_agency": "Fully self-directed. The recipient hires, trains, supervises and fires the provider; the state/county payroll system (CMIPS) pays the provider. No agency is required.",
+    "how_to_apply": [
+      "Contact your county IHSS office and submit the Application for In-Home Supportive Services (SOC 295).",
+      "A county social worker visits your home to assess needs and authorize hours; your health care provider completes the SOC 873.",
+      "Your chosen caregiver enrolls in person at the county IHSS office or Public Authority: Provider Enrollment Form (SOC 426), orientation and SOC 846, and a Department of Justice fingerprint background check.",
+      "Once enrolled and assigned, the provider submits timesheets and is paid by the state."
+    ],
+    "contacts": [
+      { "name": "County IHSS offices (CDSS directory)", "url": "https://www.cdss.ca.gov/inforesources/county-ihss-offices" },
+      { "name": "California Department of Social Services – IHSS", "url": "https://www.cdss.ca.gov/in-home-supportive-services" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my parent in California?", "a": "Yes. If your parent is approved for IHSS, they can hire you as their provider. You enroll with the county, pass a background check and are paid by the state." },
+      { "q": "Can a parent be paid IHSS for their minor child?", "a": "Yes. Since February 2024, California removed the old parent-provider rules for minors in CFCO, IPO and IHSS-R. Parents enroll like any other provider." },
+      { "q": "Can I be paid to care for my spouse through IHSS?", "a": "Yes, with limits. Spouses are usually paid only for personal care and paramedical services, because an able and available spouse is expected to handle domestic tasks without pay." },
+      { "q": "How much does IHSS pay?", "a": "It depends on the county, from about $16.90 to $22 or more per hour in 2026. Ask your county IHSS office or social worker for the local rate." },
+      { "q": "What is the maximum number of IHSS hours?", "a": "Up to 283 hours a month for severely impaired recipients. Other limits apply depending on the subprogram and need." },
+      { "q": "Is IHSS income taxable for live-in family caregivers?", "a": "Live-in providers may be able to exclude IHSS wages from federal income tax under IRS Notice 2014-7. Ask your county about the live-in certification form." }
+    ],
+    "keywords": ["ihss california", "ihss pay rate 2026", "get paid to care for parent california", "ihss parent provider minor", "ihss spouse provider", "how to become an ihss provider"],
+    "sources": [
+      "https://www.cdss.ca.gov/in-home-supportive-services",
+      "https://www.cdss.ca.gov/inforesources/county-ihss-offices",
+      "https://my.dpss.lacounty.gov/public/en/home/epolicy/program/ihss/eligibility/minor-recipients.html",
+      "https://ssa.ocgov.com/sites/ssa/files/2024-10/1015_Able_Available_Spouse.pdf",
+      "https://www.disabilityrightsca.org/publications/understanding-the-maximum-amount-of-hours-available-calculating-hours",
+      "https://www.medicaidplanningassistance.org/medi-cal-in-home-supportive-services/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "slug": "personal-care-services",
+    "name": "Personal Care Services (PCS)",
+    "aka": ["PCS", "State Plan Personal Care Services", "PCA program Alaska", "CDPCS", "consumer-directed personal care", "CDPCA", "agency-based personal care", "ABPCA"],
+    "kind": "state plan",
+    "summary": "Personal Care Services is an Alaska Medicaid state plan benefit that pays a personal care assistant to help with bathing, dressing, eating, shopping, laundry and light housework. In the consumer-directed option, the member picks, hires and supervises their own assistant, who can be an adult child or other relative, and a provider agency handles payroll. Spouses, parents of minors and legal guardians cannot be paid under State Plan PCS.",
+    "who_qualifies": [
+      "Enrolled in Alaska Medicaid.",
+      "Needs hands-on help with daily activities, as measured by a Division of Senior and Disabilities Services (SDS) assessment.",
+      "Lives in their own home (not an assisted living home).",
+      "Full criteria are in the state's PCS Conditions of Participation."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — in the consumer-directed option, adult children and other relatives can be hired as the personal care assistant.",
+      "spouse": "no — SDS says legally responsible individuals (spouses, parents of minors, legal guardians) are not permitted to provide State Plan PCS, per CMS. Spouses can be paid under Community First Choice instead.",
+      "parent_of_minor": "no — parents of minor children are legally responsible individuals and cannot be paid for State Plan PCS.",
+      "live_together": "optional — the assistant may or may not live with the member."
+    },
+    "pay": {
+      "display": "$24–$26/hr",
+      "detail": "Alaska does not publish a family-caregiver wage for PCS. The wage is set by the consumer-directed provider agency out of the Medicaid personal care rate; aggregators report an average of about $24–$26/hour."
+    },
+    "hours_or_budget": "SDS assesses the member's needs and approves a service plan that sets the amount of personal care time.",
+    "waitlist": {
+      "status": "none",
+      "detail": "PCS is a Medicaid state plan benefit, so there is no waitlist; approval can take about three months."
+    },
+    "self_directed_or_agency": "Either. Agency-based PCS: the agency hires and supervises. Consumer-directed PCS: the member hires, trains, supervises and fires, and a consumer-directed provider agency acts as the fiscal agent.",
+    "how_to_apply": [
+      "Contact a PCS provider agency or SDS to complete the PCA-08 Initial Application.",
+      "An SDS assessor visits to measure what help you need.",
+      "Choose agency-based or consumer-directed care; in consumer-directed care, pick your assistant and enroll them with the agency.",
+      "Renew each year with the PCA-08 Renewal Application."
+    ],
+    "contacts": [
+      { "name": "Alaska Division of Senior and Disabilities Services", "phone": "907-269-3666", "url": "https://health.alaska.gov/en/services/pcs/" },
+      { "name": "SDS toll-free", "phone": "1-800-478-9996", "url": "https://health.alaska.gov/en/services/pcs/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my parent in Alaska?", "a": "Yes. Under consumer-directed Personal Care Services, your parent can hire you as their personal care assistant, and a provider agency pays you." },
+      { "q": "Can a spouse be paid under Alaska PCS?", "a": "No. SDS says spouses, parents of minors and legal guardians cannot provide State Plan PCS. A spouse may be able to be paid under Community First Choice personal care instead." },
+      { "q": "What form do I use to apply?", "a": "The PCA-08 Initial Application. Current members renew with the PCA-08 Renewal Application." },
+      { "q": "How much do PCS caregivers earn?", "a": "The state does not publish a wage. The provider agency sets it from the Medicaid rate; averages are reported around $24–$26 an hour." },
+      { "q": "Is there a waitlist for PCS?", "a": "No. PCS is a state plan benefit, though processing can take around three months." }
+    ],
+    "keywords": ["alaska personal care services", "alaska pca program", "consumer directed personal care alaska", "get paid to care for parent alaska", "alaska medicaid pca family"],
+    "sources": [
+      "https://health.alaska.gov/en/services/pcs/",
+      "https://health.alaska.gov/media/mmnnsasn/directors-memo-cfc-reg-implementation-6-27-2025.pdf",
+      "https://www.medicaidplanningassistance.org/alaska-personal-care-services-program/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "community-first-choice",
+    "name": "Community First Choice (CFC)",
+    "aka": ["CFC", "CFC-PCS", "Community First Choice Personal Care Services", "Alaska CFC", "1915(k)"],
+    "kind": "state plan",
+    "summary": "Community First Choice is an Alaska Medicaid option for people who need institutional-level care. It covers personal care, chore, supervision and cueing, skill building and emergency response systems. Since August 1, 2025, a spouse, the parent of a minor child (age 6+) or a court-appointed guardian can be paid for CFC personal care if hired by a CFC personal care agency.",
+    "who_qualifies": [
+      "Enrolled in Alaska Medicaid.",
+      "Meets an institutional level of care: nursing facility, ICF/IID, or Institution for Mental Disease (under 22 or over 65).",
+      "Children under 6 cannot get CFC personal care.",
+      "Not living in a licensed assisted living home while receiving waiver residential services."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives can be hired through a CFC personal care agency.",
+      "spouse": "yes — spouses are legally responsible individuals who may provide CFC personal care if employed by a CFC-PCS agency (effective August 1, 2025).",
+      "parent_of_minor": "yes — a parent can be paid for CFC personal care for a child over age 6 if hired by the agency.",
+      "live_together": "optional — not required; a legally responsible worker may need a designee to verify timesheets."
+    },
+    "pay": {
+      "display": "$24–$26/hr",
+      "detail": "No family-caregiver wage is published. The CFC personal care agency that employs the caregiver sets the wage from the Medicaid rate; aggregators report about $24–$26/hour."
+    },
+    "hours_or_budget": "An SDS assessment creates a service plan that sets personal care time. SDS has said it will not enforce the 40-hour weekly limit in 7 AAC 127.015(a)(3) for legally responsible workers.",
+    "waitlist": {
+      "status": "none",
+      "detail": "CFC is a state plan option, not a capped waiver."
+    },
+    "self_directed_or_agency": "Agency. The caregiver, including a spouse or parent, must be hired by a CFC personal care agency; the member directs day-to-day care.",
+    "how_to_apply": [
+      "Contact your local Aging and Disability Resource Center (ADRC) or Developmental Disabilities Resource Connection (DDRC) for the person-centered intake.",
+      "Choose a care coordinator, who helps you file the CFC-06 application.",
+      "Get an SDS assessment for level of care and personal care time.",
+      "Pick a CFC personal care agency; if a spouse or parent will be the worker, the agency hires them."
+    ],
+    "contacts": [
+      { "name": "Aging and Disability Resource Center (ADRC)", "phone": "1-877-625-2372", "url": "https://health.alaska.gov/dsds/Pages/cfc/default.aspx" },
+      { "name": "Alaska Division of Senior and Disabilities Services", "phone": "1-800-478-9996", "url": "https://health.alaska.gov/dsds/Pages/cfc/default.aspx" }
+    ],
+    "faqs": [
+      { "q": "Can a spouse get paid through Alaska CFC?", "a": "Yes. Since August 1, 2025, a spouse can be paid for CFC personal care when hired by a CFC personal care agency." },
+      { "q": "Can parents be paid to care for their child under CFC?", "a": "Yes, for children over age 6 who get CFC personal care. The parent must be hired by a CFC-PCS agency and follow the service plan." },
+      { "q": "Is there a 40-hour limit for family caregivers?", "a": "The regulation has a 40-hour weekly limit for legally responsible workers, but SDS's June 27, 2025 memo says it will not enforce that limit for CFC personal care." },
+      { "q": "What is the difference between CFC and PCS?", "a": "CFC requires an institutional level of care and allows legally responsible individuals to be paid. State Plan PCS does not require that level of care but bars spouses and parents of minors." },
+      { "q": "How do I start?", "a": "Call the ADRC at 1-877-625-2372 for an intake, then work with a care coordinator on the CFC-06 application." }
+    ],
+    "keywords": ["alaska community first choice", "cfc alaska", "alaska pay spouse caregiver", "alaska parent paid caregiver", "cfc personal care alaska legally responsible"],
+    "sources": [
+      "https://health.alaska.gov/media/mmnnsasn/directors-memo-cfc-reg-implementation-6-27-2025.pdf",
+      "https://jedc.org/srec/wp-content/uploads/2024/02/CFC-Service-Option-for-Families-July-15-2025.pdf",
+      "https://health.alaska.gov/media/o5fgttv0/cfc-06-application-for-community-first-choice.pdf",
+      "https://health.alaska.gov/dsds/Pages/cfc/default.aspx"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "childrens-waivers",
+    "name": "Children's waivers (CCMC & IDD)",
+    "aka": ["CCMC waiver", "Children with Complex Medical Conditions waiver", "IDD waiver", "Intellectual and Developmental Disabilities waiver", "ISW", "Individualized Supports Waiver", "In-Home Supports"],
+    "kind": "children's waiver",
+    "summary": "Alaska's Children with Complex Medical Conditions (CCMC) and Intellectual and Developmental Disabilities (IDD) waivers pay for home and community services for children who would otherwise need hospital, nursing or ICF/IID care. CMS has approved legally responsible individuals, including parents of minors, to be paid for In-Home Supports (children) and Supported Living (adults), and SDS is allowing this while regulations are finished.",
+    "who_qualifies": [
+      "CCMC: under 22, with a medical condition that would need hospital or nursing facility care for more than 30 days a year without waiver services.",
+      "IDD: an intellectual or developmental disability meeting ICF/IID level of care; entry is through the Developmental Disabilities Registry.",
+      "Meets Medicaid financial rules (Division of Public Assistance).",
+      "Needs cannot be met by regular Medicaid services alone."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives who are not legally responsible can work for a waiver provider agency.",
+      "spouse": "limited — CMS approved legally responsible individuals for In-Home Supports and Supported Living; SDS is allowing it while rules are developed.",
+      "parent_of_minor": "limited — parents can be paid for In-Home Supports (under 18) through a provider agency; CMS requires limits including 40 hours per week, which SDS says will take effect later.",
+      "live_together": "optional — In-Home Supports is for children living with family."
+    },
+    "pay": {
+      "display": "$24–$26/hr",
+      "detail": "Alaska does not publish a parent-caregiver wage. The provider agency that employs the parent sets pay from the waiver rate; aggregators report Alaska caregiver averages of about $24–$26/hour."
+    },
+    "hours_or_budget": "A care coordinator builds a support plan approved by SDS. The IDD waiver has an annual cost limit adjusted for inflation.",
+    "waitlist": {
+      "status": "long",
+      "detail": "IDD entry is through the Developmental Disabilities Registry; people are drawn by score as funding allows. The Individualized Supports Waiver has had a date-order waitlist since July 2023."
+    },
+    "self_directed_or_agency": "Agency. Paid parents must be employed by a certified waiver provider agency.",
+    "how_to_apply": [
+      "Contact the Developmental Disabilities Resource Connection (DDRC) or ADRC for intake.",
+      "For IDD/ISW, submit the Developmental Disabilities Registration and Review (DDRR) form to join the registry, and update it every year.",
+      "For CCMC, a care coordinator helps with the level-of-care and Medicaid applications.",
+      "Once approved, ask your care coordinator about a provider agency that will hire a parent for In-Home Supports."
+    ],
+    "contacts": [
+      { "name": "Alaska Division of Senior and Disabilities Services", "phone": "907-269-3666", "url": "https://health.alaska.gov/en/services/hcbs-waivers/" },
+      { "name": "SDS toll-free", "phone": "1-800-478-9996", "url": "https://health.alaska.gov/en/services/hcbs-waivers/" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid to care for a disabled child in Alaska?", "a": "Yes, in some cases. CMS approved parents and other legally responsible individuals to provide In-Home Supports, and SDS allows it while regulations are finished. The parent must work through a provider agency." },
+      { "q": "What is the CCMC waiver?", "a": "A Medicaid waiver for people under 22 with complex medical conditions who would otherwise need more than 30 days a year of hospital or nursing facility care." },
+      { "q": "Is there a waitlist for the Alaska IDD waiver?", "a": "Yes. You join the Developmental Disabilities Registry with a DDRR form, and people are drawn by score as funding allows." },
+      { "q": "Is there an hour limit for parent caregivers?", "a": "CMS requires limits including a 40-hour weekly cap for legally responsible workers on waiver services. SDS says that limit is not yet in effect and will be added later." },
+      { "q": "Can parents also be paid through CFC?", "a": "Yes. Parents of children over 6 can be paid for Community First Choice personal care if hired by a CFC agency." }
+    ],
+    "keywords": ["alaska ccmc waiver", "alaska idd waiver parent paid", "alaska paid parent caregiver", "alaska children's waiver", "dd registry alaska"],
+    "sources": [
+      "https://health.alaska.gov/media/mmnnsasn/directors-memo-cfc-reg-implementation-6-27-2025.pdf",
+      "https://health.alaska.gov/en/services/hcbs-waivers/",
+      "https://regulations.justia.com/states/alaska/title-7/part-8/chapter-130/article-2/section-7-aac-130-205",
+      "https://health.alaska.gov/media/nqldyt3u/2024-dd-report-1.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "slug": "services-my-way",
+    "name": "EPD Waiver — Services My Way",
+    "aka": ["Services My Way", "SMW", "EPD Waiver", "Elderly and Persons with Physical Disabilities Waiver", "participant-directed services DC", "PDS DC"],
+    "kind": "self-direction option",
+    "summary": "Services My Way is the self-directed part of DC's Elderly and Persons with Physical Disabilities (EPD) Medicaid waiver. A participant who lives at home gets a monthly budget and hires their own participant-directed worker, who can be a relative or friend. A spouse, a legal guardian and other legally responsible relatives cannot be paid.",
+    "who_qualifies": [
+      "Enrolled in the DC EPD Waiver: age 65 or older, or age 18–64 with a physical disability.",
+      "DC resident eligible for Medicaid, with income up to 300% of the SSI benefit rate and countable resources reported at no more than $4,000.",
+      "Needs nursing facility level of care, confirmed by a face-to-face assessment from Liberty Healthcare.",
+      "Lives in their own home (natural home), not in a hospital, nursing facility or assisted living."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the waiver says any individual or family member other than a spouse, a parent of a minor child, another legally responsible relative or a court-appointed guardian may be a participant-directed worker.",
+      "spouse": "no — spouses are legally responsible relatives and cannot be paid.",
+      "parent_of_minor": "no — the EPD waiver serves adults only, and legally responsible relatives are excluded. The waiver says parents of an adult child are not legally responsible, but one line also bars paying a parent, so confirm with DHCF.",
+      "live_together": "optional — the worker does not have to live with the participant."
+    },
+    "pay": {
+      "display": "DC living wage or more (about $18.40/hr from July 2026)",
+      "detail": "The participant sets the worker's hourly wage within a range set by DHCF: no less than the DC living wage and no more than the agency personal care aide rate. The DC living wage was $17.95/hour for January–June 2026 and rose to $18.40/hour on July 1, 2026 (DOES). Third-party sites report budgets up to about $3,600/month; DHCF does not publish a maximum."
+    },
+    "hours_or_budget": "After the assessment sets authorized personal care hours, DHCF multiplies the monthly hours by the agency PCA rate and subtracts a set percentage for agency overhead. The result is the monthly budget. It pays the worker's wages and taxes, and any money left can buy approved goods and services. Personal care plus adult day services cannot exceed 16 hours a day.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "The EPD waiver has a yearly participant cap (6,060 in year 1 rising to 6,460 in year 5 of the 2022 renewal). Some slots are reserved for people leaving institutions; other slots go first-come, first-served. A waitlist can form when slots are full."
+    },
+    "self_directed_or_agency": "Self-directed. The participant or a representative is the common-law employer. A vendor fiscal/employer agent that also provides support brokers (GT Independence serves Services My Way) runs payroll and helps with the budget. Participants who don't want this can use agency PCA services instead.",
+    "how_to_apply": [
+      "Ask a doctor or advanced practice nurse enrolled with DC Medicaid to complete the electronic Prescription Order Form (POF), which goes to Liberty Healthcare.",
+      "Liberty Healthcare schedules a face-to-face assessment to confirm level of need.",
+      "Complete the DC long-term care Medicaid/waiver application; the Department of Aging and Community Living can help (202-724-5626).",
+      "Once enrolled in the EPD waiver, ask your case manager to enroll you in Services My Way, then hire your worker through the fiscal agent."
+    ],
+    "contacts": [
+      { "name": "DHCF Long Term Care Administration (EPD Waiver)", "phone": "202-442-5988", "url": "https://dhcf.dc.gov/page/epd-waiver-services" },
+      { "name": "DC Department of Aging and Community Living (application help)", "phone": "202-724-5626", "url": "https://dacl.dc.gov/" },
+      { "name": "GT Independence (Services My Way fiscal agent and support broker)", "phone": "877-659-4500", "url": "https://gtindependence.com/state/dc/services-my-way/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my mother in DC?", "a": "Yes, if she is on the EPD Waiver, lives at home and chooses Services My Way. Adult children can be hired as her participant-directed worker." },
+      { "q": "Can a spouse be paid through Services My Way?", "a": "No. Spouses, court-appointed guardians and other legally responsible relatives cannot be paid." },
+      { "q": "How much does a Services My Way worker make?", "a": "The participant sets the wage. It must be at least the DC living wage ($18.40/hour from July 1, 2026) and no more than what DHCF pays agencies for personal care." },
+      { "q": "How is the budget figured?", "a": "Your authorized personal care hours are multiplied by the agency PCA rate, minus a set percentage for agency overhead. That monthly amount becomes your budget." },
+      { "q": "Is there a waitlist for the EPD Waiver?", "a": "The waiver has a yearly cap. When it is full, new applicants may have to wait for a slot." },
+      { "q": "How do I start?", "a": "A DC Medicaid doctor or nurse practitioner submits a Prescription Order Form to Liberty Healthcare, which schedules your assessment." }
+    ],
+    "keywords": ["services my way dc", "epd waiver dc pay family caregiver", "get paid to care for parent washington dc", "dc participant directed services", "services my way hourly wage", "epd waiver application"],
+    "sources": [
+      "https://dhcf.dc.gov/page/epd-waiver-services",
+      "https://dhcf.dc.gov/sites/default/files/dc/sites/dhcf/publication/attachments/EPD%20Waiver%20Approved%20Renewal%20Application%20for%201915%28c%29%20HCBS%20Waiver_%20DC.0334.R05.00%20-%20Feb%2001%2C%202022.pdf",
+      "https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/2026%20Notice%20of%20Living%20Wage%20Increase%20to%20Employers.pdf",
+      "https://dacl.dc.gov/sites/default/files/dc/sites/dacl/page_content/attachments/EPD%20Waiver%20SS%20Packet%2001-2023.pdf",
+      "https://gtindependence.com/state/dc/services-my-way/",
+      "https://www.medicaidplanningassistance.org/washington-dc-epd-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

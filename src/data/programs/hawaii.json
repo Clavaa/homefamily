@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "quest-integration-self-direction",
+    "name": "QUEST Integration Self-Direction (Consumer-Directed Personal Assistance)",
+    "aka": ["QUEST Integration", "QI self-direction", "Med-QUEST self-direction", "consumer-directed personal assistance Hawaii", "Hawaii Medicaid hire family caregiver"],
+    "kind": "self-direction option",
+    "summary": "Hawaii's Medicaid program, QUEST Integration, covers long-term services at home through health plans. Members who need nursing-facility-level care can choose self-direction for personal assistance and attendant care, which lets them hire, train and supervise their own worker, including a family member. The health plan pays the worker, and a fiscal agent handles payroll taxes.",
+    "who_qualifies": [
+      "Hawaii resident enrolled in Med-QUEST (Hawaii Medicaid) through a QUEST Integration health plan; no age limit.",
+      "Needs nursing facility level of care for full home and community-based services; people found only 'at risk' get a smaller set of services.",
+      "Meets Medicaid financial rules — reported as $1,530/month income and $2,000 in assets for an individual in 2026.",
+      "Lives at home, not in a nursing facility."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — Med-QUEST's self-direction protocol says family members may be hired.",
+      "spouse": "yes — a Med-QUEST protocol says HCBS participants can hire family members including spouses; this dates from the earlier QExA program, so confirm with your health plan.",
+      "parent_of_minor": "limited — the same Med-QUEST protocol lists parents of minors as allowed hires under QExA, but current QUEST Integration rules on paying parents are not clearly published; confirm with Med-QUEST.",
+      "live_together": "optional — the worker does not have to live with the member."
+    },
+    "pay": {
+      "display": "$14–$23/hr (reported)",
+      "detail": "Med-QUEST does not publish a self-directed wage. Third-party reports put pay at about $14–$23/hour depending on plan and island, up to about $3,028/month. The state let health plans pay self-directed workers once a month (within 10 days after the pay period ends) under a labor department exception."
+    },
+    "hours_or_budget": "The health plan's service coordinator assesses the member and authorizes personal assistance or attendant care hours in the service plan.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "Medicaid enrollment is an entitlement, but home and community-based service slots can be limited, so a wait for HCBS can occur when slots are full."
+    },
+    "self_directed_or_agency": "Either. Members can use agency providers or self-direct. In self-direction the member, guardian or representative is the managing employer; the health plan pays the worker and a financial management services agency handles taxes. Members who self-direct also name backup agency providers.",
+    "how_to_apply": [
+      "Apply for Med-QUEST online at medical.mybenefits.hawaii.gov, by phone at 1-800-316-8005, or with form DHS 1100 mailed or faxed to a Med-QUEST eligibility office.",
+      "Choose or get assigned a QUEST Integration health plan.",
+      "Ask the health plan for a long-term services and supports assessment (level of care).",
+      "Tell the service coordinator you want to self-direct personal assistance and name the person you want to hire; complete the hiring paperwork and background checks."
+    ],
+    "contacts": [
+      { "name": "Med-QUEST Customer Service", "phone": "1-800-316-8005", "url": "https://medquest.hawaii.gov/en/members-applicants/get-started/how-to-apply.html" },
+      { "name": "Med-QUEST Customer Service (O‘ahu)", "phone": "(808) 524-3370", "url": "https://medquest.hawaii.gov/en/contact-us.html" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for a family member in Hawaii?", "a": "Yes. If the person is on QUEST Integration and qualifies for home and community-based services, they can self-direct and hire a family member as their personal assistance worker." },
+      { "q": "Can a spouse be paid?", "a": "A Med-QUEST protocol says family members, including spouses, may be hired. That protocol is from the earlier QExA program, so ask your health plan to confirm before you start." },
+      { "q": "How much do self-directed workers earn in Hawaii?", "a": "Med-QUEST does not publish a rate. Reports put pay around $14 to $23 an hour, depending on the plan and island." },
+      { "q": "How often are self-directed workers paid?", "a": "Health plans may pay once a month under a state labor department exception, but they must pay within 10 days after each pay period ends." },
+      { "q": "Who do I ask about self-direction?", "a": "Your QUEST Integration health plan's service coordinator. If you are not on Med-QUEST yet, apply first by calling 1-800-316-8005." }
+    ],
+    "keywords": ["hawaii quest integration self direction", "med-quest hire family member", "get paid to care for family member hawaii", "hawaii medicaid caregiver pay", "hawaii personal assistance self directed"],
+    "sources": [
+      "https://medquest.hawaii.gov/content/dam/formsanddocuments/med-quest/going-home-plus/ghp-operational-protocols/B7_SelfDirection.pdf",
+      "https://medquest.hawaii.gov/content/dam/formsanddocuments/provider-memos/qi-memos/qi-memos-2024/QI-2414%20Exemption%20to%20HRS%20Chapter%20388%20Self-Direct%20Provider.PDF%20(part%201)%20-%20signed.pdf",
+      "https://medquest.hawaii.gov/en/members-applicants/get-started/how-to-apply.html",
+      "https://www.medicaidplanningassistance.org/hawaii-quest-integration-program/"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  }
+]

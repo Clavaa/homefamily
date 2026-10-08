@@ -1,0 +1,217 @@
+[
+  {
+    "slug": "self-directed-attendant-care",
+    "name": "ALTCS Self-Directed Attendant Care (SDAC)",
+    "aka": ["SDAC", "ALTCS self-directed care", "self-directed attendant care Arizona", "ALTCS member-directed options", "AHCCCS self directed"],
+    "kind": "self-direction option",
+    "summary": "Self-Directed Attendant Care is an ALTCS (Arizona Long Term Care System) option where the member becomes the legal employer of their own direct care worker. The member can hire family members such as adult children, and a Fiscal Employer Agent handles taxes, payroll and paychecks. Spouses, parents of minor children and the member's legal guardian cannot be paid through SDAC.",
+    "who_qualifies": [
+      "Enrolled in ALTCS Elderly and Physically Disabled (E/PD) or Fee-For-Service Tribal ALTCS.",
+      "Needs nursing-home level of care (ALTCS medical and financial eligibility).",
+      "Lives in their own home, not an assisted living or nursing facility.",
+      "Able to direct their own care, or has a legal guardian who can."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — AHCCCS policy lets members hire family members, including adult children, siblings, grandchildren and in-laws.",
+      "spouse": "no — AMPM 1320-A says a Spouse as Paid Caregiver may not be reimbursed for SDAC; spouses use the agency route instead.",
+      "parent_of_minor": "no — parents of minor children are prohibited from serving as a paid worker in SDAC.",
+      "live_together": "optional — the worker may or may not live with the member."
+    },
+    "pay": {
+      "display": "$13–$16/hr",
+      "detail": "No set family wage is published. Pay is commonly reported at $13–$16/hour, at or near Arizona's minimum wage, which rose to $15.15/hour on January 1, 2026; rates vary by health plan."
+    },
+    "hours_or_budget": "The ALTCS case manager assesses needs with the member and family and sets the number and frequency of attendant care, personal care and homemaker hours, subject to a cost-effectiveness study.",
+    "waitlist": {
+      "status": "none",
+      "detail": "ALTCS is an entitlement; once eligible, members are enrolled."
+    },
+    "self_directed_or_agency": "The member (or legal guardian) is the legal employer; a Fiscal Employer Agent handles payroll, tax withholding and paychecks.",
+    "how_to_apply": [
+      "Apply for ALTCS by calling 1-888-621-6880, online through Health-e-Arizona Plus, or at a local ALTCS office.",
+      "Complete the ALTCS financial review and the pre-admission screening for level of care.",
+      "Once enrolled, ask your ALTCS case manager to choose Self-Directed Attendant Care.",
+      "Hire your worker and enroll them with the Fiscal Employer Agent; the worker completes the required training."
+    ],
+    "contacts": [
+      { "name": "AHCCCS – ALTCS applications", "phone": "1-888-621-6880", "url": "https://www.azahcccs.gov/Members/ALTCSlocations.html" },
+      { "name": "AHCCCS Self-Directed Attendant Care", "url": "https://azahcccs.gov/PlansProviders/CurrentProviders/SDAC.html" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my parent in Arizona?", "a": "Yes. If your parent is on ALTCS, they can choose Self-Directed Attendant Care and hire you, or use Agency with Choice." },
+      { "q": "Can a spouse be paid through SDAC?", "a": "No. AHCCCS policy says a Spouse as Paid Caregiver cannot be reimbursed for SDAC. A spouse can be paid through a direct care worker agency under the spouse caregiver model." },
+      { "q": "Who handles taxes and payroll?", "a": "A Fiscal Employer Agent. The member is the legal employer, but the agent withholds taxes and issues paychecks." },
+      { "q": "Can a legal guardian be the paid worker?", "a": "No. Under SDAC the legal guardian can direct care for the member but cannot be the member's paid worker." },
+      { "q": "Is there a waitlist for ALTCS?", "a": "No. ALTCS is an entitlement, so people who qualify are enrolled." }
+    ],
+    "keywords": ["altcs self directed attendant care", "sdac arizona", "arizona get paid to care for family member", "ahcccs self directed care", "altcs family caregiver pay"],
+    "sources": [
+      "https://azahcccs.gov/shared/Downloads/MedicalPolicyManual/1300/1320-A.pdf",
+      "https://www.azahcccs.gov/shared/Downloads/MedicalPolicyManual/1200/1240-A.pdf",
+      "https://azahcccs.gov/PlansProviders/CurrentProviders/SDAC.html",
+      "https://www.medicaidplanningassistance.org/arizona-long-term-care-system/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "agency-with-choice",
+    "name": "Agency with Choice (AWC)",
+    "aka": ["AWC", "Agency with Choice Arizona", "co-employment ALTCS", "DDD Agency with Choice"],
+    "kind": "self-direction option",
+    "summary": "Agency with Choice is an ALTCS member-directed option where a provider agency is the legal employer and the member shares day-to-day employer duties. The member can recruit, choose, schedule, supervise and dismiss their worker, including family members. Parents of minor children cannot be paid through AWC.",
+    "who_qualifies": [
+      "Enrolled in ALTCS (Elderly and Physically Disabled, or Developmental Disabilities through DES/DDD).",
+      "Lives in their own home.",
+      "Has authorized attendant care, personal care, homemaker or similar services in their plan.",
+      "The member or an individual representative is willing to share employer tasks."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — members can recruit and hire family members, including adult children.",
+      "spouse": "yes — spouses can be paid when employed by a direct care worker agency under the Spouse as Paid Caregiver model (limit 40 hours a week).",
+      "parent_of_minor": "no — AHCCCS policy 1310-A says parents of minor children are prohibited from serving as a paid worker under AWC; parents use the separate Parents as Paid Caregivers model.",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "$13–$16/hr",
+      "detail": "The agency sets the worker's wage. Commonly reported pay is $13–$16/hour, at or near Arizona's minimum wage ($15.15/hour since January 1, 2026)."
+    },
+    "hours_or_budget": "The ALTCS case manager sets authorized hours through the needs assessment; the member decides schedules and tasks within that plan.",
+    "waitlist": {
+      "status": "none",
+      "detail": "ALTCS is an entitlement with no waitlist."
+    },
+    "self_directed_or_agency": "Co-employment: the provider agency is the legal employer of record and handles hiring paperwork, required training and payroll; the member acts as day-to-day managing employer.",
+    "how_to_apply": [
+      "Apply for ALTCS at 1-888-621-6880 or through Health-e-Arizona Plus; for developmental disabilities, also work with DES/DDD.",
+      "After enrollment, tell your case manager you want Agency with Choice.",
+      "Pick a participating agency and refer your chosen worker to be hired.",
+      "The worker completes the agency's direct care worker training."
+    ],
+    "contacts": [
+      { "name": "AHCCCS – ALTCS applications", "phone": "1-888-621-6880", "url": "https://www.azahcccs.gov/Members/ALTCSlocations.html" },
+      { "name": "DES Division of Developmental Disabilities – Agency with Choice policy", "url": "https://des.az.gov/sites/default/files/media/DDD_Medical_Policy_Manual_1301_Agency_with_Choice.pdf" }
+    ],
+    "faqs": [
+      { "q": "What is the difference between Agency with Choice and SDAC?", "a": "In SDAC the member is the legal employer with a fiscal agent. In Agency with Choice the agency is the legal employer and the member shares day-to-day duties like hiring and scheduling." },
+      { "q": "Can my spouse be paid through an agency in Arizona?", "a": "Yes. Spouses can be paid when hired by a direct care worker agency under the Spouse as Paid Caregiver model, up to 40 hours a week." },
+      { "q": "Can a parent of a minor be paid under AWC?", "a": "No. Parents of minors are paid only through the Parents as Paid Caregivers model, through one agency." },
+      { "q": "Who trains the caregiver?", "a": "The agency provides the required minimum training. The member can add training on how they want care done." },
+      { "q": "Is AWC available for people with developmental disabilities?", "a": "Yes. DES/DDD offers Agency with Choice for its ALTCS members." }
+    ],
+    "keywords": ["agency with choice arizona", "altcs agency with choice", "arizona pay family caregiver agency", "awc ddd arizona"],
+    "sources": [
+      "https://azahcccs.gov/shared/Downloads/MedicalPolicyManual/1300/1310-A.pdf",
+      "https://www.azahcccs.gov/shared/Downloads/MedicalPolicyManual/1200/1240-A.pdf",
+      "https://des.az.gov/sites/default/files/media/DDD_Medical_Policy_Manual_1301_Agency_with_Choice.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "parents-as-paid-caregivers",
+    "name": "Parents as Paid Caregivers (PPCG)",
+    "aka": ["PPCG", "parents as paid caregivers Arizona", "paid parent caregiver AHCCCS", "DDD parents as paid caregivers"],
+    "kind": "waiver service",
+    "summary": "Parents as Paid Caregivers lets parents of minor children on ALTCS be paid for attendant care, personal care, homemaker and in-home habilitation. It started as a COVID-era flexibility and CMS approved it permanently in 2024. Parents must meet direct care worker requirements and work through one agency, and are limited to 40 paid hours a week per child.",
+    "who_qualifies": [
+      "Child under 18 enrolled in ALTCS (Developmental Disabilities through DES/DDD, or Elderly and Physically Disabled).",
+      "Child lives in their own (family) home.",
+      "Care meets the definition of extraordinary care — beyond what a parent ordinarily does for a child without a disability.",
+      "Parent meets direct care worker training and provider qualifications."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — other relatives can be hired through the regular member-directed options.",
+      "spouse": "n/a — this model is for parents of minors; spouses use the Spouse as Paid Caregiver model.",
+      "parent_of_minor": "yes — parents (including stepparents and adoptive parents) can be paid, up to 40 hours per week per child combined, and no more than 16 hours in a day.",
+      "live_together": "required — the child must live in their own home."
+    },
+    "pay": {
+      "display": "$13–$16/hr",
+      "detail": "The employing agency sets pay, which may not exceed what a non-parent worker would get for similar care. Commonly reported rates are $13–$16/hour, near Arizona's $15.15/hour minimum wage (2026)."
+    },
+    "hours_or_budget": "The case manager uses the HCBS Needs Assessment Tool to set authorized hours. Parents can be paid for no more than 40 hours a week for one child; any authorized hours above 40 must go to another caregiver.",
+    "waitlist": {
+      "status": "none",
+      "detail": "ALTCS is an entitlement; there is no separate PPCG waitlist."
+    },
+    "self_directed_or_agency": "Agency. The parent must be employed or contracted by one agency for all PPCG services they provide.",
+    "how_to_apply": [
+      "Make sure your child is enrolled in ALTCS (apply at 1-888-621-6880; for developmental disabilities, also apply to DES/DDD).",
+      "Ask the ALTCS or DDD support coordinator about the PPCG model; it is recorded in the child's plan with a signed acknowledgement.",
+      "Get hired by one qualified agency and complete direct care worker training.",
+      "Track hours so paid parent care stays at or under 40 hours a week."
+    ],
+    "contacts": [
+      { "name": "AHCCCS – ALTCS applications", "phone": "1-888-621-6880", "url": "https://www.azahcccs.gov/Resources/Federal/PendingWaivers/ParentCareGivers.html" },
+      { "name": "DES Division of Developmental Disabilities – PPCG", "url": "https://des.az.gov/ddd/ppcg" }
+    ],
+    "faqs": [
+      { "q": "Is Parents as Paid Caregivers permanent in Arizona?", "a": "Yes. CMS approved it as a permanent part of Arizona's demonstration in February 2024, after it began as a temporary COVID flexibility." },
+      { "q": "How many hours can a parent be paid?", "a": "No more than 40 hours per week for one child, combined across both parents, and no more than 16 hours in any 24-hour period." },
+      { "q": "What can parents be paid for?", "a": "Attendant care, personal care, homemaker and in-home habilitation services that meet the extraordinary care standard." },
+      { "q": "Does my child need more than 40 hours?", "a": "If authorized care exceeds 40 hours a week, another caregiver must provide the extra hours." },
+      { "q": "Do parents need training?", "a": "Yes. Parents must meet the same direct care worker training and qualification rules as other workers." }
+    ],
+    "keywords": ["parents as paid caregivers arizona", "ppcg arizona", "ddd paid parent arizona", "get paid to care for my disabled child arizona", "ahcccs parent caregiver 40 hours"],
+    "sources": [
+      "https://www.azahcccs.gov/shared/Downloads/MedicalPolicyManual/1200/1240-A.pdf",
+      "https://www.azahcccs.gov/Resources/Federal/PendingWaivers/ParentCareGivers.html",
+      "https://des.az.gov/ddd/ppcg"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "spouse-as-paid-caregiver",
+    "name": "Spouse as Paid Caregiver",
+    "aka": ["SPCG", "spouse attendant care Arizona", "ALTCS pay spouse caregiver"],
+    "kind": "waiver service",
+    "added": true,
+    "summary": "Arizona's ALTCS program lets a spouse be paid for attendant care, personal care or similar services for their husband or wife. The spouse must be employed by a direct care worker agency (or by the member through DDD's Independent Provider Network) and can be paid for no more than 40 hours a week.",
+    "who_qualifies": [
+      "Enrolled in ALTCS and living in their own home.",
+      "The care meets the definition of extraordinary care — beyond what a spouse ordinarily does.",
+      "The member is told they can choose a caregiver other than their spouse, and this choice is recorded at least once a year.",
+      "The spouse meets direct care worker training and qualification rules."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "n/a — this model is for spouses; other relatives use SDAC or Agency with Choice.",
+      "spouse": "yes — up to 40 hours of paid care in a seven-day period, through a direct care worker agency.",
+      "parent_of_minor": "n/a — parents use the Parents as Paid Caregivers model.",
+      "live_together": "required in practice — the member must live in their own home."
+    },
+    "pay": {
+      "display": "$13–$16/hr",
+      "detail": "The spouse's rate may not exceed what a non-spouse worker would earn for similar care. Commonly reported pay is $13–$16/hour; Arizona's minimum wage is $15.15/hour as of January 1, 2026."
+    },
+    "hours_or_budget": "The case manager assesses needs. The spouse can be paid for at most 40 hours a week, and total care from the spouse and any other worker combined is limited to 40 hours a week.",
+    "waitlist": {
+      "status": "none",
+      "detail": "ALTCS is an entitlement."
+    },
+    "self_directed_or_agency": "Agency: the spouse must be employed by a direct care worker agency. Members served by DDD can also employ the spouse through the Independent Provider Network. Spouses cannot be paid through SDAC.",
+    "how_to_apply": [
+      "Apply for ALTCS at 1-888-621-6880 or through Health-e-Arizona Plus.",
+      "Tell the ALTCS case manager you want your spouse as the paid caregiver; you will sign a Spouse Attendant Care Acknowledgement of Understanding.",
+      "Your spouse applies to and is hired by a contracted direct care worker agency and completes training."
+    ],
+    "contacts": [
+      { "name": "AHCCCS – ALTCS applications", "phone": "1-888-621-6880", "url": "https://www.azahcccs.gov/Members/ALTCSlocations.html" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my husband or wife in Arizona?", "a": "Yes, if your spouse is on ALTCS. You must be hired by a direct care worker agency, and you can be paid for up to 40 hours a week." },
+      { "q": "Can a spouse be paid through self-directed care?", "a": "No. AHCCCS policy bars paying a spouse through Self-Directed Attendant Care; it must go through an agency (or DDD's Independent Provider Network)." },
+      { "q": "What if my spouse needs more than 40 hours of care?", "a": "Under this model, total attendant care from the spouse and any other worker is capped at 40 hours a week." },
+      { "q": "When did Arizona start paying spouses?", "a": "AHCCCS began the spouse as paid caregiver option on October 1, 2007, under a CMS waiver." }
+    ],
+    "keywords": ["arizona pay spouse caregiver", "altcs spouse paid caregiver", "get paid to care for husband arizona", "ahcccs spouse attendant care"],
+    "sources": [
+      "https://www.azahcccs.gov/shared/Downloads/MedicalPolicyManual/1200/1240-A.pdf",
+      "https://azahcccs.gov/shared/Downloads/MedicalPolicyManual/1300/1320-A.pdf",
+      "https://azahcccs.gov/Shared/Downloads/HCBS/AnnualHCBS_CMSReportCYE2012.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

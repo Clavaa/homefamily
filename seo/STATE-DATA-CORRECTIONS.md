@@ -45,3 +45,9 @@ Apply in one pass before deploy; each line cites the program record that holds t
 - ohio: SFC Medicaid rate $102.68/day (half day $51.34) to the agency (OAC 5160-46-06 eff. 4/17/2026); Home Care Waiver aide $28.96 agency / $22.32 non-agency; parents/spouses via OAC 5160-44-32 (agency or FMS, no other willing provider, extraordinary care, 40 hr/wk)
 - north-carolina: LIFTSS phone 833-522-5429 (833-470-0597 is the referral FAX)
 - new-mexico: DD waiver waitlist eliminated 2025 (Central Registry remains) → waitlist "possible"
+
+## batch: CT DE DC FL GA HI
+- florida: spouse no → **limited** (CDC+ allows spouse per s. 409.221(4)(f); PDO unclear); FHHA $25/hr min, 12 hr/day, 40 hr/wk per child (s. 400.4765, 2025)
+- delaware: spouse yes → **limited** (DSHP-Plus MCO policy bars legally responsible attendants); parent-of-minor yes confirmed via Self-Directed Attendant Care for Children (added program, up to 40 hr/wk, <21)
+- georgia: NOW/COMP spouse/parent-of-minor/guardian prohibited since 11/11/2023 (state-level spouse status stays limited — SFC); SFC agency rate $99.22/day (2023 study), $110.39 proposed
+- connecticut: CFC/PCA pay → **$23.00/hr minimum from 1/1/2026** (PCA union contract)

@@ -1,0 +1,168 @@
+[
+  {
+    "slug": "pca-program",
+    "name": "MassHealth Personal Care Attendant (PCA) Program",
+    "aka": ["PCA Program", "MassHealth PCA", "personal care attendant Massachusetts", "PCA self-directed", "130 CMR 422"],
+    "kind": "state plan",
+    "summary": "The MassHealth PCA Program pays a personal care attendant to help a member with daily activities at home. The member (or a surrogate) is the employer who hires, trains and directs the PCA, a Personal Care Management (PCM) agency handles the evaluation and training, and a fiscal intermediary runs payroll. Adult children, siblings, parents of adult members and other relatives can be paid, but a spouse, the parent of a minor member, or any legally responsible relative cannot.",
+    "who_qualifies": [
+      "Has MassHealth coverage that includes PCA services.",
+      "Has a permanent or chronic disability that limits daily activities without physical help.",
+      "Needs physical assistance with two or more activities of daily living (such as bathing, dressing, toileting, transfers, eating or mobility), as determined by the PCM agency.",
+      "MassHealth finds the services medically necessary; no minimum age, but a minor or a member with a guardian must have a surrogate to manage the PCA."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children, siblings, parents of adult members and other relatives who are not legally responsible can be hired as the PCA.",
+      "spouse": "no — 130 CMR 422 defines a spouse as a family member, and a PCA may not be a family member.",
+      "parent_of_minor": "no — the parent of a minor member (including an adoptive parent) is a family member and cannot be the paid PCA; a parent can be the surrogate instead.",
+      "live_together": "optional — the PCA may live with the member or not; the PCA also cannot be the member's surrogate, administrative proxy or foster parent."
+    },
+    "pay": {
+      "display": "$20.00–$22.40/hr (2025 scale) + $3.25/hr complex care",
+      "detail": "PCA wages are set by the collective bargaining agreement with 1199SEIU and paid through the fiscal intermediary (101 CMR 309.00 ties the wage component to the contract). After a $0.50 raise in 2025, the union reported a scale of $20.00/hour for early-career PCAs up to $22.40/hour for the most experienced, plus a $3.25/hour complex care differential for PCAs serving members with complex needs (MassHealth rates updated January 1, 2026 per Administrative Bulletin 25-29). states.json lists $19.50–$23.25/hour from the earlier step of the same contract."
+    },
+    "hours_or_budget": "The PCM agency does an evaluation and MassHealth prior-authorizes weekly hours based on the time needed for each activity. MassHealth assumes family members who live with the member will help with most household tasks, so those hours can be reduced unless circumstances show otherwise.",
+    "waitlist": {
+      "status": "none",
+      "detail": "PCA services are a MassHealth state plan benefit, so eligible members do not wait for a slot."
+    },
+    "self_directed_or_agency": "Self-directed. The member or surrogate is the employer; a PCM agency gives skills training and evaluations, and a fiscal intermediary handles payroll, taxes and timesheets (EVV).",
+    "how_to_apply": [
+      "Apply for MassHealth if you are not a member (seniors use the long-term care application; MassHealth Customer Service is 800-841-2900).",
+      "Contact a Personal Care Management (PCM) agency in your area and ask for a PCA evaluation; a doctor or nurse practitioner will need to support the request.",
+      "The PCM agency does the evaluation and submits a prior authorization request to MassHealth for your weekly hours.",
+      "Complete skills training, hire your PCA (an adult child or other non-legally-responsible relative is allowed), and enroll the PCA with the fiscal intermediary."
+    ],
+    "contacts": [
+      { "name": "MassHealth Customer Service", "phone": "800-841-2900", "url": "https://www.mass.gov/info-details/pca-complex-care" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my parent through MassHealth?", "a": "Yes. If your parent qualifies for the PCA Program, they can hire you as their PCA. Adult children are not legally responsible relatives, so they can be paid." },
+      { "q": "Can a spouse be a PCA in Massachusetts?", "a": "No. The PCA regulation bars family members, which it defines as the spouse, the parent of a minor member, or any legally responsible relative." },
+      { "q": "Can a parent be paid as the PCA for their disabled adult child?", "a": "Yes. The bar applies to parents of minor members. Once the member is 18, a parent can be the paid PCA, as long as they are not also the surrogate." },
+      { "q": "How much do PCAs make in Massachusetts?", "a": "Under the union contract, PCAs earned $20.00 to $22.40 an hour in 2025 depending on experience, plus a $3.25 hourly complex care differential for members with complex needs." },
+      { "q": "Is there a waiting list for the PCA Program?", "a": "No. It is a MassHealth state plan benefit, so there is no slot limit." },
+      { "q": "What is a surrogate?", "a": "A person who handles PCA management tasks the member cannot do. Minors and members with guardians must have one. A surrogate cannot also be the paid PCA." }
+    ],
+    "keywords": ["masshealth pca program", "massachusetts personal care attendant pay", "get paid to care for parent massachusetts", "can a family member be a pca in massachusetts", "pca wage massachusetts 2026", "masshealth pca spouse"],
+    "sources": [
+      "https://www.sec.state.ma.us/reg_pub/pdf/100/130422.pdf",
+      "https://www.sec.state.ma.us/reg_pub/pdf/100/101309.pdf",
+      "https://www.mass.gov/doc/administrative-bulletin-25-29-101-cmr-30900-rates-for-certain-services-for-the-personal-care-attendant-program-update-to-certain-rates-for-personal-care-attendant-services-effective-january-1-2026-0/download",
+      "https://www.mass.gov/info-details/pca-complex-care",
+      "https://www.yahoo.com/news/58-000-personal-care-attendants-211925185.html"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "adult-foster-care",
+    "name": "MassHealth Adult Foster Care (AFC)",
+    "aka": ["AFC", "Adult Foster Care", "MassHealth AFC", "caregiver homes Massachusetts", "130 CMR 408"],
+    "kind": "state plan",
+    "summary": "Adult Foster Care pays a live-in caregiver to give daily personal care and 24-hour supervision to a MassHealth member 16 or older. The caregiver works under a MassHealth-contracted AFC provider, which supplies a nurse and care manager and pays the caregiver a stipend from a daily rate. Adult children and other relatives can be AFC caregivers, but a spouse, the parent of a minor member, or a legally responsible relative cannot.",
+    "who_qualifies": [
+      "MassHealth member 16 years of age or older with coverage that includes AFC.",
+      "AFC is ordered by the member's primary care provider.",
+      "Needs daily hands-on help, or cueing and supervision throughout the activity, with at least one of: bathing, dressing, toileting, transferring, mobility or eating.",
+      "Lives in a qualified setting with an approved AFC caregiver."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children and other relatives who are not legally responsible can be AFC caregivers if the provider approves them.",
+      "spouse": "no — 130 CMR 408.434 says a caregiver may not be a family member, which includes a spouse.",
+      "parent_of_minor": "no — a parent of a minor member is a family member and cannot be the AFC caregiver; the program starts at age 16.",
+      "live_together": "required — the AFC caregiver must live in the residence with the member."
+    },
+    "pay": {
+      "display": "Tax-free stipend; provider paid $54.37 (Level I) / $91.31 (Level II) per day",
+      "detail": "101 CMR 351.03 sets the MassHealth rate paid to the AFC provider at $54.37 per day for Level I and $91.31 per day for Level II. The provider must pay the caregiver a stipend, subject to any minimum MassHealth sets; states.json reports about $1,000/month (Level I) to $1,600/month (Level II), described as tax-free. The exact stipend share varies by provider."
+    },
+    "hours_or_budget": "Paid per day, not per hour. Level I is for members who need hands-on help with one or two activities or cueing throughout; Level II is for members who need hands-on help with at least three activities (or two plus behavior management). A caregiver can serve up to three people, no more than two at Level II.",
+    "waitlist": {
+      "status": "none",
+      "detail": "AFC is a MassHealth state plan service; no waitlist is reported."
+    },
+    "self_directed_or_agency": "Agency. The caregiver must work through a MassHealth-contracted AFC provider, which does background checks, training, nurse and care manager visits, and pays the stipend.",
+    "how_to_apply": [
+      "Make sure the member has MassHealth (apply first if needed).",
+      "Choose a MassHealth AFC provider agency and ask it to start an intake; the provider does the intake and assessment.",
+      "Ask the member's primary care provider to order AFC.",
+      "The provider evaluates the caregiver (CORI, sex offender registry and OIG checks, TB screening) and the home, then MassHealth prior-authorizes Level I or Level II."
+    ],
+    "contacts": [
+      { "name": "MassHealth Customer Service", "phone": "800-841-2900", "url": "https://www.mass.gov/doc/adult-foster-care-regulations/download" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my mother in my home in Massachusetts?", "a": "Yes, through Adult Foster Care if she is on MassHealth and needs daily help. You must live with her and work through an AFC provider, which pays you a stipend." },
+      { "q": "Is the AFC stipend taxable?", "a": "AFC providers describe the caregiver payment as a tax-free stipend. Ask a tax professional about your own situation." },
+      { "q": "Can a spouse be an AFC caregiver?", "a": "No. The AFC regulation does not allow a spouse, the parent of a minor member, or any legally responsible relative to be the caregiver." },
+      { "q": "What is the difference between Level I and Level II?", "a": "Level I is for members who need hands-on help with one or two daily activities. Level II is for members who need hands-on help with three or more, or two plus behavior management. Level II pays more." },
+      { "q": "Can I do AFC and PCA at the same time?", "a": "AFC already includes daily personal care and 24-hour supervision from the live-in caregiver. Ask the AFC provider and MassHealth about combining services, since MassHealth does not pay twice for the same care." }
+    ],
+    "keywords": ["masshealth adult foster care", "afc massachusetts caregiver stipend", "get paid to care for family member massachusetts", "adult foster care massachusetts pay", "massachusetts live-in caregiver paid", "afc level 2 rate"],
+    "sources": [
+      "https://www.sec.state.ma.us/reg_pub/pdf/100/130408.pdf",
+      "https://www.sec.state.ma.us/reg_pub/pdf/100/101351.pdf",
+      "https://www.mass.gov/doc/afc-20-revisions-to-adult-foster-care-regulations/download",
+      "https://www.medicaidplanningassistance.org/masshealth-adult-foster-care-program/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "frail-elder-waiver",
+    "name": "Frail Elder Waiver (FEW)",
+    "aka": ["FEW", "Frail Elder Waiver", "Home- and Community-based Services Waiver — Frail Elder", "MassHealth elder waiver", "ASAP waiver"],
+    "kind": "waiver service",
+    "summary": "The Frail Elder Waiver helps Massachusetts residents 60 and older who need nursing facility level of care stay at home. It counts only the applicant's own income (up to 300% of the federal benefit rate), so more people qualify for MassHealth Standard, and that MassHealth coverage then opens the PCA Program and Adult Foster Care, where relatives can be paid. Local Aging Services Access Points (ASAPs) run assessments and case management.",
+    "who_qualifies": [
+      "Age 60 or older; if under 65, must be permanently and totally disabled under Title XVI standards.",
+      "Certified by MassHealth or its agent (an ASAP) as needing nursing facility services, and would otherwise be in a nursing facility.",
+      "Countable income at or below 300% of the federal benefit rate for an individual, counting only the applicant's income.",
+      "Countable assets of $2,000 or less for an individual (spousal rules apply for married couples)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — waiver services are delivered by ASAP-contracted providers; third-party sources say relatives such as adult children can be hired for some self-directed services, and relatives can be paid through the PCA Program or AFC once the elder has MassHealth.",
+      "spouse": "no — spouses are legally responsible relatives and cannot be paid under PCA or AFC; no FEW rule allowing paid spouses was found.",
+      "parent_of_minor": "no — the waiver serves people 60 and older.",
+      "live_together": "optional — FEW serves elders in their own home or a relative's home."
+    },
+    "pay": {
+      "display": "Not a direct caregiver payment — family pay comes via PCA or AFC",
+      "detail": "FEW pays contracted providers for waiver services. A relative who wants to be paid usually does so through the MassHealth PCA Program ($20.00–$22.40/hour in 2025, plus a $3.25 complex care differential) or Adult Foster Care (provider paid $54.37 or $91.31/day). No FEW-specific family-caregiver rate is published."
+    },
+    "hours_or_budget": "An ASAP case manager does a needs assessment and builds a person-centered service plan; MassHealth will not pay for waiver services before the waiver plan of care is approved.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "The waiver is not an entitlement and has a limited number of slots, so people may have to wait; no current wait figure is published."
+    },
+    "self_directed_or_agency": "Mostly agency: ASAPs arrange contracted providers. Members 65+ can instead enroll in a Senior Care Options (SCO) plan that manages waiver services. Self-directed paid family care is available through the PCA Program.",
+    "how_to_apply": [
+      "Call MassOptions at 1-800-243-4636 to be connected with your local Aging Services Access Point (ASAP).",
+      "The ASAP does a clinical assessment to confirm nursing facility level of care.",
+      "Apply for MassHealth Standard under the Frail Elder Waiver rules (income up to 300% of the federal benefit rate, assets $2,000 for a single person).",
+      "Work with the ASAP case manager on the service plan, and ask about PCA or Adult Foster Care if a relative will be the paid caregiver."
+    ],
+    "contacts": [
+      { "name": "MassOptions (connects to local ASAPs)", "phone": "1-800-243-4636", "url": "https://www.massoptions.org/en/" },
+      { "name": "MassHealth Customer Service", "phone": "800-841-2900", "url": "https://www.mass.gov/frail-elder-waiver-few" }
+    ],
+    "faqs": [
+      { "q": "Does the Frail Elder Waiver pay family caregivers?", "a": "Not directly in most cases. The waiver helps an elder qualify for MassHealth, and then a relative such as an adult child can be paid through the PCA Program or Adult Foster Care." },
+      { "q": "What are the income limits for the Frail Elder Waiver?", "a": "Countable income up to 300% of the federal benefit rate for one person, counting only the applicant's own income, and assets of $2,000 or less." },
+      { "q": "Is there a waiting list for the Frail Elder Waiver?", "a": "There can be. It is not an entitlement and has a limited number of slots." },
+      { "q": "Who do I call to apply?", "a": "Call MassOptions at 1-800-243-4636. They connect you with your local Aging Services Access Point, which does the assessment." },
+      { "q": "Can a younger person get the Frail Elder Waiver?", "a": "People 60 to 64 can qualify if they are permanently and totally disabled under Social Security standards. Everyone 65+ can qualify by age." }
+    ],
+    "keywords": ["frail elder waiver massachusetts", "few masshealth", "massachusetts elder waiver income limit", "masshealth frail elder waiver family caregiver", "asap massachusetts home care waiver"],
+    "sources": [
+      "https://www.mass.gov/frail-elder-waiver-few",
+      "https://www.sec.state.ma.us/reg_pub/pdf/100/130519.pdf",
+      "https://www.commonwealthcarealliance.org/ma/wp-content/uploads/2025/12/Frail-Elder-Waiver_Brief-Waiver-Description-122225-CB.pdf",
+      "https://www.massoptions.org/en/",
+      "https://www.medicaidplanningassistance.org/masshealth-frail-elder-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

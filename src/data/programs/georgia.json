@@ -1,0 +1,221 @@
+[
+  {
+    "slug": "structured-family-caregiving",
+    "name": "Structured Family Caregiving (SFC)",
+    "aka": ["SFC", "Structured Family Caregiver", "structured family care Georgia", "Georgia paid family caregiver program", "EDWP SFC"],
+    "kind": "waiver service",
+    "summary": "Structured Family Caregiving is a service in Georgia's Elderly and Disabled Waiver Program (CCSP and SOURCE). It pays a live-in family caregiver a daily stipend, through an SFC provider agency, to care for an adult who needs a lot of help with daily activities. The agency's health coach supports the caregiver and reviews daily notes. Spouses and legal guardians cannot be the paid caregiver.",
+    "who_qualifies": [
+      "Enrolled in Georgia's Elderly and Disabled Waiver Program (CCSP or SOURCE): age 21 or older with a functional impairment and an intermediate nursing-home level of care.",
+      "Medicaid eligible — 2025 DCH figures list $2,901/month income and $2,000 in resources for an individual.",
+      "Has an assessed need for at least five hours of personal support each day.",
+      "Has a family caregiver who lives in the same home."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult biological, adoptive or step-relatives (and, per some providers, relatives by marriage such as a daughter-in-law) can be the paid caregiver.",
+      "spouse": "no — spouses are legally responsible and are excluded.",
+      "parent_of_minor": "no — the waiver serves adults 21+, and legal guardians are excluded.",
+      "live_together": "required — the caregiver must live in the same primary residence as the member."
+    },
+    "pay": {
+      "display": "$99.22–$110.39/day agency rate",
+      "detail": "DCH's 2023 rate study lists the SFC agency rate at $99.22 per day, with a proposed rate of $110.39 per day. The caregiver receives a share of this as a stipend, often described as tax-free; reported caregiver stipends range from about $65 to over $100 a day (roughly $1,987–$2,400/month) depending on need. Agencies keep part of the rate for the health coach and oversight."
+    },
+    "hours_or_budget": "SFC is a daily rate, not hourly. It replaces the equivalent hours of personal support services in the care plan. The care coordinator sets it based on the assessment.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "CCSP has limited slots and can waitlist; SOURCE (for people already on SSI/full Medicaid) generally starts faster. SFC is only available once the member is on the waiver."
+    },
+    "self_directed_or_agency": "Agency. The caregiver enrolls with a licensed SFC provider agency, which provides a health coach, reviews daily notes and pays the stipend.",
+    "how_to_apply": [
+      "Call your Area Agency on Aging / Aging and Disability Resource Connection at 1-866-552-4464 for an Elderly and Disabled Waiver assessment (people with full Medicaid can also contact a SOURCE site).",
+      "If not on Medicaid, apply at the county Division of Family and Children Services (DFCS) office.",
+      "Once approved for CCSP or SOURCE, ask the care coordinator for Structured Family Caregiving.",
+      "Choose an SFC provider agency; the agency screens the live-in caregiver, sets up training and starts the daily stipend."
+    ],
+    "contacts": [
+      { "name": "Georgia Aging and Disability Resource Connection (Area Agencies on Aging)", "phone": "1-866-552-4464", "url": "https://aging.georgia.gov/" },
+      { "name": "Georgia Department of Community Health — Elderly and Disabled Waiver", "phone": "404-656-4507", "url": "https://medicaid.georgia.gov/" }
+    ],
+    "faqs": [
+      { "q": "How much does Structured Family Caregiving pay in Georgia?", "a": "Medicaid pays the agency a daily rate (listed at $99.22, with $110.39 proposed in DCH's 2023 rate study). Caregivers usually receive about $65 to over $100 a day, depending on the member's needs and the agency." },
+      { "q": "Can I be paid through SFC to care for my husband or wife?", "a": "No. Spouses and legal guardians are excluded. Adult children, siblings and other adult relatives who live with the member can qualify." },
+      { "q": "Do I have to live with the person?", "a": "Yes. The family caregiver must live in the same home as the member." },
+      { "q": "Is the SFC stipend taxable?", "a": "It is commonly paid as a tax-free stipend for live-in care of a relative under IRS rules for Medicaid waiver payments. Ask a tax professional about your situation." },
+      { "q": "What does the SFC agency do?", "a": "It assigns a health coach who supports the caregiver by phone or online, reviews daily notes about the member's condition, and handles payment." }
+    ],
+    "keywords": ["structured family caregiving georgia", "sfc georgia pay rate", "get paid to care for parent georgia", "georgia family caregiver stipend", "ccsp structured family caregiver", "georgia sfc spouse"],
+    "sources": [
+      "https://medicaid.georgia.gov/document/document/elderly-and-disabled-waiver-program-long-version/download",
+      "https://dch.georgia.gov/document/document/structured-family-caregiving/download",
+      "https://dch.georgia.gov/document/report/rate-methodology-report-006/download",
+      "https://gcdd.org/news-a-media/making-a-difference-magazine/july-2026/ask-gcdd-anything-learn-about-structured-family-caregiving"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "ccsp-source",
+    "name": "Elderly and Disabled Waiver Program (CCSP / SOURCE)",
+    "aka": ["CCSP", "SOURCE", "Community Care Services Program", "Service Options Using Resources in a Community Environment", "EDWP", "Georgia Elderly and Disabled Waiver"],
+    "kind": "waiver service",
+    "summary": "Georgia's Elderly and Disabled Waiver Program (EDWP) has two tracks, CCSP and SOURCE, that help older and disabled adults get care at home instead of a nursing home. Members can choose Consumer-Directed Personal Support Services to hire and supervise their own worker, or Structured Family Caregiving for a live-in relative. Spouses are not paid under either option.",
+    "who_qualifies": [
+      "Age 21 or older with a functional impairment caused by physical limitations (Alzheimer's and dementia count).",
+      "Approved for an intermediate nursing-home level of care, with an unmet need for care and a physician-approved care plan.",
+      "Medicaid eligible: SSI recipients, or Medical Assistance Only up to $2,901/month income and $2,000 in resources (2025 DCH figures).",
+      "Services must cost less than average nursing facility care; SOURCE is for people with SSI or full Medicaid and adds primary-care case management."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — under Consumer-Directed Personal Support Services the member hires workers of their choice, and relatives who are not legally responsible can be hired; under SFC a live-in relative is paid.",
+      "spouse": "no — spouses are excluded from paid roles in consumer direction and SFC.",
+      "parent_of_minor": "n/a — the waiver serves adults 21 and older.",
+      "live_together": "optional — required only for Structured Family Caregiving."
+    },
+    "pay": {
+      "display": "not published (consumer-directed hourly rate)",
+      "detail": "DCH pays consumer-directed personal support by the 15-minute unit through the member's financial management services provider; DCH does not publish the worker's wage. SFC pays a daily agency rate ($99.22, $110.39 proposed in 2023)."
+    },
+    "hours_or_budget": "A care coordinator assesses needs and sets the type and amount of services in the care plan, within the average cost of nursing facility care. Medical Assistance Only members may owe a cost share.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "CCSP has a limited number of slots and can have a waitlist; SOURCE for people already on SSI or full Medicaid generally does not."
+    },
+    "self_directed_or_agency": "Either. Traditional services come from Medicaid agencies; with Consumer-Directed Personal Support Services the member hires and supervises workers and must use a financial management services provider for paychecks and taxes.",
+    "how_to_apply": [
+      "Call the Aging and Disability Resource Connection at 1-866-552-4464 (option 2) to reach your Area Agency on Aging for an EDWP assessment; people with full Medicaid can also contact a SOURCE site.",
+      "If not on Medicaid, apply at your county DFCS office (SSI applicants apply through Social Security).",
+      "Work with the care coordinator to choose services and providers.",
+      "To pay a relative, ask for Consumer-Directed Personal Support Services (choose an FMS provider) or Structured Family Caregiving."
+    ],
+    "contacts": [
+      { "name": "Georgia ADRC / Area Agency on Aging", "phone": "1-866-552-4464", "url": "https://aging.georgia.gov/" },
+      { "name": "Georgia Department of Community Health", "phone": "404-656-4507", "url": "https://medicaid.georgia.gov/" }
+    ],
+    "faqs": [
+      { "q": "What is the difference between CCSP and SOURCE?", "a": "Both are part of the Elderly and Disabled Waiver. SOURCE serves people with SSI or full Medicaid and links home care with primary care; CCSP serves a wider Medicaid group but can have a waitlist." },
+      { "q": "Can I hire my daughter through CCSP?", "a": "Yes, through Consumer-Directed Personal Support Services or, if she lives with you, Structured Family Caregiving." },
+      { "q": "What is the income limit?", "a": "DCH's 2025 sheet lists $2,901 per month and $2,000 in resources for one person under waiver Medicaid. The limits change each year." },
+      { "q": "Who do I call to apply?", "a": "Your Area Agency on Aging, through the ADRC line at 1-866-552-4464. The AAA is the entry point for the waiver." },
+      { "q": "Can a spouse be paid under CCSP or SOURCE?", "a": "No. Spouses are excluded from paid caregiver roles in both tracks." }
+    ],
+    "keywords": ["ccsp georgia", "source program georgia", "georgia elderly and disabled waiver", "ccsp consumer directed", "edwp georgia income limit", "georgia medicaid hire family caregiver"],
+    "sources": [
+      "https://medicaid.georgia.gov/document/document/elderly-and-disabled-waiver-program-long-version/download",
+      "https://dch.georgia.gov/document/report/rate-methodology-report-006/download",
+      "https://aging.georgia.gov/faqs",
+      "https://www.medicaidplanningassistance.org/georgia-medicaid-ccsp/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "now-comp-waivers",
+    "name": "NOW & COMP Waivers — Participant Direction",
+    "aka": ["NOW waiver", "COMP waiver", "New Options Waiver", "Comprehensive Supports Waiver", "DBHDD participant direction", "family hire Georgia"],
+    "kind": "waiver service",
+    "summary": "The NOW and COMP waivers, run by Georgia's Department of Behavioral Health and Developmental Disabilities (DBHDD), serve people with intellectual and developmental disabilities. With participant direction, the person or their representative hires their own staff. A family member who is not legally responsible can be paid with DBHDD approval; spouses, parents of minors and legal guardians cannot.",
+    "who_qualifies": [
+      "Has an intellectual or developmental disability and needs ICF/IID level of care.",
+      "Medicaid eligible.",
+      "Has been offered a NOW or COMP slot from DBHDD's planning list (crisis cases can move faster).",
+      "Services are listed in the Individual Service Plan (ISP)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — an adult relative by blood or marriage (within the third degree) can be paid if DBHDD approves a family hire request showing extenuating circumstances, such as no qualified workers in the area.",
+      "spouse": "no — since November 11, 2023, the waiver manual strictly prohibits paying a spouse.",
+      "parent_of_minor": "no — parents of minor participants cannot be paid.",
+      "live_together": "optional — not required for participant-directed staff."
+    },
+    "pay": {
+      "display": "up to the provider rate",
+      "detail": "The participant sets the wage, but it cannot exceed what a traditional provider bills Medicaid for the same service under the DBHDD fee schedule."
+    },
+    "hours_or_budget": "The support coordinator and planning team set services and units in the ISP; the participant-directed budget comes from those authorized services.",
+    "waitlist": {
+      "status": "long",
+      "detail": "DBHDD keeps a multi-year planning list for NOW and COMP. Slots are given by need, with crisis exceptions."
+    },
+    "self_directed_or_agency": "Either. Services can come from agencies or be participant-directed, where the person or representative is the employer and a Financial Support Services provider handles payroll and taxes.",
+    "how_to_apply": [
+      "Contact your DBHDD regional field office to apply and be placed on the planning list.",
+      "When a slot is offered, work with a support coordinator to write the ISP.",
+      "Choose participant direction and enroll with a Financial Support Services provider.",
+      "To hire a relative, the support coordinator submits a family hire request to DBHDD's Participant Direction team (participant.direction@dbhdd.ga.gov); do not start paid work until it is approved."
+    ],
+    "contacts": [
+      { "name": "DBHDD Participant Direction", "phone": "not published", "url": "https://dbhdd.georgia.gov/be-compassionate/home-services/participant-direction" }
+    ],
+    "faqs": [
+      { "q": "Can a parent be paid under the NOW or COMP waiver?", "a": "Not for a minor child. Parents of adult participants who are not their legal guardians may be paid with an approved family hire request." },
+      { "q": "Can a spouse be paid under NOW or COMP?", "a": "No. Since November 11, 2023, spouses, parents of minors and legal guardians are barred from being paid caregivers." },
+      { "q": "What is a family hire request?", "a": "A form the support coordinator sends to DBHDD showing at least two extenuating circumstances, such as a lack of qualified staff. DBHDD must approve it before the relative can be paid." },
+      { "q": "How long is the NOW/COMP planning list?", "a": "It can be several years. People in crisis can be prioritized." },
+      { "q": "How much can a family worker be paid?", "a": "No more than what a traditional provider would bill Medicaid for the same service." }
+    ],
+    "keywords": ["now comp waiver georgia", "georgia participant direction family hire", "dbhdd pay family member", "get paid to care for disabled adult child georgia", "comp waiver spouse paid"],
+    "sources": [
+      "https://dbhdd.georgia.gov/be-compassionate/home-services/participant-direction",
+      "https://dbhdd.georgia.gov/document/document/participant-direction-handbook/download",
+      "https://www.p2pga.org/wp-content/uploads/2023/06/Participant-Direction-Family-Hire-request-form.pdf",
+      "https://www.p2pga.org/wp-content/uploads/2023/07/Unwinding-PD-Family-Hire-Application-Presentation.pdf",
+      "https://pplfirst.com/wp-content/uploads/2025/05/Employer-Agreement.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "gapp",
+    "name": "Georgia Pediatric Program (GAPP) — Legally Responsible Caregiver Option",
+    "aka": ["GAPP", "Georgia Pediatric Program", "GAPP paid parent", "GAPP personal care family caregiver"],
+    "kind": "children's waiver",
+    "summary": "GAPP covers in-home skilled nursing and personal care for medically fragile Georgia children under 21. Under an amendment to Georgia's Planning for Healthy Babies 1115 demonstration, parents and other legally responsible caregivers can be paid to provide the child's medically necessary personal care (not skilled nursing). Care goes through a Medicaid-approved GAPP agency with prior authorization.",
+    "who_qualifies": [
+      "Child under 21 enrolled in Georgia Medicaid.",
+      "Medically fragile and needs medically necessary skilled nursing and/or personal care support.",
+      "Services are prior-authorized and requested through a Medicaid-approved GAPP agency.",
+      "For the paid-parent option: the child needs personal support services and the state finds the caregiver able to provide them."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — other qualified family members can work as agency personal care aides.",
+      "spouse": "n/a — the program serves children.",
+      "parent_of_minor": "yes — parents and other legally responsible caregivers can be paid for personal care (not skilled nursing) under the 1115 amendment Georgia accepted in December 2024.",
+      "live_together": "optional — not stated as required."
+    },
+    "pay": {
+      "display": "not published",
+      "detail": "DCH said the change would not alter GAPP's personal care payment method; the agency is paid the GAPP personal care rate and sets the caregiver's wage. No family caregiver rate is published."
+    },
+    "hours_or_budget": "Hours are prior-authorized by DCH based on the child's medical needs and physician orders.",
+    "waitlist": {
+      "status": "none",
+      "detail": "No waitlist is published; access depends on medical eligibility and an available GAPP agency."
+    },
+    "self_directed_or_agency": "Agency. The caregiver is employed through a Medicaid-approved GAPP provider agency.",
+    "how_to_apply": [
+      "Ask the child's physician to send a referral and medical records to a Medicaid-approved GAPP agency.",
+      "The agency submits the prior authorization request and an assessment sets the level of care.",
+      "Ask the agency about its family caregiver option and complete its hiring, training and background checks.",
+      "Once authorized, the parent works the approved personal care hours as an agency employee."
+    ],
+    "contacts": [
+      { "name": "Georgia Department of Community Health", "phone": "404-656-4507", "url": "https://medicaid.georgia.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my medically fragile child in Georgia?", "a": "Yes, for personal care through GAPP. Georgia's 1115 amendment lets parents and other legally responsible caregivers be paid through a GAPP agency." },
+      { "q": "Can a parent be paid for skilled nursing?", "a": "No. The paid-parent option covers personal care, not skilled nursing." },
+      { "q": "Is this permanent?", "a": "It began as a COVID-era flexibility, was extended through March 2024, and Georgia asked CMS to make it permanent. Georgia signed acceptance of the approval in December 2024; the demonstration runs through 2029." },
+      { "q": "How old can my child be?", "a": "Under 21." },
+      { "q": "Do I apply to the state directly?", "a": "No. Requests go through a Medicaid-approved GAPP agency, which handles prior authorization." }
+    ],
+    "keywords": ["gapp georgia paid parent", "georgia pediatric program family caregiver", "get paid to care for disabled child georgia", "gapp personal care parent", "georgia medically fragile child caregiver pay"],
+    "sources": [
+      "https://www.medicaid.gov/medicaid/section-1115-demonstrations/downloads/ga-planning-for-healthy-babies-03112024-pa.pdf",
+      "https://www.medicaid.gov/medicaid/section-1115-demonstrations/downloads/ga-planning-for-healthy-babies-accept-ltr-12112024.pdf",
+      "https://www.medicaid.gov/medicaid/section-1115-demonstrations/downloads/ga-planning-for-healthy-babies-covid19-amend-appvl-07062023.pdf",
+      "https://dch.georgia.gov/sites/dch.georgia.gov/files/related_files/document/17GAPP.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

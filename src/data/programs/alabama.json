@@ -1,0 +1,220 @@
+[
+  {
+    "slug": "personal-choices",
+    "name": "Personal Choices",
+    "aka": ["Personal Choices Program", "Alabama Personal Choices", "Personal Choices Alabama Medicaid", "self-directed care Alabama"],
+    "kind": "self-direction option",
+    "summary": "Personal Choices is Alabama Medicaid's self-directed option for people already enrolled in a home and community-based waiver. Instead of getting care from an agency, the participant gets a monthly budget and uses it to hire their own caregiver, which can be a family member. A financial management services agency runs payroll, taxes and background checks.",
+    "who_qualifies": [
+      "Enrolled in an Alabama Medicaid home and community-based waiver first. The Alabama Department of Senior Services lists Personal Choices with the Elderly and Disabled (E&D) and Alabama Community Transition (ACT) waivers; secondary sources say State of Alabama Independent Living (SAIL) members can also self-direct.",
+      "Able to direct your own care, or have a representative who can do it for you.",
+      "Living at home or in a community setting, not in a nursing home.",
+      "Personal Choices runs as a Section 1915(j) State Plan option, so the waiver's own medical and financial rules (nursing facility level of care; income limit $2,982/month and $2,000 in resources in 2026) still apply."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — participants may hire relatives such as a son, daughter, adult grandchild, niece or nephew; the caregiver must be 18+ and pass a background screening.",
+      "spouse": "limited — program summaries say a spouse may be hired 'in some cases'; the state's public pages do not spell out the conditions, so confirm with your case manager.",
+      "parent_of_minor": "no — Personal Choices works through adult waivers, and no parent-of-minor payment rule is published.",
+      "live_together": "optional — the caregiver may live with the participant or elsewhere; living together is not required."
+    },
+    "pay": {
+      "display": "$2,320/month",
+      "detail": "Alabama does not publish an hourly rate for Personal Choices. Each participant gets a budget based on a needs assessment and regional home-care wages; the participant decides the caregiver's wage within that budget. Secondary sources report budgets of up to about $2,320/month. Unused funds can sometimes be saved for other items that support the person's health and independence."
+    },
+    "hours_or_budget": "A case manager assesses needs and sets a care plan; the plan is turned into a monthly budget. The participant chooses how many hours to buy and at what wage, within that budget.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "Personal Choices itself has no separate list, but you must first get a waiver slot. The E&D waiver has a limited number of slots, and a waitlist forms when they are full."
+    },
+    "self_directed_or_agency": "The member (or a representative) is the employer and hires, trains and fires the caregiver. A financial management services agency handles background checks, tax withholding and paychecks.",
+    "how_to_apply": [
+      "Call AgeLine at 1-800-243-5463 to reach your local Area Agency on Aging / Aging and Disability Resource Center.",
+      "Apply for a home and community-based waiver (E&D, ACT or SAIL) and complete the Medicaid financial and medical review.",
+      "Once enrolled in a waiver, tell your case manager you want Personal Choices.",
+      "Enroll with the financial management services agency, then have your chosen caregiver complete the hiring paperwork and background screening."
+    ],
+    "contacts": [
+      { "name": "Alabama Department of Senior Services – AgeLine", "phone": "1-800-243-5463", "url": "https://alabamaageline.gov/medicaid-waiver-programs/" },
+      { "name": "Alabama Medicaid Agency – Personal Choices", "phone": "", "url": "https://medicaid.alabama.gov/content/6.0_LTC_Waivers/6.3_Other_LTC_Programs/6.3.3_Personal_Choices.aspx" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my mom in Alabama?", "a": "Yes, if your mother is enrolled in a qualifying Medicaid waiver such as the Elderly and Disabled Waiver and chooses Personal Choices. She (or her representative) can then hire you and pay you from her monthly care budget." },
+      { "q": "Can a spouse be paid under Personal Choices?", "a": "Possibly. Program summaries say spouses can be hired in some cases, but the state's public pages do not list the conditions. Ask the case manager or the Area Agency on Aging before counting on it." },
+      { "q": "How much does Personal Choices pay a family caregiver?", "a": "There is no set hourly rate. The participant's budget is based on assessed needs and local wages, and the participant sets the wage within it. Reported budgets reach about $2,320 a month." },
+      { "q": "Do I need to be on a waiver first?", "a": "Yes. Personal Choices is not a stand-alone program. You must first be enrolled in a home and community-based waiver, then choose self-direction." },
+      { "q": "Who handles taxes and payroll?", "a": "A financial management services agency. It runs background checks, withholds taxes and pays the caregiver, so the family does not have to run payroll." }
+    ],
+    "keywords": ["personal choices alabama", "alabama personal choices program", "get paid to care for a family member alabama", "alabama medicaid self directed care", "alabama pay family caregiver", "alabama personal choices spouse"],
+    "sources": [
+      "https://medicaid.alabama.gov/content/6.0_LTC_Waivers/6.3_Other_LTC_Programs/6.3.3_Personal_Choices.aspx",
+      "https://alabamaageline.gov/medicaid-waiver-programs/",
+      "https://medicaid.alabama.gov/documents/3.0_Apply/3.2_Qualifying_Medicaid/3.2.1_Medicaid_for_Children_POCRs/3.2.1_Form_206_Waiver_HBCS_4-3-26.pdf",
+      "https://www.medicaidplanningassistance.org/alabama-community-transition-waiver/"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "elderly-and-disabled-waiver",
+    "name": "Elderly and Disabled (E&D) Waiver",
+    "aka": ["E&D Waiver", "Alabama Elderly and Disabled Waiver", "Alabama Home and Community-Based Elderly and Disabled Waiver", "E and D waiver"],
+    "kind": "waiver service",
+    "summary": "The E&D Waiver is a Medicaid 1915(c) waiver that pays for in-home care for older adults and people with disabilities who would otherwise need a nursing home. Services usually come through agencies, but members can switch to Personal Choices and use their budget to hire a family member. It is run by the Alabama Department of Senior Services with the Alabama Medicaid Agency.",
+    "who_qualifies": [
+      "Older adult or person with a disability living in Alabama.",
+      "Needs nursing facility level of care (medical review).",
+      "Income up to $2,982/month and resources up to $2,000 (2026 Alabama Medicaid handout).",
+      "Wants to live at home or in the community instead of a nursing home."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — through the Personal Choices self-directed option, members can hire relatives such as adult children; in the regular agency model the agency picks the worker.",
+      "spouse": "limited — only through Personal Choices, and only in some cases.",
+      "parent_of_minor": "no — the E&D Waiver serves adults; no parent-of-minor payment is published.",
+      "live_together": "optional — not required either way."
+    },
+    "pay": {
+      "display": "$2,320/month",
+      "detail": "The state does not publish a family-caregiver wage. In Personal Choices the member gets a budget set by the needs assessment and regional wages; reported budgets reach about $2,320/month. In the agency model, the agency sets the worker's pay."
+    },
+    "hours_or_budget": "A case manager builds a person-centered plan of care. Services can include personal care, homemaker, respite, adult day health, companion services, home-delivered meals, skilled nursing, medical supplies, emergency response systems and home modifications.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "The E&D Waiver is not an entitlement. Slots are limited (reported at 15,000 per year) and a waiting list forms when they are full."
+    },
+    "self_directed_or_agency": "Either. Agency-based services by default; members can choose Personal Choices to become the employer with a financial management services agency handling payroll.",
+    "how_to_apply": [
+      "Call the Alabama Department of Senior Services at 1-800-243-5463 (AgeLine) to start an application through your Area Agency on Aging.",
+      "Complete the Medicaid financial application and the nursing-facility level-of-care review.",
+      "Work with your case manager on a plan of care.",
+      "If you want to pay a family member, ask to enroll in Personal Choices."
+    ],
+    "contacts": [
+      { "name": "Alabama Department of Senior Services – AgeLine", "phone": "1-800-243-5463", "url": "https://alabamaageline.gov/medicaid-waiver-programs/" }
+    ],
+    "faqs": [
+      { "q": "Does the E&D Waiver pay family caregivers?", "a": "Yes, through Personal Choices. Once enrolled in the waiver, the member can self-direct and hire a relative such as an adult child." },
+      { "q": "What is the income limit for the Alabama E&D Waiver?", "a": "Alabama Medicaid's 2026 handout lists an income limit of $2,982 a month and a resource limit of $2,000." },
+      { "q": "Is there a waiting list?", "a": "There can be. The waiver has a fixed number of slots, and a waiting list forms when they fill." },
+      { "q": "What services does the E&D Waiver cover?", "a": "Case management, homemaker, personal care, respite, adult day health, companion services, home-delivered meals, medical supplies, skilled nursing, pest control, emergency response systems and home modifications." },
+      { "q": "Who runs the E&D Waiver?", "a": "The Alabama Department of Senior Services operates it through local Area Agencies on Aging, under the Alabama Medicaid Agency." }
+    ],
+    "keywords": ["alabama elderly and disabled waiver", "e&d waiver alabama", "alabama medicaid waiver family caregiver", "alabama in home care medicaid", "e&d waiver income limit 2026"],
+    "sources": [
+      "https://medicaid.alabama.gov/documents/3.0_Apply/3.2_Qualifying_Medicaid/3.2.1_Medicaid_for_Children_POCRs/3.2.1_Form_206_Waiver_HBCS_4-3-26.pdf",
+      "https://alabamaageline.gov/medicaid-waiver-programs/",
+      "https://www.medicaidplanningassistance.org/alabama-elderly-disabled-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "act-waiver",
+    "name": "Alabama Community Transition (ACT) Waiver",
+    "aka": ["ACT Waiver", "Alabama Community Transition Waiver", "Gateway to Community Living"],
+    "kind": "waiver service",
+    "summary": "The ACT Waiver helps people with disabilities or long-term illnesses move out of a nursing home or other institution and back home. It pays for transition help and ongoing home care. Members can choose Personal Choices to hire their own caregiver, including a family member.",
+    "who_qualifies": [
+      "Currently living in a nursing facility or other institution and wanting to move home; Alabama rules point to people who have lived in a facility at least 90 days.",
+      "Has a disability or long-term illness and meets nursing facility level of care.",
+      "Income up to $2,982/month and resources up to $2,000 (2026 Alabama Medicaid handout).",
+      "No age limit is published."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — through Personal Choices, members can hire relatives such as adult children.",
+      "spouse": "limited — only through Personal Choices and only in some cases.",
+      "parent_of_minor": "no — no parent-of-minor payment rule is published for ACT.",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "$2,320/month",
+      "detail": "No family-caregiver wage is published. Under Personal Choices the member's budget is set by the needs assessment; reported budgets reach about $2,320/month. Agency workers are paid by their agency."
+    },
+    "hours_or_budget": "An ACT case manager and a Medicaid transition coordinator plan the move and the ongoing services. Services include case management, transitional assistance (such as deposits and furnishings), personal care, homemaker, adult day health, meals, respite, skilled nursing, companion, home modifications and assistive technology.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "Slots are limited. The state says most transitions happen within 180 days of the application date."
+    },
+    "self_directed_or_agency": "Either. Agency services by default; Personal Choices lets the member be the employer with a financial management services agency.",
+    "how_to_apply": [
+      "Call the Alabama Department of Senior Services at 1-877-425-2243 (the ACT contact on Alabama Medicaid's 2026 handout).",
+      "A transition coordinator and ACT case manager review eligibility and plan the move.",
+      "Complete the Medicaid financial and level-of-care review.",
+      "After enrollment, ask about Personal Choices if you want a family member to be the paid caregiver."
+    ],
+    "contacts": [
+      { "name": "Alabama Department of Senior Services (ACT Waiver)", "phone": "1-877-425-2243", "url": "https://alabamaageline.gov/medicaid-waiver-programs/" },
+      { "name": "Alabama Medicaid – ACT Waiver", "phone": "", "url": "https://medicaid.alabama.gov/content/6.0_LTC_waivers/6.1_HCBS_Waivers/6.1.1_ACT_Waiver.aspx" }
+    ],
+    "faqs": [
+      { "q": "Who is the ACT Waiver for?", "a": "People living in a nursing home or similar facility who want to move back to a home or community setting and who need nursing-home-level care." },
+      { "q": "Can a family member be paid under the ACT Waiver?", "a": "Yes, through Personal Choices. The member gets a budget and can hire a relative, such as an adult child, as the caregiver." },
+      { "q": "How long does the transition take?", "a": "The Alabama Department of Senior Services says most transitions happen within 180 days of the application date." },
+      { "q": "Does ACT help with moving costs?", "a": "Yes. Transitional assistance can help with costs like security deposits, utility hookups and basic household furnishings." },
+      { "q": "Is there an age limit?", "a": "No age limit is published. The main medical test is needing nursing facility level of care." }
+    ],
+    "keywords": ["alabama act waiver", "alabama community transition waiver", "move out of nursing home alabama medicaid", "act waiver personal choices"],
+    "sources": [
+      "https://medicaid.alabama.gov/documents/3.0_Apply/3.2_Qualifying_Medicaid/3.2.1_Medicaid_for_Children_POCRs/3.2.1_Form_206_Waiver_HBCS_4-3-26.pdf",
+      "https://alabamaageline.gov/medicaid-waiver-programs/",
+      "https://medicaid.alabama.gov/content/6.0_LTC_waivers/6.1_HCBS_Waivers/6.1.1_ACT_Waiver.aspx",
+      "https://www.medicaidplanningassistance.org/alabama-community-transition-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "sail-waiver",
+    "name": "State of Alabama Independent Living (SAIL) Waiver",
+    "aka": ["SAIL Waiver", "SAIL Alabama", "State of Alabama Independent Living Waiver", "1-844-602-SAIL"],
+    "kind": "waiver service",
+    "summary": "The SAIL Waiver serves adults with serious physical disabilities who need nursing-home-level care but want to stay home. It is run by the Alabama Department of Rehabilitation Services. Personal care comes through approved agencies, and secondary sources say members can self-direct through Personal Choices, where adult children or a spouse may be hired in some cases.",
+    "who_qualifies": [
+      "Age 18 or older, with a physical disability that began before age 63.",
+      "Specific diagnoses such as quadriplegia, traumatic brain injury, ALS, multiple sclerosis, muscular dystrophy, severe cerebral palsy or stroke.",
+      "Meets nursing facility level of care.",
+      "Income up to $2,982/month and resources up to $2,000 (2026 Alabama Medicaid handout)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — state rules say SAIL personal care is given by workers employed by a certified home health or approved agency; secondary sources say adult children can be hired through Personal Choices.",
+      "spouse": "limited — secondary sources say a spouse may be hired through Personal Choices in some situations; not confirmed on state pages.",
+      "parent_of_minor": "no — SAIL serves adults 18 and older.",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "$2,320/month",
+      "detail": "No family-caregiver wage is published for SAIL. Agency workers are paid by their agency. If the member self-directs through Personal Choices, the budget is set by the needs assessment; reported budgets reach about $2,320/month."
+    },
+    "hours_or_budget": "A SAIL case manager writes a person-centered care plan. Services include case management, personal care, personal assistance services (for members who work at least 40 hours a month), home modifications, emergency response systems, medical supplies and assistive technology.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "Not published. Waiver slots are limited by the approved waiver; ask SAIL about current openings."
+    },
+    "self_directed_or_agency": "Mostly agency: personal care workers are employed by approved agencies and supervised by a case manager. Self-direction through Personal Choices is reported but not described on the state's SAIL page.",
+    "how_to_apply": [
+      "Call SAIL toll-free at 1-844-602-7245 (1-844-602-SAIL) or contact your nearest Alabama Department of Rehabilitation Services office.",
+      "A case manager checks your diagnosis, age of onset and level of care.",
+      "Complete the Medicaid financial application.",
+      "Ask your case manager whether Personal Choices is available if you want to hire a family member."
+    ],
+    "contacts": [
+      { "name": "SAIL – Alabama Department of Rehabilitation Services", "phone": "1-844-602-7245", "url": "https://rehab.alabama.gov/services/sail" },
+      { "name": "ADRS State Office", "phone": "334-293-7500", "url": "https://rehab.alabama.gov/services/sail" }
+    ],
+    "faqs": [
+      { "q": "Who qualifies for the SAIL Waiver?", "a": "Adults 18 and older with a physical disability that started before age 63, who need nursing-home-level care and meet Medicaid financial rules." },
+      { "q": "Can my family be paid under SAIL?", "a": "In the standard model, personal care comes from agency workers. Secondary sources say SAIL members can self-direct through Personal Choices and hire adult children, or a spouse in some cases. Confirm with your SAIL case manager." },
+      { "q": "What conditions does SAIL cover?", "a": "Examples on Alabama Medicaid's handout include quadriplegia, traumatic brain injury, ALS, multiple sclerosis, spinal muscular atrophy, muscular dystrophy, severe cerebral palsy and stroke." },
+      { "q": "What is the SAIL phone number?", "a": "1-844-602-7245 (1-844-602-SAIL), per the Alabama Department of Rehabilitation Services." },
+      { "q": "Does SAIL help people who work?", "a": "Yes. Personal assistance services are available for members who are employed at least 40 hours a month." }
+    ],
+    "keywords": ["sail waiver alabama", "state of alabama independent living waiver", "alabama rehab services waiver", "alabama disability waiver personal care", "sail waiver family caregiver"],
+    "sources": [
+      "https://rehab.alabama.gov/services/sail",
+      "https://medicaid.alabama.gov/documents/3.0_Apply/3.2_Qualifying_Medicaid/3.2.1_Medicaid_for_Children_POCRs/3.2.1_Form_206_Waiver_HBCS_4-3-26.pdf",
+      "https://admincode.legislature.state.al.us/api/chapter/560-X-57",
+      "https://www.payingforseniorcare.com/alabama/medicaid-waivers/sail-waiver"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

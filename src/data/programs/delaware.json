@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "dshp-plus-self-directed-attendant-care",
+    "name": "DSHP-Plus LTSS Self-Directed Attendant Care",
+    "aka": ["DSHP-Plus", "DSHP Plus LTSS", "Diamond State Health Plan Plus", "self-directed attendant care Delaware", "SDAC", "Delaware LTCCS"],
+    "kind": "self-direction option",
+    "summary": "Delaware's Diamond State Health Plan-Plus (DSHP-Plus) is the Medicaid managed care program for long-term services at home. Members who need nursing-facility-level care can choose self-directed attendant care and hire their own caregiver, including a friend, neighbor or family member. A financial management services agency pays the caregiver and handles taxes and background checks.",
+    "who_qualifies": [
+      "Delaware resident age 65 or older, or an adult with a physical disability (or certain other qualifying conditions such as HIV/AIDS).",
+      "Needs nursing-facility level of care (or is at risk of it), as found by a DMMA Pre-Admission Screening nurse.",
+      "Meets Medicaid long-term care financial rules: reported as $2,485/month income and $2,000 in assets for a single person in 2026.",
+      "Lives in the community — self-directed attendant care is not offered to people in assisted living or nursing facilities."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — managed care policy says members may hire people they have a close personal relationship with, such as a neighbor, friend or family member.",
+      "spouse": "limited — some guides say spouses can be hired, but Delaware First Health's LTSS policy says people who are legally responsible for the member (which includes a spouse) may not be the attendant; confirm with your MCO.",
+      "parent_of_minor": "n/a — this adult LTSS option is for adults; children use the separate pediatric self-directed attendant care option.",
+      "live_together": "optional — the caregiver may live with the member; live-in caregivers are not paid overtime."
+    },
+    "pay": {
+      "display": "$13–$21/hr (reported)",
+      "detail": "Delaware does not publish a self-directed attendant wage. Third-party reports put it around $13–$21/hour (about $16.75 average in 2026). Overtime at 1.5x is paid for hours over 40 a week, except for caregivers who live in the same home as the member."
+    },
+    "hours_or_budget": "The MCO case manager assesses needs and authorizes attendant hours in the plan of care; the member must show medical necessity. Respite is limited to 14 days a year unless the MCO approves more.",
+    "waitlist": {
+      "status": "none",
+      "detail": "DSHP-Plus long-term care is part of Delaware's Medicaid managed care demonstration; people who meet financial and medical rules are enrolled. Eligibility decisions can take up to 3 months."
+    },
+    "self_directed_or_agency": "Either. Members can use MCO network agencies or self-direct. In self-direction the member (or an employer representative) is the employer and an IRS-approved fiscal/employer agent (FMS) such as Easter Seals, JEVS or GT Independence runs payroll. The employer representative cannot also be the paid attendant.",
+    "how_to_apply": [
+      "Call the DMMA Central Intake Unit at 1-866-940-8963 to request a long-term care application packet.",
+      "Schedule the financial eligibility interview and gather proof of income, bank statements and other documents.",
+      "Complete the Pre-Admission Screening, where a DMMA nurse decides whether nursing-facility level of care is needed.",
+      "After enrollment, tell your MCO case manager you want self-directed attendant care; the FMS agency will help you hire and screen your caregiver."
+    ],
+    "contacts": [
+      { "name": "DMMA Central Intake Unit", "phone": "1-866-940-8963", "url": "https://dhss.delaware.gov/dmma/" },
+      { "name": "Delaware Medicaid Customer Relations", "phone": "1-866-843-7212", "url": "https://dhss.delaware.gov/dmma/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my parent in Delaware?", "a": "Yes. If your parent is on DSHP-Plus long-term care and chooses self-directed attendant care, they can hire you. The FMS agency runs the background checks and pays you." },
+      { "q": "Can a spouse be paid under DSHP-Plus?", "a": "It is unclear. Consumer guides say yes, but at least one Delaware MCO policy bars people legally responsible for the member from being the attendant. Ask your MCO case manager in writing." },
+      { "q": "How much do self-directed attendants earn?", "a": "Delaware does not publish a rate. Reports put pay around $13 to $21 an hour. Overtime is paid above 40 hours a week unless the caregiver lives with the member." },
+      { "q": "Who can't be the paid attendant?", "a": "Anyone serving as the member's employer representative, anyone on the Adult Abuse Registry, a sex offender registry or the excluded-provider list, and people legally responsible for the member." },
+      { "q": "Is there a waiting list?", "a": "No waiting list is published. Eligibility can take up to 3 months while DMMA checks finances and level of care." }
+    ],
+    "keywords": ["dshp plus self directed", "delaware get paid to care for family member", "delaware self directed attendant care", "diamond state health plan plus caregiver pay", "delaware medicaid hire family caregiver"],
+    "sources": [
+      "https://www.delawarefirsthealth.com/content/dam/centene/delaware/Policies/payment-policies/Payment%20Policy%20-%20Self-Directed%20Attendant%20Care%20for%20LTSS%20DE.PP.003.pdf",
+      "https://www.dhss.delaware.gov/dhss/dmma/files/dshpplus_booklet.pdf",
+      "https://www.medicaidplanningassistance.org/delaware-diamond-state-health-plan/",
+      "https://www.payingforseniorcare.com/delaware/medicaid-waivers/diamond-state-health-plan"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "pediatric-self-directed-attendant-care",
+    "name": "Self-Directed Attendant Care for Children (Non-LTSS Pediatric)",
+    "aka": ["pediatric SDAC", "Delaware paid parent caregiver", "self-directed attendant care children Delaware", "DSHP parent directed attendant care"],
+    "kind": "self-direction option",
+    "added": true,
+    "summary": "Delaware Medicaid lets families self-direct attendant care for children under 21 who need help with daily activities because of a chronic medical condition, developmental disability or behavioral health condition. A parent or other legally responsible family member can be hired and paid for up to 40 hours a week. Another adult must act as the employer representative.",
+    "who_qualifies": [
+      "Child or young adult under age 21 enrolled in Delaware Medicaid managed care (DSHP).",
+      "Has a chronic medical condition, intellectual/developmental disability, or behavioral health condition that causes a need for help with age-appropriate daily activities.",
+      "Attendant care is authorized by the MCO (prior authorization is required).",
+      "Has a family member or other designee who can act as employer representative."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives, friends and neighbors age 18+ who pass background checks can be hired.",
+      "spouse": "n/a — this option serves children.",
+      "parent_of_minor": "yes — legally responsible family members, including parents, can be paid for up to 40 hours a week; hours above 40 must go to someone else.",
+      "live_together": "optional — the paid parent usually lives with the child, but it is not required."
+    },
+    "pay": {
+      "display": "not published",
+      "detail": "Delaware and its MCOs do not publish a pediatric self-directed attendant wage; the rate is set through the MCO and FMS agency. Ask your MCO for the current rate."
+    },
+    "hours_or_budget": "The MCO care coordinator assesses the child and authorizes attendant hours. A legally responsible family member may be paid for no more than 40 of those hours each week.",
+    "waitlist": {
+      "status": "none",
+      "detail": "No waiting list is published; services depend on Medicaid enrollment and MCO authorization."
+    },
+    "self_directed_or_agency": "Self-directed. The parent or designee directs care; an FMS agency handles payroll. The person who signs as employer representative cannot be the paid attendant, so two adults are needed if a parent will be paid.",
+    "how_to_apply": [
+      "Ask your child's Delaware Medicaid MCO care coordinator about self-directed attendant care.",
+      "Complete the assessment and get prior authorization for attendant hours.",
+      "Name an employer representative (not the paid caregiver) and enroll with the FMS agency.",
+      "The caregiver completes background checks and an employment agreement before services start."
+    ],
+    "contacts": [
+      { "name": "Delaware Medicaid Customer Relations", "phone": "1-866-843-7212", "url": "https://dhss.delaware.gov/dmma/" }
+    ],
+    "faqs": [
+      { "q": "Can a parent get paid to care for a disabled child in Delaware?", "a": "Yes. Under self-directed attendant care for children, a parent or other legally responsible family member can be paid for up to 40 hours a week." },
+      { "q": "Why do we need a second adult?", "a": "The employer representative cannot be the paid attendant. If one parent is paid, the other parent or another adult must sign as employer." },
+      { "q": "How old can the child be?", "a": "Under 21." },
+      { "q": "What can the attendant help with?", "a": "Bathing, dressing, hygiene, transferring, toileting, skin care, eating and mobility, plus some daily-living tasks in the care plan." },
+      { "q": "When did Delaware start paying parents?", "a": "Delaware asked CMS in 2022 to add this option to its 1115 demonstration starting January 1, 2023. MCO policies now list the 40-hour limit for legally responsible family members." }
+    ],
+    "keywords": ["delaware paid parent caregiver", "get paid to care for disabled child delaware", "delaware self directed attendant care pediatric", "delaware medicaid pay parents"],
+    "sources": [
+      "https://www.dhss.delaware.gov/dhss/dmma/files/de_proposed_dshp_1115_waiver_2022.pdf",
+      "https://delawarefirsthealth.com/content/dam/centene/delaware/Policies/payment-policies/Payment%20Policy%20-%20Self-Directed%20Attendant%20Care%20for%20Non-LTSS%20Pediatric%20(Updated%205-10-24)%20DE.PP.001.pdf",
+      "https://providers.highmark.com/content/dam/digital-marketing/en/highmark/highmarkhealthoptions/providers/medical-payment-policies/HHO-DE-RP-1133-SDAC-Pediatric-02212023-FINAL.pdf",
+      "https://www.kidswaivers.org/paid-parent-caregiving/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

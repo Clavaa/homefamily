@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "independentchoices",
+    "name": "IndependentChoices",
+    "aka": ["Independent Choices", "IndependentChoices Arkansas", "Arkansas Cash and Counseling", "self-direction Arkansas", "PPL Arkansas"],
+    "kind": "self-direction option",
+    "summary": "IndependentChoices is Arkansas Medicaid's self-directed option for adults who get personal care or ARChoices attendant care. Instead of agency care, the member gets a monthly cash allowance and hires their own personal assistant, who can be an adult child or other relative. Spouses, legal guardians, powers of attorney and income payees cannot be paid.",
+    "who_qualifies": [
+      "Eligible for Arkansas Medicaid in a category that covers personal care, or SSI, or eligible for ARChoices.",
+      "18 years of age or older.",
+      "Receiving, or medically eligible to receive, State Plan personal care or ARChoices attendant care.",
+      "Not living in a home owned, operated or controlled by a service provider, unless the provider is related by blood or marriage."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — family members other than those with legal responsibility may serve as personal assistants, including adult children.",
+      "spouse": "no — the state manual says a court-appointed legal guardian, spouse, power of attorney or income payee may not serve as a caregiver.",
+      "parent_of_minor": "no — IndependentChoices serves adults 18 and older.",
+      "live_together": "optional — the assistant may or may not live with the member."
+    },
+    "pay": {
+      "display": "Not published",
+      "detail": "There is no fixed family-caregiver wage. The monthly cash allowance is based on assessed hours and calculated at a maximum hourly rate of 78.11% of the Medicaid personal care rate; the member sets the assistant's wage within it. For ARChoices members, the allowance is also limited by the ARChoices service budget."
+    },
+    "hours_or_budget": "DHS staff or a DHS contractor use Task and Hour Standards to set hours. A support coordinator helps the member write a Cash Expenditure Plan showing how the allowance will be spent.",
+    "waitlist": {
+      "status": "none",
+      "detail": "Through State Plan personal care there is no waitlist. Members coming through ARChoices need a waiver slot first, and ARChoices can have a waitlist."
+    },
+    "self_directed_or_agency": "The member (or a representative) is the employer of record. The financial management services agency, Public Partnerships LLC (PPL) since October 1, 2023, runs payroll and taxes.",
+    "how_to_apply": [
+      "Apply for Medicaid long-term services and supports at Access Arkansas (access.arkansas.gov) or a local DHS county office.",
+      "Get a nurse assessment for personal care or ARChoices attendant care.",
+      "Ask to enroll in IndependentChoices; a counseling support coordinator and the fiscal agent help complete the enrollment packet.",
+      "Name a personal assistant and a backup caregiver; both pass background and registry checks before pay starts."
+    ],
+    "contacts": [
+      { "name": "Arkansas DHS – Self-Direction (IndependentChoices)", "url": "https://humanservices.arkansas.gov/divisions-shared-services/aging-adult-behavioral-health-services/self-direction-independent-choices/" },
+      { "name": "Choices in Living Resource Center", "phone": "866-801-3435", "url": "https://humanservices.arkansas.gov/divisions-shared-services/aging-adult-behavioral-health-services/self-direction-independent-choices/" },
+      { "name": "Public Partnerships (PPL) – Arkansas", "url": "https://pplfirst.com/programs/arkansas/arkansas-independent-choices/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my mother in Arkansas?", "a": "Yes. If your mother qualifies for Medicaid personal care or ARChoices, she can enroll in IndependentChoices and hire you as her personal assistant." },
+      { "q": "Can a spouse be paid through IndependentChoices?", "a": "No. Arkansas rules say a spouse, court-appointed guardian, power of attorney or income payee cannot be the paid caregiver." },
+      { "q": "How is the allowance calculated?", "a": "It is based on the hours DHS approves, at a maximum hourly rate of 78.11% of the Medicaid personal care rate." },
+      { "q": "Do I need a backup caregiver?", "a": "Yes. A backup plan naming a backup caregiver is required, and that person must also enroll." },
+      { "q": "Who is the fiscal agent?", "a": "Public Partnerships LLC (PPL) has been the financial management services vendor since October 1, 2023." }
+    ],
+    "keywords": ["independentchoices arkansas", "arkansas independent choices program", "get paid to care for family member arkansas", "arkansas self directed care medicaid", "independent choices spouse"],
+    "sources": [
+      "https://humanservices.arkansas.gov/wp-content/uploads/INCHOICE_II.docx",
+      "https://humanservices.arkansas.gov/wp-content/uploads/Independent-Choices-Detailed-Fact-Sheet.pdf",
+      "https://humanservices.arkansas.gov/divisions-shared-services/aging-adult-behavioral-health-services/self-direction-independent-choices/",
+      "https://pplfirst.com/programs/arkansas/arkansas-independent-choices/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "archoices",
+    "name": "ARChoices in Homecare",
+    "aka": ["ARChoices", "ARChoices waiver", "ARChoices in Homecare waiver", "Arkansas Choices", "Arkansas elderly waiver"],
+    "kind": "waiver service",
+    "summary": "ARChoices in Homecare is an Arkansas Medicaid waiver that pays for home care for adults 65 and older and adults 21–64 with physical disabilities who would otherwise need a nursing home. Attendant care is given by agency workers, or the member can self-direct through IndependentChoices and hire a relative other than a spouse.",
+    "who_qualifies": [
+      "Age 65 or older, or age 21–64 with a physical disability determined by Social Security or the DHS Medical Review Team.",
+      "Meets nursing home admission criteria at the intermediate level of care (people at the skilled level are not eligible).",
+      "Meets Medicaid financial criteria.",
+      "Needs at least one ARChoices service."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — relatives such as adult children can be paid when the member self-directs attendant care through IndependentChoices.",
+      "spouse": "no — spouses and legal guardians cannot be hired as caregivers.",
+      "parent_of_minor": "no — ARChoices serves adults 21 and older.",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "Not published",
+      "detail": "No family-caregiver wage is published. In IndependentChoices, the monthly allowance is based on authorized hours at up to 78.11% of the Medicaid personal care rate and is limited by the member's ARChoices Individual Services Budget."
+    },
+    "hours_or_budget": "A DHS nurse assesses the member, and a person-centered service plan (PCSP) sets services and an Individual Services Budget. Services include attendant care, adult day, respite, home-delivered meals, emergency response systems, home modifications and prevocational services.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "ARChoices is not an entitlement. Enrollment slots are limited (reported at about 11,500 a year) and a waiting list forms when they are full."
+    },
+    "self_directed_or_agency": "Either. Licensed agencies provide attendant care by default; members can self-direct through IndependentChoices, where they are the employer and PPL runs payroll.",
+    "how_to_apply": [
+      "Apply at Access Arkansas (access.arkansas.gov) or call Access Arkansas at 855-372-1084, or visit a DHS county office.",
+      "Complete the financial review and a DHS nurse assessment for intermediate level of care.",
+      "Work with your case manager on a person-centered service plan.",
+      "If you want to pay a relative, choose IndependentChoices for attendant care."
+    ],
+    "contacts": [
+      { "name": "Access Arkansas", "phone": "855-372-1084", "url": "https://humanservices.arkansas.gov/wp-content/uploads/ARChoices-Detailed-Overview.pdf" },
+      { "name": "Choices in Living Resource Center", "phone": "866-801-3435", "url": "https://humanservices.arkansas.gov/about-dhs/daas/archoices-in-homecare" }
+    ],
+    "faqs": [
+      { "q": "Does ARChoices pay family caregivers?", "a": "Yes, through IndependentChoices. The member gets a cash allowance and can hire a relative such as an adult child. Spouses and guardians cannot be paid." },
+      { "q": "Who is eligible for ARChoices?", "a": "Adults 65 and older, or 21–64 with a physical disability, who need intermediate nursing-home-level care and meet Medicaid financial rules." },
+      { "q": "Is there a waiting list?", "a": "Often. ARChoices has a limited number of slots, and a waiting list forms when they fill." },
+      { "q": "What if I need skilled nursing-level care?", "a": "People determined to need the skilled level of care are not eligible for ARChoices." },
+      { "q": "What services does ARChoices cover?", "a": "Attendant care, adult day health, adult day services, case management, home modifications, home-delivered meals, emergency response systems, prevocational services and respite." }
+    ],
+    "keywords": ["archoices in homecare", "archoices waiver arkansas", "arkansas medicaid waiver elderly", "archoices family caregiver", "archoices waiting list"],
+    "sources": [
+      "https://humanservices.arkansas.gov/wp-content/uploads/ARChoices-Detailed-Overview.pdf",
+      "https://humanservices.arkansas.gov/wp-content/uploads/INCHOICE_II.docx",
+      "https://www.law.cornell.edu/regulations/arkansas/016-27-20-Ark-Code-R-020",
+      "https://www.medicaidplanningassistance.org/arkansas-archoices-in-homecare/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]
