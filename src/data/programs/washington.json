@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "community-first-choice",
+    "name": "Community First Choice (CFC)",
+    "aka": ["CFC", "Community First Choice Option", "CFC Washington", "Apple Health personal care", "CFC+COPES"],
+    "kind": "state plan",
+    "summary": "Community First Choice is Washington's main Apple Health (Medicaid) program for in-home personal care for people who need a nursing-home level of care. DSHS assesses how many hours of help the person needs, and a family member can be hired as an Individual Provider to do that care. The family caregiver is employed and paid by Consumer Direct Care Network Washington (CDWA), not by the family.",
+    "who_qualifies": [
+      "Eligible for Apple Health (Medicaid) under the Categorically Needy (CN) or Alternative Benefit Plan (ABP) scope of care in the community.",
+      "Age 18 or older for services through Home and Community Services (HCS) or an Area Agency on Aging; people of any age with a DDA-determined developmental disability can be served through DDA.",
+      "Meets nursing facility level of care (or ICF/IID level of care), or would likely need an institutional level of care within 30 days without services, as measured by a CARE assessment.",
+      "Lives in their own home, an adult family home, assisted living, or another approved community setting."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children, siblings, grandchildren and other relatives can be hired as Individual Providers through CDWA once they pass the background check and training.",
+      "spouse": "no — DSHS says spouses cannot be paid to care for each other under Apple Health long-term services; Veteran Directed Care and the WA Cares Fund are separate routes that can pay a spouse.",
+      "parent_of_minor": "no — DSHS rules do not allow a natural, step or adoptive parent to be paid to care for their child under 18; parents can be paid once the child is an adult.",
+      "live_together": "optional — the caregiver may live with the client or live elsewhere."
+    },
+    "pay": {
+      "display": "$22.52–$27.28/hr",
+      "detail": "Individual Providers are paid by CDWA on the SEIU 775 contract wage scale, stepped by cumulative career hours: $22.52–$26.09/hr from July 1, 2025, rising to $23.54–$27.28/hr on July 1, 2026, plus union health, retirement and paid-time-off benefits. Pay is taxable wages."
+    },
+    "hours_or_budget": "A DSHS or Area Agency on Aging case manager does a CARE assessment. CARE places the person in a classification group that sets the monthly personal care hours. The client can split those hours between more than one Individual Provider. Each Individual Provider also has a work week limit — 40 hours for most caregivers who started after January 2016, and never more than 65 hours.",
+    "waitlist": {
+      "status": "none",
+      "detail": "CFC is a Medicaid State Plan benefit, so everyone who qualifies can get it. (Some other DSHS programs, such as MAC and TSOA, started waitlists in December 2025; CFC is not one of them.)"
+    },
+    "self_directed_or_agency": "Either. The client can pick an Individual Provider, who is hired and employed by CDWA (the Consumer Directed Employer) while the client chooses, schedules, supervises and can dismiss them. Or the client can use a licensed home care agency instead.",
+    "how_to_apply": [
+      "The person needing care calls their regional Home and Community Services (HCS) intake line or applies for Apple Health long-term services online through Washington Connection.",
+      "A case manager visits for a CARE assessment to check functional eligibility and set monthly hours; DSHS checks financial eligibility at the same time.",
+      "The family member applies to become an Individual Provider with CDWA (consumerdirectwa.com), completes the background check, orientation and safety training, and is assigned to the client.",
+      "The caregiver records hours through CDWA and finishes the rest of the required training (most paid family caregivers need 35 hours) within 120 days of hire."
+    ],
+    "contacts": [
+      { "name": "HCS Region 1 intake (Spokane / Eastern WA)", "phone": "800-459-0421", "url": "https://www.dshs.wa.gov/altsa/home-and-community-services" },
+      { "name": "HCS Region 2 intake (Seattle / Northwest WA)", "phone": "800-346-9257", "url": "https://www.dshs.wa.gov/altsa/home-and-community-services" },
+      { "name": "HCS Region 3 intake (Tacoma / Southwest WA)", "phone": "800-422-5129", "url": "https://www.dshs.wa.gov/altsa/home-and-community-services" },
+      { "name": "Consumer Direct Care Network Washington (CDWA)", "phone": "866-214-9899", "url": "https://www.consumerdirectwa.com/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my mom or dad through CFC in Washington?", "a": "Yes. If your parent qualifies for CFC, you can be hired as their Individual Provider. You apply with CDWA, pass a background check and do the required training, and CDWA pays you for the hours DSHS approved." },
+      { "q": "Can a husband or wife be paid under CFC?", "a": "No. DSHS states that spouses cannot be paid to care for each other under Apple Health long-term services. DSHS points spouses to Veteran Directed Care (for qualifying veterans) or the WA Cares Fund instead." },
+      { "q": "What is the difference between CFC and COPES?", "a": "CFC is a State Plan program that pays for personal care and related supports. COPES is a separate waiver that adds services like adult day health. Many people are enrolled in both at once, shown as CFC+COPES in their care plan." },
+      { "q": "How many hours a month will CFC pay for?", "a": "It depends on the CARE assessment. CARE sorts the person into a classification group with a set number of monthly hours. Your own work week limit as a caregiver is usually 40 hours." },
+      { "q": "Is there a waiting list for CFC?", "a": "No. CFC is part of the Medicaid State Plan, so if the person qualifies financially and functionally, they can get services without a waitlist." },
+      { "q": "Who is my employer if I am a paid family caregiver?", "a": "CDWA is your legal employer and runs payroll, taxes and benefits. Your family member is the managing employer who decides your schedule and the tasks you do." }
+    ],
+    "keywords": ["community first choice washington", "cfc washington state", "get paid to care for parent washington", "washington cfc paid family caregiver", "cfc copes washington", "apple health personal care family member"],
+    "sources": [
+      "https://www.dshs.wa.gov/sites/default/files/ALTSA/hcs/documents/LTCManual/Chapter%207b.pdf",
+      "https://www.dshs.wa.gov/altsa/home-and-community-services/becoming-paid-caregiver",
+      "https://www.dshs.wa.gov/altsa/home-and-community-services/consumer-directed-employer-clients",
+      "https://seiu775.org/cdwata2025/",
+      "https://www.dshs.wa.gov/sites/default/files/ALTSA/hcs/documents/caregiver/IP_OT_Fact_Sheet.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "medicaid-personal-care",
+    "name": "Medicaid Personal Care (MPC)",
+    "aka": ["MPC", "Medicaid Personal Care Washington", "MPC program", "state plan personal care"],
+    "kind": "state plan",
+    "summary": "Medicaid Personal Care is Washington's Apple Health program for people who need regular help with daily tasks but do not need a nursing-home level of care. DSHS sets the hours with a CARE assessment, and a family member can be paid as the Individual Provider through CDWA.",
+    "who_qualifies": [
+      "Certified for noninstitutional Categorically Needy Apple Health, or eligible for the Apple Health Alternative Benefit Plan (most people on SSI qualify this way).",
+      "Does NOT need hospital, nursing facility, ICF/IID or similar institutional level of care — people who do usually go to CFC instead.",
+      "Has an unmet or partly met need for help with at least three activities of daily living (such as bathing, dressing, eating, toileting, transfers, walking or medication management), or a higher-level need with at least one, per WAC 388-106-0210.",
+      "Adults are served through HCS or an Area Agency on Aging; children and people with developmental disabilities can be served through DDA."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children and other relatives can be paid as Individual Providers employed through CDWA.",
+      "spouse": "no — DSHS states spouses cannot be paid to care for each other under Apple Health long-term services.",
+      "parent_of_minor": "no — a natural, step or adoptive parent cannot be the paid provider for a child 17 or younger receiving Medicaid Personal Care.",
+      "live_together": "optional — the caregiver may live with the client or elsewhere."
+    },
+    "pay": {
+      "display": "$22.52–$27.28/hr",
+      "detail": "Same CDWA/SEIU 775 wage scale as all Individual Providers: $22.52–$26.09/hr from July 1, 2025 and $23.54–$27.28/hr from July 1, 2026, stepped by career hours, plus benefits. Paid by CDWA as taxable wages."
+    },
+    "hours_or_budget": "A case manager completes a CARE assessment. The resulting classification group sets the number of monthly personal care hours. Hours can be split between Individual Providers, and each Individual Provider has a weekly work limit (usually 40 hours, never more than 65).",
+    "waitlist": {
+      "status": "none",
+      "detail": "MPC is a Medicaid State Plan benefit; no waitlist is published for people who meet the rules."
+    },
+    "self_directed_or_agency": "Either. The client can choose an Individual Provider employed by CDWA, or use a licensed home care agency.",
+    "how_to_apply": [
+      "Call the regional HCS intake office (or DDA if the person has a developmental disability) and ask for a personal care assessment.",
+      "A case manager does a CARE assessment at home and DSHS confirms the Apple Health coverage group.",
+      "If MPC is approved, the family member applies to CDWA to become an Individual Provider, passes the background check and starts training.",
+      "The caregiver logs authorized hours with CDWA and completes training within 120 days of hire."
+    ],
+    "contacts": [
+      { "name": "HCS Region 1 intake (Spokane / Eastern WA)", "phone": "800-459-0421", "url": "https://www.dshs.wa.gov/altsa/home-and-community-services" },
+      { "name": "HCS Region 2 intake (Seattle / Northwest WA)", "phone": "800-346-9257", "url": "https://www.dshs.wa.gov/altsa/home-and-community-services" },
+      { "name": "HCS Region 3 intake (Tacoma / Southwest WA)", "phone": "800-422-5129", "url": "https://www.dshs.wa.gov/altsa/home-and-community-services" },
+      { "name": "Consumer Direct Care Network Washington (CDWA)", "phone": "866-214-9899", "url": "https://www.consumerdirectwa.com/" }
+    ],
+    "faqs": [
+      { "q": "What is the difference between MPC and CFC?", "a": "Both pay for in-home personal care. CFC is for people who need a nursing-home level of care. MPC is for people who need help with daily tasks but do not meet that level. The CARE assessment decides which one fits." },
+      { "q": "Can I be paid to care for my adult son or daughter under MPC?", "a": "Yes, once your child is 18 or older you can be hired as their Individual Provider through CDWA. Parents cannot be paid for a child under 18." },
+      { "q": "Does someone need to be on SSI to get MPC?", "a": "Not always, but MPC requires noninstitutional Categorically Needy or Alternative Benefit Plan Apple Health, and many people in that group receive SSI." },
+      { "q": "How much does an MPC caregiver earn?", "a": "Individual Providers earn $22.52–$26.09 an hour from July 2025 and $23.54–$27.28 from July 2026 on the CDWA wage scale, depending on career hours." },
+      { "q": "Do I need training to be a paid MPC caregiver for a relative?", "a": "Yes. Most paid family caregivers need 35 hours of training, including a 5-hour orientation and safety course at hire, finished within 120 days. Exact hours depend on your relationship to the client." }
+    ],
+    "keywords": ["medicaid personal care washington", "mpc washington state", "washington mpc vs cfc", "get paid to care for family member washington mpc", "apple health personal care hours"],
+    "sources": [
+      "https://app.leg.wa.gov/wac/default.aspx?cite=388-106-0210",
+      "https://www.dshs.wa.gov/sites/default/files/ALTSA/hcs/documents/LTCManual/Chapter%207b.pdf",
+      "https://www.dshs.wa.gov/altsa/home-and-community-services/becoming-paid-caregiver",
+      "https://lawfilesext.leg.wa.gov/Law/WACArchive/2021/htm/WAC%20388%20%20TITLE/WAC%20388%20-%2071%20%20CHAPTER/WAC%20388%20-%2071%20-0540.htm",
+      "https://seiu775.org/cdwata2025/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "individual-provider-cdwa",
+    "name": "Individual Provider (IP) through Consumer Direct Care Network Washington (CDWA)",
+    "aka": ["Individual Provider", "IP", "CDWA", "Consumer Direct Washington", "Consumer Directed Employer", "CDE", "paid family caregiver Washington"],
+    "kind": "self-direction option",
+    "summary": "An Individual Provider is a caregiver hired directly for one Apple Health client instead of coming from an agency. Since 2021 every Individual Provider in Washington is employed by Consumer Direct Care Network Washington (CDWA), the state's Consumer Directed Employer. This is how family members get paid under CFC, MPC and the COPES waiver.",
+    "who_qualifies": [
+      "The person receiving care must be approved for an Apple Health in-home program such as CFC, MPC or COPES after a CARE assessment.",
+      "The caregiver must be 18 or older, pass a DSHS background check and character, competence and suitability review, and complete required training.",
+      "The caregiver must be approved and hired by CDWA before any paid hours count."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — DSHS says family members who care for a relative can become paid caregivers if the relative qualifies for Medicaid long-term services.",
+      "spouse": "no — spouses cannot be paid as Individual Providers for each other; Veteran Directed Care or WA Cares Fund may pay a spouse instead.",
+      "parent_of_minor": "no — parents cannot be paid to care for their own child under 18.",
+      "live_together": "optional — family Individual Providers may live with the client or separately."
+    },
+    "pay": {
+      "display": "$22.52–$27.28/hr",
+      "detail": "CDWA pays Individual Providers on the SEIU 775 contract scale by cumulative career hours: $22.52 (0–2,000 hours) to $26.09 (40,001+ hours) from July 1, 2025, and $23.54 to $27.28 from July 1, 2026. Benefits include health coverage, retirement contributions and paid holidays."
+    },
+    "hours_or_budget": "Hours come from the client's CARE assessment, not from CDWA. CDWA helps divide the authorized hours among Individual Providers and enforces each caregiver's work week limit: 40 hours for most who began after January 2016, with a permanent cap of 65 hours.",
+    "waitlist": {
+      "status": "none",
+      "detail": "There is no waitlist to become an Individual Provider. Whether the client gets services depends on their program; CFC and MPC have no waitlist."
+    },
+    "self_directed_or_agency": "CDWA is the legal employer (payroll, taxes, background checks, training enrollment). The client is the managing employer who selects, schedules, supervises and can dismiss the Individual Provider.",
+    "how_to_apply": [
+      "Make sure the person you care for has applied for Apple Health long-term services and had a CARE assessment.",
+      "Apply to CDWA as an Individual Provider at consumerdirectwa.com (free in-person hiring support appointments are offered).",
+      "Complete the background check, the 5-hour orientation and safety course, and CDWA hiring paperwork.",
+      "Start working the authorized hours and finish the remaining training (most family caregivers need 35 hours total) within 120 days."
+    ],
+    "contacts": [
+      { "name": "Consumer Direct Care Network Washington (CDWA)", "phone": "866-214-9899", "url": "https://www.consumerdirectwa.com/" },
+      { "name": "DSHS — Becoming a Paid Caregiver", "phone": "not published on this page", "url": "https://www.dshs.wa.gov/altsa/home-and-community-services/becoming-paid-caregiver" }
+    ],
+    "faqs": [
+      { "q": "Who actually pays me as a family Individual Provider?", "a": "CDWA. It runs payroll, withholds taxes and offers union benefits. Your family member does not pay you directly." },
+      { "q": "How many hours a week can I work as an IP?", "a": "Most Individual Providers who started after January 2016 have a 40-hour work week limit. No permanent limit can be more than 65 hours. Temporary increases are possible only for specific reasons in the rules." },
+      { "q": "Do I have to join the union?", "a": "Individual Providers are covered by the SEIU 775 contract, which sets wages and benefits. Ask CDWA or SEIU 775 about membership and dues choices." },
+      { "q": "Can I be paid to care for my spouse as an IP?", "a": "No. DSHS does not pay spouses as Individual Providers. A spouse may be paid through Veteran Directed Care if the person is a qualifying veteran, or through the WA Cares Fund." },
+      { "q": "What training does a family IP need?", "a": "Most paid family caregivers need 35 hours, starting with a 5-hour orientation and safety course before working. Some relationships have different requirements under WAC 388-71-0523." }
+    ],
+    "keywords": ["cdwa individual provider", "consumer direct washington family caregiver", "how to become an individual provider washington", "cdwa pay rate", "get paid to care for family washington state"],
+    "sources": [
+      "https://www.dshs.wa.gov/altsa/home-and-community-services/becoming-paid-caregiver",
+      "https://www.dshs.wa.gov/altsa/home-and-community-services/consumer-directed-employer-clients",
+      "https://www.consumerdirectwa.com/",
+      "https://seiu775.org/cdwata2025/",
+      "https://www.dshs.wa.gov/sites/default/files/ALTSA/hcs/documents/caregiver/IP_OT_Fact_Sheet.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

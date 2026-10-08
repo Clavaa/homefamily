@@ -1,0 +1,176 @@
+[
+  {
+    "slug": "choices-consumer-direction",
+    "name": "TennCare CHOICES in Long-Term Services and Supports — Consumer Direction",
+    "aka": ["CHOICES", "TennCare CHOICES", "CHOICES consumer direction", "Consumer Direct Care Network Tennessee", "CDTN"],
+    "kind": "self-direction option",
+    "summary": "CHOICES is TennCare's long-term care program for seniors 65 and older and adults 21 and older with physical disabilities. Members who get home care can choose Consumer Direction, which makes the member the employer of their own home care workers. An adult child, sibling, friend or neighbor can be hired and paid by the hour through the state's fiscal employer agent, Consumer Direct Care Network Tennessee (CDTN).",
+    "who_qualifies": [
+      "Age 65 or older, or age 21 or older with a physical disability (CHOICES Groups 2 and 3).",
+      "Group 2: needs nursing-home level of care but chooses to get care at home. Group 3: does not yet need nursing-home care but is at risk of it without help at home.",
+      "Meets TennCare long-term care financial rules. For 2026 TennCare publishes an income limit of $2,982 per month (a Qualifying Income Trust may help if income is higher) and countable assets of $2,000 or less, not counting the home.",
+      "No assets given away or sold for less than their worth in the last five years.",
+      "Must live at home (not in an assisted living facility or adult care home) to use Consumer Direction, and be able to direct care or have a Representative who lives with them or is present often enough to supervise."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the CHOICES Consumer Direction handbook says you can hire friends and family members, such as an adult child, as long as they meet worker requirements and are not paid for care they would have given for free.",
+      "spouse": "no — the handbook says a worker cannot be the member's spouse, legal guardian, Power of Attorney, or Representative for Consumer Direction.",
+      "parent_of_minor": "n/a — CHOICES home care serves adults 21+ and seniors; children are served through ECF CHOICES or the Katie Beckett program.",
+      "live_together": "n/a — a person who lives with the member cannot be paid for Personal Care Visits, Attendant Care, or In-Home Respite; live-in Companion Care (Group 2 only) cannot be done by an immediate family member or anyone who lived with the member in the last 5 years."
+    },
+    "pay": {
+      "display": "$11–$19.16/hr",
+      "detail": "The member picks each worker's hourly rate from a set of State-set rates for each service, inside the approved plan of care. Reported typical pay is about $11–$15 per hour, and a 7/30/2025 rate schedule reportedly lists a top personal-care rate of $19.16 per hour. Companion Care is paid at a State-set daily rate. Payroll and taxes run through CDTN."
+    },
+    "hours_or_budget": "The member's health plan (MCO) care coordinator does a needs assessment and writes a plan of care that lists which services, how many hours and when. Workers can only be paid for the hours in that plan, and hours must be logged through Electronic Visit Verification.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "CHOICES is not an entitlement. TennCare publishes an enrollment target for Group 3 (1,750 non-SSI members as of October 1, 2022, based on appropriations), so enrollment can be limited when slots are full."
+    },
+    "self_directed_or_agency": "Either. Under Consumer Direction the member (or a Representative) is the employer and CDTN is the fiscal employer agent that runs payroll, taxes and worker enrollment; members who do not self-direct use a provider agency.",
+    "how_to_apply": [
+      "If you are not on TennCare yet, call 1-866-836-6678 to reach your local Area Agency on Aging and Disability (AAAD) and ask for a CHOICES screening.",
+      "If you already have TennCare, call your health plan (BlueCare 888-747-8955, UnitedHealthcare Community Plan 800-690-1606, or Wellpoint 833-731-2153) and ask for CHOICES.",
+      "Once enrolled, tell your care coordinator you want Consumer Direction. A Supports Broker helps you enroll with CDTN and hire your worker.",
+      "Your worker completes background checks, training (including CPR and First Aid), and paperwork, and signs a Medicaid agreement before being paid."
+    ],
+    "contacts": [
+      { "name": "Area Agency on Aging and Disability (statewide line)", "phone": "1-866-836-6678", "url": "https://www.tn.gov/tenncare/long-term-services-supports/choices.html" },
+      { "name": "TennCare LTSS Help Desk", "phone": "1-877-224-0219", "url": "https://www.tn.gov/tenncare/long-term-services-supports/choices.html" },
+      { "name": "Consumer Direct Care Network Tennessee (CDTN)", "phone": "888-450-3242", "url": "https://www.tn.gov/disability-and-aging/disability-aging-programs/katie-beckett/services.html" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my mom through TennCare CHOICES?", "a": "Yes, if your mom qualifies for CHOICES home care and chooses Consumer Direction, she can hire you as her worker. You cannot be her Power of Attorney or legal guardian, and if you live with her you cannot be paid for personal care visits or attendant care." },
+      { "q": "Can a spouse be paid as a caregiver in CHOICES?", "a": "No. The CHOICES Consumer Direction handbook says a spouse, legal guardian, Power of Attorney, or the member's Representative cannot be hired as a paid worker." },
+      { "q": "What if my parent lives with me?", "a": "This is the biggest catch. The handbook says you cannot pay anyone who lives with you to provide Personal Care Visits, Attendant Care, or In-Home Respite. A family member who does not live in the home can be hired." },
+      { "q": "Who pays the caregiver?", "a": "Consumer Direct Care Network Tennessee (CDTN), the state's fiscal employer agent, runs payroll and withholds taxes. The member is the legal employer." },
+      { "q": "How much does a CHOICES caregiver earn?", "a": "The member picks a State-set rate for each worker. Reported pay runs about $11 to $15 per hour, with a reported top personal-care rate of $19.16 per hour on the 2025 rate schedule." },
+      { "q": "Is there a waiting list for CHOICES?", "a": "There can be. CHOICES is not an entitlement, and TennCare sets enrollment targets for some groups based on state funding." }
+    ],
+    "keywords": ["tenncare choices consumer direction", "get paid to care for family member tennessee", "tennessee choices program family caregiver", "cdtn consumer direct tennessee", "can i get paid to care for my parent in tennessee", "tenncare choices hire family"],
+    "sources": [
+      "https://www.tn.gov/tenncare/long-term-services-supports/choices.html",
+      "https://provider.wellpoint.com/docs/gpp/TN_CHOICESConsumerDirectionHandbook_ENG.pdf",
+      "https://www.tn.gov/disability-and-aging/disability-aging-programs/katie-beckett/services.html",
+      "https://www.medicaidplanningassistance.org/tenncare-choices/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "ecf-choices",
+    "name": "Employment and Community First CHOICES (ECF CHOICES)",
+    "aka": ["ECF CHOICES", "Employment and Community First", "ECF", "ECF Family Caregiver Stipend", "ECF Group 4"],
+    "kind": "waiver service",
+    "summary": "ECF CHOICES is TennCare's program for people of all ages with an intellectual or developmental disability (I/DD). Families can be paid in two ways: through Consumer Direction, where the member hires a worker such as a relative and CDTN runs payroll, or, in Group 4, through a monthly Family Caregiver Stipend paid to the primary family caregiver instead of Supportive Home Care.",
+    "who_qualifies": [
+      "Has an intellectual disability that began before age 18, or a developmental disability that began before age 22.",
+      "Meets TennCare financial rules. As of January 2026: $2,982/month with nursing-facility level of care, $1,995/month with at-risk level of care, or $3,325/month if working with under $994 unearned income; countable resources of $2,000 or less.",
+      "For children under 18, parental income and resources count, with exceptions (children who don't qualify may fit the Katie Beckett program instead).",
+      "Group 4 (Essential Family Supports) is for children under 21 living at home with family; Groups 5 and 6 are for adults 21+; Groups 7 and 8 are small behavioral groups.",
+      "Enrollment depends on priority and an open slot."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — Consumer Direction lets the member or their representative hire family members, friends or neighbors for eligible services such as personal assistance, supportive home care and respite.",
+      "spouse": "no — spouses are excluded as paid Consumer Direction workers.",
+      "parent_of_minor": "limited — a parent of a Group 4 child can receive the Family Caregiver Stipend (up to $500/month for a child under 18) instead of Supportive Home Care; whether a parent of a minor can be the hourly Consumer Direction worker is not published on the pages reviewed.",
+      "live_together": "required for the stipend — the Family Caregiver Stipend is only for a Group 4 member who lives with the family in the family home; for hourly Consumer Direction it is not published."
+    },
+    "pay": {
+      "display": "$11–$19.16/hr (Consumer Direction) or up to $500–$1,000/month stipend",
+      "detail": "Consumer Direction workers are paid hourly at State-set rates through CDTN; a 7/30/2025 schedule reportedly lists an average personal-care rate of $18.31 and a top rate of $19.16. TennCare's Family Caregiver Stipend fact sheet (March 2024) caps the Group 4 stipend at $500 per month for children under 18 and $1,000 per month for adults 18 and older; the exact amount is set case by case."
+    },
+    "hours_or_budget": "Each ECF group has its own benefit limits listed in TennCare's Member Benefit Table. The health plan's support coordinator approves medically necessary services and hours. The stipend is only considered after other ECF supports are in place and funds remain in the member's limit.",
+    "waitlist": {
+      "status": "long",
+      "detail": "Funding is limited. People whose needs are most urgent can enroll now; others go on a referral list and enroll when a slot opens, and slots are very limited."
+    },
+    "self_directed_or_agency": "Either. Under Consumer Direction the member or representative is the employer and CDTN is the fiscal employer agent; services can also come from contracted provider agencies.",
+    "how_to_apply": [
+      "Fill out the online ECF CHOICES Self-Referral Form at perlss.tenncare.tn.gov/externalreferral, or call your regional Disability and Aging office for help completing it.",
+      "Gather the financial documents TennCare lists so eligibility can be checked.",
+      "If you qualify but no slot is open, you are placed on the referral list by priority.",
+      "Once enrolled, ask your support coordinator about Consumer Direction or, for Group 4, the Family Caregiver Stipend."
+    ],
+    "contacts": [
+      { "name": "West Tennessee DDA Regional Office", "phone": "866-372-5709", "url": "https://www.tn.gov/tenncare/long-term-services-supports/employment-and-community-first-choices.html" },
+      { "name": "Middle Tennessee DDA Regional Office", "phone": "800-654-4839", "url": "https://www.tn.gov/tenncare/long-term-services-supports/employment-and-community-first-choices.html" },
+      { "name": "East Tennessee DDA Regional Office", "phone": "888-531-9876", "url": "https://www.tn.gov/tenncare/long-term-services-supports/employment-and-community-first-choices.html" },
+      { "name": "TennCare LTSS Help Desk", "phone": "1-877-224-0219", "url": "https://www.tn.gov/tenncare/long-term-services-supports/employment-and-community-first-choices.html" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid in ECF CHOICES?", "a": "In Group 4, the primary family caregiver of a child or young adult living at home can get a monthly Family Caregiver Stipend instead of Supportive Home Care. TennCare caps it at $500 per month for children under 18 and $1,000 per month for adults 18 and older." },
+      { "q": "What is the ECF CHOICES Family Caregiver Stipend?", "a": "It is a monthly payment for Group 4 families meant to make up for lost work time and help with costs the program doesn't cover. It replaces Supportive Home Care; you cannot get both." },
+      { "q": "Can a sibling or other relative be hired?", "a": "Yes. Under Consumer Direction, the member or their representative can hire a relative such as a sibling, and CDTN pays them hourly for approved services." },
+      { "q": "How long is the ECF CHOICES waiting list?", "a": "TennCare does not publish a set wait time. Slots are very limited and go first to people with the most urgent needs; others wait on a referral list." },
+      { "q": "What if my child doesn't qualify for TennCare?", "a": "TennCare says children under 18 who don't qualify for Medicaid because of family income may qualify for the Katie Beckett program instead." }
+    ],
+    "keywords": ["ecf choices tennessee", "ecf choices family caregiver stipend", "employment and community first choices consumer direction", "tennessee idd waiver pay family", "ecf choices group 4", "get paid to care for disabled child tennessee"],
+    "sources": [
+      "https://www.tn.gov/tenncare/long-term-services-supports/employment-and-community-first-choices.html",
+      "https://www.tn.gov/content/dam/tn/tenncare/documents/ECFCHOICESFamilyCaregiverStipend.pdf",
+      "https://www.tn.gov/content/dam/tn/tenncare/documents/ECFCHOICESGuidanceMemoFamilyCaregiver.pdf",
+      "https://brevy.com/caregiver/tennessee/overview"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "katie-beckett",
+    "name": "Katie Beckett Program (Tennessee)",
+    "aka": ["Katie Beckett waiver", "Katie Beckett Tennessee", "Katie Beckett Part A", "Katie Beckett Part B", "TEFRA"],
+    "kind": "children's waiver",
+    "summary": "Tennessee's Katie Beckett program helps children under 18 with disabilities or complex medical needs who don't qualify for Medicaid because of their parents' income or assets. Part B gives up to $10,000 a year that families can use for options including consumer-directed respite and supportive home care paid through CDTN; Part A gives full Medicaid plus up to $15,000 a year in home and community services.",
+    "who_qualifies": [
+      "Under age 18.",
+      "Has a disability or complex medical needs.",
+      "Is not eligible for Medicaid because of parents' income or assets.",
+      "Part A: children with the most significant needs (Tier 1-Medical or Tier 1-Behavioral enroll right away; Tier 2 children are prioritized when slots open and may go into Part B while waiting).",
+      "Part B: children with disabilities or complex medical needs who are not enrolled in Medicaid."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — Part B families can choose consumer-directed respite and supportive home care paid through CDTN, and a state story describes a family using it to pay a caregiver they had paid themselves; who exactly may be hired is not published.",
+      "spouse": "n/a — the program serves children.",
+      "parent_of_minor": "limited — state law allows parents to hire and manage care providers under consumer direction if TennCare finds it cost-effective, but whether a parent can be the paid worker is not published.",
+      "live_together": "n/a — not published."
+    },
+    "pay": {
+      "display": "Up to $10,000/yr (Part B) or $15,000/yr (Part A)",
+      "detail": "These are yearly service caps, not a wage. Consumer-directed workers are paid through CDTN at State-set hourly rates. Part A families may owe a premium based on income."
+    },
+    "hours_or_budget": "Part B has a $10,000 yearly cap that the family spends across chosen options (premium help, a health spending account run by TASC, reimbursements, consumer-directed respite and supportive home care, or provider services). Part A covers full Medicaid plus up to $15,000 a year in non-medical home and community services.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "Part A has limited slots; Tier 2 children are placed by priority when a slot opens and may be served in Part B while they wait."
+    },
+    "self_directed_or_agency": "Either. Consumer-directed respite and supportive home care are paid through the fiscal agent CDTN; families can also use community provider agencies.",
+    "how_to_apply": [
+      "Create an account and complete a self-referral at TennCare Connect (tenncareconnect.tn.gov).",
+      "If you don't have a computer, call your regional Disability and Aging office and a case manager can complete the referral with you by phone.",
+      "A case manager contacts you for an assessment; have medical records that clearly identify your child's condition ready.",
+      "TennCare does a financial review at the same time and tells you whether your child qualifies for Part A or Part B."
+    ],
+    "contacts": [
+      { "name": "West Tennessee Regional Office", "phone": "(866) 372-5709", "url": "https://www.tn.gov/disability-and-aging/disability-aging-programs/katie-beckett.html" },
+      { "name": "Middle Tennessee Regional Office", "phone": "(800) 654-4839", "url": "https://www.tn.gov/disability-and-aging/disability-aging-programs/katie-beckett.html" },
+      { "name": "East Tennessee Regional Office", "phone": "(888) 531-9876", "url": "https://www.tn.gov/disability-and-aging/disability-aging-programs/katie-beckett.html" },
+      { "name": "Consumer Direct Care Network Tennessee (CDTN)", "phone": "888-450-3242", "url": "https://www.tn.gov/disability-and-aging/disability-aging-programs/katie-beckett/services.html" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid through Katie Beckett in Tennessee?", "a": "Not clearly. Part B lets families use consumer-directed respite and supportive home care paid through CDTN, but the state does not publish whether a parent can be the paid worker. Ask your Katie Beckett case manager or CDTN." },
+      { "q": "What is the difference between Part A and Part B?", "a": "Part A is for children with the most significant needs and gives full Medicaid plus up to $15,000 a year in home services. Part B gives up to $10,000 a year in flexible supports but not Medicaid." },
+      { "q": "Does my income matter?", "a": "Katie Beckett is for children who don't qualify for Medicaid because of parents' income or assets. Part A families may owe a monthly premium based on household income." },
+      { "q": "Can we hire a grandparent or aunt to help?", "a": "Part B consumer-directed respite and supportive home care let families hire a worker through CDTN. The state does not publish a list of who can't be hired, so confirm a relative's eligibility with CDTN." },
+      { "q": "Can we get Katie Beckett and Family Support funds?", "a": "No. Families cannot receive both waiver services and Family Support funds; Family Support ends when the child enrolls." }
+    ],
+    "keywords": ["katie beckett tennessee", "katie beckett part b consumer direction", "tennessee katie beckett pay parents", "katie beckett waiver tn apply", "tennessee disabled child medicaid waiver"],
+    "sources": [
+      "https://www.tn.gov/disability-and-aging/disability-aging-programs/katie-beckett.html",
+      "https://www.tn.gov/disability-and-aging/disability-aging-programs/katie-beckett/services.html",
+      "https://www.tn.gov/cdd/engage-with-us/breaking-ground/breaking-ground-110-get-to-know-us/breaking-ground-110-katie-beckett-helping-families.html",
+      "https://codes.findlaw.com/tn/title-71-welfare/tn-code-sect-71-5-164/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

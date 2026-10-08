@@ -1,0 +1,61 @@
+[
+  {
+    "slug": "aged-and-disabled-waiver-personal-options",
+    "name": "Aged & Disabled Waiver (ADW) — Personal Options",
+    "aka": ["ADW", "Aged and Disabled Waiver", "Personal Options", "ADW Personal Options", "WV self-directed waiver", "Palco West Virginia"],
+    "kind": "waiver service",
+    "summary": "West Virginia's Aged & Disabled Waiver pays for in-home care for adults who would otherwise need a nursing home. Under the Personal Options model, the member gets a monthly budget and hires their own personal attendants, who can be relatives. A fiscal/employer agent runs payroll and withholds taxes.",
+    "who_qualifies": [
+      "Age 18 or older and living in West Virginia.",
+      "Meets WV Medicaid waiver financial rules, decided by the county DoHS office or Social Security; rechecked every year.",
+      "Approved for nursing home level of care after a nurse's medical assessment (the PAS), and needs help in at least five areas such as eating, bathing, dressing, grooming, moving around, or using the restroom.",
+      "Chooses ADW instead of a nursing home and has a home that is safe for staff.",
+      "A funded slot must be open before enrollment."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the ADW manual allows family members to be paid personal attendants if they are 18+, trained and background-checked; extra rules apply to make sure services benefit only the member.",
+      "spouse": "no — the ADW manual says Medicaid prohibits legally responsible persons, including the spouse, from being paid; court-appointed legal guardians are also excluded.",
+      "parent_of_minor": "no — ADW serves only adults 18 and older, so there is no minor-child pathway in this program.",
+      "live_together": "optional — attendants may live with the member, with added documentation rules when they do."
+    },
+    "pay": {
+      "display": "Set within your monthly budget (at least $8.75/hr)",
+      "detail": "No statewide hourly rate is published for Personal Options. The member sets wages within the wage rates allowed by BMS and their monthly budget approved by the UMC, and wages must be at least the West Virginia minimum wage ($8.75/hr). Pay is processed by the Personal Options fiscal/employer agent (Palco since 2024)."
+    },
+    "hours_or_budget": "A PAS nurse assessment scores the person from 0 to 44 points and assigns Service Level A–D. For the Traditional model these levels equal 0–62, 63–93, 94–124 or 125–155 hours per month. In Personal Options the service level sets a maximum monthly budget, and the member builds a spending plan that decides how many hours and at what wage.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "ADW slots are capped. Eligible applicants without an open slot go on a Managed Enrollment List in order of their completed MNER date. The state reports the average wait last fiscal year was about 44 days, and the whole process averages about 56 days."
+    },
+    "self_directed_or_agency": "Either. Under Personal Options the member is the common-law employer and hires attendants directly, with the fiscal/employer agent handling payroll and taxes. Under the Traditional model an ADW agency hires and pays the staff.",
+    "how_to_apply": [
+      "Have a doctor (MD or DO), physician assistant or APRN complete and sign a Medical Necessity Evaluation Request (MNER) and send it to Acentra Health-ADW (fax 866-212-5053).",
+      "Complete the financial eligibility application through the county DoHS office; financial eligibility is decided first.",
+      "Acentra schedules a PAS nurse assessment to confirm medical eligibility and set the service level.",
+      "When a slot opens, choose Personal Options and a case management agency, then work with the resource consultant to enroll your attendant (background check and training) and build a spending plan."
+    ],
+    "contacts": [
+      { "name": "WV Bureau of Senior Services (ADW operating agency)", "phone": "1-866-767-1575", "url": "https://adwprogram.wv.gov/" },
+      { "name": "Bureau of Senior Services, Personal Options contact", "phone": "304-558-3317 ext. 56111", "url": "https://adwprogram.wv.gov/" },
+      { "name": "Acentra Health (ADW medical eligibility / Managed Enrollment List)", "phone": "844-723-7811", "url": "https://adwprogram.wv.gov/" },
+      { "name": "Palco (Personal Options fiscal/employer agent)", "phone": "not published on the WV program page", "url": "https://www.palcofirst.com/programs/west-virginia/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my mother in West Virginia?", "a": "Yes, if she is on the Aged & Disabled Waiver and chooses Personal Options. She can hire you as her personal attendant once you pass the background check and training." },
+      { "q": "Can a spouse be paid under the ADW?", "a": "No. The ADW manual says Medicaid does not allow legally responsible persons, including a spouse, to be paid. A court-appointed guardian also cannot be paid." },
+      { "q": "How much do Personal Options attendants make?", "a": "There is no single published rate. The member sets the wage inside their monthly budget and the BMS-allowed range, and it must be at least West Virginia's minimum wage of $8.75 an hour." },
+      { "q": "Is there a waiting list for the Aged & Disabled Waiver?", "a": "Sometimes. If no slot is open, eligible people go on the Managed Enrollment List by the date of their MNER. The state reports the average wait last fiscal year was about 44 days." },
+      { "q": "Who handles payroll in Personal Options?", "a": "The fiscal/employer agent, Palco, processes timesheets, withholds taxes and pays attendants. The member stays the employer." },
+      { "q": "Can someone with power of attorney be the paid attendant?", "a": "Yes, but if a power of attorney or other legal representative is paid and the member self-directs, the member must name a different program representative." }
+    ],
+    "keywords": ["west virginia aged and disabled waiver", "adw personal options", "wv personal options paid family caregiver", "get paid to care for parent west virginia", "palco west virginia personal options", "wv adw waitlist"],
+    "sources": [
+      "https://adwprogram.wv.gov/",
+      "https://bms.wv.gov/media/41402/download",
+      "https://www.palcofirst.com/programs/west-virginia/",
+      "https://www.medicaidplanningassistance.org/west-viriginia-aged-disabled-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

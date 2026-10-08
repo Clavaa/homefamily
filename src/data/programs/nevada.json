@@ -1,0 +1,120 @@
+[
+  {
+    "slug": "self-directed-personal-care",
+    "name": "Self-Directed Personal Care Services (PCS) through an Intermediary Service Organization (ISO)",
+    "aka": ["self-directed PCS", "SD PCS", "Nevada Medicaid personal care services", "ISO personal care", "personal care assistant (PCA)", "self directed care Nevada"],
+    "kind": "self-direction option",
+    "summary": "Nevada Medicaid's Personal Care Services pay for help with daily tasks like bathing, dressing, toileting, eating and light housework for people who cannot do them alone. Under the self-directed model, the member (or a Personal Care Representative) picks, trains and schedules their own personal care assistant, and an Intermediary Service Organization (ISO) is the legal employer that runs payroll. That means a relative who is not legally responsible for the member, such as an adult son, daughter, sibling or grandchild, can be hired and paid.",
+    "who_qualifies": [
+      "Has ongoing full Nevada Medicaid or Nevada Check Up coverage.",
+      "Lives at home, not in a hospital, nursing facility, ICF/IID, institution for mental disease or licensed group residential facility.",
+      "Needs hands-on help or cueing with activities of daily living (bathing, dressing, toileting, transferring, mobility, eating), confirmed by an in-home Functional Assessment Service Plan (FASP) done by a physical or occupational therapist.",
+      "Has no legally responsible individual (spouse, legal guardian, parent of a minor) who is available and capable of giving the care, or that person documents they cannot (illness or injury) or are unavailable (work or school hours).",
+      "Can direct their own care, or has a Personal Care Representative willing to recruit, schedule, train and supervise the caregiver.",
+      "Services must be medically necessary; there is no age limit in the PCS chapter."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children, siblings, grandchildren and other relatives who are not legally responsible for the member can be hired as the paid personal care assistant through the ISO.",
+      "spouse": "no — spouses are legally responsible individuals, and Nevada Medicaid policy (MSM 2600 and 3500) says they may not be reimbursed for PCS.",
+      "parent_of_minor": "no — parents, stepparents, foster and adoptive parents of a minor child are legally responsible individuals and cannot be paid for PCS.",
+      "live_together": "optional — the policy does not require the caregiver to live with or apart from the member."
+    },
+    "pay": {
+      "display": "$25/hr Medicaid rate; at least $16/hr to the caregiver",
+      "detail": "Nevada Medicaid pays ISOs (Provider Type 83) $6.25 per 15-minute unit of personal care (code T1019), which is $25 per hour, effective January 1, 2024 per the July 2026 fee schedule. Under Senate Bill 511 (2023), at least $16 of that $25 per hour must be paid as wages to the direct care worker. The ISO sets the actual hourly wage above that floor and withholds payroll taxes. states.json had no rate; this figure comes from the newer primary fee schedule."
+    },
+    "hours_or_budget": "A physical or occupational therapist does an in-home Functional Assessment Service Plan; the QIO-like vendor then authorizes a set number of weekly hours for specific tasks. Weekly hours can be rearranged across the week for the member's convenience but cannot be increased without a new request. Time is only paid for tasks on the approved plan, and not for tasks a legally responsible individual would normally do. Visits are logged in an Electronic Visit Verification (EVV) system.",
+    "waitlist": { "status": "none", "detail": "PCS is a Medicaid State Plan benefit, so anyone who qualifies and is assessed as needing it can get it; there is no slot cap or waitlist in the policy." },
+    "self_directed_or_agency": "Self-directed: the ISO is the employer of record (payroll, taxes, background checks) and the member or their Personal Care Representative is the managing employer who hires and supervises. Nevada also offers an agency model (Provider Type 30) where a licensed personal care agency employs the worker.",
+    "how_to_apply": [
+      "Apply for Nevada Medicaid through the Division of Welfare and Supportive Services (Access Nevada online or a local DWSS office) if you are not already covered.",
+      "Call Nevada Medicaid's fiscal agent at 800-525-2395 (option 1, then option 4) to request an initial self-directed PCS assessment; TTY users dial 7-1-1.",
+      "Ask your local Nevada Medicaid District Office or ADSD office for the list of enrolled ISOs, then pick one and sign its self-directed PCS agreement.",
+      "Have your chosen caregiver enroll with the ISO, finish its hiring steps (including a fingerprint background check) and training, and start logging visits in EVV once the prior authorization is issued."
+    ],
+    "contacts": [
+      { "name": "Nevada Medicaid fiscal agent — self-directed PCS initial requests (option 1, then option 4)", "phone": "800-525-2395", "url": "https://www.nevadamedicaid.nv.gov/programs/long-term-services-support/intermediary-services-organization/" },
+      { "name": "Aging and Disability Services Division — Las Vegas Regional Office", "phone": "(702) 486-3545", "url": "http://adsd.nv.gov/Contact/Contact_AllOffices/" },
+      { "name": "Aging and Disability Services Division — Reno Regional Office", "phone": "(775) 687-0800", "url": "http://adsd.nv.gov/Contact/Contact_AllOffices/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid by Nevada Medicaid to take care of my mom or dad?", "a": "Yes, if your parent has Medicaid and qualifies for personal care services. Under the self-directed option your parent (or their representative) hires you through an Intermediary Service Organization, which puts you on payroll. Adult children are not legally responsible individuals, so they can be paid." },
+      { "q": "Can a spouse be paid for personal care in Nevada?", "a": "Not under PCS. Nevada Medicaid treats spouses as legally responsible individuals, and they may not be reimbursed for personal care services, whether self-directed or through an agency. A spouse can be paid under the separate Structured Family Caregiving Waiver if the person has dementia and meets that waiver's rules." },
+      { "q": "How much does a self-directed caregiver make in Nevada?", "a": "Nevada Medicaid pays the ISO $25 per hour ($6.25 per 15 minutes), and state law requires at least $16 per hour of that to go to the caregiver as wages. Your exact wage is set by the ISO you work through." },
+      { "q": "Who decides how many hours I get?", "a": "A physical or occupational therapist visits the home and completes a Functional Assessment Service Plan. Nevada Medicaid's QIO-like vendor uses it to approve a weekly number of hours for specific tasks. If needs change, a new assessment can be requested." },
+      { "q": "Is there a waitlist for PCS in Nevada?", "a": "No. Personal care services are a regular Medicaid State Plan benefit, not a capped waiver, so there are no slots or waitlist in the policy." },
+      { "q": "What is an ISO?", "a": "An Intermediary Service Organization is a Medicaid-enrolled company (Provider Type 83) that acts as the legal employer for self-directed caregivers. It handles payroll, taxes and background checks, while the member chooses and directs the caregiver." }
+    ],
+    "keywords": ["nevada medicaid pay family caregiver", "self directed personal care nevada", "nevada ISO personal care", "get paid to care for parent nevada", "nevada PCS caregiver pay", "nevada medicaid personal care assistant"],
+    "sources": [
+      "https://www.nevadamedicaid.nv.gov/programs/long-term-services-support/intermediary-services-organization/",
+      "https://www.nevadamedicaid.nv.gov/siteassets/content/resources/adminsupport/manuals/msm/c2600/msm_2600_26_07_01.pdf",
+      "https://www.nevadamedicaid.nv.gov/siteassets/content/resources/adminsupport/manuals/msm/c3500/msm_3500_26_07_01.pdf",
+      "https://www.nevadamedicaid.nv.gov/siteassets/content/resources/rates/pt-30-83-fee-schedule-072026.xlsx",
+      "https://www.nevadamedicaid.nv.gov/uploadedFiles/dhcfpnvgov/content/Public/AdminSupport/MeetingArchive/Workshops/2023/PW_09_26_23_PCS_Waiver.pdf",
+      "http://adsd.nv.gov/Contact/Contact_AllOffices/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "structured-family-caregiving",
+    "name": "Home and Community-Based Services Waiver for Structured Family Caregiving (SFCG)",
+    "aka": ["SFCG", "SFCG Waiver", "structured family caregiving Nevada", "Nevada dementia caregiver waiver", "AB 208 waiver"],
+    "kind": "waiver service",
+    "summary": "The Structured Family Caregiving Waiver lets a Medicaid member with dementia get personal care at home from one live-in primary caregiver, who can be a spouse, adult child, other relative or friend. The caregiver is employed by a personal care agency or Intermediary Service Organization, which is paid a daily rate by Nevada Medicaid and must pass at least 65% of it to the caregiver as a daily stipend. It is run by the Aging and Disability Services Division (ADSD) with Nevada Medicaid and started January 1, 2025.",
+    "who_qualifies": [
+      "Has a diagnosis of dementia or a related condition, shown on an SFCG Dementia Verification Form signed by a physician, APRN or physician assistant.",
+      "Meets nursing facility level of care and would need nursing home placement soon without home services.",
+      "Meets Medicaid financial eligibility, decided by the Division of Welfare and Supportive Services.",
+      "Lives in a private home with the primary caregiver (or the caregiver lives with them).",
+      "Needs at least one waiver service every month and has a support system that keeps them safe when services are not being given.",
+      "Is age 21 or older for the SFCG service itself; younger people get similar care through Medicaid EPSDT."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the primary caregiver may be a family member or a non-family member, as long as they live with the member and enroll with an agency or ISO.",
+      "spouse": "yes — a spouse is a legally responsible individual, and the waiver expressly allows LRIs to be paid for SFCG and respite as 'extraordinary care' when the member chooses them.",
+      "parent_of_minor": "no — the SFCG service is only for people 21 and older, so parents of minor children are not paid under this waiver.",
+      "live_together": "required — the primary caregiver must live in the same private residence as the member."
+    },
+    "pay": {
+      "display": "$137.50/day rate; caregiver gets at least 65% (about $89.38/day)",
+      "detail": "Nevada Medicaid pays the provider agency or ISO a per diem of $137.50 for SFCG (code T2031), effective January 1, 2025 per the July 2026 Provider Type 95 fee schedule. Under Assembly Bill 208 and MSM 2403.6B, the agency must pay the caregiver a daily stipend of at least 65% of that rate, which works out to about $89.38 per day. Only one caregiver can be paid per member. states.json gave no figure; this comes from the newer primary fee schedule."
+    },
+    "hours_or_budget": "SFCG is paid as one daily rate, not by the hour. The ADSD case manager builds a Person-Centered Service Plan listing the care the live-in caregiver gives through the day (personal care, homemaking, medication help where state law allows, and trips to community activities). Respite is capped at 336 hours per plan year, and SFCG is not paid on a day when respite runs over six hours.",
+    "waitlist": { "status": "capped", "detail": "Enrollment is limited by the Legislature. The waiver amendment dated August 2026 lists 100, 156, 178, 203 and 231 people served across waiver years 1 to 5, with no more than 100 to 140 enrolled at any one time. When slots are full, ADSD keeps a waitlist ranked by priority level (crisis and recent hospital or nursing home discharge first) and then referral date." },
+    "self_directed_or_agency": "Agency: the caregiver must be employed by a Medicaid-enrolled personal care agency or Intermediary Service Organization (Provider Type 95), which receives the daily rate, runs payroll and passes on the stipend. The member chooses the caregiver.",
+    "how_to_apply": [
+      "Fill out an ADSD Program Application and send it to your nearest ADSD office by mail, email, fax or in person (a phone inquiry alone does not start the application).",
+      "An ADSD intake specialist contacts you within 15 working days; return the SFCG Dementia Verification Form signed by a doctor, APRN or PA within 30 days.",
+      "ADSD does a face-to-face level-of-care visit within 45 days of the application and either starts enrollment or places you on the waitlist.",
+      "Apply for Medicaid with the Division of Welfare and Supportive Services if not already covered; once approved, pick a case manager and have the live-in caregiver enroll with an SFCG provider agency or ISO and complete the required dementia training and background check."
+    ],
+    "contacts": [
+      { "name": "Aging and Disability Services Division — Las Vegas Regional Office", "phone": "(702) 486-3545", "url": "http://adsd.nv.gov/Contact/Contact_AllOffices/" },
+      { "name": "Aging and Disability Services Division — Reno Regional Office", "phone": "(775) 687-0800", "url": "http://adsd.nv.gov/Contact/Contact_AllOffices/" },
+      { "name": "Aging and Disability Services Division — Carson City Regional Office", "phone": "(775) 687-4210", "url": "http://adsd.nv.gov/Contact/Contact_AllOffices/" },
+      { "name": "Aging and Disability Services Division — Elko Regional Office", "phone": "(775) 738-1966", "url": "http://adsd.nv.gov/Contact/Contact_AllOffices/" },
+      { "name": "Nevada Medicaid SFCG Waiver page (questions: HCBS@dhcfp.nv.gov)", "phone": "not published", "url": "https://www.nevadamedicaid.nv.gov/programs/long-term-services-support/waiver-for-sfcg/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my husband or wife with dementia in Nevada?", "a": "Yes, through the Structured Family Caregiving Waiver. Unlike regular personal care, this waiver allows a spouse to be the paid live-in caregiver if your spouse chooses you, you live together, and you enroll with an approved agency or ISO." },
+      { "q": "How much does structured family caregiving pay in Nevada?", "a": "Nevada Medicaid pays the agency $137.50 per day. The agency must give the caregiver at least 65% of that as a daily stipend, which is about $89.38 per day. Some agencies may pay more." },
+      { "q": "Does the person need a dementia diagnosis?", "a": "Yes. The waiver is only for people with dementia or a related condition. A doctor, APRN or physician assistant must sign the SFCG Dementia Verification Form, and the person must also need nursing-home level care." },
+      { "q": "Do I have to live with the person I care for?", "a": "Yes. The primary caregiver must live in the same private home as the member. Only one caregiver can be paid for SFCG per member." },
+      { "q": "Is there a waitlist for the SFCG Waiver?", "a": "It is possible. The waiver has a limited number of slots set by the Legislature, about 156 people in its second year with no more than 110 enrolled at once. When slots are full, ADSD ranks applicants by priority level and referral date." },
+      { "q": "Who runs the SFCG Waiver?", "a": "The Aging and Disability Services Division runs intake, eligibility and case management together with Nevada Medicaid. Apply through any ADSD regional office." }
+    ],
+    "keywords": ["structured family caregiving nevada", "nevada SFCG waiver", "get paid to care for spouse with dementia nevada", "nevada dementia caregiver pay", "nevada structured family caregiving pay rate", "ADSD structured family caregiving"],
+    "sources": [
+      "https://www.nevadamedicaid.nv.gov/programs/long-term-services-support/waiver-for-sfcg/",
+      "https://www.nevadamedicaid.nv.gov/uploadedFiles/dhcfpnvgov/content/Resources/AdminSupport/Manuals/MSM/C2400/MSM_2400_25_06_01.pdf",
+      "https://www.nevadamedicaid.nv.gov/siteassets/content/pgms/ltss/sfcg-waviers/9-2-2026-sfcg-amendments-bcdg.pdf",
+      "https://www.nevadamedicaid.nv.gov/siteassets/content/resources/rates/pt-95-fee-schedule-072026.xlsx",
+      "https://www.medicaid.nv.gov/Downloads/provider/NV_BillingGuidelines_PT95.pdf",
+      "http://adsd.nv.gov/Contact/Contact_AllOffices/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

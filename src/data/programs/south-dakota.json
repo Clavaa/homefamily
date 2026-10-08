@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "structured-family-caregiving",
+    "name": "Structured Family Caregiving (HOPE Waiver)",
+    "aka": ["SFC", "structured family caregiving South Dakota", "HOPE waiver SFC", "Dakota at Home caregiver pay", "HOPE waiver family caregiver"],
+    "kind": "waiver service",
+    "summary": "Structured Family Caregiving is a HOPE Waiver service where an older adult or adult with a disability lives with a principal caregiver, such as a family member or friend, who provides daily care. A Medicaid-enrolled SFC provider agency coaches the caregiver and passes part of a daily Medicaid payment to them as a stipend. The caregiver is not an agency employee.",
+    "who_qualifies": [
+      "Age 65 or older, or 18 or older with a disability.",
+      "Eligible for South Dakota's HOPE Waiver: nursing-facility level of care, assessed by DHS Long Term Services and Supports (LTSS).",
+      "Meets Medicaid financial eligibility through the Department of Social Services.",
+      "Lives with the principal caregiver, in the participant's home or the caregiver's home."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the state guide says participants choose a trusted family member or friend as principal caregiver.",
+      "spouse": "yes (secondary) — states.json and national SFC sources say a spouse may serve; the DHS SFC guide does not address spouses directly.",
+      "parent_of_minor": "no — HOPE serves adults only.",
+      "live_together": "required — SFC is a shared living arrangement; the caregiver can support no more than two participants."
+    },
+    "pay": {
+      "display": "$392/week",
+      "detail": "South Dakota Medicaid pays the SFC agency a daily rate effective July 1, 2026: $82.00 base, $102.51 Tier 1, $114.81 Tier 2 (HOPE Waiver fee schedule). The agency passes a portion to the caregiver as a stipend; a minimum 50% pass-through and ~$392/week figure are reported by secondary sources, not the fee schedule."
+    },
+    "hours_or_budget": "Not hourly. The LTSS case manager assesses needs and the tier (base, 1 or 2) sets the daily rate the agency receives.",
+    "waitlist": { "status": "possible", "detail": "HOPE is a capped waiver (about 3,704 people a year); a waitlist can form when full." },
+    "self_directed_or_agency": "Agency. A Medicaid-enrolled SFC provider agency credentials the caregiver, checks the home, provides coaching and issues the stipend; HOPE does not offer participant-directed hiring.",
+    "how_to_apply": [
+      "Call Dakota at Home at 833-663-9673 (or email dakotaathome@state.sd.us) to request a HOPE Waiver screening.",
+      "Apply for Medicaid long-term care through the Department of Social Services at the same time.",
+      "An LTSS specialist completes the level-of-care assessment and builds the service plan.",
+      "Choose an enrolled SFC provider agency, which assesses the caregiver and home and starts stipend payments."
+    ],
+    "contacts": [
+      { "name": "Dakota at Home (SD DHS Long Term Services and Supports)", "phone": "833-663-9673", "url": "https://dhs.sd.gov/en/ltss" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my parent in South Dakota?", "a": "Yes, through Structured Family Caregiving on the HOPE Waiver, if your parent qualifies and lives with you (or you with them). The SFC agency pays you a stipend." },
+      { "q": "How much does SFC pay?", "a": "Medicaid pays the agency $82.00 to $114.81 per day as of July 1, 2026, depending on the care tier. The caregiver gets a share as a stipend; about $392 a week is a commonly reported figure." },
+      { "q": "Do I have to live with the person I care for?", "a": "Yes. SFC is a shared living arrangement, in either your home or theirs." },
+      { "q": "Am I an employee of the agency?", "a": "No. The state guide says the principal caregiver is not an agency employee and is not covered by wage-hour, workers' compensation or unemployment rules." },
+      { "q": "Can a spouse be the paid caregiver?", "a": "Secondary sources say yes. The state's SFC guide does not mention spouses, so confirm with Dakota at Home." }
+    ],
+    "keywords": ["structured family caregiving south dakota", "hope waiver south dakota pay family caregiver", "dakota at home caregiver", "sd sfc rate 2026", "get paid to care for parent south dakota"],
+    "sources": [
+      "https://dss.sd.gov/docs/medicaid/providers/feeschedules/HCBS_Waiver_Services/HOPE_Waiver_Current.pdf",
+      "https://www.dhs.sd.gov/content/dam/digital/united-states/south-dakota/sdo/pdf/long-term-services-and-supports/provider-portal/SFCGuide%20December%2018.pdf",
+      "https://dss.sd.gov/docs/medicaid/advisorycommittee/2026/04.23/Handouts.pdf",
+      "https://www.medicaidplanningassistance.org/south-dakota-hope-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

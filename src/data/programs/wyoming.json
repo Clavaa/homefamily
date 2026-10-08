@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "community-choices-waiver",
+    "name": "Community Choices Waiver (CCW) — participant-directed option",
+    "aka": ["CCW", "Community Choices Waiver", "Wyoming CCW", "participant direction", "self-directed personal support services", "ACES$ Wyoming"],
+    "kind": "waiver service",
+    "summary": "The Community Choices Waiver is Wyoming Medicaid's home and community-based waiver for older adults and adults with disabilities who meet nursing facility level of care. Under the participant-directed option, the participant hires, schedules and sets the wages of their own workers, and relatives — and, under the July 2026 waiver renewal, a spouse — can be paid. A financial management services agency handles payroll.",
+    "who_qualifies": [
+      "Age 65 or older, or age 19–64 with a disability determined by Social Security (or by the Department using SSA criteria).",
+      "Meets nursing facility level of care, based on an LT-101 nurse assessment.",
+      "Financially eligible for Wyoming Medicaid long-term care (non-Medicaid members file a Medicaid LTC application).",
+      "Lives in Wyoming and chooses the waiver instead of a nursing home; to self-direct, the participant (or a designated employer of record) must meet the participant-direction criteria."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the waiver allows hiring anyone 18 or older, including relatives, for Personal Support Services, Respite, Homemaker, Companion, Adult Day and Non-Medical Transportation under participant direction.",
+      "spouse": "limited — the 2026 waiver renewal lets a participant hire their spouse only if the spouse has no authority to make financial decisions for them and the care goes beyond what a spouse would ordinarily do; a legal guardian or the employer of record cannot be the paid relative.",
+      "parent_of_minor": "no — CCW serves only adults (19+ with a disability, or 65+), so there is no minor-child pathway in this waiver.",
+      "live_together": "optional — the waiver does not require the worker to live with the participant."
+    },
+    "pay": {
+      "display": "Not published — set by the participant within the budget",
+      "detail": "Under employer authority the participant (or designated employer) sets wages, subject to state limits, within the individual budget authorized in the service plan. No statewide hourly wage for participant-directed workers is published. Payroll is processed by the Division's contracted FMS agency (ACES$ Financial Management Services) with electronic visit verification."
+    },
+    "hours_or_budget": "The case manager and participant build a person-centered service plan; services must be prior-authorized and fit the participant's budget allocation. A participant-directed employee cannot work more than 40 hours a week for Personal Support Services, and participant-directed services are billed in 15-minute units.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "CCW is not an entitlement. The 2026 renewal funds about 2,891–2,903 participants a year, and new participants are enrolled in order of their eligibility determination date, so a wait can form when funded slots are full."
+    },
+    "self_directed_or_agency": "Either. In participant direction the participant or a designated employer of record is the employer, using the FMS agency (fiscal/employer agent model) for payroll and taxes. Participants can instead use agency providers.",
+    "how_to_apply": [
+      "Complete the CCW Program Application (CCW Form 01), choosing a case management agency in your county, and send it to the WDH Home and Community-Based Services Section.",
+      "If not already on Medicaid, file a Wyoming Medicaid long-term care application with the Long Term Care Eligibility Unit.",
+      "A nurse completes the LT-101 assessment to confirm nursing facility level of care.",
+      "Once enrolled, tell your case manager you want participant direction, enroll as employer of record with the FMS agency, and have your family member pass the background check and complete Division training before working."
+    ],
+    "contacts": [
+      { "name": "WDH Home and Community-Based Services Section", "phone": "1-800-510-0280", "url": "https://health.wyo.gov/wp-content/uploads/2024/06/CCW-Form-01-CCW-Program-Application-and-Fact-Sheet-Fillable.pdf" },
+      { "name": "Wyoming Medicaid Long Term Care Eligibility Unit", "phone": "1-855-203-2936", "url": "https://health.wyo.gov/wp-content/uploads/2024/06/CCW-Form-01-CCW-Program-Application-and-Fact-Sheet-Fillable.pdf" },
+      { "name": "ACES$ Financial Management Services (CCW FMS)", "phone": "not published on the fetched page", "url": "https://www.mycil.org/acess/acess-wyoming/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my parent in Wyoming?", "a": "Yes. If your parent is on the Community Choices Waiver and chooses participant direction, they can hire you for Personal Support Services and other listed services once you pass a background check and training." },
+      { "q": "Can a spouse be paid under the Community Choices Waiver?", "a": "Under the waiver renewal effective July 1, 2026, yes, with limits. The spouse cannot have authority to make financial decisions for the participant, and the care must go beyond what a spouse would normally do. Older guides that say spouses are excluded reflect earlier rules." },
+      { "q": "How many hours can a family worker get paid each week?", "a": "A participant-directed employee cannot work more than 40 hours a week of Personal Support Services. Total hours depend on the approved service plan and budget." },
+      { "q": "Is there a waitlist for CCW?", "a": "It can have one. The waiver funds a set number of participants each year and enrolls people in order of their eligibility date." },
+      { "q": "Who sets the caregiver's hourly wage?", "a": "The participant or designated employer of record sets wages within state limits and the budget. Wyoming does not publish a single wage for participant-directed workers." },
+      { "q": "Can a legal guardian be the paid caregiver?", "a": "No. The waiver says a paid relative or spouse may not be the participant's legal guardian or the designated employer of record." }
+    ],
+    "keywords": ["wyoming community choices waiver", "ccw wyoming paid family caregiver", "get paid to care for spouse wyoming", "wyoming participant directed care", "aces wyoming fms", "wyoming medicaid pay family caregiver"],
+    "sources": [
+      "https://health.wyo.gov/wp-content/uploads/2026/06/CCW-WY.0236-Renewal-2026.07.01.pdf",
+      "https://health.wyo.gov/wp-content/uploads/2024/06/CCW-Form-01-CCW-Program-Application-and-Fact-Sheet-Fillable.pdf",
+      "https://www.mycil.org/acess/acess-wyoming/",
+      "https://www.medicaidplanningassistance.org/wyoming-community-choices-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

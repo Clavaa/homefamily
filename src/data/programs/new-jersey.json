@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "personal-preference-program",
+    "name": "Personal Preference Program (PPP)",
+    "aka": ["PPP", "NJ PPP", "New Jersey Personal Preference Program", "NJ FamilyCare Personal Preference Program", "cash and counseling New Jersey"],
+    "kind": "self-direction option",
+    "summary": "The Personal Preference Program lets a New Jersey Medicaid (NJ FamilyCare) member who is approved for Personal Care Assistant (PCA) services manage those services themselves. Instead of an agency sending an aide, the member gets a monthly budget based on their approved PCA hours and uses it to hire their own worker, who can be a relative, friend or neighbor. A fiscal intermediary runs payroll and pays the worker.",
+    "who_qualifies": [
+      "Enrolled in NJ FamilyCare (New Jersey Medicaid). You can apply through your County Social Service Agency or online.",
+      "Approved for Personal Care Assistant (PCA) services after an assessment by your managed care plan, and expected to need them for at least six months.",
+      "Able to direct your own care, or have an Authorized Representative who can do it for you.",
+      "No minimum age is stated on the state page; eligibility follows PCA approval."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the state says members can hire trusted people such as friends, relatives or neighbors.",
+      "spouse": "yes — spouses are reported as eligible paid workers in PPP; the state's PPP page itself only says 'relatives', so confirm with your plan.",
+      "parent_of_minor": "no — a parent of a minor child on Medicaid is not reported as an allowed paid worker; a guardian of an adult may be paid only if someone else serves as the Authorized Representative.",
+      "live_together": "optional — the worker may live with the member or elsewhere; living together is not required."
+    },
+    "pay": {
+      "display": "Monthly budget from your PCA hours (amount not published)",
+      "detail": "Your managed care plan converts your approved PCA hours into a monthly cash budget. You, as the employer, set the worker's wage within that budget. The fiscal intermediary pays the worker and handles employer taxes and workers' compensation. The state does not publish a dollar amount or a fixed hourly wage for PPP workers."
+    },
+    "hours_or_budget": "Your managed care plan does a PCA assessment. The approved PCA hours set the size of your monthly budget. You write a spending plan showing how many hours you will buy from your worker and at what wage, and the fiscal intermediary may also pay for approved goods and services in the plan.",
+    "waitlist": {
+      "status": "none",
+      "detail": "PPP is a way to receive PCA services, which are a Medicaid state plan benefit. No waitlist is reported for people who are approved for PCA."
+    },
+    "self_directed_or_agency": "Self-directed. The member (or Authorized Representative) is the employer and hires, trains and supervises the worker. A fiscal intermediary is required: PALCO for Horizon NJ Health members, and Public Partnerships LLC (PPL) for the other plans listed by the state. The intermediary runs payroll, pays employer taxes and arranges workers' compensation.",
+    "how_to_apply": [
+      "If you are not on Medicaid yet, apply for NJ FamilyCare through your County Social Service Agency or online.",
+      "Call your NJ FamilyCare managed care plan (Aetna, Fidelis Care, Horizon NJ Health, UnitedHealthcare or Wellpoint) and ask for a PCA assessment and enrollment in the Personal Preference Program.",
+      "After you are approved, work with the fiscal intermediary to enroll as an employer and to enroll your chosen worker, including payroll paperwork.",
+      "Write your spending plan (hours, wage and any approved goods or services) and start services once it is approved.",
+      "Tell your plan if you go into a hospital or nursing home, lose Medicaid, leave the country, or are out of New Jersey for 31 days or more."
+    ],
+    "contacts": [
+      { "name": "State PPP Office (NJ Division of Medical Assistance and Health Services)", "phone": "609-631-2481", "url": "https://www.nj.gov/humanservices/dmahs/individuals-families/njppp.shtml" },
+      { "name": "PALCO customer service (fiscal intermediary)", "phone": "877-710-0457", "url": "https://www.nj.gov/humanservices/dmahs/individuals-families/njppp.shtml" },
+      { "name": "Public Partnerships LLC (PPL) customer service — English", "phone": "1-844-880-8702", "url": "https://www.nj.gov/humanservices/dmahs/individuals-families/njppp.shtml" },
+      { "name": "Public Partnerships LLC (PPL) customer service — Spanish", "phone": "1-844-880-8703", "url": "https://www.nj.gov/humanservices/dmahs/individuals-families/njppp.shtml" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my mother through New Jersey's Personal Preference Program?", "a": "Yes, if your mother is on NJ FamilyCare, is approved for PCA services, and enrolls in PPP. She (or her Authorized Representative) can hire you as her worker, and the fiscal intermediary pays you from her monthly budget." },
+      { "q": "Can a spouse be paid under NJ PPP?", "a": "Spouses are reported as allowed paid workers in PPP. The state's PPP page only lists friends, relatives and neighbors, so confirm with your managed care plan when you enroll." },
+      { "q": "How much does PPP pay a family caregiver?", "a": "The state does not publish a set wage. The budget comes from the member's approved PCA hours, and the member sets the worker's wage within that budget." },
+      { "q": "Who runs payroll for PPP?", "a": "A fiscal intermediary. PALCO serves Horizon NJ Health members, and Public Partnerships LLC (PPL) serves members of the other plans the state lists. They pay the worker, handle employer taxes and arrange workers' compensation." },
+      { "q": "Can a parent be paid to care for a minor child under PPP?", "a": "This is not reported as allowed. A guardian of an adult can be paid only if a different person acts as the Authorized Representative." },
+      { "q": "Is there a waiting list for PPP?", "a": "No waitlist is reported. If you are approved for PCA services and can self-direct, you can ask your plan to enroll you." }
+    ],
+    "keywords": ["personal preference program nj", "nj ppp caregiver", "get paid to care for family member new jersey", "new jersey medicaid pay family caregiver", "nj familycare personal care assistant family", "palco nj ppp", "ppl nj personal preference program", "can spouse be paid caregiver new jersey"],
+    "sources": [
+      "https://www.nj.gov/humanservices/dmahs/individuals-families/njppp.shtml",
+      "https://www.medicaidplanningassistance.org/nj-familycare-personal-preference-program/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

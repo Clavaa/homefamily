@@ -1,0 +1,160 @@
+[
+  {
+    "slug": "aged-and-disabled-waiver",
+    "name": "Aged and Disabled (A&D) Waiver — self-directed attendant care",
+    "aka": ["A&D Waiver", "Idaho aged and disabled waiver", "Idaho A&D waiver self-directed", "Idaho attendant care waiver"],
+    "kind": "waiver service",
+    "summary": "The Aged and Disabled Waiver is an Idaho Medicaid program that pays for in-home help for adults who would otherwise need a nursing home. Waiver members can choose to direct their own attendant care, which lets them hire a worker they know, such as an adult child or other relative. A fiscal agent runs payroll and taxes, and Medicaid pays the worker for the approved hours.",
+    "who_qualifies": [
+      "Idaho resident who is a U.S. citizen or eligible non-citizen.",
+      "Age 65 or older, or an adult with a disability.",
+      "Needs a nursing-facility level of care, as decided by the Bureau of Long Term Care assessment.",
+      "Meets Medicaid income and asset limits for the waiver (the $2,000 individual asset limit is widely reported; check the current income limit with Health and Welfare).",
+      "A waiver slot is available (enrollment is capped)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children, siblings, grandchildren, friends and other relatives can be hired as the attendant if they meet worker requirements.",
+      "spouse": "no — Idaho does not let a spouse be the paid attendant; the temporary Family Personal Care Services option that allowed it ended in 2025.",
+      "parent_of_minor": "no — this waiver serves adults, so paying a parent of a minor child does not apply here.",
+      "live_together": "optional — the worker may live with the member or elsewhere."
+    },
+    "pay": {
+      "display": "$2,554/month (reported)",
+      "detail": "Idaho does not publish a single family-caregiver wage. Medicaid pays an hourly attendant care rate for the hours in the member's plan, and the fiscal agent pays the worker. Third-party guides report family caregivers earning up to about $2,554 a month (2026); the real amount depends on the approved hours."
+    },
+    "hours_or_budget": "A Bureau of Long Term Care assessor measures how much help the member needs with daily tasks, and the hours of attendant care go into the member's service plan.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "The waiver is not an entitlement. Slots are capped (about 15,095 a year in the current waiver); when they fill, a waiting list forms and people are served by application date."
+    },
+    "self_directed_or_agency": "Either. The member can self-direct and be the employer with a fiscal agent handling payroll and taxes, or use a licensed Personal Assistance Agency that employs the worker.",
+    "how_to_apply": [
+      "Apply for Idaho Medicaid online at idalink.idaho.gov, by phone at 877-456-1233, or at a local Health and Welfare office.",
+      "Ask for an Aged and Disabled Waiver assessment; the Bureau of Long Term Care checks nursing-facility level of care (this can take up to about three months).",
+      "If approved, choose self-directed attendant care, pick a fiscal agent, and have your chosen worker complete hiring paperwork and background checks."
+    ],
+    "contacts": [
+      { "name": "Idaho Health and Welfare — Medicaid and benefits", "phone": "877-456-1233", "url": "https://healthandwelfare.idaho.gov/" },
+      { "name": "Bureau of Long Term Care — provider training and QA", "phone": "877-799-4430", "url": "https://healthandwelfare.idaho.gov/providers/home-and-community-based-long-term-care/long-term-care-provider-enrollment-and-general" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my mom in Idaho?", "a": "Yes, if your mother is on the Aged and Disabled Waiver and chooses self-directed attendant care, she can hire you as her attendant. You are paid through a fiscal agent for the hours in her plan." },
+      { "q": "Can I get paid to care for my husband or wife in Idaho?", "a": "Generally no. Idaho bars spouses from being the paid attendant. A temporary pandemic-era program that paid spouses and parents ended in July 2025." },
+      { "q": "Is there a waiting list for the A&D Waiver?", "a": "There can be. The waiver has a capped number of slots each year. If the slots are full, new applicants wait by application date." },
+      { "q": "How long does approval take?", "a": "Medicaid approval plus the level-of-care assessment can take up to about three months. Applying early helps." },
+      { "q": "Do I have to work for an agency?", "a": "No. With self-direction the member is the employer and a fiscal agent runs payroll. The member can also use a licensed Personal Assistance Agency instead." }
+    ],
+    "keywords": ["idaho aged and disabled waiver", "get paid to care for parent idaho", "idaho a&d waiver self directed", "idaho medicaid attendant care family", "idaho paid family caregiver"],
+    "sources": [
+      "https://healthandwelfare.idaho.gov/services-programs/assisted-care-and-facilities/home-and-community-based-services",
+      "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/about-medicaid-elderly-or-adults-disabilities",
+      "https://www.medicaidplanningassistance.org/idaho-aged-and-disabled-waiver/",
+      "https://www.disabilityscoop.com/2026/03/17/it-takes-a-toll-what-happened-to-families-when-caregiver-pay-was-lost/31907/"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "personal-care-services",
+    "name": "Personal Care Services (PCS) — State Plan",
+    "aka": ["PCS", "Idaho personal care services", "state plan personal care", "Idaho Medicaid personal care"],
+    "kind": "state plan",
+    "summary": "Personal Care Services is a regular Idaho Medicaid benefit that pays for help at home with bathing, dressing, eating and similar tasks. Care must come through a licensed Personal Assistance Agency, but the agency can hire a relative as the worker. The agency pays the relative a wage for the approved hours.",
+    "who_qualifies": [
+      "Enrolled in Idaho Medicaid.",
+      "Needs hands-on help with daily activities because of age, illness or disability, as shown by a state assessment.",
+      "Lives at home or in a family setting, not in a nursing home or intermediate care facility.",
+      "Has a physician's order and a care plan."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — an agency may hire an adult child or other relative who meets its hiring and training rules.",
+      "spouse": "no — since 2025 spouses cannot be the paid PCS worker, except in narrow cases the state approves.",
+      "parent_of_minor": "no — parents of a minor child cannot be the paid PCS worker since the Family Personal Care Services option ended.",
+      "live_together": "optional — the worker may live with the member or not."
+    },
+    "pay": {
+      "display": "Agency wage (not published)",
+      "detail": "Idaho Medicaid pays the agency an hourly PCS rate; the agency sets the worker's wage. Idaho does not publish a family-caregiver wage for PCS."
+    },
+    "hours_or_budget": "A state assessment of daily-living needs sets the weekly PCS hours in the care plan.",
+    "waitlist": { "status": "none", "detail": "State Plan PCS is an entitlement for eligible Medicaid members, so there is no waiting list." },
+    "self_directed_or_agency": "Agency only. A licensed Personal Assistance Agency employs and supervises the worker; there is no self-directed option in State Plan PCS.",
+    "how_to_apply": [
+      "Make sure the person is enrolled in Idaho Medicaid (idalink.idaho.gov or 877-456-1233).",
+      "Call the regional Medicaid office to ask for a personal care assessment.",
+      "Choose a licensed Personal Assistance Agency and ask it to hire your relative as the caregiver.",
+      "The relative completes the agency's background check and training before being paid."
+    ],
+    "contacts": [
+      { "name": "Idaho Health and Welfare — Medicaid and benefits", "phone": "877-456-1233", "url": "https://healthandwelfare.idaho.gov/" },
+      { "name": "Find a Personal Assistance Agency (Health and Welfare list)", "phone": "not published", "url": "https://publicdocuments.dhw.idaho.gov/WebLink/Browse.aspx?id=5285&dbid=0&repo=PUBLIC-DOCUMENTS" }
+    ],
+    "faqs": [
+      { "q": "Can a family member be paid through Idaho PCS?", "a": "Yes, an adult child or other relative can be paid if a licensed Personal Assistance Agency hires them. Spouses and parents of minor children cannot be paid." },
+      { "q": "What happened to Family Personal Care Services (FPCS)?", "a": "FPCS was a temporary option that let parents and spouses be paid PCS workers. Idaho ended it in 2025 over fraud and oversight concerns." },
+      { "q": "Is there a waiting list for PCS?", "a": "No. PCS is a regular Medicaid benefit, so anyone who qualifies can get it." },
+      { "q": "Can I be my own boss under PCS?", "a": "No. State Plan PCS must go through an agency. For self-direction, look at the Aged and Disabled Waiver." },
+      { "q": "How many hours will be approved?", "a": "It depends on the assessment of how much help the person needs. The hours go into the care plan." }
+    ],
+    "keywords": ["idaho personal care services", "idaho pcs family caregiver", "idaho medicaid personal care agency", "get paid to care for family member idaho", "idaho family personal care services ended"],
+    "sources": [
+      "https://healthandwelfare.idaho.gov/services-programs/assisted-care-and-facilities/home-and-community-based-services",
+      "https://healthandwelfare.idaho.gov/providers/home-and-community-based-long-term-care/long-term-care-provider-enrollment-and-general",
+      "https://www.medicaidplanningassistance.org/idaho-personal-care-services/",
+      "https://rewirenewsgroup.com/2026/01/08/parents-idaho-disability-program/"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "certified-family-home",
+    "name": "Certified Family Home (CFH)",
+    "aka": ["CFH", "Idaho certified family home", "adult foster care Idaho", "Idaho CFH Medicaid"],
+    "kind": "waiver service",
+    "summary": "A Certified Family Home is a private home certified by Idaho Health and Welfare to care for one to four adults who cannot live on their own. The caregiver can be related to the resident. Once the home is certified and enrolled with Medicaid, Medicaid can pay the caregiver for the care, while the resident pays room and board.",
+    "who_qualifies": [
+      "The resident is an adult who needs help with daily living but not round-the-clock institutional care.",
+      "For Medicaid to pay, the resident must qualify for Idaho Medicaid (and the care level assessed by the state).",
+      "The caregiver's home must pass state certification: home inspection, background check and fingerprints, first aid and adult CPR, and a basic medication and infection-control course.",
+      "The caregiver must also enroll as an Idaho Medicaid provider."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the state says a CFH provider may or may not be related to the resident.",
+      "spouse": "limited — not clearly published for CFH; Idaho generally bars paying spouses for personal care, so confirm with the CFH program.",
+      "parent_of_minor": "no — CFHs serve adults only.",
+      "live_together": "required — the resident lives in the caregiver's certified home."
+    },
+    "pay": {
+      "display": "Not published",
+      "detail": "Medicaid pays the CFH provider for care based on the resident's assessed needs; Idaho does not publish a single CFH rate on its program page. The resident separately pays a monthly room and board charge set in the admission agreement."
+    },
+    "hours_or_budget": "Payment is tied to the resident's assessed care needs and care plan rather than an hourly count.",
+    "waitlist": { "status": "possible", "detail": "Certification itself has no waiting list. If Medicaid pays through the Aged and Disabled Waiver, waiver slots are capped." },
+    "self_directed_or_agency": "Neither in the usual sense: the caregiver runs the certified home as an independent Medicaid provider.",
+    "how_to_apply": [
+      "Contact the CFH certifying team (cfhcc@dhw.idaho.gov) for the application packet.",
+      "Complete first aid and adult CPR, the CFH Basic Medication Awareness and Infection Control course, the background check, and the home inspection and certification study.",
+      "Enroll as an Idaho Medicaid provider.",
+      "Have the resident apply for Medicaid by calling 877-456-1233 so Medicaid can pay for care."
+    ],
+    "contacts": [
+      { "name": "Certified Family Homes program", "phone": "not published", "url": "https://healthandwelfare.idaho.gov/services-programs/assisted-care-and-facilities/certified-family-homes" },
+      { "name": "Medicaid benefits line (for residents)", "phone": "877-456-1233", "url": "https://healthandwelfare.idaho.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I become a certified family home for my own parent?", "a": "Yes. Idaho says a CFH provider may or may not be related to the resident. You must certify your home and enroll as a Medicaid provider." },
+      { "q": "How many people can live in a certified family home?", "a": "One to four adults. Most CFHs care for one or two people." },
+      { "q": "Who pays room and board?", "a": "The resident pays a monthly room and board charge set in the admission agreement. Medicaid pays for the care part if the resident qualifies." },
+      { "q": "What training do I need?", "a": "First aid and adult CPR, a basic medication awareness and infection control course, plus background checks and a home inspection." },
+      { "q": "Does my parent have to live with me?", "a": "Yes. A CFH is care in the caregiver's own home, so the resident lives there." }
+    ],
+    "keywords": ["idaho certified family home", "cfh idaho medicaid", "get paid to care for parent in my home idaho", "idaho adult foster care relative", "how to become a certified family home idaho"],
+    "sources": [
+      "https://healthandwelfare.idaho.gov/services-programs/assisted-care-and-facilities/certified-family-homes",
+      "https://healthandwelfare.idaho.gov/providers/certified-family-homes/certification-and-recertification",
+      "https://idaholegalaid.org/sites/default/files/Caregiving%20Brochure%20-%20Final.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

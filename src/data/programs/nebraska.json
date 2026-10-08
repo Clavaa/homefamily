@@ -1,0 +1,136 @@
+[
+  {
+    "slug": "personal-assistance-services",
+    "name": "Personal Assistance Services (PAS)",
+    "aka": ["PAS", "Nebraska PAS", "Medicaid personal assistance Nebraska", "personal care Nebraska Medicaid"],
+    "kind": "state plan",
+    "summary": "Personal Assistance Services (PAS) is a regular Nebraska Medicaid benefit that pays for hands-on help with daily tasks like bathing, dressing and eating for people of any age who live at home. You choose your own provider, and a family member who is not legally responsible for you (for example an adult child, sibling or grandchild) can enroll as a Medicaid independent provider and be paid for the hours DHHS approves. The published state rate is $3.75 per 15 minutes, which works out to $15.00 an hour.",
+    "who_qualifies": [
+      "You have full Nebraska Medicaid.",
+      "Any age: children and adults can both use PAS.",
+      "You live in your own home or a family home, not in a hospital, nursing home or other institution.",
+      "You have a chronic medical condition or disability, and a DHHS assessment shows you need help with daily tasks to keep living in the community.",
+      "You can work and still get PAS, as long as you work at least 40 hours a month and earn at least minimum wage (per DHHS)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — DHHS says family members can be paid providers if they are not legally responsible for you and they meet provider rules.",
+      "spouse": "no — DHHS says a spouse cannot be a paid PAS provider.",
+      "parent_of_minor": "no — DHHS says a parent or guardian of a minor child cannot be a paid PAS provider.",
+      "live_together": "optional — DHHS does not require the paid relative to live with you or to live apart."
+    },
+    "pay": {
+      "display": "$15/hr ($3.75 per 15 min)",
+      "detail": "Nebraska Medicaid PAS rate listing 471-000-515, revised July 1, 2026: Basic Personal Assistance (MMIS code 4475) is $3.75 per 15-minute unit, or $15.00 an hour. The same rate applied in July 2024 and July 2025; DHHS notes there was no rate increase appropriation for state fiscal year 2027. DHHS pays the enrolled provider directly. Payroll taxes and take-home pay depend on the provider's own tax situation; this is not tax-free pay."
+    },
+    "hours_or_budget": "A DHHS worker does an in-home assessment with you to decide how much time you need for each task. Nebraska's PAS rules (Title 471 NAC Chapter 15) limit services to 40 hours per seven-day period, and anything above 40 hours a week needs DHHS prior authorization.",
+    "waitlist": {
+      "status": "none",
+      "detail": "PAS is part of the Medicaid state plan, so anyone who is eligible and assessed as needing it can get it. No waitlist is published."
+    },
+    "self_directed_or_agency": "Either. You choose and direct your own provider. A family member can enroll as a Medicaid independent provider and be paid directly by DHHS, or you can use an enrolled agency. Like all Medicaid personal care, visits must be logged through electronic visit verification (EVV).",
+    "how_to_apply": [
+      "Apply for Nebraska Medicaid online through iServe Nebraska (iserve.nebraska.gov) or at a local DHHS office if you do not already have it.",
+      "Ask for Personal Assistance Services. You and your iServe/DHHS worker complete an assessment that sets how much time you need.",
+      "Pick your provider. If a relative will be paid, they enroll as a Nebraska Medicaid provider, pass the required checks, and start once DHHS authorizes the hours.",
+      "The provider logs visits through EVV and bills DHHS at the published rate."
+    ],
+    "contacts": [
+      { "name": "Nebraska DHHS (main line)", "phone": "(402) 471-3121", "url": "https://dhhs.ne.gov/Pages/Medicaid-Home-and-Community-Based-Programs.aspx" },
+      { "name": "iServe Nebraska (apply online)", "phone": "", "url": "https://iserve.nebraska.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my mom in Nebraska?", "a": "Yes, if your mom has Nebraska Medicaid and qualifies for PAS. An adult child is not legally responsible for a parent, so you can enroll as her independent provider and be paid for the hours DHHS approves." },
+      { "q": "How much does Nebraska PAS pay a family caregiver?", "a": "The state rate is $3.75 per 15 minutes, which is $15.00 an hour, under the PAS rate listing in effect July 1, 2026. The rate has not changed since July 2024." },
+      { "q": "Can my husband or wife be paid through PAS?", "a": "No. DHHS says a spouse cannot be a paid PAS provider. A spouse may be able to be paid through the Aged and Disabled Waiver's LRI Personal Care service if strict extra-care rules are met." },
+      { "q": "Can a parent be paid to care for a disabled child under PAS?", "a": "No. A parent or guardian of a minor child cannot be a paid PAS provider. Parents should ask about LRI Personal Care on the AD Waiver instead." },
+      { "q": "How many hours can PAS cover?", "a": "Hours come from the DHHS assessment. Nebraska's PAS rules cap services at 40 hours per week unless DHHS gives prior authorization for more." },
+      { "q": "Is there a waitlist for PAS?", "a": "No waitlist is published. PAS is a regular Medicaid benefit, so eligible people get the hours their assessment supports." }
+    ],
+    "keywords": [
+      "nebraska personal assistance services",
+      "PAS nebraska medicaid",
+      "get paid to care for a family member nebraska",
+      "nebraska PAS provider pay rate",
+      "nebraska medicaid independent provider family caregiver",
+      "can a spouse be paid PAS nebraska"
+    ],
+    "sources": [
+      "https://dhhs.ne.gov/Pages/Medicaid-Home-and-Community-Based-Programs.aspx",
+      "https://dhhs.ne.gov/Medicaid%20Practitioner%20Fee%20Schedules/SFY2027%20PAS%20RATES.pdf",
+      "https://dhhs.ne.gov/Medicaid%20Practitioner%20Fee%20Schedules/Personal%20Assistance%20July%201%202024.pdf",
+      "https://regulations.justia.com/states/nebraska/health-and-human-services-system/title-471/chapter-15/section-471-15-004",
+      "https://www.medicaidplanningassistance.org/nebraska-personal-assistance-services/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "aged-and-disabled-waiver",
+    "name": "Aged and Disabled (AD) Waiver",
+    "aka": ["AD Waiver", "Nebraska AD Waiver", "HCBS Waiver for Aged and Adults and Children with Disabilities", "LRI Personal Care Nebraska"],
+    "kind": "waiver service",
+    "summary": "The Aged and Disabled (AD) Waiver is a Nebraska Medicaid home and community-based waiver for people 65 and older and people of any age with a disability who need nursing-home level of care but want to stay home. It covers services like personal care, companion, chore, respite and adult day health. Relatives such as adult children can be hired as paid providers for most services, and a spouse or the parent of a minor child can be paid only through a narrow service called LRI Personal Care, which requires 'extraordinary care' needs, is capped at 40 hours a week, and is normally done through an agency.",
+    "who_qualifies": [
+      "You have Nebraska Medicaid (DHHS checks this first).",
+      "You are 65 or older, or you have a disability (children and adults can both qualify).",
+      "You meet Nursing Facility Level of Care on a DHHS assessment of daily living tasks, health, memory and support.",
+      "You need waiver services to live safely at home or in the community.",
+      "For a disabled child, DHHS says parental income is not counted for waiver-eligible children."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — DHHS's July 2026 provider chart lets relatives (blood or marriage, to the third degree) provide Personal Care, Companion, Chore, Respite, Adult Day Health and most other AD services.",
+      "spouse": "limited — a spouse can only be paid for LRI Personal Care, and only if the participant meets Nebraska's Extraordinary Care test; capped at 40 hours a week and normally as an agency employee.",
+      "parent_of_minor": "limited — a parent of a minor child can only be paid for LRI Personal Care under the same Extraordinary Care test, 40-hour weekly cap and agency rule; it cannot happen during school hours.",
+      "live_together": "optional — relatives can live with you or apart; LRI Personal Care is by nature given by a spouse or parent in the household."
+    },
+    "pay": {
+      "display": "Rate negotiated per provider",
+      "detail": "DHHS does not publish one flat family-caregiver rate. The LRI Personal Care service summary (July 2026) says rates are set for each provider through negotiation with a DHHS Resource Developer, reviewed every year, and may not exceed what the provider charges private-pay clients; services are authorized hourly. Testimony on 2025 bill LB486 confirmed AD Waiver personal care providers individually negotiate their rates. Paid by Nebraska Medicaid to the enrolled provider or agency."
+    },
+    "hours_or_budget": "Your Service Coordinator builds a person-centered plan from your assessment and authorizes each service. For LRI Personal Care, the coordinator scores the Extraordinary Care Tool (DD-26) every year; you must score 'yes' in at least three need areas, only those tasks count, and total LRI Personal Care cannot go over 40 hours a week. In January 2026 the Governor directed DHHS to drop a proposed 40-hour cap on live-in personal care and a 70-hour combined cap on LRI personal care and companion services from the waiver renewal.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "The AD Waiver has a federally approved yearly participant cap, so a wait is possible if slots fill. DHHS's current AD Waiver and eligibility pages do not mention an active waitlist."
+    },
+    "self_directed_or_agency": "Either for most services: you can hire an AD Independent Provider you choose and supervise (they enroll with Medicaid and pass background checks), use an AD Agency Provider, or use an assisted living facility. LRI Personal Care may not be self-directed: the spouse or parent must work through an agency except in limited cases.",
+    "how_to_apply": [
+      "Apply online at iServe Nebraska (iserve.nebraska.gov), or print the DD-10 waiver application, or call (877) 667-6266 to have one mailed.",
+      "Send the signed application by mail to HCBS Waiver Eligibility, PO Box 98947, Lincoln NE 68509-8947, by email to DHHS.HCBSWaiverApp@nebraska.gov, or by fax to (402) 328-6257.",
+      "Apply for Medicaid too if you do not have it. Once you have Medicaid, DHHS calls to schedule the level-of-care assessment.",
+      "Choose a Service Coordinator (DHHS office for any age, Area Agency on Aging for 65+, or Early Development Network for birth to 3) and build your person-centered plan, naming any relative you want hired."
+    ],
+    "contacts": [
+      { "name": "HCBS Waiver Eligibility (toll-free)", "phone": "(877) 667-6266", "url": "https://dhhs.ne.gov/Pages/HCBS-Waiver-Eligibility.aspx" },
+      { "name": "Nebraska DHHS (main line)", "phone": "(402) 471-3121", "url": "https://dhhs.ne.gov/Pages/Medicaid-Aged-and-Disabled-Waiver.aspx" }
+    ],
+    "faqs": [
+      { "q": "Can a spouse get paid as a caregiver on the Nebraska AD Waiver?", "a": "Only through LRI Personal Care. The person must meet Nebraska's Extraordinary Care test (a 'yes' in at least three areas of hands-on need), pay is capped at 40 hours a week, and the spouse normally must be employed by an agency." },
+      { "q": "Can parents be paid to care for their disabled child in Nebraska?", "a": "Yes, in limited cases. A parent of a minor can be paid for LRI Personal Care on the AD Waiver if the child meets the Extraordinary Care test. It is capped at 40 hours a week, cannot be billed during school hours or while the parent works another job, and is usually through an agency." },
+      { "q": "Can my adult daughter be my paid caregiver on the AD Waiver?", "a": "Yes. Relatives who are not your spouse can provide Personal Care, Companion, Chore, Respite and most other AD services, either as an enrolled independent provider or through an agency." },
+      { "q": "How much does the Nebraska AD Waiver pay family caregivers?", "a": "There is no single published rate. DHHS sets rates provider by provider through negotiation, reviews them yearly, and caps them at the provider's private-pay rate." },
+      { "q": "What changed in the 2026 AD Waiver renewal?", "a": "In January 2026 DHHS dropped proposals for a 40-hour weekly cap on live-in personal care and a 70-hour combined cap on LRI personal care and companion services, after public comment. A second comment period ran February 2 to March 4, 2026." },
+      { "q": "Who can qualify for the AD Waiver?", "a": "Nebraska Medicaid members who are 65 or older or have a disability, meet nursing-facility level of care, and need waiver services to stay home." }
+    ],
+    "keywords": [
+      "nebraska aged and disabled waiver",
+      "AD waiver nebraska family caregiver",
+      "LRI personal care nebraska",
+      "nebraska pay spouse caregiver medicaid",
+      "nebraska parents paid to care for disabled child",
+      "extraordinary care tool nebraska"
+    ],
+    "sources": [
+      "https://dhhs.ne.gov/Pages/Medicaid-Aged-and-Disabled-Waiver.aspx",
+      "https://dhhs.ne.gov/Pages/HCBS-Waiver-Eligibility.aspx",
+      "https://dhhs.ne.gov/DD%20Documents/LRI%20Reference%20for%20HCBS.pdf",
+      "https://dhhs.ne.gov/DD%20Documents/LRI%20Personal%20Care%20Service%20Handbook.pdf",
+      "https://dhhs.ne.gov/DD%20Documents/LRI%20Personal%20Care%20and%20Extraordinary%20Care%20Resource.pdf",
+      "https://dhhs.ne.gov/DD%20Documents/AD%20Waiver%20Quick%20Guide.pdf",
+      "https://dhhs.ne.gov/Pages/Governor-Pillen-Directs-DHHS-to-Make-Critical-Changes-to-AD-Waiver.aspx",
+      "https://dhhs.ne.gov/Pages/HCBS-Prospective-Provider.aspx",
+      "https://www.medicaidplanningassistance.org/nebraska-aged-disabled-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

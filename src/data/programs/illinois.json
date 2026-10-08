@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "community-care-program",
+    "name": "Community Care Program (CCP)",
+    "aka": ["CCP", "Illinois Community Care Program", "IDoA in-home services", "Illinois Department on Aging home care"],
+    "kind": "waiver service",
+    "summary": "The Community Care Program is run by the Illinois Department on Aging for people age 60 and older who need help to stay at home. In-home aides are hired and supervised by contracted In-Home Services agencies. A family member, including a spouse, can be hired by one of these agencies and paid to care for their relative.",
+    "who_qualifies": [
+      "Illinois resident age 60 or older.",
+      "Needs help with daily tasks, shown by a needs assessment done by a local Care Coordination Unit.",
+      "Meets the program's asset limit and applies for Medicaid if likely eligible (Medicaid enrollees receive services at no cost).",
+      "U.S. citizen or eligible non-citizen."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — family members can be paid caregivers once an In-Home Services agency hires them.",
+      "spouse": "yes — the Department on Aging says family members including a spouse can be hired, with a background check and 24 hours of pre-service training.",
+      "parent_of_minor": "n/a — CCP serves adults age 60 and older.",
+      "live_together": "optional — the caregiver may live with the participant or elsewhere."
+    },
+    "pay": {
+      "display": "$18–$20/hr (reported)",
+      "detail": "The state pays the In-Home Services agency, and the agency pays the aide. The Department on Aging does not publish an aide wage; agency aide pay is reported at about $18–$20 an hour."
+    },
+    "hours_or_budget": "The Care Coordination Unit assessment sets a monthly service plan; hours are based on the level of need.",
+    "waitlist": { "status": "none", "detail": "CCP generally enrolls eligible applicants without a waiver waiting list." },
+    "self_directed_or_agency": "Agency. The family caregiver must be hired and supervised by a contracted In-Home Services agency.",
+    "how_to_apply": [
+      "Call the Senior HelpLine at 1-800-252-8966 to be connected to the local Care Coordination Unit.",
+      "The Care Coordination Unit visits for an assessment and helps with the Medicaid application if needed.",
+      "Pick an In-Home Services agency and ask it to hire your family member.",
+      "The family member passes a background check and completes 24 hours of pre-service training before being paid."
+    ],
+    "contacts": [
+      { "name": "Illinois Department on Aging Senior HelpLine", "phone": "1-800-252-8966", "url": "https://ilaging.illinois.gov/programs/caregiver/in-home-care.html" },
+      { "name": "Find a Care Coordination Unit or agency", "phone": "1-800-252-8966", "url": "https://webapps.illinois.gov/AGE/ProviderProfileSearch" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my husband or wife in Illinois?", "a": "Yes, through CCP if your spouse is 60 or older. An In-Home Services agency must hire you, run a background check, and give you 24 hours of training." },
+      { "q": "Can I be paid to care for my mom through CCP?", "a": "Yes. Adult children and other relatives can be hired by a CCP In-Home Services agency." },
+      { "q": "Does CCP cost anything?", "a": "People who meet CCP eligibility and enroll get services at no out-of-pocket cost, according to the Department on Aging." },
+      { "q": "Who do I call to start CCP?", "a": "The Senior HelpLine at 1-800-252-8966. It connects you to your local Care Coordination Unit." },
+      { "q": "Can I hire my relative directly without an agency?", "a": "No. Under CCP the caregiver must work for a contracted In-Home Services agency." }
+    ],
+    "keywords": ["illinois community care program", "ccp illinois family caregiver", "get paid to care for spouse illinois", "illinois department on aging in-home care", "paid family caregiver illinois seniors"],
+    "sources": [
+      "https://ilaging.illinois.gov/programs/caregiver/in-home-care.html",
+      "https://webapps.illinois.gov/AGE/ProviderProfileSearch"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "home-services-program",
+    "name": "Home Services Program (HSP)",
+    "aka": ["HSP", "DRS Home Services", "Illinois Home Services Program", "DORS personal assistant", "Illinois PA program"],
+    "kind": "waiver service",
+    "summary": "The Home Services Program, run by the IDHS Division of Rehabilitation Services, helps people under 60 with severe disabilities stay at home. The customer hires and supervises their own personal assistant (PA), and the state pays the PA directly. Adult children and other relatives can be the PA, but spouses and parents of minor children cannot.",
+    "who_qualifies": [
+      "Illinois resident under age 60 with a severe disability expected to last at least 12 months.",
+      "At risk of nursing-home placement, as measured by a DRS needs assessment.",
+      "Meets the program's asset rules and applies for Medicaid if eligible.",
+      "Service cost must not exceed the cost of nursing-home care."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children, siblings, parents of an adult customer and other relatives can be hired as the PA.",
+      "spouse": "no — Illinois rule 89 Ill. Adm. Code 684.30 bars paying a spouse as the customer's service provider.",
+      "parent_of_minor": "no — parents, stepparents, foster parents and guardians of a customer under 18 cannot be paid.",
+      "live_together": "optional — the PA may live with the customer or elsewhere."
+    },
+    "pay": {
+      "display": "$20.00/hr",
+      "detail": "Base PA wage is $19.50/hour from January 1, 2026 and $20.00/hour from July 1, 2026 under the SEIU Healthcare Illinois contract, rising to $20.75 on January 1, 2027. Experienced PAs earn add-ons of $1, $2 or $4/hour based on total hours worked. The state pays the PA directly."
+    },
+    "hours_or_budget": "A DRS counselor completes an assessment and a service plan that sets monthly hours, capped by a service cost maximum tied to the assessment score.",
+    "waitlist": { "status": "none", "detail": "HSP generally enrolls eligible applicants without a waiting list." },
+    "self_directed_or_agency": "Self-directed. The customer selects, employs and supervises the PA; the state handles payroll. Homemaker agencies are also available.",
+    "how_to_apply": [
+      "Submit a Rehabilitation Services web referral, or call IDHS at 1-800-843-6154.",
+      "Meet with a DRS counselor at one of 47 local offices for an assessment.",
+      "Build a service plan and choose your PA.",
+      "The PA completes hiring paperwork so the state can pay them."
+    ],
+    "contacts": [
+      { "name": "IDHS Division of Rehabilitation Services — Home Services", "phone": "1-800-843-6154 (TTY 1-866-324-5553)", "url": "https://www.dhs.state.il.us/page.aspx?item=29738" }
+    ],
+    "faqs": [
+      { "q": "Can I be paid to care for my adult son or daughter through HSP?", "a": "Yes. A parent of an adult customer can be the paid PA. Parents of minor children cannot." },
+      { "q": "Can a spouse be a PA in the Home Services Program?", "a": "No. Illinois rules list the spouse as a family member who cannot be paid. Spouses of people 60 and older may look at the Community Care Program instead." },
+      { "q": "How much do Illinois PAs make in 2026?", "a": "The base wage is $20.00 an hour from July 1, 2026, with add-ons for long-time PAs." },
+      { "q": "What if the person is 60 or older?", "a": "HSP is for people under 60. People 60 and older are referred to the Department on Aging's Community Care Program." },
+      { "q": "Who hires the PA?", "a": "The customer does. The customer picks, trains and supervises the PA, and the state sends the paycheck." }
+    ],
+    "keywords": ["illinois home services program", "dors personal assistant pay", "hsp illinois family member", "get paid to care for disabled family member illinois", "illinois personal assistant wage 2026"],
+    "sources": [
+      "https://www.dhs.state.il.us/page.aspx?item=29738",
+      "https://ilga.gov/commission/jcar/admincode/089/089006840000300R.html",
+      "https://seiuhcilin.org/2026/06/dors-personal-assistants-reach-historic-20-hour-wage-milestone/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "mftd-waiver",
+    "name": "Medically Fragile, Technology Dependent (MFTD) Waiver",
+    "aka": ["MFTD", "MFTD waiver", "DSCC Home Care Program", "Illinois medically fragile waiver"],
+    "kind": "children's waiver",
+    "summary": "The MFTD Waiver is an Illinois Medicaid waiver for children who are medically fragile or depend on technology, such as ventilators or feeding tubes, so they can be cared for at home. Parents' income is not counted. Parents who hold an active RN or LPN license can be paid through a nursing agency for skilled nursing they give their child.",
+    "who_qualifies": [
+      "Under 21 at enrollment (people enrolled before 21 can stay on the waiver).",
+      "Needs a hospital or nursing-facility level of care and meets the minimum score on the Level of Care tool.",
+      "Illinois resident and U.S. citizen or eligible non-citizen.",
+      "Medicaid eligible, with parents' income and assets waived.",
+      "Lives with family or a legally responsible adult in a private home, and home care costs less than institutional care."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — other relatives may work as nurses or aides through an enrolled agency if licensed or certified.",
+      "spouse": "limited — for participants 21 and older, a legally responsible spouse who is a CNA can be paid for CNA services since May 20, 2026, or as an RN/LPN.",
+      "parent_of_minor": "limited — parents with an active RN or LPN license can be paid for skilled nursing; CNA-certified parents of participants under 21 cannot yet be paid (pending CMS approval).",
+      "live_together": "required — the participant must live with family or a legally responsible adult."
+    },
+    "pay": {
+      "display": "Nursing agency wage (not published)",
+      "detail": "HFS pays the home nursing agency its shift-nursing rate; the agency pays the parent-nurse. No parent wage is published."
+    },
+    "hours_or_budget": "In-home shift nursing hours are approved based on the child's medical needs and level-of-care assessment, coordinated by UIC DSCC.",
+    "waitlist": { "status": "none", "detail": "No waiting list is published for the MFTD waiver." },
+    "self_directed_or_agency": "Agency. Parent-nurses and LRI CNAs are employed by an enrolled home nursing agency.",
+    "how_to_apply": [
+      "Call UIC Division of Specialized Care for Children (DSCC) at 800-322-3722.",
+      "The DSCC enrollment team gathers information to complete the HFS application packet.",
+      "After approval, choose a home nursing agency; a parent with an RN or LPN license can ask the agency to employ them."
+    ],
+    "contacts": [
+      { "name": "UIC Division of Specialized Care for Children — Home Care Program", "phone": "800-322-3722", "url": "https://dscc.uic.edu/home-care-program/" }
+    ],
+    "faqs": [
+      { "q": "Can a parent get paid to care for a medically fragile child in Illinois?", "a": "Yes, if the parent holds an active RN or LPN license. The parent is paid through a home nursing agency for skilled nursing." },
+      { "q": "Can a CNA parent be paid under MFTD?", "a": "Not yet for children under 21. Since May 20, 2026, CNA-certified legally responsible individuals can be paid for participants 21 and older." },
+      { "q": "Does my income count for MFTD?", "a": "No. The waiver lets the state set aside parents' income and assets when deciding the child's eligibility." },
+      { "q": "Who runs the MFTD waiver?", "a": "HFS is the Medicaid agency. UIC DSCC runs the Home Care Program and care coordination for HFS." },
+      { "q": "What if my child turns 21?", "a": "Participants enrolled before their 21st birthday can stay on the waiver." }
+    ],
+    "keywords": ["mftd waiver illinois", "illinois medically fragile technology dependent waiver", "parent paid nurse illinois", "dscc home care program", "get paid to care for disabled child illinois"],
+    "sources": [
+      "https://hfs.illinois.gov/medicalproviders/notices/notice.prn260511a.html",
+      "https://dscc.uic.edu/home-care-program/",
+      "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/maccommunityintegration09012022.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

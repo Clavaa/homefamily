@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "cdpap",
+    "name": "Consumer Directed Personal Assistance Program (CDPAP)",
+    "aka": ["CDPAP", "CDPAS", "consumer directed personal assistance", "CDPAP NY", "PPL CDPAP", "CFCO CDPAP"],
+    "kind": "state plan",
+    "summary": "CDPAP is a New York Medicaid program that lets a member who needs home care choose, hire and train their own personal assistant. The assistant can be a friend or family member, such as an adult child, but not the member's spouse, their designated representative, or a parent of a consumer under 21. Since April 1, 2025, every consumer and assistant must register with Public Partnerships LLC (PPL), the single statewide fiscal intermediary that runs payroll.",
+    "who_qualifies": [
+      "Eligible for New York State Medicaid.",
+      "Has a stable medical condition and a need for home care found through a state-approved assessment (done by the New York Independent Assessor).",
+      "If age 21 or older, meets the Minimum Needs Requirements (in effect since September 1, 2025): needs at least limited help with physical maneuvering with more than two activities of daily living, or, with a dementia or Alzheimer's diagnosis, needs at least supervision with more than one.",
+      "Can direct their own care, or has a designated representative who makes decisions for them."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children, siblings, other relatives and friends can be hired as personal assistants.",
+      "spouse": "no — the state says a spouse cannot be a paid personal assistant.",
+      "parent_of_minor": "no — a parent cannot be paid for a child under 21; parents can be paid for an adult child age 21 or older.",
+      "live_together": "optional — the assistant may live with the consumer or elsewhere."
+    },
+    "pay": {
+      "display": "$18.65–$20.65/hr",
+      "detail": "PPL minimum base wages effective January 1, 2026: $20.65/hr in New York City (Bronx, New York, Kings, Queens, Richmond counties), $20.05/hr in Nassau, Suffolk and Westchester, and $18.65/hr in the rest of the state. PPL pays weekly on Thursdays and also offers paid sick leave, holiday pay for full-time assistants, health insurance options for full-time assistants, and a 401(k) without a match."
+    },
+    "hours_or_budget": "Hours are set by an assessment. The New York Independent Assessor does the first assessment, and your Medicaid managed care plan or local Department of Social Services authorizes the number of hours. Overtime is allowed only within plan or local district limits.",
+    "waitlist": {
+      "status": "none",
+      "detail": "CDPAP is a Medicaid entitlement, so there is no waitlist. Since September 1, 2025, most new adult applicants must meet the Minimum Needs Requirements; people already receiving services on that date keep the older rules."
+    },
+    "self_directed_or_agency": "Self-directed. The consumer or designated representative recruits, hires, trains, supervises and fires assistants and arranges back-up coverage. PPL is the required statewide fiscal intermediary: it processes wages, benefits and tax withholding and keeps employment records.",
+    "how_to_apply": [
+      "If you are not on Medicaid, apply through your local county Department of Social Services, or call the Medicaid Helpline.",
+      "Request a home care assessment. The New York Independent Assessor (NYIA) helpline schedules initial assessments; if you are already in a Medicaid managed care plan, contact your plan.",
+      "Once services are authorized, ask for CDPAP and choose your personal assistant.",
+      "Register both the consumer and the assistant with PPL (by phone, online through PPL@Home, by email, or with a CDPAP facilitator). The assistant completes hiring paperwork and a pre-employment health assessment.",
+      "The assistant completes Electronic Visit Verification (EVV) training and starts work; pay begins with the first service date under PPL."
+    ],
+    "contacts": [
+      { "name": "New York Medicaid Helpline", "phone": "1-800-541-2831", "url": "https://www.health.ny.gov/health_care/medicaid/program/longterm/cdpap.htm" },
+      { "name": "New York Independent Assessor (NYIA) helpline", "phone": "855-222-8350", "url": "https://www.health.ny.gov/health_care/medicaid/redesign/nyiap/faqs/october2025.htm" },
+      { "name": "Public Partnerships LLC (PPL) — NY CDPAP main line", "phone": "1-833-247-5346", "url": "https://pplfirst.com/new-york-cdpap-frequently-asked-questions/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my parent in New York?", "a": "Yes. If your parent has Medicaid and is approved for home care, they can choose CDPAP and hire you as their personal assistant. You register with PPL, which pays you weekly." },
+      { "q": "Can a spouse be paid through CDPAP?", "a": "No. New York does not allow a spouse to be a paid CDPAP personal assistant." },
+      { "q": "Can a parent be paid to care for a disabled child under CDPAP?", "a": "Not for a child under 21. A parent can be hired for an adult child who is 21 or older." },
+      { "q": "How much does CDPAP pay in 2026?", "a": "PPL's minimum base wage from January 1, 2026 is $20.65/hr in New York City, $20.05/hr on Long Island and in Westchester, and $18.65/hr elsewhere in the state." },
+      { "q": "Do I still need a fiscal intermediary other than PPL?", "a": "No. Since April 1, 2025, PPL is the only statewide fiscal intermediary, and every CDPAP consumer and assistant must register with PPL." },
+      { "q": "What are the CDPAP Minimum Needs Requirements?", "a": "Since September 1, 2025, most new applicants 21 and older must need at least limited help with physical maneuvering with more than two daily activities, or at least supervision with more than one if they have dementia or Alzheimer's." }
+    ],
+    "keywords": ["cdpap ny", "cdpap pay rate 2026", "get paid to care for parent new york", "can spouse be paid cdpap", "ppl cdpap registration", "cdpap minimum needs requirement", "new york medicaid family caregiver pay", "cdpap eligibility"],
+    "sources": [
+      "https://www.health.ny.gov/health_care/medicaid/program/longterm/cdpap.htm",
+      "https://pplfirst.com/new-york-cdpap-frequently-asked-questions/",
+      "https://healthweb-back.health.ny.gov/health_care/medicaid/redesign/nyiap/faqs/october2025.htm",
+      "https://www.medicaidplanningassistance.org/new-york-cfco-cdpap/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

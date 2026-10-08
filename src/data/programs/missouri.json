@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "consumer-directed-services",
+    "name": "Consumer Directed Services (CDS) — Personal Care Assistance, Consumer-Directed Model",
+    "aka": ["CDS", "CDS Missouri", "consumer directed services", "consumer directed personal care", "self-directed personal care Missouri", "CDS attendant"],
+    "kind": "state plan",
+    "summary": "Consumer Directed Services (CDS) is the self-directed version of Missouri Medicaid (MO HealthNet) personal care. An adult with a physical disability hires, trains and supervises their own attendant, and a state-enrolled CDS vendor runs payroll. The attendant can be a family member or friend, but not the participant's spouse or legal guardian.",
+    "who_qualifies": [
+      "Active MO HealthNet (Missouri Medicaid) coverage with a qualifying Medicaid eligibility (ME) code.",
+      "At least 18 years old and physically disabled as defined in 19 CSR 15-8.100, needing another person's help with routine tasks.",
+      "Meets nursing facility level of care on the state's in-home assessment.",
+      "Able to self-direct: supervise the attendant, verify hours and wages, monitor EVV use and report changes. People who need someone else to direct care for cognitive reasons are steered to other options.",
+      "Not living in a nursing facility, residential care facility or licensed assisted living facility, and no past involvement in Medicaid fraud."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the DHSS manual says 'the attendant may be a family member', so adult children, siblings, grandchildren and other relatives can be hired.",
+      "spouse": "no — the DHSS manual states the attendant 'cannot be the participant's spouse or legal guardian'.",
+      "parent_of_minor": "no — CDS participants must be 18 or older, so there is no path to pay a parent of a minor child through CDS.",
+      "live_together": "optional — the attendant may live with the participant or elsewhere, but CDS does not pay for chores that household members normally share."
+    },
+    "pay": {
+      "display": "About $12–$20/hr (set by the CDS vendor)",
+      "detail": "MO HealthNet pays the CDS vendor a set rate per 15-minute unit; the vendor sets the attendant's hourly wage. The state's July 2023 rate table listed consumer-directed personal care (T1019 U2) at $5.23 per 15 minutes (about $20.92/hr to the vendor); a newer rate was not published on the pages checked. Example: Paraquad, a CDS vendor, states that as of July 20, 2025 its CDS attendants are paid $15.50/hr. Wages differ between vendors."
+    },
+    "hours_or_budget": "A DSDS assessor (or its designee) completes an in-home assessment and person-centered care plan. Time is authorized in 15-minute units for hands-on personal care tasks. CDS alone may not exceed 60% of the participant's cost maximum (tied to nursing home cost); adding advanced personal care or nurse visits can bring the total to 100%. No time is authorized for standby, prompting or cueing, respite, or waiting at appointments.",
+    "waitlist": {
+      "status": "none",
+      "detail": "Personal care is a Medicaid state plan benefit, so eligible people are not placed on a waitlist. Separately, from August 1, 2026 the state placed a six-month moratorium on enrolling NEW CDS vendors; existing vendors keep serving participants."
+    },
+    "self_directed_or_agency": "Self-directed. The participant is the employer of record and chooses, trains and supervises the attendant; a state-enrolled CDS vendor (provider) is paid by MO HealthNet on the participant's behalf and processes the attendant's payroll. An agency-model personal care option also exists if the participant cannot or does not want to self-direct.",
+    "how_to_apply": [
+      "Apply for MO HealthNet if not already covered: online at mydss.mo.gov, by phone at 855-373-9994, or on a paper application (people 65+, blind or disabled also complete the Aged, Blind and Disabled supplement).",
+      "Make a home and community-based services (HCBS) referral to DSDS using the Online HCBS Referral Form, or call the HCBS Intake and PCCP Customer Service Center at 866-835-3505 for intake and prescreen.",
+      "Complete the in-home assessment for nursing facility level of care and the self-direction determination, and say you want the consumer-directed model.",
+      "Choose a CDS vendor from the state list and have your chosen attendant complete the vendor's hiring steps (for example, Family Care Safety Registry and background checks, plus EVV setup)."
+    ],
+    "contacts": [
+      { "name": "DSDS HCBS Intake and PCCP Customer Service Center", "phone": "866-835-3505", "url": "https://health.mo.gov/seniors/hcbs/" },
+      { "name": "MO HealthNet application (Family Support Division)", "phone": "855-373-9994", "url": "https://mydss.mo.gov/healthcare/apply" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid through CDS to take care of my mom or dad in Missouri?", "a": "Yes. The DHSS policy manual says the CDS attendant may be a family member, so an adult child can be hired. Your parent must have MO HealthNet, meet nursing facility level of care, and be able to direct their own care. You are paid through the CDS vendor your parent chooses." },
+      { "q": "Can a spouse be paid as a CDS attendant in Missouri?", "a": "No. The manual says the attendant cannot be the participant's spouse or legal guardian. A spouse caring for someone with Alzheimer's or another dementia may be able to be paid through the Structured Family Caregiving Waiver instead." },
+      { "q": "How much do CDS attendants make in Missouri?", "a": "The vendor sets the wage. One large vendor, Paraquad, says its attendants have earned $15.50 an hour since July 20, 2025. The state pays vendors a per-15-minute rate, and the most recent state rate table found (July 2023) listed $5.23 per unit." },
+      { "q": "How many hours of CDS can someone get?", "a": "Hours come from the DSDS assessment and care plan, in 15-minute units. CDS cannot cost more than 60% of the participant's cost maximum, and time is not authorized for standby, cueing, respite or chores household members normally share." },
+      { "q": "Is there a waiting list for CDS?", "a": "No waitlist for eligible participants, because personal care is a state plan Medicaid benefit. A temporary moratorium that began August 1, 2026 stops new companies from enrolling as CDS vendors, but existing vendors keep taking participants." },
+      { "q": "Can a person with dementia use CDS?", "a": "Only if they can direct their own care. CDS requires the participant to supervise the attendant and verify hours. People who need a designated person to direct care for cognitive reasons are pointed to other programs, such as the Structured Family Caregiving Waiver." }
+    ],
+    "keywords": ["consumer directed services missouri", "cds missouri", "get paid to care for family member missouri", "missouri cds attendant pay", "can a spouse be a cds attendant missouri", "missouri personal care family caregiver", "cds vendor missouri"],
+    "sources": [
+      "https://health.mo.gov/book/export/html/3811",
+      "https://www.sos.mo.gov/cmsimages/adrules/csr/current/19csr/19c15-8.pdf",
+      "https://revisor.mo.gov/main/OneSection.aspx?section=208.906",
+      "https://mydss.mo.gov/healthcare/apply",
+      "https://health.mo.gov/our-programs-services/home-and-community-based-services/memos/info-07-26-03-consumer-directed",
+      "https://www.medicaid.gov/medicaid/spa/downloads/MO-23-0028.pdf",
+      "https://paraquad.org/consumer-directed-services"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "structured-family-caregiving",
+    "name": "Structured Family Caregiving Waiver (SFCW)",
+    "aka": ["SFCW", "SFC Missouri", "structured family caregiving", "structured family care", "Missouri dementia caregiver waiver", "Alzheimer's caregiver pay Missouri"],
+    "kind": "waiver service",
+    "summary": "The Structured Family Caregiving Waiver pays a live-in caregiver a daily amount to care for an adult 21 or older with Alzheimer's disease or another dementia who would otherwise need a nursing home. The caregiver can be a family member, a legal guardian or a spouse, and must live full time in the same home as the participant. The caregiver is employed and paid by an enrolled Structured Family Caregiving provider agency, which also gives training and monthly home visits.",
+    "who_qualifies": [
+      "Current MO HealthNet (Missouri Medicaid) eligibility with a federally matched Medicaid eligibility (ME) code.",
+      "Age 21 or older with a diagnosis of Alzheimer's disease or a dementia-related disorder as defined in section 172.800, RSMo.",
+      "Meets nursing home level of care.",
+      "Lives full time in the same household as the primary caregiver (either the caregiver's home or the participant's home), and has a back-up plan with a qualified substitute caregiver.",
+      "Not living in a nursing facility, residential care facility or licensed assisted living facility, and not enrolled in another 1915(c) waiver at the same time."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the provider manual says the primary and substitute caregivers 'may be a non-family member, a family member, or a legal guardian'.",
+      "spouse": "yes — the provider manual says the caregiver may be a legal guardian or family member, 'which would include the spouse'.",
+      "parent_of_minor": "no — participants must be 21 or older, so this waiver does not pay parents of minor children.",
+      "live_together": "required — the participant and primary caregiver must both reside full time in the same home."
+    },
+    "pay": {
+      "display": "Up to $110.33/day to the agency (caregiver gets at least ~65%)",
+      "detail": "MO HealthNet's maximum rate for SFCW attendant care (S5126 HB) rose from $103.80 to $110.33 per day effective July 1, 2026 (Provider Bulletin Vol. 49 No. 05, posted July 21, 2026). This is paid to the provider agency, which pays the caregiver a per diem stipend. State law (208.896, RSMo) caps the agency's share at 35% of the daily rate, so roughly $71.71/day or more goes to the caregiver at the maximum rate; the exact stipend is set by each agency. The daily rate may not exceed 60% of the state's daily nursing home cost cap."
+    },
+    "hours_or_budget": "Paid as a daily (per diem) unit, not by the hour. DSDS prior-authorizes the number of days per month, and the agency bills only days with documented care. The daily service covers all homemaker and attendant care in the care plan, so other state plan long-term care services (such as personal care) are not authorized on top of it.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "Section 208.896, RSMo caps the waiver at 300 participants. When slots are full, applicants may have to wait; the current number of open slots is not published."
+    },
+    "self_directed_or_agency": "Agency. The primary and substitute caregivers are employed by a Structured Family Caregiving provider agency enrolled with MO HealthNet. The agency (with an LPN or higher) assesses the home, writes the care plan, makes at least monthly home visits, collects electronic daily caregiver notes, and provides at least 8 hours of dementia-focused training a year plus the 5 hours required for in-home services.",
+    "how_to_apply": [
+      "Make sure the person with dementia has MO HealthNet, or apply at mydss.mo.gov or 855-373-9994.",
+      "Submit a referral to DSDS with the Online HCBS Referral Form, or call the HCBS Intake and PCCP Customer Service Center at 866-835-3505 for intake and prescreen.",
+      "Complete the DSDS assessment for nursing home level of care and provide the Alzheimer's or dementia diagnosis.",
+      "Choose an enrolled Structured Family Caregiving provider agency; the agency checks the home and the caregiver (Family Care Safety Registry, training) and services start once DSDS prior-authorizes them."
+    ],
+    "contacts": [
+      { "name": "DSDS HCBS Intake and PCCP Customer Service Center", "phone": "866-835-3505", "url": "https://health.mo.gov/seniors/hcbs/" },
+      { "name": "MO HealthNet Structured Family Caregiving Waiver page", "phone": "", "url": "https://dss.mo.gov/mhd/waiver/structured-family-caregiving" },
+      { "name": "MO HealthNet application (Family Support Division)", "phone": "855-373-9994", "url": "https://mydss.mo.gov/healthcare/apply" }
+    ],
+    "faqs": [
+      { "q": "Can a spouse get paid to care for a husband or wife with dementia in Missouri?", "a": "Yes, under this waiver. The provider manual says the caregiver may be a family member or legal guardian, which includes the spouse. The spouse must live in the same home and work through an enrolled provider agency." },
+      { "q": "How much does Structured Family Caregiving pay in Missouri?", "a": "The state's maximum daily rate to the agency is $110.33 as of July 1, 2026. State law limits the agency to 35% of the daily rate, so at the maximum the caregiver stipend is at least about $71.71 a day. Each agency sets its exact stipend." },
+      { "q": "Does the person need an Alzheimer's diagnosis?", "a": "Yes. The participant must be 21 or older and diagnosed with Alzheimer's disease or a dementia-related disorder as defined in Missouri law, and must meet nursing home level of care." },
+      { "q": "Do we have to live together?", "a": "Yes. The participant and the primary caregiver must live full time in the same household, in either the caregiver's home or the participant's home." },
+      { "q": "Is there a waiting list for the Missouri SFC waiver?", "a": "Possibly. State law caps the waiver at 300 participants, so once slots are filled new applicants may wait." },
+      { "q": "Can I use Structured Family Caregiving and CDS at the same time?", "a": "No. SFCW is meant to cover all of the person's care needs, so other state plan long-term care services like personal care are not authorized alongside it, and a person can be on only one 1915(c) waiver at a time." }
+    ],
+    "keywords": ["structured family caregiving missouri", "missouri sfc waiver", "get paid to care for spouse with dementia missouri", "missouri alzheimer's caregiver pay", "structured family caregiving waiver rate missouri", "sfcw missouri"],
+    "sources": [
+      "https://mydss-dev.mo.gov/sites/mydss/files/media/file/2026/05/Structured%20Family%20Caregiving%20Waiver%20Provider%20Manual.docx",
+      "https://mydss.mo.gov/sites/mydss/files/media/file/2026/07/Rate-Update-for-DHSS-Authorized-Home-and-Community-Based-Services.docx",
+      "https://revisor.mo.gov/main/OneSection.aspx?section=208.896",
+      "https://dss.mo.gov/mhd/waiver/structured-family-caregiving",
+      "https://mydss.mo.gov/healthcare/apply",
+      "https://www.medicaidplanningassistance.org/missouri-structured-family-caregiving/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

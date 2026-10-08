@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "consumer-directed-attendant-services",
+    "name": "Consumer Directed Attendant Services (MaineCare Section 12)",
+    "aka": ["CDAS", "Section 12", "MaineCare Section 12", "consumer directed attendant services", "PCA services Maine", "Maine personal care attendant"],
+    "kind": "state plan",
+    "summary": "Consumer Directed Attendant Services, MaineCare Benefits Manual Section 12, lets an adult MaineCare member with a disability hire, train and supervise their own personal care attendant. The member is the employer and must use the state's contracted fiscal intermediary for payroll, so an adult child, sibling or friend can be the paid attendant. A spouse, or a parent of a minor child, cannot be paid under this section.",
+    "who_qualifies": [
+      "MaineCare member who meets MaineCare financial eligibility.",
+      "Is 18 or older with a disability and functional impairments that interfere with self-care.",
+      "Needs at least limited assistance plus a one-person physical assist with two or more activities of daily living (Level I), as scored on the Medical Eligibility Determination (MED) form.",
+      "Has the cognitive capacity to direct and manage the attendant, and completes the required skills training within 30 days."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children, siblings and other relatives who are not legally responsible for the member can be hired as attendants.",
+      "spouse": "no — Section 12 defines a spouse as a family member and says personal care services cannot be provided by a member of the recipient's family.",
+      "parent_of_minor": "no — the program serves adults 18 and older, and parents or stepparents of a minor child are also listed as family members who cannot be paid.",
+      "live_together": "optional — the attendant may or may not live with the member."
+    },
+    "pay": {
+      "display": "At least 125% of Maine minimum wage (reported ~$17–$27/hr)",
+      "detail": "MaineCare pays an hourly attendant rate through the fiscal intermediary. Since July 1, 2022 Maine's state plan includes a direct care add-on designed so support workers earn at least 125% of the state minimum wage, which Maine Public put at just under $19/hour in 2026. Third-party sites report about $17–$27/hour for family attendants; that range is not published by DHHS. The older Section 12 rate table on the Secretary of State site is out of date."
+    },
+    "hours_or_budget": "Maximus, the state's Assessing Services Agency, scores the MED form and sets weekly hours. Section 12 caps personal care at 12 hours/week for Level I, 18 hours/week for Level II and 28 hours/week for Level III (ADL plus IADL time).",
+    "waitlist": {
+      "status": "none",
+      "detail": "Section 12 is a MaineCare state plan service, so eligible members are served without a waiver slot list."
+    },
+    "self_directed_or_agency": "Self-directed. The member hires and supervises the attendant; a Service Coordination Agency gives skills training and care coordination, and the Department's fiscal intermediary runs payroll and taxes.",
+    "how_to_apply": [
+      "Apply for MaineCare using the Long-Term Care application (your Aging and Disability Resource Center or DHHS district office can help).",
+      "Call Maine's Assessing Services Agency, Maximus, at 1-833-525-5784 for a functional assessment using the MED form.",
+      "If eligible, a Service Coordination Agency contacts you, gives skills training within 30 days, and helps write the service plan.",
+      "Hire your attendant (not a spouse), enroll them with the fiscal intermediary, and start services once the Department is notified."
+    ],
+    "contacts": [
+      { "name": "Maximus (Maine Assessing Services Agency)", "phone": "1-833-525-5784", "url": "https://www.maine.gov/dhhs/oads/get-support/older-adults-disabilities/home-care" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my mother through MaineCare Section 12?", "a": "Yes, if your mother qualifies for Consumer Directed Attendant Services and can direct her own care. She hires you as her attendant and the fiscal intermediary pays you." },
+      { "q": "Can my husband or wife be my paid attendant under Section 12?", "a": "No. Section 12 counts a spouse as a family member, and personal care services cannot be provided by a family member under this section. Section 19 has a narrow exception for spouses in some cases." },
+      { "q": "How many hours can I get?", "a": "It depends on your MED assessment level: up to 12 hours a week at Level I, 18 at Level II, and 28 at Level III." },
+      { "q": "Do I need an agency?", "a": "Not to employ the worker. You are the employer. You must work with a Service Coordination Agency for training and coordination and use the state's fiscal intermediary for payroll." },
+      { "q": "What if I can't manage an employee myself?", "a": "Section 12 requires the member to have the cognitive capacity to direct the attendant. People who need someone else to manage care may fit Section 19, which allows a representative." }
+    ],
+    "keywords": ["maine consumer directed attendant services", "mainecare section 12", "cdas maine", "get paid to care for parent maine", "maine personal care attendant pay", "mainecare pay family caregiver"],
+    "sources": [
+      "https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/c2s012.docx",
+      "https://www.maine.gov/dhhs/oads/get-support/older-adults-disabilities/home-care",
+      "https://www.medicaid.gov/medicaid/spa/downloads/ME-22-0039.pdf",
+      "https://www.mainepublic.org/health/2026-01-20/bipartisan-bill-would-boost-pay-for-maines-direct-care-workers",
+      "https://www.payingforseniorcare.com/maine/cdas-program"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "home-and-community-benefits",
+    "name": "Home and Community Benefits for the Elderly and Adults with Disabilities (MaineCare Section 19)",
+    "aka": ["Section 19", "MaineCare Section 19", "HCB waiver", "Elderly and Adults with Disabilities Waiver", "Maine Section 19 waiver", "participant-directed option"],
+    "kind": "waiver service",
+    "summary": "Section 19 is Maine's Medicaid waiver for adults who meet nursing home level of care but want to stay at home. It pays for personal care, either through an agency Personal Support Specialist (PSS) or through the Participant-Directed Option, where the member (or a representative) hires an attendant and sets the wage within a service cap. Relatives can be paid, and since July 1, 2020 a spouse can be paid as an agency PSS when the member needs extraordinary care.",
+    "who_qualifies": [
+      "Age 18 or older and eligible for MaineCare under the long-term care rules.",
+      "Meets nursing facility medical eligibility (MaineCare Section 67.02), assessed face to face on the MED form.",
+      "Has a permanent or chronic disability or functional impairment that limits self-care.",
+      "Projected monthly cost of services is within the Section 19.06 limits.",
+      "To self-direct without a representative, has the cognitive capacity scored on the MED form."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — a family member who meets the requirements may be a paid attendant or PSS, except a spouse, guardian, conservator or representative under the Participant-Directed Option.",
+      "spouse": "limited — not as a participant-directed attendant, but a spouse may be paid as a PSS through a personal care agency for extraordinary care (ADLs only, no IADLs), effective July 1, 2020.",
+      "parent_of_minor": "no — Section 19 serves adults 18 and older.",
+      "live_together": "optional — workers do not have to live with the member."
+    },
+    "pay": {
+      "display": "Member sets wage within cap; floor at least 125% of minimum wage",
+      "detail": "Under the Participant-Directed Option the member has budget authority to set the attendant's gross hourly wage within the service cap; the rate also covers employer taxes and workers' comp. Agency PSS wages are set by the agency. Maine's state plan add-on (from July 1, 2022) targets direct care pay of at least 125% of the state minimum wage. Third-party sites report about $17–$27/hour; DHHS does not publish a family-caregiver wage."
+    },
+    "hours_or_budget": "Maximus authorizes services on the MED form within a monthly cost cap. A participant-directed attendant is not paid for more than 40 hours a week except as allowed in the rule.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "Members are accepted first-come, first-served based on available funding. When funding is full, the Office of Aging and Disability Services keeps a wait list and the assessor refers people to other home care options."
+    },
+    "self_directed_or_agency": "Either. Agency PSS through a licensed home health or registered personal care agency, or the Participant-Directed Option where the member or representative employs the attendant and a fiscal intermediary handles payroll.",
+    "how_to_apply": [
+      "Apply for MaineCare through the Long-Term Care application (help from your Aging and Disability Resource Center or DHHS district office).",
+      "Call Maximus at 1-833-525-5784 for the functional assessment; a nurse may visit for a face-to-face MED assessment.",
+      "If eligible and funding is available, choose agency services or the Participant-Directed Option with your Service Coordination Agency; otherwise you are placed on the wait list.",
+      "Name the relative you want to hire; for a spouse, the Service Coordination Agency must document and authorize extraordinary care and the spouse must work for a personal care agency."
+    ],
+    "contacts": [
+      { "name": "Maximus (Maine Assessing Services Agency)", "phone": "1-833-525-5784", "url": "https://www.maine.gov/dhhs/oads/get-support/older-adults-disabilities/home-care" }
+    ],
+    "faqs": [
+      { "q": "Can a spouse get paid as a caregiver in Maine?", "a": "Only in a narrow case. Under Section 19, a spouse can be paid as a Personal Support Specialist through a personal care agency when the member needs extraordinary care. The spouse can be paid for help with activities of daily living, not household tasks." },
+      { "q": "Is there a waiting list for Section 19?", "a": "There can be. Members are accepted first-come, first-served as funding allows, and the Office of Aging and Disability Services keeps a wait list when funding is full." },
+      { "q": "Who sets the caregiver's pay?", "a": "In the Participant-Directed Option, the member sets the attendant's hourly wage within the service cap. With an agency, the agency sets the wage." },
+      { "q": "Can my adult daughter be my paid attendant?", "a": "Yes. A family member who meets the attendant requirements can be paid, as long as she is not your guardian, conservator or representative." },
+      { "q": "How many hours a week can one attendant work?", "a": "A participant-directed attendant is generally not reimbursed for more than 40 hours a week." }
+    ],
+    "keywords": ["mainecare section 19", "maine elderly and adults with disabilities waiver", "maine get paid to care for spouse", "maine participant directed option", "maine home and community benefits", "maine waiver family caregiver pay"],
+    "sources": [
+      "https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/c2s019.docx",
+      "https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/c3s019.docx",
+      "https://www.maine.gov/dhhs/oads/get-support/older-adults-disabilities/home-care",
+      "https://www.medicaid.gov/medicaid/spa/downloads/ME-22-0039.pdf",
+      "https://www.medicaidplanningassistance.org/maine-elderly-adults-disabilities-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "parent-home-health-aide",
+    "name": "Parent-Provided Home Health Aide Services for Children (MaineCare Section 40)",
+    "aka": ["Family Home Health Aide", "LD 346", "paid parent caregiver Maine", "parent HHA", "Section 40 home health aide"],
+    "kind": "state plan",
+    "summary": "Maine law (22 M.R.S. §2149-B, from LD 346) lets a parent of a child who qualifies for MaineCare home health aide services be paid for giving that care. In a January 2025 bulletin, the Office of MaineCare Services said nothing in Section 40 prevents a parent who is a certified home health aide from providing reimbursable aide services to their own minor child, billed through a home health agency. Formal rules were still planned, and families have reported trouble finding agencies that offer it.",
+    "who_qualifies": [
+      "Child is a MaineCare member under 18 who is eligible for home health aide services under MaineCare Section 40.",
+      "Home health services must be ordered and covered under Section 40 rules.",
+      "The parent must be certified as a home health aide.",
+      "The parent must be hired by a home health services provider that bills MaineCare for the services."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "n/a — this pathway is specifically for parents of minor children; other relatives would be ordinary home health aide employees.",
+      "spouse": "no — this pathway covers parents caring for their minor children, not spouses.",
+      "parent_of_minor": "yes — a parent who is a certified home health aide may be paid through a home health agency for aide services to their eligible minor child.",
+      "live_together": "optional — not addressed; most parents providing care live with the child."
+    },
+    "pay": {
+      "display": "Agency hourly wage — not published",
+      "detail": "MaineCare pays the home health agency its Section 40 rate; the parent is paid as an agency employee at a wage the agency sets. No parent-specific rate has been published."
+    },
+    "hours_or_budget": "Hours are the home health aide services authorized for the child under Section 40; a parent fills those authorized hours rather than getting a separate budget.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "There is no slot list, but an October 2025 news report found families could not find home health agencies willing to hire parents, partly because the agencies must be Medicare-certified and few serve children."
+    },
+    "self_directed_or_agency": "Agency. The parent must be employed by a MaineCare home health services provider; there is no self-directed option.",
+    "how_to_apply": [
+      "Confirm your child is a MaineCare member and has, or is being assessed for, home health aide services under Section 40.",
+      "Complete home health aide certification.",
+      "Contact MaineCare home health agencies and ask whether they will hire you to serve your own child under the Office of MaineCare Services' January 2025 guidance.",
+      "Questions about the guidance go to the Office of MaineCare Services provider relations contact named in the bulletin."
+    ],
+    "contacts": [
+      { "name": "Office of MaineCare Services — Section 40 parent HHA bulletin", "phone": "not published", "url": "https://maine.gov/dhhs/oms/providers/provider-bulletins/section-40-home-health-services-reimbursing-parents-providing-home-health-aide-hha-services" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid to care for their child in Maine?", "a": "Yes, through one pathway. A parent who is a certified home health aide can be paid by a home health agency for aide services to their own MaineCare-eligible minor child, per a January 2025 MaineCare bulletin and 22 M.R.S. §2149-B." },
+      { "q": "Do I have to be certified?", "a": "Yes. The guidance covers parents who are certified as home health aides as outlined in MaineCare Section 40." },
+      { "q": "Why can't I find an agency that offers this?", "a": "The services must be billed by a home health agency, and an October 2025 news report found few such agencies serve children or are willing to hire parents. Ask several agencies and mention the January 2025 bulletin." },
+      { "q": "Is this program final?", "a": "The law is in effect and the bulletin says providers may bill for parent-delivered aide services now. The Office of MaineCare Services said it planned rulemaking to formalize the guidance; a final rule date is not published." },
+      { "q": "Is this the same as Section 12 or Section 19?", "a": "No. Those programs serve adults 18 and older and do not pay parents of minor children. This is a home health benefit for children under Section 40." }
+    ],
+    "keywords": ["maine paid parent caregiver", "maine family home health aide program", "get paid to care for my child maine", "mainecare parent home health aide", "ld 346 maine", "maine section 40 parent"],
+    "sources": [
+      "https://maine.gov/dhhs/oms/providers/provider-bulletins/section-40-home-health-services-reimbursing-parents-providing-home-health-aide-hha-services",
+      "https://legislature.maine.gov/statutes/22/title22sec2149-B.html",
+      "https://lldc.mainelegislature.org/Open/LDs/131/131-LD-0346-CA_A_H577.pdf",
+      "https://www.bangordailynews.com/2025/10/24/politics/state-politics/maine-paid-parent-caregiver-law-inaccessible/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

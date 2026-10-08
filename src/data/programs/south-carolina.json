@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "community-choices-self-directed",
+    "name": "Community Choices Waiver — Self-Directed Attendant Care",
+    "aka": ["Community Choices", "CC waiver", "SC Community Choices self-directed", "self-directed attendant care SC", "CLTC attendant care"],
+    "kind": "waiver service",
+    "summary": "The Community Choices Waiver helps South Carolina adults who need nursing-home level care stay at home. Its self-directed Attendant Care service (scope effective July 1, 2025) lets the participant hire, schedule and supervise their own attendant, who may be a qualified family member. A fiscal intermediary contracted by SCDHHS pays the attendant.",
+    "who_qualifies": [
+      "Age 65+, or age 18–64 with a physical disability.",
+      "Meets nursing-facility level of care through a Community Long Term Care (CLTC) assessment.",
+      "Meets South Carolina Medicaid financial rules.",
+      "The participant or an appointed employer of record can supervise the attendant, as certified by the USC nurse."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — attendants may be related to the participant within the South Carolina Family Caregiver Policy.",
+      "spouse": "limited — the scope bars any 'legally responsible adult' (a person legally required to use their own assets for the participant's care); spouses are not named either way, so confirm with your case manager.",
+      "parent_of_minor": "no — Community Choices serves adults; children use the MCC Waiver.",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "Not published",
+      "detail": "SCDHHS pays self-directed attendants through a contracted fiscal intermediary in one-hour units; the current hourly attendant rate for Community Choices is not published in the scope of services."
+    },
+    "hours_or_budget": "The case manager authorizes hours in the service plan. If assessed need exceeds 40 hours a week, a second attendant must be found for the extra hours.",
+    "waitlist": { "status": "possible", "detail": "Community Choices has a set number of slots; a waiting list forms when they are full." },
+    "self_directed_or_agency": "Either. In self-directed attendant care the participant or employer of record supervises the attendant and a fiscal intermediary pays them; agency personal care is also offered.",
+    "how_to_apply": [
+      "Call SCDHHS Healthy Connections at 888-549-0820 or submit a CLTC referral online (phoenix.scdhhs.gov/cltc_referrals/new).",
+      "Complete the CLTC nursing-facility level-of-care assessment and the Medicaid financial application.",
+      "Once on the waiver, ask your case manager for self-directed Attendant Care.",
+      "The attendant completes TB screening, background check, Medicaid provider enrollment and EVV/billing training before the first authorization."
+    ],
+    "contacts": [
+      { "name": "SCDHHS Healthy Connections Member Contact Center", "phone": "888-549-0820", "url": "https://www.scdhhs.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my parent on the Community Choices Waiver?", "a": "Yes, through self-directed Attendant Care. The participant can hire a qualified family member as the attendant, and SCDHHS's fiscal intermediary pays them." },
+      { "q": "Can a spouse be the paid attendant?", "a": "It is unclear. The state's scope bars any legally responsible adult but does not name spouses. Ask your CLTC case manager before counting on it." },
+      { "q": "How many hours can one attendant work?", "a": "The state tries to keep each attendant at 40 hours a week or less. If more care is needed, a second attendant covers the extra hours." },
+      { "q": "What does an attendant need before starting?", "a": "Be 18 or older, pass background checks, have TB screening, enroll as a Medicaid provider and attend EVV and billing training at the SCDHHS area office." },
+      { "q": "How much does an attendant earn?", "a": "SCDHHS does not publish a current hourly figure for this service. Ask your case manager." }
+    ],
+    "keywords": ["community choices waiver self directed", "sc community choices attendant care family", "get paid to care for parent south carolina", "south carolina medicaid pay family caregiver", "scdhhs self directed attendant care"],
+    "sources": [
+      "https://www.scdhhs.gov/sites/dhhs/files/documents/-Attendant%20Care%20Self-Directed%20Final%20Draft%207-1-25.pdf",
+      "https://www.medicaidplanningassistance.org/south-carolina-community-choices-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "medically-complex-children-waiver",
+    "name": "Medically Complex Children (MCC) Waiver — Children's Attendant Care",
+    "aka": ["MCC waiver", "Medically Complex Children Waiver", "CAC", "children's attendant care SC", "pay parent caregiver South Carolina"],
+    "kind": "children's waiver",
+    "summary": "The MCC Waiver serves South Carolina children with serious, long-lasting medical conditions who need hospital level of care. Since July 1, 2025, its self-directed Children's Attendant Care option pays eligible parents, relatives or guardians $16.20 an hour to give the extra hands-on care their child needs. Morning Sun Financial Services enrolls caregivers and pays them by direct deposit.",
+    "who_qualifies": [
+      "Enrolled in the MCC Waiver: meets hospital level of care with a chronic condition expected to last more than 12 months.",
+      "Age 1 through 21 for Children's Attendant Care.",
+      "Needs hands-on help with at least two of seven activities of daily living beyond what a parent normally gives a child the same age."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — qualified relatives can be approved as paid children's attendant caregivers.",
+      "spouse": "n/a — the participant is a child.",
+      "parent_of_minor": "yes — the FAQ says families may hire qualified family members, including a parent of a minor child.",
+      "live_together": "optional — care is clocked at home (or to and from Medicaid services) via a phone app."
+    },
+    "pay": {
+      "display": "$16.20/hr",
+      "detail": "SCDHHS's Children's Attendant Care FAQ (rev. Aug. 11, 2025) sets the 2025 rate at $16.20 per hour, paid by Morning Sun Financial Services about twice a month."
+    },
+    "hours_or_budget": "The MCC waiver nurse case manager assigns minutes and hours to each extraordinary-care task. Each caregiver can work no more than 40 hours a week; extra approved hours go to a second caregiver or an agency aide.",
+    "waitlist": { "status": "possible", "detail": "Not published on the SCDHHS page; MCC is a capped waiver." },
+    "self_directed_or_agency": "Self-directed: the family manages the caregiver; Morning Sun is the fiscal agent and a USC nurse handles training and approval.",
+    "how_to_apply": [
+      "If your child is not on the MCC Waiver, call Healthy Connections at 888-549-0820 or submit a referral at phoenix.scdhhs.gov/cltc_referrals/new.",
+      "Once enrolled, ask your waiver nurse case manager for Children's Attendant Care.",
+      "Pass the background check and CPR/First Aid training (at your own cost) with help from the USC nurse.",
+      "Complete the Morning Sun enrollment packet and use the time-tracking app to clock in and out."
+    ],
+    "contacts": [
+      { "name": "SCDHHS Healthy Connections Member Contact Center", "phone": "(888) 549-0820", "url": "https://www.scdhhs.gov/resources/waivers/medically-complex-children-mcc-waiver" },
+      { "name": "SC Solutions", "phone": "(888) 827-1665", "url": "https://www.scdhhs.gov/resources/waivers/medically-complex-children-mcc-waiver" },
+      { "name": "Morning Sun Financial Services (tax forms)", "phone": "(855) 767-4871", "url": "https://www.scdhhs.gov/sites/dhhs/files/waivers/Self-directed%20Care%20FAQs%20Final%208.11.25.pdf" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my medically complex child in South Carolina?", "a": "Yes. Since July 1, 2025, parents of children on the MCC Waiver can be paid as Children's Attendant Caregivers if the child needs extraordinary hands-on care." },
+      { "q": "How much do parents get paid?", "a": "As of 2025 the rate is $16.20 an hour, paid by direct deposit about twice a month." },
+      { "q": "How many hours can I be paid for?", "a": "Up to 40 hours a week per caregiver. If your child is approved for more, another relative or an agency aide covers the rest." },
+      { "q": "Can I be paid while my child is at school or in the hospital?", "a": "No. You can only clock in when you and your child are home, or while taking your child to and from a Medicaid-covered service." },
+      { "q": "Is the income taxable?", "a": "SCDHHS tells caregivers to ask a tax expert. Morning Sun can help with tax forms at (855) 767-4871." },
+      { "q": "Do I have to give up my agency aide?", "a": "No. Children's Attendant Care is optional, and you can mix it with an agency aide for remaining hours." }
+    ],
+    "keywords": ["mcc waiver south carolina", "pay parents medically complex child sc", "children's attendant care south carolina", "medically complex children waiver pay parent", "scdhhs cac $16.20"],
+    "sources": [
+      "https://www.scdhhs.gov/resources/waivers/medically-complex-children-mcc-waiver",
+      "https://www.scdhhs.gov/sites/dhhs/files/waivers/Self-directed%20Care%20FAQs%20Final%208.11.25.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

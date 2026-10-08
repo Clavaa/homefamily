@@ -1,0 +1,224 @@
+[
+  {
+    "slug": "iris",
+    "name": "IRIS (Include, Respect, I Self-Direct)",
+    "aka": ["IRIS", "IRIS Wisconsin", "Include Respect I Self-Direct", "IRIS self-directed personal care", "SDPC", "IRIS program"],
+    "kind": "self-direction option",
+    "summary": "IRIS is Wisconsin Medicaid's self-directed long-term care program for adults. The participant gets a budget, writes a plan, and hires their own workers — including relatives and, through IRIS Self-Directed Personal Care, a spouse. A fiscal employer agent runs payroll and taxes.",
+    "who_qualifies": [
+      "Lives in Wisconsin and is 18 or older.",
+      "An older adult or an adult with a physical, intellectual or developmental disability.",
+      "Enrolled in (or eligible for) Wisconsin Medicaid, confirmed by the income maintenance agency.",
+      "Functionally eligible on the Long-Term Care Functional Screen done by the ADRC.",
+      "Lives in a home, apartment, adult family home or residential care apartment complex."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — participants can hire relatives as participant-hired workers after a background check through the fiscal employer agent.",
+      "spouse": "yes — DHS materials say IRIS Self-Directed Personal Care allows the participant to hire a spouse as a caregiver.",
+      "parent_of_minor": "n/a — IRIS serves adults 18+; children use the CLTS Waiver, which does not pay parents in the household.",
+      "live_together": "optional — the worker may live with the participant or elsewhere."
+    },
+    "pay": {
+      "display": "$12–$17/hr",
+      "detail": "DHS does not publish a set IRIS wage. The participant sets the worker's pay within the IRIS budget, and the fiscal employer agent processes payroll and withholding. $12–$17/hr is a typical range reported for family caregivers, not a state rate."
+    },
+    "hours_or_budget": "Each participant gets an individual budget for goods, supports and services. The IRIS consultant helps write a plan that must fit within that budget; self-directed personal care hours are set through a separate assessment. Some people owe a monthly cost share based on income.",
+    "waitlist": {
+      "status": "none",
+      "detail": "IRIS is available statewide as part of Wisconsin's long-term care entitlement; DHS does not list a waitlist for adults who meet the rules."
+    },
+    "self_directed_or_agency": "Self-directed. The participant is the employer of their workers; the fiscal employer agent (GT Independence, iLIFE or Premier today) handles background checks, payroll and taxes. DHS has chosen one statewide FEA, Public Partnerships LLC (PPL), with transfers starting no earlier than 2027.",
+    "how_to_apply": [
+      "Contact your local Aging and Disability Resource Center (ADRC) or Tribal aging and disability resource specialist.",
+      "Complete the Long-Term Care Functional Screen and apply for Medicaid through the income maintenance agency (the ADRC can help).",
+      "Choose IRIS, then choose an IRIS consultant agency and a fiscal employer agent.",
+      "Work with your IRIS consultant to build a plan and hire your family member through the fiscal employer agent."
+    ],
+    "contacts": [
+      { "name": "IRIS Call Center (Wisconsin DHS)", "phone": "888-515-4747", "url": "https://www.dhs.wisconsin.gov/iris/index.htm" },
+      { "name": "GT Independence (IRIS FEA)", "phone": "877-659-4500", "url": "https://www.dhs.wisconsin.gov/iris/fea.htm" },
+      { "name": "iLIFE Financial Management Services (IRIS FEA)", "phone": "888-800-5599", "url": "https://www.dhs.wisconsin.gov/iris/fea.htm" },
+      { "name": "Premier Financial Management Services (IRIS FEA)", "phone": "855-224-5810", "url": "https://www.dhs.wisconsin.gov/iris/fea.htm" }
+    ],
+    "faqs": [
+      { "q": "Can IRIS pay my husband or wife to care for me?", "a": "Yes. Wisconsin DHS says IRIS Self-Directed Personal Care allows a participant to hire a spouse as a caregiver. That is unusual among states." },
+      { "q": "Is there a waitlist for IRIS?", "a": "DHS does not list one. Adults who meet the functional and Medicaid rules can choose IRIS through their ADRC." },
+      { "q": "Who pays the caregiver in IRIS?", "a": "The fiscal employer agent — GT Independence, iLIFE or Premier today — runs payroll and taxes from the participant's budget. DHS picked PPL as the single future agent, with moves starting no earlier than 2027." },
+      { "q": "What is the difference between IRIS and Family Care?", "a": "Both are for adults who need long-term care. In Family Care a managed care organization arranges services. In IRIS you manage your own budget and hire your own workers." },
+      { "q": "Can a child use IRIS?", "a": "No. IRIS is for adults 18 and older. Children with disabilities use the Children's Long-Term Support (CLTS) Program." }
+    ],
+    "keywords": ["iris wisconsin", "wisconsin iris program pay family caregiver", "iris spouse caregiver wisconsin", "iris self directed personal care", "iris fiscal employer agent", "how to apply for iris wisconsin"],
+    "sources": [
+      "https://www.dhs.wisconsin.gov/iris/index.htm",
+      "https://www.dhs.wisconsin.gov/iris/enroll.htm",
+      "https://www.dhs.wisconsin.gov/iris/fea.htm",
+      "https://www.dhs.wisconsin.gov/iris/fea-announcement.htm",
+      "https://www.dhs.wisconsin.gov/publications/p00088mlp.pdf",
+      "https://www.medicaidplanningassistance.org/wisconsin-iris-program/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "family-care",
+    "name": "Family Care",
+    "aka": ["Family Care Wisconsin", "Family Care MCO", "Family Care self-directed supports", "SDS", "Family Care Partnership"],
+    "kind": "waiver service",
+    "summary": "Family Care is Wisconsin Medicaid's managed long-term care program for frail older adults and adults with disabilities. A managed care organization (MCO) plans and pays for services, and members can choose self-directed supports to hire their own workers, who may be family members.",
+    "who_qualifies": [
+      "Age 18 or older and a frail elder or adult with a physical, intellectual or developmental disability.",
+      "Eligible for Wisconsin Medicaid.",
+      "Functionally eligible on the Long-Term Care Functional Screen.",
+      "Has a long-term care condition expected to last more than 90 days (people with dementia or a terminal condition may also qualify)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — DHS says self-directed support workers may be a family member, friend or other qualified person who passes a background check and is approved by the MCO.",
+      "spouse": "limited — DHS Family Care pages do not say whether a spouse can be a paid self-directed worker; ask the MCO for its written policy.",
+      "parent_of_minor": "n/a — Family Care serves adults 18 and older only.",
+      "live_together": "optional — not required by the published program rules."
+    },
+    "pay": {
+      "display": "Varies by MCO",
+      "detail": "Not published. Self-directed workers are paid from a budget the MCO sets for the self-directed services, through a fiscal employer agent. The member approves each payment. No statewide wage for family workers is published."
+    },
+    "hours_or_budget": "The MCO care team assesses the member and decides which services are needed. For services the member self-directs, the MCO provides a budget and the member writes a self-directed supports plan; the MCO manages everything else.",
+    "waitlist": {
+      "status": "none",
+      "detail": "DHS says the Family Care wait list ended in 2015 when the program expanded statewide."
+    },
+    "self_directed_or_agency": "Either. The MCO arranges agency providers by default; with self-directed supports the member hires, trains and supervises workers and a fiscal employer agent handles payroll.",
+    "how_to_apply": [
+      "Contact your local Aging and Disability Resource Center (ADRC) to check eligibility and complete the Long-Term Care Functional Screen.",
+      "Apply for Medicaid through the income maintenance agency if not already enrolled.",
+      "Choose Family Care and an MCO that serves your county, and enroll.",
+      "Tell your MCO care team which services you want to self-direct, then hire your family member through the fiscal employer agent after their background check."
+    ],
+    "contacts": [
+      { "name": "Wisconsin Medicaid Member Services", "phone": "800-362-3002", "url": "https://www.dhs.wisconsin.gov/familycare/index.htm" },
+      { "name": "ADRC directory (Wisconsin DHS)", "phone": "not published on the program page", "url": "https://www.dhs.wisconsin.gov/adrc/index.htm" }
+    ],
+    "faqs": [
+      { "q": "Can Family Care pay a family member to be my caregiver?", "a": "Yes, through self-directed supports. DHS says your workers may be family members, friends or other qualified people who pass a background check and are approved before being paid." },
+      { "q": "Can Family Care pay my spouse?", "a": "DHS Family Care pages do not say. Ask your MCO for its self-directed supports policy in writing. If paying a spouse is your goal, IRIS explicitly allows a spouse to be hired." },
+      { "q": "Is there a waiting list for Family Care?", "a": "No. DHS says the Family Care wait list ended in 2015 when the program became statewide." },
+      { "q": "How much does Family Care pay family caregivers?", "a": "There is no published statewide rate. Pay comes from the self-directed budget set by your MCO." },
+      { "q": "Should I choose Family Care or IRIS?", "a": "Family Care has an MCO arrange and manage care. IRIS gives you more control over the budget and who you hire. The ADRC will explain both before you choose." }
+    ],
+    "keywords": ["family care wisconsin", "family care self directed supports", "wisconsin family care pay family member", "family care mco wisconsin", "family care vs iris"],
+    "sources": [
+      "https://www.dhs.wisconsin.gov/familycare/index.htm",
+      "https://www.dhs.wisconsin.gov/node/146186",
+      "https://www.medicaidplanningassistance.org/wisconsin-family-care-partnership-programs/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "personal-care-services",
+    "name": "Medicaid Personal Care Services (PCS)",
+    "aka": ["PCS", "personal care Wisconsin", "ForwardHealth personal care", "Medicaid personal care agency", "personal care worker"],
+    "kind": "state plan",
+    "summary": "Personal Care Services is a Wisconsin Medicaid (ForwardHealth) State Plan benefit that pays for hands-on help with daily tasks at home. Care must be ordered by a prescriber and delivered by a worker employed by a certified personal care agency, so a family member gets paid by working for that agency.",
+    "who_qualifies": [
+      "Enrolled in Wisconsin Medicaid (BadgerCare Plus or Medicaid fee-for-service; HMO members get PCS through their plan).",
+      "Needs help with activities of daily living such as bathing, dressing, toileting, transfers, mobility, grooming or eating.",
+      "Has a written order from a prescribing provider and a plan of care from a registered nurse after a home visit.",
+      "Hours beyond 50 per calendar year need prior authorization."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — a relative who is not legally responsible for the member can be hired by a certified personal care agency as the member's worker.",
+      "spouse": "no — DHS 107.112(4)(d) says personal care is not covered when provided by a responsible relative under s. 49.90, Stats., which includes a spouse.",
+      "parent_of_minor": "no — parents of a child under 18 are responsible relatives under s. 49.90, Stats., so their care is not covered.",
+      "live_together": "optional — not required by the rule."
+    },
+    "pay": {
+      "display": "Set by the agency",
+      "detail": "Medicaid pays the certified personal care agency; the agency sets its workers' hourly wage. No worker wage is published by DHS for this program."
+    },
+    "hours_or_budget": "An RN from the agency visits the home and writes a plan of care; the prescriber signs the order. Hours above 50 per calendar year need prior authorization from ForwardHealth. RN supervisory reviews happen at least every 60 days, and no more than one-third of the worker's time can go to housekeeping.",
+    "waitlist": {
+      "status": "none",
+      "detail": "PCS is a Medicaid State Plan benefit; no waitlist is published. Finding an agency with staff can still take time."
+    },
+    "self_directed_or_agency": "Agency. The worker must be employed by or contracted with a personal care provider certified under DHS 105.17 and supervised by a registered nurse.",
+    "how_to_apply": [
+      "Confirm the person has Wisconsin Medicaid (ForwardHealth) coverage.",
+      "Ask the doctor or other prescriber to write an order for personal care services.",
+      "Choose a certified personal care agency; the agency's RN does a home visit, writes the plan of care and requests prior authorization if needed.",
+      "If a relative (not a spouse or parent of a minor) wants to be the worker, they apply to be hired by that agency and complete its training."
+    ],
+    "contacts": [
+      { "name": "Wisconsin Medicaid Member Services", "phone": "800-362-3002", "url": "https://www.dhs.wisconsin.gov/familycare/index.htm" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my parent through Wisconsin personal care?", "a": "Yes, if a certified personal care agency hires you as your parent's worker. Medicaid pays the agency and the agency pays you." },
+      { "q": "Can a spouse be the paid personal care worker?", "a": "No. Wisconsin's rule says personal care is not covered when a responsible relative provides it, and a spouse is a responsible relative under state law. IRIS is the Wisconsin program that allows a spouse to be paid." },
+      { "q": "Can a parent be paid for a child's personal care?", "a": "Not for a child under 18 — parents of minors are responsible relatives. Once the child is an adult, a parent can be hired by an agency." },
+      { "q": "How many hours of personal care can I get?", "a": "The first 50 hours a calendar year need no prior authorization. More hours are approved by ForwardHealth based on the RN's plan of care." },
+      { "q": "Is PCS the same as IRIS or Family Care?", "a": "No. PCS is a regular Medicaid benefit delivered by an agency. IRIS and Family Care are long-term care programs with a budget and more services." }
+    ],
+    "keywords": ["wisconsin medicaid personal care services", "personal care worker family member wisconsin", "forwardhealth personal care", "wisconsin pcs agency", "responsible relative wisconsin personal care"],
+    "sources": [
+      "https://docs.legis.wisconsin.gov/code/admin_code/dhs/101/107/112",
+      "https://www.oig.hhs.gov/documents/audit/7500/A-05-09-00093-Complete%20Report.pdf",
+      "https://www.dhs.wisconsin.gov/familycare/index.htm"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "clts-waiver",
+    "name": "Children's Long-Term Support (CLTS) Waiver Program",
+    "aka": ["CLTS", "CLTS Waiver", "Children's Long-Term Support", "CLTS Wisconsin", "personal supports"],
+    "kind": "children's waiver",
+    "summary": "The CLTS Program is a Wisconsin Medicaid waiver that pays for non-medical services so children with disabilities can stay at home. Relatives such as grandparents, aunts, uncles or adult siblings can be paid to give services like personal supports, but parents and other primary caregivers living in the child's household cannot be paid, except for some transportation.",
+    "who_qualifies": [
+      "Under age 22.",
+      "Eligible for Wisconsin Medicaid (children can qualify through the waiver).",
+      "Needs the level of care provided in a hospital, nursing home or institution for people with developmental disabilities.",
+      "Can safely get required care at home, in foster care or in another approved setting."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives and legal guardians can deliver most waiver services if they meet provider qualifications, the need is in the plan, and the rate is no higher than for a similar provider.",
+      "spouse": "n/a — CLTS serves children and young adults; spousal pay is not addressed.",
+      "parent_of_minor": "no — the CLTS manual says payment to a parent or primary caregiver in the participant's household is not allowed, except in certain cases for transportation.",
+      "live_together": "n/a — paid relatives cannot be the primary caregiver in the child's household."
+    },
+    "pay": {
+      "display": "Up to the CLTS service rate",
+      "detail": "Paid relatives get no more than the rate that would be paid to a provider of a similar service, per DHS's Children's Long-Term Support: Service Rates. Relatives submit time sheets to the fiscal support entity at least every two weeks. No single hourly figure is published."
+    },
+    "hours_or_budget": "A county support and service coordinator assesses the child and builds an individual service plan. Personal supports cover extraordinary care needs only, not supervision a parent would normally give a child without a disability. Parents above 330% of the federal poverty level may owe a parental payment limit toward costs.",
+    "waitlist": {
+      "status": "none",
+      "detail": "DHS says the CLTS waitlist has ended and continuous enrollment now enrolls eligible children as soon as they qualify."
+    },
+    "self_directed_or_agency": "Either. Families can use agency providers or individual providers they select, with a fiscal agent handling payroll for self-directed workers.",
+    "how_to_apply": [
+      "Contact your county health and human services agency (the county waiver agency) and say you want CLTS services for your child.",
+      "Fill out the application and schedule a home visit with a support and service coordinator.",
+      "The coordinator uses the functional screen to confirm your child's needs, eligibility and disability status.",
+      "Once enrolled, build the service plan; a qualified relative outside the household can then be enrolled as a paid individual provider."
+    ],
+    "contacts": [
+      { "name": "CLTS Program (Wisconsin DHS) — county contacts", "phone": "not published on the program page", "url": "https://www.dhs.wisconsin.gov/clts/index.htm" },
+      { "name": "Wisconsin Medicaid Member Services", "phone": "800-362-3002", "url": "https://www.dhs.wisconsin.gov/familycare/index.htm" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid through CLTS in Wisconsin?", "a": "No. The CLTS manual does not allow payment to a parent or primary caregiver in the child's household, except in some transportation cases." },
+      { "q": "Can a grandparent be paid to care for a child on CLTS?", "a": "Yes. Relatives can provide most waiver services if they meet the provider qualifications, the service is in the plan, and they are paid no more than a similar provider." },
+      { "q": "Is there a waitlist for CLTS?", "a": "No. DHS says the waitlist ended and eligible children are enrolled as soon as they qualify." },
+      { "q": "Will we have to pay for CLTS?", "a": "Families whose income is below 330% of the federal poverty level pay nothing. Higher-income parents may owe a parental payment limit based on income and family size." },
+      { "q": "What happens when my child turns 18?", "a": "CLTS covers children under 22. At 18 a young adult can also look at adult programs like IRIS or Family Care through the ADRC, where a parent may be hired." }
+    ],
+    "keywords": ["clts wisconsin", "clts waiver pay parents", "children's long term support wisconsin", "clts waitlist", "wisconsin disabled child caregiver pay"],
+    "sources": [
+      "https://www.dhs.wisconsin.gov/publications/p02256.pdf",
+      "https://www.dhs.wisconsin.gov/clts/index.htm",
+      "https://www.dhs.wisconsin.gov/clts/eligibility.htm",
+      "https://www.dhs.wisconsin.gov/clts/apply.htm"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

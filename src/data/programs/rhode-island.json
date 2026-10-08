@@ -1,0 +1,99 @@
+[
+  {
+    "slug": "personal-choice",
+    "name": "Personal Choice Program",
+    "aka": ["Personal Choice", "RI Personal Choice", "Personal Choice self-directed care", "PC program Rhode Island"],
+    "kind": "self-direction option",
+    "summary": "Personal Choice is Rhode Island's self-directed Medicaid long-term care program. The participant gets a monthly budget, hires their own personal care aide, and sets the aide's wage, so an adult child or other relative can be paid. A certified fiscal intermediary handles payroll and taxes.",
+    "who_qualifies": [
+      "Adults 18 and older with a disability, or anyone 65 and older.",
+      "Determined by EOHHS to need a high or highest level of care.",
+      "Eligible for Rhode Island Medicaid long-term services and supports (LTSS).",
+      "Able to direct their own care, or has a qualified designated representative, and wants to live at home."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the rule bars only the spouse, representative, financial power of attorney and Social Security representative payee; other relatives can be hired.",
+      "spouse": "no — 210-RICR-50-10-2 says a spouse cannot be hired as the personal care aide.",
+      "parent_of_minor": "no — the program serves adults 18+ and people 65+.",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "$15–$21/hr",
+      "detail": "Participants set the aide's hourly wage between $15 and $21 under 210-RICR-50-10-2 (newer than states.json's $15 figure). Payroll taxes and workers' compensation come out of the monthly budget."
+    },
+    "hours_or_budget": "EOHHS sets a monthly budget from a functional assessment (six levels of assistance), roughly what it would pay a home health agency. Aides are limited to 40 hours a week per employer. Up to 10% of the budget may go to participant-directed goods and services.",
+    "waitlist": { "status": "possible", "detail": "No waitlist language in the current rule; slots may be limited." },
+    "self_directed_or_agency": "The participant (or representative) is the employer; an EOHHS-certified fiscal intermediary runs payroll, and a conflict-free case management agency coordinates services.",
+    "how_to_apply": [
+      "Apply for Medicaid long-term services and supports through RI DHS (855-697-4347) or get help from The POINT (401-462-4444).",
+      "Complete the EOHHS level-of-care assessment.",
+      "Ask a person-centered options counselor or your conflict-free case management agency to enroll you in Personal Choice (see myoptions.ri.gov).",
+      "Hire your aide, who must complete training, CPR/First Aid and background checks before being paid."
+    ],
+    "contacts": [
+      { "name": "RI DHS Call Center", "phone": "855-697-4347", "url": "https://eohhs.ri.gov/Consumer/ConsumerInformation/Healthcare/LongTermServicesandSupports/HomeandCommunityBasedServices.aspx" },
+      { "name": "The POINT (Aging and Disability Resource Center)", "phone": "401-462-4444", "url": "https://eohhs.ri.gov/Consumer/ConsumerInformation/Healthcare/LongTermServicesandSupports/HomeandCommunityBasedServices.aspx" }
+    ],
+    "faqs": [
+      { "q": "Can I pay my daughter to care for me in Rhode Island?", "a": "Yes. Under Personal Choice you can hire an adult child or other relative as your personal care aide. Only a spouse, your representative, your financial power of attorney or your payee are barred." },
+      { "q": "Can my husband or wife be paid?", "a": "No. Rhode Island's self-directed care rule says a spouse cannot be hired as the aide." },
+      { "q": "How much does a Personal Choice aide earn?", "a": "You set the wage between $15 and $21 an hour, as long as it fits your monthly budget after taxes." },
+      { "q": "How many hours can my aide work?", "a": "Each aide is limited to 40 hours a week. If you need more care, you hire a second aide." },
+      { "q": "What happened to the Independent Provider program?", "a": "It was merged into Personal Choice by a rule effective February 12, 2024. Former IP members moved to Personal Choice, which kept the aide registry." }
+    ],
+    "keywords": ["personal choice program rhode island", "ri personal choice pay family caregiver", "rhode island medicaid pay relative caregiver", "personal choice pca wage ri", "self directed care rhode island"],
+    "sources": [
+      "https://rulesstaging.sos.ri.gov/regulations/Part/210-50-10-2",
+      "https://eohhs.ri.gov/Consumer/ConsumerInformation/Healthcare/LongTermServicesandSupports/HomeandCommunityBasedServices.aspx",
+      "https://www.medicaidplanningassistance.org/rhode-island-long-term-services-supports/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "independent-provider",
+    "name": "Independent Provider Program (merged into Personal Choice)",
+    "aka": ["IP Program", "Independent Provider", "RI IP program", "independent provider PCA Rhode Island"],
+    "kind": "self-direction option",
+    "summary": "The Independent Provider (IP) Program let Rhode Island Medicaid LTSS members self-direct non-medical personal care and homemaker services by choosing aides from a registry. Under the Personal Choice Self-Directed Personal Care Services Act of 2023 and an EOHHS rule effective February 12, 2024, IP was merged into Personal Choice, which kept the registry option. People searching for IP today enroll through Personal Choice.",
+    "who_qualifies": [
+      "Adult Rhode Island Medicaid LTSS members living at home (IP served all adult LTSS consumers in a home setting).",
+      "Today, new enrollees must meet Personal Choice rules: 18+ with a disability or 65+, high or highest level of care."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives other than a spouse can be hired as the aide (now under Personal Choice).",
+      "spouse": "no — spouses were barred under IP and remain barred under Personal Choice.",
+      "parent_of_minor": "no — adult program.",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "$15–$21/hr",
+      "detail": "Former IP members now follow Personal Choice pay rules: the participant sets the aide's wage between $15 and $21 per hour (210-RICR-50-10-2), with collective bargaining terms carried over from IP."
+    },
+    "hours_or_budget": "Monthly budget set by EOHHS from a functional assessment; aides capped at 40 hours a week.",
+    "waitlist": { "status": "none", "detail": "IP is closed to new enrollment; use Personal Choice." },
+    "self_directed_or_agency": "Self-directed; the participant is the employer and an EOHHS-certified fiscal intermediary handles payroll.",
+    "how_to_apply": [
+      "Contact The POINT at 401-462-4444 or RI DHS at 855-697-4347 about Medicaid LTSS.",
+      "Ask to enroll in Personal Choice (the program that replaced IP) and use the aide registry if you need help finding a worker."
+    ],
+    "contacts": [
+      { "name": "The POINT (Aging and Disability Resource Center)", "phone": "401-462-4444", "url": "https://eohhs.ri.gov/Consumer/ConsumerInformation/Healthcare/LongTermServicesandSupports/HomeandCommunityBasedServices.aspx" },
+      { "name": "RI DHS Call Center", "phone": "855-697-4347", "url": "https://eohhs.ri.gov/Consumer/ConsumerInformation/Healthcare/LongTermServicesandSupports/HomeandCommunityBasedServices.aspx" }
+    ],
+    "faqs": [
+      { "q": "Does the Independent Provider program still exist?", "a": "No. Rhode Island merged it into Personal Choice by a rule effective February 12, 2024. Members were moved to Personal Choice." },
+      { "q": "Can I still pick an aide from a registry?", "a": "Yes. Personal Choice kept the registry option that IP used." },
+      { "q": "Did pay change after the merger?", "a": "Personal Choice lets the participant set the wage between $15 and $21 an hour, which gives more flexibility than IP had." },
+      { "q": "Can a relative still be my paid aide?", "a": "Yes, unless the relative is your spouse, representative, financial power of attorney or Social Security payee." }
+    ],
+    "keywords": ["independent provider program rhode island", "ri ip program pca", "independent provider merged personal choice", "rhode island self directed pca registry"],
+    "sources": [
+      "https://rulesstaging.sos.ri.gov/regulations/Part/210-50-10-2",
+      "https://webserver.rilegislature.gov/BillText23/HouseText23/H5991A.htm",
+      "https://eohhs.ri.gov/sites/g/files/xkgbur226/files/2023-11/210-RICR-50-10-2_Public%20Notice.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "advantage-cd-pass",
+    "name": "ADvantage Waiver — Consumer-Directed Personal Assistance Services and Supports (CD-PASS)",
+    "aka": ["CD-PASS", "CDPASS", "ADvantage CD-PASS", "ADvantage waiver self-direction", "consumer directed ADvantage"],
+    "kind": "self-direction option",
+    "summary": "CD-PASS is the self-directed option inside Oklahoma's ADvantage Waiver (and the Medically Fragile Waiver). The member becomes the employer, hires their own personal services assistant, and manages an employer budget, so a trusted relative such as an adult child can be hired and paid. Wages are paid through Acumen Fiscal Agent, the state's fiscal and electronic visit verification vendor.",
+    "who_qualifies": [
+      "An active ADvantage Waiver or Medically Fragile Waiver member (CD-PASS is an option for current members, not a separate program).",
+      "ADvantage serves adults 65 and older, and adults 21 and older with a physical disability, who need nursing-facility level of care.",
+      "Meets SoonerCare (Oklahoma Medicaid) long-term care income and asset limits.",
+      "Able to act as the employer, or has an authorized representative who can."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the member recruits and hires their own personal services assistant, and adult children and other relatives are commonly hired.",
+      "spouse": "limited — OAC 317:30-5-761 lets OKDHS authorize a spouse or legal guardian only by exception (no other staff available, needs too complex, or care by someone else would be harmful), capped at 40 hours a week and reviewed monthly.",
+      "parent_of_minor": "no — ADvantage serves adults, so a parent of a minor child is not paid through this waiver.",
+      "live_together": "optional — the caregiver does not have to live with the member."
+    },
+    "pay": {
+      "display": "$11.46–$13.80/hr",
+      "detail": "The member negotiates the wage with the employee within a maximum set by the state and the authorized units in the service plan. The last published caps found were about $11.46/hr for a Personal Services Assistant and $13.80/hr for an Advanced Personal Services Assistant; OKDHS provider updates later moved to per-unit figures. A current maximum is not published on the OKDHS CD-PASS page."
+    },
+    "hours_or_budget": "The ADvantage case manager assesses needs and sets service-plan hours. The member's employer budget equals those authorized units at the CD-PASS rate; rate changes usually take effect at the annual reassessment.",
+    "waitlist": { "status": "possible", "detail": "ADvantage is a capped 1915(c) waiver, not an entitlement; when slots fill, a waiting list forms. Current members can switch to CD-PASS without a separate wait." },
+    "self_directed_or_agency": "The member (or representative) is the legal employer; Acumen Fiscal Agent runs payroll, taxes and electronic visit verification.",
+    "how_to_apply": [
+      "If not yet on ADvantage, apply through the OKDHS online long-term care intake form or call 800-435-4711.",
+      "Complete the financial (SoonerCare) and nursing-facility level-of-care assessments.",
+      "Once enrolled, tell your ADvantage case manager you want CD-PASS, or call the CD-PASS unit at 918-933-4900.",
+      "Complete the Acumen employer and employee enrollment packets and agree on the caregiver's pay rate before work starts."
+    ],
+    "contacts": [
+      { "name": "OKDHS Community Living, Aging and Protective Services — CD-PASS", "phone": "(918) 933-4900", "url": "https://oklahoma.gov/okdhs/services/aging/cdpass.html" },
+      { "name": "OKDHS Aging Services (statewide)", "phone": "(800) 435-4711", "url": "https://oklahoma.gov/okdhs/services/aging/cdpass.html" }
+    ],
+    "faqs": [
+      { "q": "Can I hire my daughter or son through CD-PASS?", "a": "Yes. Under CD-PASS the member is the employer and chooses who to hire. Adult children and other relatives are commonly hired, as long as they pass the background check and finish Acumen enrollment." },
+      { "q": "Can my husband or wife be my paid caregiver?", "a": "Only in rare cases. Oklahoma rules let a spouse or legal guardian be paid only by approved exception, for example when no other worker is available or care by anyone else would harm the member. The spouse is limited to 40 paid hours a week and the case manager checks in monthly." },
+      { "q": "How much does a CD-PASS caregiver earn?", "a": "The member sets the wage with the worker, up to a state maximum. Older state figures put the cap near $11.46 an hour for basic personal care and $13.80 for advanced personal care. Ask your case manager or Acumen for the current maximum." },
+      { "q": "Who pays the caregiver?", "a": "Acumen Fiscal Agent, the state's fiscal management vendor, pays the worker and handles payroll taxes. The caregiver clocks in and out using electronic visit verification." },
+      { "q": "Can someone with power of attorney be the paid caregiver?", "a": "No. Oklahoma rules say the CD-PASS services provider cannot also hold an active power of attorney for the member." },
+      { "q": "Is there a waiting list?", "a": "ADvantage has a fixed number of slots each year. When it is full, new applicants may wait. Members already on ADvantage can ask for CD-PASS at any time." }
+    ],
+    "keywords": ["cd-pass oklahoma", "oklahoma advantage waiver pay family caregiver", "get paid to care for parent oklahoma", "cdpass acumen oklahoma", "advantage waiver self directed", "oklahoma medicaid pay family member caregiver"],
+    "sources": [
+      "https://oklahoma.gov/okdhs/services/aging/cdpass.html",
+      "https://oklahoma.gov/ohca/policies-and-rules/xpolicy/medical-providers-fee-for-service/individual-providers-and-specialties/advantage-program-waiver-services/eligible-providers.html",
+      "https://oklahoma.gov/okdhs/services/aging/providerupdate082812.html",
+      "https://www.medicaidplanningassistance.org/oklahoma-advantage-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

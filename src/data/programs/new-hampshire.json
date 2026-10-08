@@ -1,0 +1,178 @@
+[
+  {
+    "slug": "choices-for-independence",
+    "name": "Choices for Independence (CFI) Waiver",
+    "aka": ["CFI", "CFI waiver", "Choices for Independence", "HCBS-CFI", "NH CFI program", "participant directed and managed services", "PDMS"],
+    "kind": "waiver service",
+    "summary": "Choices for Independence is New Hampshire's Medicaid home and community based services waiver for adults who need nursing-home level care but want to stay at home. Under its participant-directed and managed services (PDMS) option, the participant picks their own workers and acts as co-employer with a financial management services (FMS) agency, which runs payroll. That lets a relative such as an adult child be hired and paid, but state rules bar payment to a spouse.",
+    "who_qualifies": [
+      "Age 18 or older (He-E 801.03).",
+      "Financially and categorically eligible for New Hampshire Medicaid, including the long-term care income and asset rules.",
+      "Clinically eligible for nursing facility care: needs 24-hour care for medical monitoring, restorative or rehab care, certain medication administration, or help with 2 or more activities of daily living such as bathing, dressing, eating, toileting or transferring.",
+      "Needs at least one CFI waiver service and gets at least one waiver service every month.",
+      "Chooses home and community services instead of a nursing home, by signing the application."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — under PDMS the participant selects their own providers, and the FMS agency hires the workers the participant chooses, so adult children and other relatives can be hired; agency personal care cannot be given by the participant's legal guardian, power-of-attorney agent or designated PCS representative.",
+      "spouse": "no — He-E 801.12 says no CFI service is covered if it is provided by a legally responsible relative, and He-E 801.02 defines that as the participant's spouse.",
+      "parent_of_minor": "n/a — CFI only serves adults 18 and older.",
+      "live_together": "optional — the rules do not require the paid relative to live with the participant."
+    },
+    "pay": {
+      "display": "Not published",
+      "detail": "New Hampshire does not publish a set hourly wage for family workers under CFI. Payment to CFI providers is made at rates the Department of Health and Human Services sets under RSA 161:4, VI(a). Under PDMS, the participant and case manager build a budget with itemized costs, and the FMS agency pays the worker from that budget and withholds taxes. Ask the FMS agency what hourly wage your budget supports."
+    },
+    "hours_or_budget": "A state nurse does a face-to-face clinical assessment and builds an identified needs list. The case manager writes a comprehensive care plan and asks the state to authorize specific services, units and frequencies. Under PDMS the budget lists each service, how often it is given and its cost. The total cost of home services is compared to the average Medicaid cost of nursing facility care (He-E 801.09).",
+    "waitlist": {
+      "status": "possible",
+      "detail": "CFI is a 1915(c) waiver, not an entitlement, so enrollment is limited to the number of slots CMS approves. A current waitlist count is not published on the pages reviewed."
+    },
+    "self_directed_or_agency": "Either. With PDMS, the participant (or their legal representative) is co-employer with an FMS agency that hires the chosen workers, checks backgrounds, runs payroll and pays taxes. Without PDMS, personal care comes from licensed home health or home care agency staff.",
+    "how_to_apply": [
+      "Call ServiceLink (the Aging and Disability Resource Center) to meet with an options counselor about CFI.",
+      "File the Application for Assistance (Form 800) for Medicaid through NH Easy online, through ServiceLink, or at a DHHS district office.",
+      "A registered nurse for the Bureau of Elderly and Adult Services visits you for the clinical assessment while the Bureau of Family Assistance checks finances.",
+      "Once approved, choose a case management agency, then tell your case manager you want participant-directed and managed services and name the relative you want to hire.",
+      "Enroll with the FMS agency, which completes hiring paperwork and background checks before your relative starts paid work."
+    ],
+    "contacts": [
+      { "name": "ServiceLink Aging and Disability Resource Center", "phone": "866-634-9412", "url": "https://www.servicelink.nh.gov/" },
+      { "name": "NH DHHS Bureau of Elderly and Adult Services – Choices for Independence", "phone": "not published on pages reviewed", "url": "https://www.dhhs.nh.gov/programs-services/adult-aging-care/nh-choices-independence-waiver-renewal-and-amendments-2022-2032" },
+      { "name": "NH Easy (apply for Medicaid online)", "phone": "not published on pages reviewed", "url": "https://nheasy.nh.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my husband or wife under CFI?", "a": "No. New Hampshire's CFI rules say a service is not covered when it is given by a legally responsible relative, and the rules define that as the participant's spouse. A spouse can still help unpaid and can be part of planning." },
+      { "q": "Can an adult son or daughter be paid under CFI?", "a": "Yes, through participant-directed and managed services (PDMS). The participant chooses the worker and the financial management services agency hires them, runs payroll and pays taxes. The worker must pass the required background checks." },
+      { "q": "Can my relative be paid if they hold my power of attorney?", "a": "For agency personal care, no. He-E 801.24 says personal care is not covered when given by the participant's legal guardian, the agent under a power of attorney, or the designated PCS representative. Ask your case manager how this applies to your PDMS plan." },
+      { "q": "How much does a family caregiver earn under CFI?", "a": "New Hampshire does not publish a set wage. The pay comes out of the participant's PDMS budget, which is built from the services and hours in the care plan. The FMS agency can tell you the hourly rate your budget allows." },
+      { "q": "Is there a waiting list for CFI?", "a": "There can be. CFI is a waiver with a limited number of slots approved by the federal government, so a waitlist can form when slots are full. Ask ServiceLink about current availability when you apply." },
+      { "q": "Do I have to be in a nursing home to qualify?", "a": "No. You have to need the level of care a nursing home gives, such as help with two or more daily activities, but CFI is for people who choose to get that care at home or in the community instead." }
+    ],
+    "keywords": ["choices for independence waiver", "cfi waiver nh", "nh cfi family caregiver pay", "get paid to care for parent new hampshire", "participant directed and managed services nh", "pdms cfi", "can a spouse be paid cfi new hampshire", "new hampshire medicaid waiver elderly home care"],
+    "sources": [
+      "https://gc.nh.gov/rules/state_agencies/he-e800.html",
+      "https://www.dhhs.nh.gov/programs-services/adult-aging-care/nh-choices-independence-waiver-renewal-and-amendments-2022-2032",
+      "https://www.dhhs.nh.gov/sites/g/files/ehbemt476/files/documents2/longterm-care-booklet.pdf",
+      "https://www.medicaidplanningassistance.org/new-hampshire-choices-for-independence/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "personal-care-attendant-services",
+    "name": "Personal Care Attendant Services (PCAS)",
+    "aka": ["PCAS", "PCA services", "personal care attendant program", "GSIL personal care", "consumer directed personal care NH", "He-W 552"],
+    "kind": "state plan",
+    "summary": "Personal Care Attendant Services is a New Hampshire Medicaid State Plan benefit for adults who use a wheelchair and can direct their own care. The participant recruits, trains and manages their own attendant, who is employed by a Medicaid-enrolled provider such as Granite State Independent Living (GSIL). A friend or a more distant relative can be the paid attendant, but close family members, including a spouse, parents and siblings, cannot.",
+    "who_qualifies": [
+      "Enrolled in New Hampshire Medicaid and at least 18 years old (He-W 552.03).",
+      "Your own legal guardian — no court-appointed guardian.",
+      "Chronically wheelchair-mobile because of a physical disability.",
+      "Able to self-direct: make informed choices and select, direct, supervise and manage the attendant.",
+      "Living in the community and needing at least 2 hours a day of medically oriented personal care.",
+      "A physician certifies the need and the hours, and you sign a statement that family and other natural supports cannot fully meet your needs."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — He-W 552.04 bars any 'member of the recipient's family': a spouse, parent, step-parent, sister or brother, or a grandparent, aunt or uncle living in the same household. Relatives outside that list, such as an adult child, grandchild, niece, nephew or in-law, are not named in the ban.",
+      "spouse": "no — a spouse is listed as a family member who cannot be the paid attendant (He-W 552.02 and 552.04).",
+      "parent_of_minor": "n/a — the program only serves adults 18 and older, and parents are excluded as attendants.",
+      "live_together": "optional — living together is not required, but a grandparent, aunt or uncle who lives in the same household cannot be paid."
+    },
+    "pay": {
+      "display": "Up to $22/hr (GSIL)",
+      "detail": "Medicaid pays the enrolled provider per 15-minute unit (code T1019); the attendant's wage is set by the employing provider. GSIL's job page lists personal care attendant pay of up to $22 per hour as of October 2026. This matches the $15–$22/hr range in our state summary."
+    },
+    "hours_or_budget": "The physician states how many hours of personal care are needed per day or week. A registered nurse from the provider does a personal care assessment and writes the plan of care, listing the type, frequency and number of hours or 15-minute units. Hours cover only medically oriented personal care, not companionship or general chores.",
+    "waitlist": {
+      "status": "none",
+      "detail": "PCA services are a Medicaid State Plan benefit, so anyone who meets He-W 552.03 is eligible; no enrollment cap is published. Staffing shortages can still delay start dates."
+    },
+    "self_directed_or_agency": "Self-directed with an agency employer. The participant recruits, trains, schedules and manages the attendant, and the Medicaid-enrolled provider (such as GSIL) employs or contracts with the attendant, pays wages and oversees care through a registered nurse.",
+    "how_to_apply": [
+      "Make sure you have New Hampshire Medicaid, or apply through NH Easy or a DHHS district office.",
+      "Ask your physician to document why you need personal care, what tasks you need help with, and how many hours per day or week.",
+      "Contact a PCA provider such as Granite State Independent Living to be approved for its independent living program.",
+      "A provider registered nurse completes your assessment and plan of care; if you are in a Medicaid managed care plan, the plan reviews the request for authorization.",
+      "Recruit your attendant (not a close family member) and have them hired and trained through the provider before paid shifts start."
+    ],
+    "contacts": [
+      { "name": "Granite State Independent Living (GSIL)", "phone": "603-228-9680 or 800-826-3700", "url": "https://gsil.org/services/in-home-care/" },
+      { "name": "NH Easy (apply for Medicaid online)", "phone": "not published on pages reviewed", "url": "https://nheasy.nh.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I hire my spouse as my PCA in New Hampshire?", "a": "No. He-W 552 lists a spouse as a family member, and a personal care attendant may not be a member of the recipient's family. Some websites say a spouse can be hired, but the state rule and a 2025 Medicaid plan policy both exclude spouses." },
+      { "q": "Can my adult child be my paid attendant?", "a": "The rule's list of excluded family members is a spouse, parent, step-parent, sister, brother, and a grandparent, aunt or uncle living in the same home. Adult children are not on that list. Confirm with your provider before your child starts work." },
+      { "q": "Do I need to use a wheelchair to qualify?", "a": "Yes. The rule requires you to be chronically wheelchair-mobile because of a physical disability, need at least 2 hours a day of personal care, and be able to direct your own attendant." },
+      { "q": "How much do PCAs get paid?", "a": "The wage depends on the employing provider. Granite State Independent Living advertises pay of up to $22 per hour for personal care attendants. Medicaid pays the provider in 15-minute units." },
+      { "q": "What tasks can a PCA be paid for?", "a": "Bathing, grooming, toileting, transfers, dressing, help with medications you direct, meal preparation and light housekeeping tied to your needs. Companionship, social outings, yard work and cleaning the whole house are not covered." },
+      { "q": "Is there a waiting list for PCA services?", "a": "PCA services are part of the Medicaid State Plan rather than a capped waiver, so no enrollment cap is published. Finding an available attendant can still take time." }
+    ],
+    "keywords": ["pcas new hampshire", "personal care attendant services nh", "gsil personal care attendant", "can I hire my spouse as pca nh", "nh medicaid pca family member", "wheelchair personal care attendant new hampshire", "he-w 552"],
+    "sources": [
+      "https://gc.nh.gov/rules/state_agencies/he-w500.html",
+      "https://www.nhhealthyfamilies.com/content/dam/centene/NH%20Healthy%20Families/Medicaid/pdfs/NH.CP.MP.602_Personal_Care_Attendant_(PCA)_Services.pdf",
+      "https://gsil.org/pca-pcsp-granite-state-independent-living/",
+      "https://gsil.org/services/in-home-care/",
+      "https://www.medicaidplanningassistance.org/new-hampshire-pcas-program/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "in-home-supports-waiver",
+    "name": "In-Home Supports (IHS) Waiver for Children with Developmental Disabilities",
+    "aka": ["IHS waiver", "In-Home Supports waiver", "He-M 524", "in home residential habilitation", "NH children's DD waiver", "BDS in-home supports"],
+    "kind": "children's waiver",
+    "summary": "The In-Home Supports waiver pays for in-home residential habilitation, including personal care, for children and young adults from birth through age 21 who have a developmental disability and significant medical or behavioral needs and live with their family. Services are family-directed through the local area agency. A parent can be paid for in-home residential habilitation only when the child's needs and the family's situation meet specific tests, and the area agency is then the parent's employer.",
+    "who_qualifies": [
+      "Birth through age 21, living at home with family, and not yet graduated or exited from school (He-M 524.03).",
+      "Found eligible for developmental services by an area agency (He-M 503 for ages 3–21, He-M 510 for under age 3).",
+      "Eligible for New Hampshire Medicaid.",
+      "Has 2 or more factors that make care harder, such as needing constant supervision for safety, self-injurious or destructive behavior, or very little sleep, or one child factor plus one parent factor such as a single caregiving parent or a parent over 59.",
+      "Meets institutional level of care and is not receiving another home and community based waiver."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — families may pick providers they already know, such as extended family or neighbors, if they meet He-M 524 provider qualifications.",
+      "spouse": "no — He-M 524.26 bars payment to the spouse of the person receiving services.",
+      "parent_of_minor": "limited — a parent can be paid for in-home residential habilitation only if the child's care needs exceed peers (or involve complex medical care) and the parent cannot find qualified providers or the care threatens the parent's job (He-M 524.26(k)).",
+      "live_together": "required — the child must live at home with their family to qualify."
+    },
+    "pay": {
+      "display": "Not published",
+      "detail": "No hourly wage for paid parents or relatives is published. The area agency submits an individualized budget that the Bureau of Developmental Services approves, and pays the parent as their employer for the hours in the service agreement. The 2021–2025 waiver set an annual cap of $35,000 per participant; a cap for the current waiver period was not found."
+    },
+    "hours_or_budget": "The area agency builds an individualized budget with line items for each service, and the Bureau of Developmental Services decides cost-effectiveness and gives prior authorization. When a parent is paid, the number of hours is written into the service agreement. The 2021–2025 waiver capped total services at $35,000 per year, with separate limits on some services.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "IHS is a capped 1915(c) waiver and services require Bureau of Developmental Services budget approval; current wait times are not published on the pages reviewed."
+    },
+    "self_directed_or_agency": "Family-directed through the area agency. All In-Home Supports are directed and managed by the individual or their representative (usually the parent), and the area agency is the employer for parents paid to provide in-home residential habilitation.",
+    "how_to_apply": [
+      "Contact the area agency that serves your town and ask for an intake for developmental services.",
+      "The area agency decides eligibility for developmental services and helps you apply for Medicaid if your child does not have it.",
+      "The area agency sends the Bureau of Developmental Services a functional screen and an Individual/Parent Factors form within 3 business days of eligibility.",
+      "Work with your service coordinator on a service agreement and budget; if you want to be paid as the parent, ask that the parent payment conditions be documented.",
+      "The Bureau of Developmental Services approves the budget and prior authorization before paid services start."
+    ],
+    "contacts": [
+      { "name": "NH DHHS Bureau of Developmental Services", "phone": "603-271-5034", "url": "https://www.dhhs.nh.gov/" },
+      { "name": "Community Support Network (area agency directory)", "phone": "603-229-1982", "url": "https://csni.org/" }
+    ],
+    "faqs": [
+      { "q": "Can parents get paid to care for a disabled child in New Hampshire?", "a": "Sometimes, under the In-Home Supports waiver. A parent can be paid for in-home residential habilitation when the child's care needs go well beyond peers or involve complex medical care, and the parent either cannot find qualified providers or the child's care threatens the parent's job." },
+      { "q": "What counts as not being able to find a provider?", "a": "He-M 524 lists examples such as living in a rural area, a child's needs being too intense to keep staff, needing evening or weekend coverage, no agency being available, or no providers who share the family's culture." },
+      { "q": "Who employs a parent who is paid?", "a": "The area agency is the employer for parents paid to provide in-home residential habilitation, and it submits the parent payment request to the Bureau of Developmental Services for approval." },
+      { "q": "Can grandparents or other relatives be paid?", "a": "Yes. The family can choose providers it already knows, such as extended family or neighbors, as long as they meet the provider qualifications. A spouse of the person served and, with limited exceptions, anyone under 18 cannot be paid." },
+      { "q": "How old can my child be?", "a": "From birth through age 21, as long as they live at home with family and have not graduated or left school." },
+      { "q": "Is there a dollar limit?", "a": "The 2021–2025 waiver capped services at $35,000 per year, with some home or vehicle changes allowed above the cap with approval. Ask your area agency what limit applies now." }
+    ],
+    "keywords": ["in home supports waiver nh", "ihs waiver new hampshire", "get paid to care for disabled child nh", "parent paid caregiver new hampshire", "he-m 524", "nh developmental disability waiver children", "area agency in-home supports"],
+    "sources": [
+      "https://gc.nh.gov/rules/state_agencies/he-m500.html",
+      "https://www.dhhs.nh.gov/sites/g/files/ehbemt476/files/documents2/dltssihswaiveroverview.pdf",
+      "https://gc.nh.gov/lba/budget/operating_budgets/2026-2027/HF_Division_III/DHHS_DMS_Follow-up_3-5-25.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

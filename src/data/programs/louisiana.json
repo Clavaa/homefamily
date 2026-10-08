@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "community-choices-waiver",
+    "name": "Community Choices Waiver (CCW)",
+    "aka": ["CCW", "Community Choices Waiver", "Louisiana CCW", "OAAS waiver", "CCW self-direction"],
+    "kind": "waiver service",
+    "summary": "The Community Choices Waiver is a Louisiana Medicaid home and community-based waiver for older adults and adults with disabilities who would otherwise need a nursing home. It pays for in-home help such as Personal Assistance Services (PAS), and a family member can be hired as the paid PAS worker, either through a provider agency or through the self-direction option with a financial management services (FMS) provider handling payroll. The waiver also includes Monitored In-Home Caregiving, which pays a live-in caregiver a daily stipend.",
+    "who_qualifies": [
+      "Meets long-term care (LTC) Medicaid financial eligibility.",
+      "Is 21 years old or older.",
+      "Meets nursing home (nursing facility) level of care.",
+      "Has been offered a CCW opportunity from the Request for Services Registry; priority groups (abuse or neglect referrals, ALS, Permanent Supportive Housing, nursing home residents on Medicaid, people approved for maximum LT-PCS who need expedited help) are offered slots first, then everyone else by request date."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children and other relatives are not on the list of people barred from being PAS workers, so they can be hired through an agency or self-direction if they meet worker requirements.",
+      "spouse": "limited — under the rule amended in 2024, a spouse may be the paid PAS worker only when it is determined the participant needs extraordinary care; OAAS uses a Legally Responsible Individual request form sent to the regional office.",
+      "parent_of_minor": "no — CCW serves adults 21 and older, so the parent-of-a-minor question does not apply.",
+      "live_together": "optional — a PAS worker does not have to live with the participant; Monitored In-Home Caregiving is the CCW service that requires a live-in caregiver."
+    },
+    "pay": {
+      "display": "Hourly PAS wage — not published for family workers",
+      "detail": "LDH pays the provider agency (or the FMS under self-direction) a Medicaid rate for PAS billed in 15-minute units. The wage a family worker takes home is set by the agency or, under self-direction, within the participant's budget; LDH does not publish a single family-caregiver wage. For the live-in daily stipend, see Monitored In-Home Caregiving."
+    },
+    "hours_or_budget": "A support coordinator builds a plan of care from the OAAS interRAI Home Care assessment. Approved PAS hours follow the plan of care, and the waiver states it does not provide help 24 hours per day.",
+    "waitlist": {
+      "status": "long",
+      "detail": "CCW is not an entitlement. People are placed on the CCW Request for Services Registry and offered opportunities by priority group, then first-come, first-served by the date they asked for services. The rule reserves 75 slots for people with ALS and up to 300 for emergency expedited cases."
+    },
+    "self_directed_or_agency": "Either. The participant can use a licensed PAS provider agency that employs the worker, or choose self-direction, where the participant (or a representative) is the employer and a financial management services provider handles payroll and taxes.",
+    "how_to_apply": [
+      "Call Louisiana Options in Long Term-Care at 1-877-456-1146 and ask to be placed on the Community Choices Waiver Request for Services Registry.",
+      "Complete the level-of-care screening so OAAS can confirm nursing home level of care.",
+      "When a CCW opportunity is offered, apply for long-term care Medicaid if you do not already have it, and choose a support coordination agency.",
+      "Work with the support coordinator on the plan of care, pick agency or self-direction for PAS, and name the family member you want to hire (a spouse needs the OAAS Legally Responsible Individual request)."
+    ],
+    "contacts": [
+      { "name": "Louisiana Options in Long Term-Care (CCW intake)", "phone": "1-877-456-1146", "url": "https://ldh.la.gov/office-of-aging-and-adult-services/community-choices-waiver-ccw" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my parent under the Community Choices Waiver?", "a": "Yes, in most cases. Adult children are not on the list of people barred from being Personal Assistance Services workers, so a parent with a CCW slot can hire an adult child through a PAS agency or through self-direction." },
+      { "q": "Can a spouse be paid under CCW in Louisiana?", "a": "Only in limited cases for PAS. The 2024 rule change lets a spouse be the PAS worker when the participant needs extraordinary care, using an OAAS request form. A spouse can also be the live-in principal caregiver under Monitored In-Home Caregiving." },
+      { "q": "Is there a waiting list for the Community Choices Waiver?", "a": "Yes. CCW has a Request for Services Registry. Certain priority groups are offered slots first, and everyone else is offered a slot in order of the date they first asked for services." },
+      { "q": "Does CCW provide 24-hour care?", "a": "No. LDH states the program does not provide help 24 hours per day. Monitored In-Home Caregiving can help people who need a lot of supervision because the caregiver lives in the home." },
+      { "q": "Who handles payroll if I self-direct?", "a": "A financial management services provider. Financial management services was added as a CCW service so self-directing participants have help with payroll and taxes for the workers they hire." },
+      { "q": "Can my power of attorney or legal guardian be my paid worker?", "a": "The responsible representative cannot be the paid worker. LDH's rules list the people allowed to be PAS workers and separately bar the responsible representative, so check with your support coordinator before naming that person." }
+    ],
+    "keywords": ["community choices waiver louisiana", "ccw louisiana", "louisiana community choices waiver family caregiver", "get paid to care for parent louisiana", "louisiana ccw self direction", "louisiana medicaid waiver pay family member"],
+    "sources": [
+      "https://ldh.la.gov/office-of-aging-and-adult-services/community-choices-waiver-ccw",
+      "https://www.ldh.la.gov/assets/medicaid/Rulemaking/NoticesofIntent/March2024/CCW_PASMIHC_NOI_ProposedRule.pdf",
+      "https://www.law.cornell.edu/regulations/louisiana/La-Admin-Code-tit-50-SS-XXI-8329",
+      "https://www.ldh.la.gov/assets/medicaid/RFP_Documents/HCBS/PL_Exhibit18_CommunityChoicesWaiverFeeSchedule_12.15.2020.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "monitored-in-home-caregiving",
+    "name": "Monitored In-Home Caregiving (MIHC)",
+    "aka": ["MIHC", "monitored in home caregiving", "Louisiana caregiver stipend", "live-in caregiver CCW"],
+    "kind": "waiver service",
+    "summary": "Monitored In-Home Caregiving is a Community Choices Waiver service where a principal caregiver who lives with the participant provides day-to-day care and receives a daily stipend. The caregiver contracts with a licensed MIHC provider agency, which supplies a registered nurse and care manager, approves the home, and pays the per-diem stipend. The caregiver sends electronic daily notes to the agency.",
+    "who_qualifies": [
+      "Is enrolled in the Community Choices Waiver (21 or older, long-term care Medicaid, nursing home level of care).",
+      "Lives in a private, unlicensed home with the principal caregiver.",
+      "Fits people moving out of nursing homes, people who need substantial or around-the-clock supervision, people with a history of falls, or people who need more help than CCW Personal Assistance Services can give.",
+      "Pay tier is set by the participant's RUG III/HC category from the interRAI Home Care assessment."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — an adult child or other relative who lives with the participant can be the principal caregiver if the MIHC provider approves and trains them.",
+      "spouse": "yes — the current rule lists the participant's spouse among the people allowed to be the MIHC principal caregiver.",
+      "parent_of_minor": "no — CCW, and so MIHC under CCW, serves adults 21 and older.",
+      "live_together": "required — the principal caregiver must live with the participant."
+    },
+    "pay": {
+      "display": "Daily stipend; agency billed $59.60–$89.40/day (OAAS fact sheet, 2022)",
+      "detail": "MIHC is billed per day at two tiers by acuity. The OAAS fact sheet (reissued February 2022) lists Tier 1 at $59.60/day and Tier 2 at $89.40/day, plus $250 for the MIHC assessment. The OCDD developmental-disability waivers list MIHC at $90.03 (Level 1) and $135.04 (Level 2) per day from July 2022. These are rates paid to the agency; the share passed to the caregiver as a stipend is set by the provider and is not published. Third-party sites report about $85–$150/day (up to about $1,800/month); that figure is not confirmed by LDH. The rate does not include room and board."
+    },
+    "hours_or_budget": "Paid as a per-day service rather than by the hour. The tier (Level 1 or Level 2) comes from the participant's RUG III/HC category. While on MIHC the participant cannot also get CCW Personal Assistance Services or home-delivered meals.",
+    "waitlist": {
+      "status": "long",
+      "detail": "MIHC is only available inside the Community Choices Waiver, so the CCW Request for Services Registry applies."
+    },
+    "self_directed_or_agency": "Agency. The caregiver signs a contract with a licensed HCBS provider that has an MIHC module; that provider trains the caregiver, monitors care, and pays the stipend.",
+    "how_to_apply": [
+      "Get a Community Choices Waiver slot by calling Louisiana Options in Long Term-Care at 1-877-456-1146.",
+      "Tell your CCW support coordinator you want Monitored In-Home Caregiving and name the live-in caregiver.",
+      "Choose a licensed MIHC provider; it does an MIHC assessment of the participant and the home.",
+      "The caregiver signs a contract with the provider, completes training, and starts sending daily electronic notes."
+    ],
+    "contacts": [
+      { "name": "Louisiana Options in Long Term-Care", "phone": "1-877-456-1146", "url": "https://ldh.la.gov/office-of-aging-and-adult-services/community-choices-waiver-ccw" }
+    ],
+    "faqs": [
+      { "q": "How much does Monitored In-Home Caregiving pay in Louisiana?", "a": "LDH publishes what it pays the agency, not the caregiver's stipend. The OAAS fact sheet lists $59.60 or $89.40 per day by tier. The caregiver gets a stipend from the agency; ask each MIHC provider what share it pays." },
+      { "q": "Can a spouse be paid as an MIHC caregiver?", "a": "Yes. The current Louisiana rule lists the spouse as allowed to be the principal caregiver. The participant's responsible representative cannot be the caregiver." },
+      { "q": "Do I have to live with the person?", "a": "Yes. MIHC is built around a principal caregiver who lives in the same private home as the participant." },
+      { "q": "Can we get MIHC and personal care hours at the same time?", "a": "No. Participants on MIHC cannot also receive CCW Personal Assistance Services or home-delivered meals during that time." },
+      { "q": "Who supervises the caregiver?", "a": "The MIHC provider's registered nurse and care manager. They visit, train the caregiver, and review daily electronic progress notes." }
+    ],
+    "keywords": ["monitored in-home caregiving louisiana", "mihc louisiana", "louisiana caregiver stipend", "get paid to care for spouse louisiana", "louisiana live-in caregiver medicaid", "mihc pay rate"],
+    "sources": [
+      "https://www.law.cornell.edu/regulations/louisiana/La-Admin-Code-tit-50-SS-XXI-8329",
+      "https://www.ldh.la.gov/assets/docs/OAAS/CCWForms/MIHC-Fact-Sheet.pdf",
+      "https://www.ldh.la.gov/assets/docs/OCDD/waiver/MonitoredinHomeCaregivingRateIncrease113022.pdf",
+      "https://www.ldh.la.gov/assets/medicaid/Rulemaking/NoticesofIntent/March2024/CCW_PASMIHC_NOI_ProposedRule.pdf",
+      "https://www.medicaidplanningassistance.org/louisiana-community-choices-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "childrens-choice-waiver",
+    "name": "Children's Choice Waiver (CC Waiver)",
+    "aka": ["Children's Choice", "CC Waiver", "Louisiana Children's Choice Waiver", "OCDD children's waiver"],
+    "kind": "children's waiver",
+    "summary": "The Children's Choice Waiver gives extra in-home supports to Louisiana children with developmental disabilities, from birth through age 20, who live with their families. Its Family Support service pays a worker to help the child at home. Under the current provider manual, a parent may be paid for Family Support when the child's care is extraordinary compared with a child the same age without a disability, with a 40-hour weekly cap.",
+    "who_qualifies": [
+      "Child is from birth through 20 years of age and lives at home with family or a foster family (or is leaving an institution to return home).",
+      "Has an OIDD (formerly OCDD) Statement of Approval and meets Louisiana's definition of developmental disability.",
+      "Meets ICF/IID (intermediate care facility) level of care.",
+      "Meets Medicaid rules for waivers; the child's own income must be under three times the SSI amount and resources under $2,000, and parental income is not counted.",
+      "Has been offered a waiver slot from the Developmental Disabilities Request for Services Registry."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — other relatives can be Family Support workers if they meet the same training and documentation standards as unrelated workers.",
+      "spouse": "limited — the provider manual groups spouses with legally responsible individuals, who may be paid only for extraordinary care; this rarely applies to a waiver for children.",
+      "parent_of_minor": "limited — a parent or legal guardian may provide Family Support for their own child when the care is extraordinary for the child's age and is in the child's best interest, but not through self-direction.",
+      "live_together": "optional — family members living in the home can be paid, but hours by in-home staff are capped at 40 per week, Sunday to Saturday."
+    },
+    "pay": {
+      "display": "Up to $20,200/year total waiver budget",
+      "detail": "LDH caps each child's Children's Choice support package at $20,200 per year. Family Support is paid to an enrolled provider agency at a Medicaid rate; the hourly wage a paid parent or relative receives is set by the agency and is not published."
+    },
+    "hours_or_budget": "A support coordinator builds a plan of care inside the $20,200 yearly cap. Services delivered by staff who live in the home are capped at 40 hours per week, and the waiver is not meant to provide 24-hour support.",
+    "waitlist": {
+      "status": "long",
+      "detail": "Entry depends on funded slots. Children are placed on the statewide Developmental Disabilities Request for Services Registry and offered a waiver by urgency of need (the SUN screening) and earliest request date."
+    },
+    "self_directed_or_agency": "Either for most workers: a provider agency or self-direction with a fiscal agent. A paid parent or legal guardian must work through a provider agency, because legally responsible individuals may not provide Family Support through self-direction.",
+    "how_to_apply": [
+      "Contact your local governing entity (human services district or authority) to start the developmental disability eligibility determination.",
+      "Once approved for OIDD services, ask to be placed on the Developmental Disabilities Request for Services Registry and complete the urgency-of-need screening.",
+      "When a waiver opportunity is offered, complete the medical and financial eligibility steps and choose a support coordination agency.",
+      "In the plan of care, choose a Family Support provider; if a parent will be the worker, the agency must document that the care is extraordinary."
+    ],
+    "contacts": [
+      { "name": "Office of Intellectual & Developmental Disability Supports (OIDD)", "phone": "225-342-0095", "url": "https://ldh.la.gov/page/218" }
+    ],
+    "faqs": [
+      { "q": "Can a parent get paid to care for their disabled child in Louisiana?", "a": "Under the Children's Choice Waiver, a parent may be paid for Family Support when the child's care is extraordinary compared with other children the same age and is in the child's best interest. The parent must work through a provider agency, not self-direction, and in-home staff are capped at 40 hours a week." },
+      { "q": "How old can my child be for Children's Choice?", "a": "From birth through 20. Youth age out at their 21st birthday and move to an adult waiver if still eligible. At 18, a youth who wants to work may switch to the Supports Waiver." },
+      { "q": "Is my income counted?", "a": "No. Parental income and resources are not counted. The child's own income must be under three times the SSI amount and resources under $2,000." },
+      { "q": "Is there a waiting list?", "a": "Yes. Children go on the Request for Services Registry and are offered slots by urgency of need and the date they asked." },
+      { "q": "How much can the waiver pay for in a year?", "a": "Each child's support package is capped at $20,200 per year, which covers Family Support and all other waiver services." }
+    ],
+    "keywords": ["children's choice waiver louisiana", "louisiana cc waiver", "get paid to care for disabled child louisiana", "louisiana parent paid caregiver", "family support children's choice waiver", "louisiana developmental disability waiver children"],
+    "sources": [
+      "https://ldh.la.gov/page/218",
+      "https://www.ldh.la.gov/assets/medicaid/PC-PM/11.7.23/CC-14.6StaffingRequirements11.07.23.pdf",
+      "https://www.ldh.la.gov/assets/medicaid/PC-PM/11.7.23/CC-14.2BeneficiaryRequirements11.07.23.pdf",
+      "https://ldh.la.gov/assets/medicaid/Rulemaking/NoticesofIntent/March2022/HCBSWaivers_ChildrensChoice_NOI_03.20.22LR.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

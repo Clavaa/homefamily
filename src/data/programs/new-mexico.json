@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "self-directed-community-benefit",
+    "name": "Turquoise Care Self-Directed Community Benefit (SDCB)",
+    "aka": ["SDCB", "Self-Directed Community Benefit", "Turquoise Care Community Benefit", "Community Benefit self-directed", "Centennial Care self-directed", "ABCB"],
+    "kind": "self-direction option",
+    "summary": "The Community Benefit is New Mexico Medicaid's in-home care benefit for Turquoise Care members who qualify for nursing facility care but want to live at home. It has two paths: the Agency-Based Community Benefit (ABCB), where a family caregiver is hired by a home health agency, and the Self-Directed Community Benefit (SDCB), where the member or their Employer of Record hires the caregiver directly. In both paths any family member or friend can be paid for personal care, and spouses and parents of minors can be paid once the health plan approves them.",
+    "who_qualifies": [
+      "Enrolled in Turquoise Care (New Mexico Medicaid managed care).",
+      "Meets a nursing facility level of care, as decided by your health plan's care coordinator.",
+      "Qualifies for Personal Care Services after an in-home needs review.",
+      "Wants to live at home; the benefit does not cover 24-hour care.",
+      "To self-direct (SDCB), new members must first use the agency-based path for at least 120 days."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the state says any family member or friend can be a paid caregiver.",
+      "spouse": "yes — a spouse is a Legally Responsible Individual (LRI) and can be paid after the health plan does a needs assessment and approves the spouse as caregiver.",
+      "parent_of_minor": "yes — a parent or guardian of a minor is an LRI and can be paid with health plan approval; hour limits and extraordinary-care rules are reported but not detailed on the state explainer.",
+      "live_together": "optional — the state does not require the caregiver to live with the member."
+    },
+    "pay": {
+      "display": "Not published (set within your budget)",
+      "detail": "No statewide family-caregiver rate is published. In the agency path, the home health agency employs and pays the caregiver. In SDCB, the member or Employer of Record sets wages within an annual budget the health plan assigns from the needs assessment; a reported adult budget ceiling of about $85,767 a year comes from a secondary source and is not confirmed by the state."
+    },
+    "hours_or_budget": "Your care coordinator does a needs review in your home. That review sets how much help and which services you get. For SDCB, the health plan assigns an annual budget from the assessment, and you build a care plan and budget with your Support Broker that the plan reviews.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "Turquoise Care members who meet nursing facility level of care can receive the Community Benefit through their plan. People who are not yet on Medicaid and enter through the Community Benefit waiver pathway may face a Central Registry wait when slots are full."
+    },
+    "self_directed_or_agency": "Either. Agency-Based (ABCB): the caregiver must become an employee of a home health agency, which pays them. Self-Directed (SDCB): the member or a chosen Employer of Record hires, trains and supervises the caregiver with help from a Support Broker, and a financial management agency handles payroll. All caregivers clock in and out using Electronic Visit Verification (EVV).",
+    "how_to_apply": [
+      "If you are not on Medicaid, apply through the YesNM portal, by calling the New Mexico Medicaid call center, or at an Income Support Division office. If you do not qualify for Turquoise Care, call the Aging and Disability Resource Center.",
+      "Ask your Turquoise Care health plan's care coordinator about the Community Benefit and a needs review.",
+      "If the caregiver will be a spouse or the parent of a minor (an LRI), ask the care coordinator to approve that person as caregiver.",
+      "Agency path: the caregiver applies to work for the member's home health agency and completes its paperwork and background check. Self-directed path (after 120 days): choose a Support Broker, and the member or Employer of Record hires the caregiver.",
+      "Start care and record hours through EVV."
+    ],
+    "contacts": [
+      { "name": "Aging & Disability Resource Center (ADRC)", "phone": "1-800-432-2080", "url": "https://www.hca.nm.gov/wp-content/uploads/MAD-792-CB-Brochure-2024-Revised-7.01.25.pdf" },
+      { "name": "New Mexico Medicaid Call Center", "phone": "1-800-283-4465", "url": "https://www.hca.nm.gov/wp-content/uploads/MAD-792-CB-Brochure-2024-Revised-7.01.25.pdf" },
+      { "name": "BlueCross BlueShield of New Mexico (Turquoise Care)", "phone": "(866) 689-1523", "url": "https://www.hca.nm.gov/wp-content/uploads/MAD-792-CB-Brochure-2024-Revised-7.01.25.pdf" },
+      { "name": "Presbyterian Health Plan (Turquoise Care)", "phone": "(888) 977-2333", "url": "https://www.hca.nm.gov/wp-content/uploads/MAD-792-CB-Brochure-2024-Revised-7.01.25.pdf" },
+      { "name": "Molina Healthcare (Turquoise Care)", "phone": "(844) 862-4543", "url": "https://www.hca.nm.gov/wp-content/uploads/MAD-792-CB-Brochure-2024-Revised-7.01.25.pdf" },
+      { "name": "UnitedHealthcare (Turquoise Care)", "phone": "(877) 236-0826", "url": "https://www.hca.nm.gov/wp-content/uploads/MAD-792-CB-Brochure-2024-Revised-7.01.25.pdf" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my spouse in New Mexico?", "a": "Yes. A spouse is a Legally Responsible Individual. Once the member's Turquoise Care health plan does a needs assessment and approves the spouse, the spouse can be paid for personal care in either the agency or self-directed path." },
+      { "q": "What is the difference between ABCB and SDCB?", "a": "In the Agency-Based Community Benefit, a home health agency employs and pays the caregiver. In the Self-Directed Community Benefit, the member or an Employer of Record hires the caregiver directly with help from a Support Broker." },
+      { "q": "Why do I have to wait 120 days to self-direct?", "a": "New Mexico requires new Community Benefit members to use the agency-based path for at least 120 days. You can ask to switch at any time, but the switch takes effect after 120 days." },
+      { "q": "How much does New Mexico pay a family caregiver?", "a": "The state does not publish a family-caregiver rate. An agency sets pay in the agency path; in SDCB, the employer sets wages within the annual budget the health plan assigns." },
+      { "q": "Can a parent be paid to care for a minor child?", "a": "Yes, a parent or guardian of a minor can be paid once the health plan approves them as caregiver. Ask the care coordinator about any hour limits." },
+      { "q": "Does the caregiver have to track hours?", "a": "Yes. All paid caregivers clock in and out using the Electronic Visit Verification (EVV) system by phone or mobile app." }
+    ],
+    "keywords": ["self directed community benefit new mexico", "sdcb new mexico", "turquoise care paid family caregiver", "get paid to care for spouse new mexico", "new mexico medicaid pay family caregiver", "abcb sdcb difference", "legally responsible individual new mexico caregiver"],
+    "sources": [
+      "https://www.hca.nm.gov/wp-content/uploads/Paid-caregivers_Explainer_240708-1.pdf",
+      "https://www.hca.nm.gov/wp-content/uploads/MAD-792-CB-Brochure-2024-Revised-7.01.25.pdf",
+      "https://regulations.justia.com/states/new-mexico/title-8/chapter-308/part-12/section-8-308-12-20",
+      "https://www.medicaidplanningassistance.org/mexico-centennial-care/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "mi-via-waiver",
+    "name": "Mi Via Self-Directed Waiver",
+    "aka": ["Mi Via", "Mi Via waiver", "Mi Via New Mexico", "self-directed DD waiver New Mexico", "Mi Via consultant"],
+    "kind": "waiver service",
+    "summary": "Mi Via (\"my path\") is New Mexico's self-directed waiver for people with intellectual or developmental disabilities or medically fragile conditions who receive a Developmental Disabilities (DD) Waiver or Medically Fragile Waiver allocation. The participant gets an approved annual budget and hires their own workers, who can include family. A spouse or the parent of a minor child can be hired only in extraordinary circumstances.",
+    "who_qualifies": [
+      "Has a Developmental Disabilities Waiver or Medically Fragile Waiver allocation from the state.",
+      "Meets the waiver's intellectual or developmental disability, or medically fragile, eligibility rules and Medicaid financial rules.",
+      "Chooses Mi Via instead of traditional DD Waiver services on the Primary Freedom of Choice form.",
+      "Works with a Mi Via Consultant to build a service and support plan and budget."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives and friends can be hired as Mi Via employees.",
+      "spouse": "limited — a spouse is a Legally Responsible Individual and may be hired only in extraordinary circumstances, such as no other qualified caregiver being available.",
+      "parent_of_minor": "limited — a parent or guardian of a minor may be paid only in extraordinary circumstances, and not for consultant services, customized community group supports, transportation for a minor, or related goods.",
+      "live_together": "optional — the worker does not have to live with the participant."
+    },
+    "pay": {
+      "display": "Set within your approved budget (not published)",
+      "detail": "There is no single published wage. The participant and Consultant prepare an annual budget request that a state third-party reviewer approves, and the participant or Employer of Record sets workers' pay within it. A financial management agency pays the workers."
+    },
+    "hours_or_budget": "Each year the participant, with a Consultant, writes a service and support plan and an annual budget request. A third-party assessor reviews and approves it. Hours for each worker come out of that approved budget.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "Applicants register and are placed on the Central Registry, and allocations are offered as funding opens. The Health Care Authority reported in 2025 that its 'Super Allocation' effort eliminated the long DD waiver waitlist and that the FY2026 budget funds a 'no wait list' policy for the DD and Mi Via waivers; this depends on continued funding."
+    },
+    "self_directed_or_agency": "Self-directed. The participant or an unpaid Employer of Record recruits, hires, manages and fires workers. A Consultant helps with planning and budgeting, and a financial management agency handles payroll and taxes.",
+    "how_to_apply": [
+      "Register for Developmental Disabilities Waiver services with the state's intake and eligibility unit (now under the New Mexico Health Care Authority), or apply for the Medically Fragile Waiver at your county Income Support Division office.",
+      "Once eligible, you are placed on the Central Registry until an allocation is offered.",
+      "When you receive an allocation letter, choose Mi Via on the Primary Freedom of Choice form and pick a Consultant agency.",
+      "Complete Medicaid eligibility, then build your service plan and annual budget with your Consultant.",
+      "Hire your workers, including eligible family members, and enroll them with the financial management agency."
+    ],
+    "contacts": [
+      { "name": "New Mexico Medicaid Call Center", "phone": "1-800-283-4465", "url": "https://www.hca.nm.gov/lookingforinformation/mi-via/" },
+      { "name": "HCA allocation process (DD and Mi Via waivers)", "phone": "not published on page reviewed", "url": "https://www.hca.nm.gov/allocation-process-resources-2/" }
+    ],
+    "faqs": [
+      { "q": "Can a parent get paid through Mi Via?", "a": "Only in extraordinary circumstances. A parent or guardian of a minor is a Legally Responsible Individual and can be hired when, for example, no other qualified caregiver is available and the parent must stay home to keep the child safe." },
+      { "q": "Can Mi Via pay a family member who is not a parent or spouse?", "a": "Yes. Other relatives and friends can be hired as Mi Via employees within the approved budget." },
+      { "q": "Who can join Mi Via?", "a": "People who have a Developmental Disabilities Waiver or Medically Fragile Waiver allocation. They choose Mi Via instead of traditional DD Waiver services." },
+      { "q": "Is there still a waiting list for Mi Via?", "a": "Applicants are still placed on the Central Registry. The state reported in 2025 that the long DD waitlist had been eliminated and that the FY2026 budget funds a no-wait-list policy, but that depends on funding." },
+      { "q": "What does a Mi Via Consultant do?", "a": "A Consultant helps you plan, prepare your annual budget request, and manage your services. A Consultant cannot be a Legally Responsible Individual or your authorized agent." },
+      { "q": "Who pays Mi Via workers?", "a": "A financial management agency processes payroll and taxes from the participant's approved budget." }
+    ],
+    "keywords": ["mi via waiver", "mi via new mexico", "mi via paid parent caregiver", "new mexico dd waiver self directed", "mi via legally responsible individual", "mi via central registry", "get paid to care for disabled child new mexico"],
+    "sources": [
+      "https://www.hca.nm.gov/lookingforinformation/mi-via/",
+      "https://www.hsd.state.nm.us/wp-content/uploads/FileLinks/db231204433241998f49d260c6129473/8.314.6.pdf",
+      "https://www.hca.nm.gov/allocation-process-resources-2/",
+      "https://www.hca.nm.gov/wp-content/uploads/Notice-of-Opportunity-to-Comment-52.pdf",
+      "https://nmhealth.org/about/ddsd/pgsv/sdw"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "big-sky-waiver",
+    "name": "Big Sky Waiver (BSW) — self-directed services",
+    "aka": ["BSW", "Big Sky Waiver", "Big Sky Bonanza", "Montana elderly and physically disabled waiver", "BSW self-direct"],
+    "kind": "waiver service",
+    "summary": "The Big Sky Waiver is Montana Medicaid's 1915(c) home and community-based waiver for adults 65 and older and people of any age with physical disabilities who need nursing-home level care. Members who live in their own home or a family member's home can self-direct some or all of their waiver services, which lets them pick the person who is paid to help them, including a relative. Spouses and parents of minor children can also be paid for some services, but only for 'extraordinary care' and under strict rules.",
+    "who_qualifies": [
+      "Financially eligible for Montana Medicaid, including the long-term care Medicaid process.",
+      "Age 65 or older, or any age with a physical disability (the waiver lists disabled members from age 0).",
+      "Meets the minimum level of care for nursing facility placement, assessed by Mountain Pacific Quality Health.",
+      "Has an unmet need that can only be met through Big Sky Waiver services.",
+      "Lives in a private residence or a family member's home to use the self-directed options."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the waiver says relatives may be reimbursed for personal care or similar services when they meet the provider qualifications; a relative who is the member's authorized representative may not be paid.",
+      "spouse": "limited — a spouse can be paid for extraordinary care under DPHHS policy HCBS 604-1, capped at 40 hours in a seven-day period, and only if the spouse is not the member's authorized representative.",
+      "parent_of_minor": "limited — parents of members under 18 can be paid for extraordinary care beyond what a parent ordinarily does for a child of the same age; parents together are capped at 40 hours in a seven-day period no matter how many children are served.",
+      "live_together": "optional — the member must live in a private home or a family member's home to self-direct, but the paid caregiver does not have to live with them."
+    },
+    "pay": {
+      "display": "$7.91 per 15 min (self-directed rate to the provider, about $31.64/hr)",
+      "detail": "The Montana Medicaid Big Sky Waiver fee schedule effective 7/1/2025 lists T1019 UA Personal Assistance Attendant – Self-Directed at $7.91 per 15 minutes and agency-based at $9.23 per 15 minutes. The proposed July 2026 schedule lists the same rates. This is what Medicaid pays the provider agency or financial manager, not the caregiver's hourly wage; the caregiver's take-home wage is set by the employer and is not published by the state."
+    },
+    "hours_or_budget": "A Case Management Team (a nurse and a social worker) builds a person-centered service plan and a cost plan with the member. Personal assistance under the waiver is an extension of State Plan Community First Choice services and is only added when State Plan hours are not enough. Members who choose Employer with Budget Authority get an individual budget and can shift funds among authorized services. Social supervision over 20 hours every two weeks needs Regional Program Officer approval.",
+    "waitlist": {
+      "status": "long",
+      "detail": "BSW is not an entitlement. The waiver covers up to 2,783 unduplicated members per year, and DPHHS states the program currently has a waiting list. Open slots go to the person most in need and most likely to benefit, not first come, first served. Being placed on the wait list is not approval for services."
+    },
+    "self_directed_or_agency": "Either. Under Agency with Choice, a BSW provider agency is the legal employer and the member picks and supervises the worker. Under Employer with Budget Authority (Big Sky Bonanza), a Financial Manager is the employer of record for payroll and the member or a representative acts as the managing employer who hires, trains, schedules and fires the worker. Traditional agency-delivered services are also available.",
+    "how_to_apply": [
+      "Apply for Montana Medicaid at apply.mt.gov or through your county Office of Public Assistance (Public Assistance Helpline 1-888-706-1535).",
+      "Call Mountain Pacific Quality Health to request a Big Sky Waiver referral and level-of-care screening.",
+      "If you meet the criteria but no slot is open, you are placed on the wait list and a case management team checks in about every quarter.",
+      "When a slot opens, work with your case management team on a service plan and ask for the self-directed option (Agency with Choice or Employer with Budget Authority) so a relative can be hired.",
+      "The chosen caregiver completes the provider agency's or Financial Manager's hiring paperwork, training and EVV setup before getting paid."
+    ],
+    "contacts": [
+      { "name": "Mountain Pacific Quality Health (BSW referrals)", "phone": "(800) 219-7035 or (406) 443-4020", "url": "https://dphhs.mt.gov/sltc/csb/BSW/BigSkyWaiverProgram" },
+      { "name": "Montana DPHHS Senior and Long Term Care Division", "phone": "(406) 444-4077", "url": "https://dphhs.mt.gov/sltc/csb/" },
+      { "name": "Public Assistance Helpline (Medicaid applications)", "phone": "1-888-706-1535", "url": "https://apply.mt.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my parent through the Big Sky Waiver?", "a": "Usually yes. An adult child can be hired through the self-directed options as long as they meet the provider qualifications and are not the parent's authorized representative. The parent first has to get a waiver slot, which can take time because of the wait list." },
+      { "q": "Can a spouse be paid under the Big Sky Waiver?", "a": "Only in limited cases. DPHHS lets a spouse be paid for extraordinary care that goes beyond normal household help, for services like personal assistance, specially trained attendant, homemaker and respite. A spouse is capped at 40 hours in a seven-day period, and the choice must be written into the plan of care." },
+      { "q": "Can parents be paid to care for a disabled child on the Big Sky Waiver?", "a": "Limited. BSW serves people of any age with physical disabilities, and parents of children under 18 can be paid only for care beyond what parents normally do for a child the same age. Parents together are capped at 40 hours a week total, regardless of how many children are on the waiver." },
+      { "q": "How much does a family caregiver earn on the Big Sky Waiver?", "a": "The state publishes the rate it pays the provider, $7.91 per 15 minutes for self-directed personal assistance as of July 2025, not the worker's wage. The agency or Financial Manager sets the hourly wage, so ask them what a caregiver actually takes home." },
+      { "q": "Is there a waiting list for the Big Sky Waiver?", "a": "Yes. DPHHS says the program currently has a waiting list. Slots go to the people most in need, so ask Mountain Pacific to screen you as early as possible and finish your Medicaid application." },
+      { "q": "What is Big Sky Bonanza?", "a": "It is the Big Sky Waiver's employer-with-budget-authority self-direction option. An Independence Advisor and a Financial Manager help the member manage a budget and act as the employer of their own workers, while the Financial Manager handles payroll and billing." }
+    ],
+    "keywords": [
+      "big sky waiver montana",
+      "big sky waiver family caregiver",
+      "montana big sky waiver pay family member",
+      "big sky bonanza self direct",
+      "montana medicaid waiver pay spouse",
+      "get paid to care for parent montana",
+      "big sky waiver waiting list"
+    ],
+    "sources": [
+      "https://dphhs.mt.gov/sltc/csb/BSW/BigSkyWaiverProgram",
+      "https://dphhs.mt.gov/assets/sltc/BigSkyWaiver/BSW-WaiverAmendment-251216.PDF",
+      "https://dphhs.mt.gov/assets/sltc/BigSkyWaiver/HCBSPolicyManual/600/BSW604-1.pdf",
+      "https://www.dphhs.mt.gov/assets/sltc/BigSkyWaiver/HCBSPolicyManual/700/BSW722.pdf",
+      "https://dphhs.mt.gov/assets/sltc/BigSkyWaiver/BSW_Onesheet.pdf",
+      "https://medicaidprovider.mt.gov/docs/feeschedules/2025/July2025BigSkyWaiverFeeSchedule.pdf",
+      "https://medicaidprovider.mt.gov/docs/feeschedules/ProposedJuly2026/ProposedJuly2026BigSkyWaiverFeeSchedule.pdf",
+      "https://www.dphhs.mt.gov/assets/sltc/BigSkyWaiver/HCBSPolicyManual/400/BSW406.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "community-first-choice-pcs",
+    "name": "Community First Choice Services (CFCS) and Personal Care Services (PCS)",
+    "aka": ["CFCS", "PCS", "CFC/PAS", "Community First Choice", "Personal Assistance Services", "SD-CFCS/PCS", "self-direct PCA Montana"],
+    "kind": "state plan",
+    "summary": "CFCS and PCS are Montana Medicaid State Plan programs that pay for in-home help with daily activities like bathing, dressing, eating and toileting. They are entitlements, so anyone who meets the rules can get services without a waiting list. Under the self-directed option, the member or their personal representative picks and trains their own personal care attendant, who can be an adult child or other relative but not a spouse or the parent of a minor child.",
+    "who_qualifies": [
+      "Eligible for Montana Medicaid.",
+      "Has a health condition, backed by symptoms and a medical diagnosis, that limits the ability to do activities of daily living.",
+      "Takes part in the Mountain Pacific Quality Health screening and has services authorized based on unmet need.",
+      "For CFCS (the broader 1915(k) program): also meets nursing facility or developmental disability level of care. PCS has no level-of-care requirement.",
+      "For the self-directed option: the member, or a personal representative, must pass a capacity assessment and get authorization from a health care professional."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children, siblings, grandchildren and other relatives can be hired as personal care attendants; only immediate family (spouse, parent of a minor) is excluded.",
+      "spouse": "no — the self-directed policy manual (SD-CFC/PAS 403) says a spouse is immediate family and is not eligible for reimbursement.",
+      "parent_of_minor": "no — a natural, adoptive or foster parent of a minor child is excluded as immediate family; a parent must act as the unpaid personal representative for a child under 18 who self-directs.",
+      "live_together": "optional — a relative who lives with the member can be paid, but when family lives in the home the program expects them to handle most shared household tasks, so fewer housekeeping and meal hours are authorized."
+    },
+    "pay": {
+      "display": "$7.91 per 15 min (self-directed rate to the agency, about $31.64/hr)",
+      "detail": "The Community First Choice Services and Personal Care Services fee schedules effective 7/1/2025 list T1019 U9 Self-Directed Personal Assistance Services at $7.91 per 15 minutes and agency-based T1019 at $9.23 per 15 minutes. Medicaid pays this rate to the enrolled provider agency, which employs the attendant and sets the wage; the attendant's hourly wage is not published by the state."
+    },
+    "hours_or_budget": "A Mountain Pacific Quality Health registered nurse completes a Service Profile and authorizes minutes for each task based on how long it takes an attendant to help directly. There are task caps, such as three baths a week, 300 minutes a week of meal prep and 210 minutes a week of exercise, unless an amendment shows medical need. Shopping, housekeeping and meal hours are reduced when family lives in the home.",
+    "waitlist": {
+      "status": "none",
+      "detail": "DPHHS describes CFCS and PCS as entitlement programs: if you meet financial and level-of-care eligibility you can get services without a waiting list."
+    },
+    "self_directed_or_agency": "Either, but always through an enrolled provider agency. In Agency-Based CFCS/PCS the agency recruits and manages attendants. In Self-Direct CFCS/PCS the member or personal representative hires, trains, schedules and fires the attendant, while the self-direct provider agency is the legal employer and handles payroll, taxes and billing. Attendants cannot be independent contractors.",
+    "how_to_apply": [
+      "If you do not have Medicaid yet, apply at apply.mt.gov or call the Public Assistance Helpline at 1-888-706-1535.",
+      "Call Mountain Pacific Quality Health at 1-800-219-7035 to request a CFCS/PCS assessment.",
+      "Choose the self-direct option and pick an enrolled self-direct CFCS/PCS provider agency; you or your personal representative must pass a capacity review.",
+      "Get a Health Care Professional Authorization signed if you need self-direct-only tasks like bowel care, wound care or medication assistance.",
+      "Refer your chosen relative to the agency to be hired, trained and set up on EVV before services start."
+    ],
+    "contacts": [
+      { "name": "Mountain Pacific Quality Health (assessments)", "phone": "1-800-219-7035", "url": "https://dphhs.mt.gov/sltc/csb/CFCS-PCS" },
+      { "name": "DPHHS CFCS/PCS Regional Program Officers", "phone": "406-444-4564", "url": "https://dphhs.mt.gov/sltc/csb/CFCS-PCS" },
+      { "name": "Montana DPHHS Senior and Long Term Care Division", "phone": "(406) 444-4077", "url": "https://dphhs.mt.gov/sltc/csb/" },
+      { "name": "Public Assistance Helpline (Medicaid applications)", "phone": "1-888-706-1535", "url": "https://apply.mt.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my mom or dad in Montana through CFCS or PCS?", "a": "Yes. An adult child or other relative can be hired as a personal care attendant, most easily through the self-directed option. You are hired by an enrolled provider agency, which pays you and handles taxes." },
+      { "q": "Can a spouse be the paid caregiver under Montana CFCS or PCS?", "a": "No. Montana's self-direct policy treats a spouse as immediate family, and immediate family cannot be paid as a CFCS/PCS attendant. A spouse may be able to be paid for extraordinary care through the Big Sky Waiver instead." },
+      { "q": "Can parents be paid to care for their child under CFCS or PCS?", "a": "No. A natural, adoptive or foster parent of a minor child cannot be paid. A child under 18 can still use self-direct services, but a parent must serve as the unpaid personal representative." },
+      { "q": "Is there a waiting list for Community First Choice in Montana?", "a": "No. DPHHS says CFCS and PCS are entitlement programs, so meeting financial and level-of-care eligibility means you can get services without waiting." },
+      { "q": "What is the difference between CFCS and PCS?", "a": "PCS is the basic State Plan personal care program and does not require nursing-home level of care. CFCS requires nursing facility or developmental disability level of care and adds services like skill acquisition, community integration, yard hazard removal, correspondence help and an emergency response system." },
+      { "q": "How many hours will Medicaid pay for?", "a": "A Mountain Pacific nurse decides the hours by timing each task you need help with. If a relative lives with you, the program expects them to do most shared chores, so you will get fewer hours for housekeeping, shopping and meals." }
+    ],
+    "keywords": [
+      "community first choice montana",
+      "montana cfcs pcs",
+      "montana personal care services self direct",
+      "paid family caregiver montana medicaid",
+      "montana pca pay family member",
+      "can my spouse be paid montana personal care",
+      "cfc pas montana"
+    ],
+    "sources": [
+      "https://dphhs.mt.gov/sltc/csb/CFCS-PCS",
+      "https://dphhs.mt.gov/assets/sltc/CommunityFirst/CFCSelfDirect/CFCS-PCS-Brochure.pdf",
+      "https://dphhs.mt.gov/SLTC/CFC-SDPolMan",
+      "https://dphhs.mt.gov/assets/sltc/CommunityFirst/CFCSelfDirect/Section400/SD403.pdf",
+      "https://dphhs.mt.gov/assets/sltc/CommunityFirst/CFCSelfDirect/Section400/SD402.pdf",
+      "https://dphhs.mt.gov/assets/sltc/CommunityFirst/CFCSelfDirect/Section700/SD711.pdf",
+      "https://dphhs.mt.gov/assets/sltc/CommunityFirst/CFCSelfDirect/Section700/SDCFC716.pdf",
+      "https://medicaidprovider.mt.gov/docs/feeschedules/2025/July2025CommunityFirstChoiceServicesFeeSchedule.pdf",
+      "https://medicaidprovider.mt.gov/docs/feeschedules/2025/July2025PersonalCareAssistantFeeSchedule.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

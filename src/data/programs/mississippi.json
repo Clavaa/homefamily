@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "elderly-and-disabled-waiver",
+    "name": "Elderly and Disabled (E&D) Waiver",
+    "aka": ["E&D Waiver", "ED Waiver", "Mississippi elderly and disabled waiver", "HCBS Elderly and Disabled Waiver"],
+    "kind": "waiver service",
+    "summary": "The E&D Waiver is a Mississippi Medicaid program that pays for in-home help, such as personal care and respite, for adults who would otherwise need a nursing home. All personal care is delivered by Medicaid-enrolled provider agencies; there is no self-directed option where the family hires its own worker. Since July 1, 2023, a relative who is not legally responsible for the person can be paid, but only as an employee of a qualified personal care agency.",
+    "who_qualifies": [
+      "Age 21 or older.",
+      "Needs nursing facility level of care, as decided by the state's long-term services and supports (LTSS) assessment.",
+      "Eligible for Medicaid as an SSI recipient, or as an aged, blind or disabled person who meets institutional Medicaid rules (income over the institutional limit requires an Income Trust).",
+      "Lives in a private home in the community, not a nursing facility or a licensed or unlicensed personal care home.",
+      "Not enrolled in another Medicaid waiver at the same time."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — a relative by blood or marriage can be paid only if hired and trained by an enrolled personal care agency, and only if they are not the person's guardian, conservator, power of attorney or Social Security representative payee.",
+      "spouse": "no — the waiver does not pay spouses or other legally responsible people.",
+      "parent_of_minor": "no — parents and stepparents of minor children are excluded, and the waiver only serves people 21 and older.",
+      "live_together": "n/a — the published rules do not say whether a relative worker may live with the person; ask the agency and case manager."
+    },
+    "pay": {
+      "display": "Not published",
+      "detail": "Medicaid pays the provider agency a fee-schedule rate for personal care billed through Electronic Visit Verification (EVV). The agency sets the worker's hourly wage. No family-caregiver wage is published. The Division of Medicaid finished rate studies in 2024 and 2025 proposing new waiver rates, but says they need legislative funding and CMS approval."
+    },
+    "hours_or_budget": "Personal care hours are set in the Plan of Services and Supports (PSS) based on the assessed need, and the Division of Medicaid must prior-approve any change in hours. Personal care cannot overlap with respite or home health aide hours. In-home respite is capped at 60 hours per month.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "The waiver is approved by CMS for a set number of people. When slots are full a waiting list is used. Recent reports put the cap at roughly 22,200 people per year (secondary source)."
+    },
+    "self_directed_or_agency": "Agency only. The personal care agency is the employer. An agency may not enroll in Medicaid for the purpose of caring for its own friends or family members.",
+    "how_to_apply": [
+      "Call the Division of Medicaid (800-421-2408) or the Medicaid Access Center (844-822-4622) and ask for an E&D Waiver assessment, or contact your regional Medicaid office.",
+      "A case management team (a registered nurse and a licensed social worker) does a face-to-face LTSS assessment to check nursing-home level of care.",
+      "Complete Medicaid financial eligibility if the person is not already on SSI Medicaid.",
+      "If approved and a slot is open, choose a personal care agency. If you want a relative to be the worker, ask the agency whether it will hire and train that relative under the qualifying-relative rules."
+    ],
+    "contacts": [
+      { "name": "Mississippi Division of Medicaid, Office of Long Term Care", "phone": "800-421-2408", "url": "https://medicaid.ms.gov/" },
+      { "name": "Medicaid Access Center (MAC)", "phone": "844-822-4622", "url": "https://medicaid.ms.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my mother through the E&D Waiver?", "a": "Possibly. Since July 2023 a relative who is not legally responsible can be paid, but only as an employee of an enrolled personal care agency. You cannot be paid if you are her guardian, conservator, power of attorney or Social Security representative payee." },
+      { "q": "Can a spouse be paid under the E&D Waiver?", "a": "No. The waiver does not pay legally responsible people, and that includes spouses." },
+      { "q": "Can I self-direct and hire my own caregiver?", "a": "No. The E&D Waiver has no self-directed or consumer-directed option. Personal care must come from an enrolled agency, which hires, trains and supervises the worker." },
+      { "q": "Is there a waiting list for the E&D Waiver?", "a": "There can be. The waiver serves a fixed number of people each year, and when the slots are full new applicants go on a waiting list." },
+      { "q": "How many hours of help can we get?", "a": "There is no fixed number. Hours are set in the person's Plan of Services and Supports based on the assessment, and the Division of Medicaid must approve any increase or decrease." },
+      { "q": "Can my relative start their own agency to care for me?", "a": "No. Mississippi rules say a provider may not apply for a Medicaid provider number for the purpose of caring for friends or family members." }
+    ],
+    "keywords": [
+      "mississippi elderly and disabled waiver",
+      "e&d waiver mississippi family caregiver",
+      "get paid to care for a parent in mississippi",
+      "mississippi medicaid personal care relative",
+      "mississippi waiver spouse caregiver"
+    ],
+    "sources": [
+      "https://www.law.cornell.edu/regulations/mississippi/23-Miss-Code-R-SS-208-1-1",
+      "https://www.law.cornell.edu/regulations/mississippi/23-Miss-Code-R-SS-208-1-2",
+      "https://www.law.cornell.edu/regulations/mississippi/23-Miss-Code-R-SS-208-1-3",
+      "https://www.law.cornell.edu/regulations/mississippi/23-Miss-Code-R-SS-208-1-6",
+      "https://www.law.cornell.edu/regulations/mississippi/23-Miss-Code-R-SS-208-1-10",
+      "https://medicaid.ms.gov/wp-content/uploads/2023/06/Notice-Regarding-Relatives-as-DCWs-Updated-6.20.23.pdf",
+      "https://medicaid.ms.gov/wp-content/uploads/2025/04/Fact-Sheet_Elderly-and-Disabled-Waiver.pdf",
+      "https://medicaid.ms.gov/hcbs-waiver-providers/",
+      "https://www.medicaidplanningassistance.org/mississippi-elderly-disabled-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "independent-living-waiver",
+    "name": "Independent Living (IL) Waiver",
+    "aka": ["IL Waiver", "Mississippi independent living waiver", "MDRS waiver", "HCBS Independent Living Waiver"],
+    "kind": "waiver service",
+    "summary": "The IL Waiver is a Mississippi Medicaid program for people 16 and older with severe orthopedic or neurological impairments who would otherwise need a nursing home. It pays for a personal care attendant (PCA) that the person chooses, and a participant-directed option lets the person act as the employer with help from a fiscal agent. Some family members can be hired, but not a spouse, a parent of a minor, or anyone who lives in the home.",
+    "who_qualifies": [
+      "Age 16 or older.",
+      "Severe orthopedic and/or neurological impairment that makes the person depend on others or devices for daily activities.",
+      "Needs nursing facility level of care, as decided by the LTSS assessment.",
+      "Can communicate wants and ideas, verbally or not, and is certified medically stable by a physician.",
+      "Has Medicaid in a qualifying category, such as SSI, Working Disabled, Disabled Adult Child, or institutional Medicaid (income over the limit requires an Income Trust).",
+      "Lives in a private home in the community and is not in another waiver."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — family members can be the PCA only if they are not legally responsible, do not live in the home, meet provider standards, are certified competent, and there is a justification such as no other qualified attendant in a remote area.",
+      "spouse": "no — spouses are excluded.",
+      "parent_of_minor": "no — a parent or stepparent of a minor child cannot be the paid PCA.",
+      "live_together": "required apart — a family member who lives in the home with the person cannot be the paid PCA."
+    },
+    "pay": {
+      "display": "Not published",
+      "detail": "Under the participant-directed option the participant negotiates the PCA's wage and benefits, with a Financial Management Service (FMS) agent helping set wages and running payroll and taxes. No standard PCA wage is published. Medicaid pays through the state's claims system."
+    },
+    "hours_or_budget": "PCA services are set in the person's Plan of Services and Supports (PSS) by the MDRS case manager (a registered nurse or rehabilitation counselor). If no PCA is found within six months of admission, or the person goes six months without one, the person is re-evaluated for the waiver.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "Enrollment is limited to the number of people approved by CMS or by state funding, and people are enrolled from a referral list first come, first served. Recent reports put the cap near 5,800 people per year (secondary source)."
+    },
+    "self_directed_or_agency": "Either. Under the participant-directed option the participant is the common-law employer and an FMS agent handles payroll and employment taxes. Under the co-participant option MDRS is the employer of record, but the participant still recruits, hires and can fire the PCA.",
+    "how_to_apply": [
+      "Contact the Mississippi Department of Rehabilitation Services (800-443-1000) or the Division of Medicaid (800-421-2408) to be placed on the IL Waiver referral list.",
+      "An MDRS case manager does a face-to-face LTSS assessment and checks medical stability with a physician.",
+      "Complete Medicaid financial eligibility if needed.",
+      "When a slot opens, choose a PCA. If you want to hire a relative who lives elsewhere, the case manager must certify them and document why they are needed."
+    ],
+    "contacts": [
+      { "name": "Mississippi Department of Rehabilitation Services (MDRS)", "phone": "800-443-1000", "url": "https://www.mdrs.ms.gov/" },
+      { "name": "Mississippi Division of Medicaid, Office of Long Term Care", "phone": "800-421-2408", "url": "https://medicaid.ms.gov/" }
+    ],
+    "faqs": [
+      { "q": "Can my adult son or daughter be paid as my PCA under the IL Waiver?", "a": "Possibly, if they do not live with you, are not your legal guardian, meet the provider standards and are certified competent by you and your case manager. There must also be a documented reason, such as no other qualified attendants nearby." },
+      { "q": "Can a family member who lives with me be paid?", "a": "No. The rule bars paying a family member who lives in the home with the waiver participant." },
+      { "q": "Can my spouse be my paid caregiver?", "a": "No. Spouses and parents or stepparents of minor children are legally responsible and cannot be paid as PCAs." },
+      { "q": "Who is the employer of my attendant?", "a": "You choose. In the participant-directed option you are the employer and a Financial Management Service agent runs payroll. In the co-participant option MDRS is the employer of record, but you still pick and can let go of your PCA." },
+      { "q": "Is there a waiting list?", "a": "Often. Slots are limited by CMS and state funding, and people are enrolled from a referral list in the order they were referred." },
+      { "q": "How much does a PCA get paid?", "a": "Mississippi does not publish a set wage. In the participant-directed option the participant negotiates pay with the attendant, with help from the fiscal agent." }
+    ],
+    "keywords": [
+      "mississippi independent living waiver",
+      "il waiver mississippi family member",
+      "mdrs personal care attendant",
+      "mississippi self directed personal care",
+      "get paid to care for a disabled family member mississippi"
+    ],
+    "sources": [
+      "https://www.law.cornell.edu/regulations/mississippi/23-Miss-Code-R-SS-208-2-1",
+      "https://www.law.cornell.edu/regulations/mississippi/23-Miss-Code-R-208-2.2",
+      "https://www.law.cornell.edu/regulations/mississippi/23-Miss-Code-R-SS-208-2-3",
+      "https://www.law.cornell.edu/regulations/mississippi/23-Miss-Code-R-SS-208-2-6",
+      "https://www.law.cornell.edu/regulations/mississippi/23-Miss-Code-R-SS-208-2-10",
+      "https://medicaid.ms.gov/wp-content/uploads/2016/02/Fact-Sheet_Independent-Living-Waiver-1.pdf",
+      "https://www.medicaidplanningassistance.org/mississippi-independent-living-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

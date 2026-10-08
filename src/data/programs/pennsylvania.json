@@ -1,0 +1,156 @@
+[
+  {
+    "slug": "community-healthchoices",
+    "name": "Community HealthChoices (CHC) — Participant-Directed Services",
+    "aka": ["CHC", "CHC waiver", "Community HealthChoices waiver", "PA CHC participant directed", "Pennsylvania CHC self-directed"],
+    "kind": "waiver service",
+    "summary": "Community HealthChoices is Pennsylvania's managed long-term care program for adults 21 and older who need nursing-facility level of care or who have both Medicare and Medicaid. Members who choose participant-directed personal assistance services hire their own direct care worker, which can be an adult child or other relative, and Tempus Unlimited pays the worker as the statewide financial management services vendor.",
+    "who_qualifies": [
+      "Pennsylvania resident, age 21 or older.",
+      "Needs nursing-facility level of care (for home and community-based services), or is dually eligible for Medicare and Medicaid.",
+      "Meets Medical Assistance (Medicaid) long-term care income and resource limits.",
+      "Enrolled with one of the CHC managed care organizations (AmeriHealth Caritas/Keystone First, PA Health & Wellness, or UPMC)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives, including adult children, can be hired as direct care workers.",
+      "spouse": "no — spouses, legal guardians, representative payees and people holding power of attorney cannot be paid; OLTL ended the pandemic exception on May 11, 2023.",
+      "parent_of_minor": "no — CHC serves adults 21 and older.",
+      "live_together": "optional — the worker may or may not live with the participant."
+    },
+    "pay": {
+      "display": "$13–$19/hr",
+      "detail": "The Common Law Employer sets the worker's wage up to a maximum that depends on the participant's county and each MCO's region bill rate, minus employer taxes and workers' compensation. Tempus publishes 2026 maximum DCW pay rate sheets and calculators per MCO; a single statewide figure is not published. The $13–$19 range is the commonly reported span."
+    },
+    "hours_or_budget": "The MCO service coordinator assesses needs and authorizes personal assistance hours in the person-centered service plan.",
+    "waitlist": { "status": "possible", "detail": "CHC is a 1915(b)/(c) program with a set number of slots; no active waitlist is published." },
+    "self_directed_or_agency": "Either. Under participant direction the participant (or a Common Law Employer) is the employer and Tempus is the fiscal agent; members can instead use a home care agency.",
+    "how_to_apply": [
+      "Call the Pennsylvania Independent Enrollment Broker at 1-877-550-4227 or submit its online Community Referral Form.",
+      "Complete the Medical Assistance application and the functional eligibility (level of care) assessment.",
+      "Choose a CHC managed care organization and tell your service coordinator you want participant-directed services.",
+      "Enroll yourself and your worker with Tempus Unlimited and set the wage using the 2026 rate sheet for your MCO."
+    ],
+    "contacts": [
+      { "name": "PA Independent Enrollment Broker", "phone": "1-877-550-4227", "url": "https://www.pa.gov/en/services/dhs/apply-for-community-healthchoices.html" },
+      { "name": "CHC Participant Hotline (OLTL)", "phone": "1-833-735-4416", "url": "https://www.pa.gov/en/services/dhs/apply-for-community-healthchoices.html" },
+      { "name": "Tempus Unlimited (CHC FMS)", "phone": "not published here — see the Tempus PA site", "url": "https://pa.tempusunlimited.org/" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to take care of my mother through CHC?", "a": "Yes. If your mother chooses participant-directed services, she (or a Common Law Employer) can hire you as her direct care worker, and Tempus pays you." },
+      { "q": "Can a spouse be paid under CHC?", "a": "No. Pennsylvania does not let spouses, legal guardians, representative payees or people with power of attorney be paid caregivers. A temporary pandemic exception ended May 11, 2023." },
+      { "q": "How much do CHC direct care workers make?", "a": "It depends on the county and the managed care plan. The employer picks a wage up to the maximum on the Tempus 2026 rate sheet for that plan. Reported wages run roughly $13 to $19 an hour." },
+      { "q": "Who is Tempus?", "a": "Tempus Unlimited is the financial management services vendor for CHC participant direction. It handles worker enrollment, payroll and taxes." },
+      { "q": "Can the person managing my care also be my paid worker?", "a": "No. A representative or Common Law Employer cannot also be the paid direct care worker for the same participant." }
+    ],
+    "keywords": ["community healthchoices pay family caregiver", "pa chc participant directed", "get paid to care for parent pennsylvania", "tempus pa dcw pay rate", "chc waiver pennsylvania family member"],
+    "sources": [
+      "https://pa.tempusunlimited.org/dcw-pay-rate/",
+      "https://phlp.org/en/news/pa-to-end-pandemic-era-flexibilities-for-community-healthchoices-and-obra-waivers",
+      "https://www.pa.gov/en/services/dhs/apply-for-community-healthchoices.html",
+      "https://www.medicaidplanningassistance.org/pennsylvania-community-healthchoices-program/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "services-my-way",
+    "name": "Services My Way",
+    "aka": ["SMW", "Services My Way PA", "budget authority CHC", "Services My Way Tempus"],
+    "kind": "self-direction option",
+    "summary": "Services My Way is the budget-authority model of participant direction inside Pennsylvania's Community HealthChoices. The participant gets an individual budget, sets each worker's wage within limits, and can buy approved goods and services. Relatives other than a spouse or guardian can be hired and paid through Tempus Unlimited.",
+    "who_qualifies": [
+      "Enrolled in Community HealthChoices home and community-based services (age 21+, nursing-facility level of care).",
+      "Chooses participant direction with budget authority through their CHC managed care organization.",
+      "Can serve as the employer, or names a representative / Common Law Employer to do so."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children and other relatives can be hired as direct care workers.",
+      "spouse": "no — spouses and legal guardians cannot be paid workers.",
+      "parent_of_minor": "no — the program serves adults 21 and older.",
+      "live_together": "optional — the worker may live with the participant or not."
+    },
+    "pay": {
+      "display": "$13–$19/hr",
+      "detail": "Under budget authority the participant sets wages within the individual budget and the county/MCO maximum rates published by Tempus (2026 rate sheets). Reported wages run roughly $13–$19/hr; no single statewide figure is published."
+    },
+    "hours_or_budget": "The service coordinator builds an individual budget from the assessed personal assistance hours; the participant decides how to spend it within program rules (the Services My Way manual).",
+    "waitlist": { "status": "possible", "detail": "Tied to CHC enrollment; no separate waitlist is published." },
+    "self_directed_or_agency": "Self-directed: the participant (or representative) is the employer; Tempus Unlimited is the fiscal intermediary.",
+    "how_to_apply": [
+      "Enroll in Community HealthChoices through the Independent Enrollment Broker (1-877-550-4227).",
+      "Ask your CHC service coordinator for participant direction with Services My Way (budget authority).",
+      "Work with your coordinator to build the spending plan and enroll yourself and your workers with Tempus."
+    ],
+    "contacts": [
+      { "name": "PA Independent Enrollment Broker", "phone": "1-877-550-4227", "url": "https://www.pa.gov/en/services/dhs/apply-for-community-healthchoices.html" },
+      { "name": "CHC Participant Hotline (OLTL)", "phone": "1-833-735-4416", "url": "https://www.pa.gov/en/services/dhs/apply-for-community-healthchoices.html" }
+    ],
+    "faqs": [
+      { "q": "What is the difference between Services My Way and regular participant direction?", "a": "Services My Way adds budget authority. You get an individual budget and decide wages and some purchases, instead of only choosing and supervising your worker." },
+      { "q": "Can I pay my son or daughter with Services My Way?", "a": "Yes. Relatives other than a spouse or legal guardian can be hired, as long as they finish Tempus enrollment and required checks." },
+      { "q": "Can I set my caregiver's pay?", "a": "Yes, within your budget and the maximum rate for your county and managed care plan." },
+      { "q": "Who handles taxes and paychecks?", "a": "Tempus Unlimited, the CHC financial management services vendor, runs payroll and files employer taxes." },
+      { "q": "Can I switch back to an agency?", "a": "Yes. Talk to your service coordinator; you can move between participant direction and agency services." }
+    ],
+    "keywords": ["services my way pennsylvania", "services my way tempus", "pa budget authority caregiver", "services my way family member pay", "chc services my way manual"],
+    "sources": [
+      "https://pa.tempusunlimited.org/wp-content/uploads/sites/3/2024/10/Services-My-Way-Manual-DHS-Approved.pdf",
+      "https://pa.tempusunlimited.org/dcw-pay-rate/",
+      "https://phlp.org/en/news/pa-to-end-pandemic-era-flexibilities-for-community-healthchoices-and-obra-waivers"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "obra-waiver",
+    "name": "OBRA Waiver",
+    "aka": ["OBRA", "PA OBRA waiver", "OBRA waiver participant directed", "OLTL OBRA"],
+    "kind": "waiver service",
+    "summary": "The OBRA Waiver is a Pennsylvania home and community-based waiver run by the Office of Long-Term Living for adults with severe developmental physical disabilities that began before age 22. It covers participant-directed personal assistance, so the participant can hire a relative (not a spouse or guardian), with Public Partnerships LLC (PPL) as the fiscal/employer agent.",
+    "who_qualifies": [
+      "Pennsylvania resident, age 18–59 at enrollment, with a severe developmental physical disability that began before age 22 and causes at least three substantial functional limitations (people who turn 60 while enrolled can stay).",
+      "Needs an intermediate care facility (ICF/ORC) level of care.",
+      "Meets Medical Assistance income and resource limits."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives can be direct care workers under participant direction.",
+      "spouse": "no — spouses, legal guardians, representative payees and power-of-attorney holders cannot be paid (pandemic exception ended May 11, 2023).",
+      "parent_of_minor": "no — OBRA serves adults; parents of adult children (not guardians) may be hired.",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "Not published (rate raised Jan. 1, 2026)",
+      "detail": "OLTL raised the participant-directed personal assistance rate (W1792 / W1792 TU) for OBRA and Act 150 effective January 1, 2026, funded by $21 million in the FY2025/26 budget. The new dollar figure appears on the OLTL HCBS fee schedule; a worker wage figure is not published in the announcement."
+    },
+    "hours_or_budget": "The service coordinator assesses needs and authorizes hours in the individual service plan.",
+    "waitlist": { "status": "possible", "detail": "OBRA has a limited number of slots; a waiting list can form when full." },
+    "self_directed_or_agency": "Either. Under participant direction the participant (or Common Law Employer) is the employer and PPL is the fiscal/employer agent; agency personal assistance is also available.",
+    "how_to_apply": [
+      "Apply for Medical Assistance at your County Assistance Office.",
+      "Call the Independent Enrollment Broker (1-877-550-4227) to discuss OBRA and choose a service coordination agency.",
+      "Your service coordinator sends the referral to PPL; the participant/employer and worker complete PPL enrollment and training.",
+      "The worker gets a unique ID and finishes pre-service orientation before paid hours start."
+    ],
+    "contacts": [
+      { "name": "PA Independent Enrollment Broker", "phone": "1-877-550-4227", "url": "https://www.pa.gov/en/agencies/dhs/resources/aging-physical-disabilities/obra.html" },
+      { "name": "Public Partnerships LLC (PPL) — PA OLTL customer service", "phone": "877-908-1750", "url": "https://pplfirst.com/wp-content/uploads/2026/03/PA-OLTL-PD-JOURNEY.pdf" },
+      { "name": "OLTL Provider Inquiry Line", "phone": "800-932-0939 (option 2)", "url": "https://www.paproviders.org/oltl-announces-participant-directed-consumer-personal-assistance-services-rate-increase" }
+    ],
+    "faqs": [
+      { "q": "Who is the OBRA Waiver for?", "a": "Adults with a severe physical disability that started before age 22, such as cerebral palsy or spina bifida, who need an intermediate-care level of care." },
+      { "q": "Can a parent be paid to care for an adult child on OBRA?", "a": "Yes, a parent of an adult participant can be the direct care worker if the parent is not the legal guardian, power of attorney or representative payee." },
+      { "q": "Can a spouse be paid?", "a": "No. Pennsylvania returned to its rule that spouses and legal guardians cannot be paid caregivers after May 11, 2023." },
+      { "q": "Who pays OBRA direct care workers?", "a": "Public Partnerships LLC (PPL) is the fiscal/employer agent for OLTL fee-for-service programs, including OBRA. PPL customer service is 877-908-1750." },
+      { "q": "Did OBRA caregiver pay go up?", "a": "Yes. OLTL raised the participant-directed personal assistance rate for OBRA and Act 150 effective January 1, 2026." }
+    ],
+    "keywords": ["obra waiver pennsylvania", "obra waiver pay family caregiver", "pa obra waiver participant directed ppl", "obra waiver eligibility", "pennsylvania obra waiver parent caregiver"],
+    "sources": [
+      "https://www.paproviders.org/oltl-announces-participant-directed-consumer-personal-assistance-services-rate-increase",
+      "https://pplfirst.com/wp-content/uploads/2026/03/PA-OLTL-PD-JOURNEY.pdf",
+      "https://phlp.org/en/news/pa-to-end-pandemic-era-flexibilities-for-community-healthchoices-and-obra-waivers",
+      "https://www.pa.gov/en/agencies/dhs/resources/aging-physical-disabilities/obra.html"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  }
+]

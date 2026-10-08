@@ -1,0 +1,155 @@
+[
+  {
+    "slug": "independent-choices",
+    "name": "Independent Choices Program (ICP)",
+    "aka": ["ICP", "Oregon ICP", "Independent Choices", "cash and counseling Oregon"],
+    "kind": "self-direction option",
+    "summary": "The Independent Choices Program gives an older adult or a person with a physical disability a monthly cash benefit, based on their care plan, to hire and pay their own helpers. Under the state's ICP overview, participants may hire family members, their spouse, neighbors or other workers, and they set the hourly wage themselves.",
+    "who_qualifies": [
+      "Eligible for Oregon Medicaid in-home services through Aging and People with Disabilities (age 65+, or an adult with a physical disability).",
+      "Has lived in a stable situation for the past three months and pays housing and utility bills on time.",
+      "Has, or can open, a checking account used only for ICP money.",
+      "Can manage employer duties, or names a representative (who passes a background check) to do it."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — OAR 411-030-0100 says a participant's relative may be employed as an employee provider.",
+      "spouse": "yes — the ODHS ICP overview (updated Feb. 10, 2026) lists 'their spouse' among people participants may hire.",
+      "parent_of_minor": "no — ICP is an adult Aging and People with Disabilities program.",
+      "live_together": "optional — the worker may or may not live with the participant."
+    },
+    "pay": {
+      "display": "Set by participant (at least minimum wage)",
+      "detail": "The participant chooses each worker's hourly wage and should not pay less than the federal or Oregon minimum wage. The monthly cash benefit equals the assessed ADL/IADL task hours priced at the Department's rate schedule, plus the employer's share of payroll taxes."
+    },
+    "hours_or_budget": "A case manager assesses needs at least yearly and calculates service hours. The cash benefit is paid at the start of each month. Up to 10% of the cash benefit can be set aside as a discretionary fund. Budgets are reviewed every six months.",
+    "waitlist": { "status": "possible", "detail": "ICP enrollment has been limited at times and a waitlist can form; current status is not published on the ODHS overview." },
+    "self_directed_or_agency": "The participant (or representative) is the household employer, responsible for payroll and taxes; they may pay for a payroll service from the discretionary fund.",
+    "how_to_apply": [
+      "Contact your local Aging and People with Disabilities (APD) or Area Agency on Aging (AAA) office, or the ADRC at 1-855-673-2372.",
+      "Complete the Medicaid financial application and the in-home services needs assessment.",
+      "Ask your case manager for the Independent Choices Program and sign the ICP participation agreement.",
+      "Open a separate ICP checking account, build a service budget, then hire your worker."
+    ],
+    "contacts": [
+      { "name": "ODHS Aging and People with Disabilities", "phone": "503-945-5600", "url": "https://www.oregon.gov/odhs/aging-disability-services/pages/default.aspx" },
+      { "name": "ADRC of Oregon", "phone": "1-855-673-2372", "url": "https://www.adrcoforegon.org" }
+    ],
+    "faqs": [
+      { "q": "Can I pay my husband or wife through ICP?", "a": "Yes. The state's ICP overview says participants may hire family members, their spouse, neighbors and others. A person who is acting as the ICP representative cannot also be the paid worker." },
+      { "q": "How much can I pay my caregiver?", "a": "You decide the hourly wage. It should be at least minimum wage, and the total must fit inside your monthly cash benefit after employer taxes." },
+      { "q": "Do I need a special bank account?", "a": "Yes. ICP requires a separate checking account used only for ICP money, and you must keep records showing how it was spent." },
+      { "q": "What happens if I go into the hospital?", "a": "If you are away from home for more than 30 days for illness or treatment, the ICP cash benefit stops. Other in-home services can be offered when you return." },
+      { "q": "Can I leave ICP later?", "a": "Yes. You can leave at any time and switch back to regular in-home services, such as a homecare worker paid by the state." }
+    ],
+    "keywords": ["independent choices program oregon", "oregon icp caregiver pay", "pay spouse caregiver oregon", "oregon medicaid cash benefit caregiver", "hire family member oregon medicaid"],
+    "sources": [
+      "https://oregon.gov/odhs/providers-partners/seniors-disabilities/Documents/icp-overview-consumer.pdf",
+      "https://oregon.public.law/rules/oar_411-030-0100",
+      "https://www.medicaidplanningassistance.org/oregon-independent-choices-program/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "spousal-pay",
+    "name": "Spousal Pay Program",
+    "aka": ["Spousal Pay", "SP program", "Oregon spousal pay", "pay spouse caregiver Oregon"],
+    "kind": "state plan",
+    "summary": "Oregon's Spousal Pay Program lets a spouse be paid as the homecare worker for a husband or wife who has very high care needs. The spouse enrolls as a homecare worker and is paid the state homecare worker hourly rate for authorized hours. Each case is reviewed and approved by ODHS Central Office.",
+    "who_qualifies": [
+      "Eligible for Oregon Medicaid in-home services and would otherwise need nursing-facility care.",
+      "Needs full assistance in at least four of the six activities of daily living.",
+      "Has a debilitating medical condition such as late-stage cancer, coma, cachexia, frequent unpredictable seizures, stage 3–4 wounds, or a spinal cord injury.",
+      "Needs care beyond what one spouse usually gives another, and ODHS Central Office approves enrollment (again at each annual review)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "n/a — this option is only for spouses; other relatives use the Consumer-Employed Provider program or ICP.",
+      "spouse": "yes — the spouse must meet homecare worker enrollment rules, provide most of the authorized hours, and cannot be the designated representative.",
+      "parent_of_minor": "no — the program is for married adults.",
+      "live_together": "required — the program is built for spouses living together."
+    },
+    "pay": {
+      "display": "$21.25–$25.25/hr",
+      "detail": "Spousal Pay providers are paid hourly homecare worker rates from the state rate schedule. Under the 2025–2027 OHCC/SEIU 503 contract, rates run $21.25 (step 1) to $25.25 (step 5) for 2026, rising to $23.00–$27.00 in January 2027. (Newer than states.json's $20–$24.10.)"
+    },
+    "hours_or_budget": "Authorized spousal hours equal one-half of assessed IADL hours plus all hours for qualifying ADLs. All hours must be prior-authorized; general in-home hour limits in OAR 411-030-0070 also apply.",
+    "waitlist": { "status": "none", "detail": "Spousal Pay is an in-home services option with no published enrollment cap or waiting list; approval depends on meeting the strict medical criteria." },
+    "self_directed_or_agency": "The spouse is a Consumer-Employed Provider (homecare worker) paid by the state; the spouse cannot also act as the consumer-employer.",
+    "how_to_apply": [
+      "Call your local APD or AAA office (or ADRC at 1-855-673-2372) and request an in-home services assessment.",
+      "Ask the case manager to screen for the Spousal Pay Program; they submit the request to ODHS Central Office.",
+      "The spouse completes homecare worker enrollment (background check and orientation) with the Oregon Home Care Commission.",
+      "After approval, the spouse records authorized hours and is paid through state homecare worker payroll."
+    ],
+    "contacts": [
+      { "name": "ODHS Aging and People with Disabilities", "phone": "503-945-5600", "url": "https://www.oregon.gov/odhs/aging-disability-services/pages/default.aspx" },
+      { "name": "ADRC of Oregon", "phone": "1-855-673-2372", "url": "https://www.adrcoforegon.org" }
+    ],
+    "faqs": [
+      { "q": "Who qualifies for Spousal Pay in Oregon?", "a": "The person receiving care must need full help with at least four of six daily activities, have a serious condition such as late-stage cancer or a spinal cord injury, and otherwise need a nursing home. ODHS Central Office must approve each case." },
+      { "q": "How much does a spouse get paid?", "a": "The same hourly rate as other homecare workers. For 2026 that is $21.25 to $25.25 an hour, depending on hours worked since 2023." },
+      { "q": "How many hours can a spouse be paid for?", "a": "Half of the assessed hours for household tasks, plus all hours for qualifying personal care tasks, as authorized by the case manager." },
+      { "q": "Is there a waiting list?", "a": "No waiting list is published. The main hurdle is meeting the medical criteria, not a slot limit." },
+      { "q": "What if I was already my partner's homecare worker before we married?", "a": "Oregon rules say a homecare worker who marries their consumer is not moved to Spousal Pay; their hours stay based on the consumer's needs." }
+    ],
+    "keywords": ["oregon spousal pay program", "get paid to care for spouse oregon", "oregon medicaid pay husband caregiver", "spousal pay oregon eligibility", "oar 411-030-0080"],
+    "sources": [
+      "https://oregon.public.law/rules/oar_411-030-0080",
+      "https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/de-1248650.pdf",
+      "https://oregon.gov/odhs/providers-partners/seniors-disabilities/Documents/sp-program-wg.pdf",
+      "https://www.medicaidplanningassistance.org/oregon-spousal-pay-program/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "consumer-employed-provider",
+    "name": "Consumer-Employed Provider Program (Homecare Workers)",
+    "aka": ["CEP", "Consumer-Employed Provider", "homecare worker program", "HCW Oregon", "Oregon Home Care Commission"],
+    "kind": "state plan",
+    "summary": "In Oregon's Consumer-Employed Provider program, the person who needs care chooses and directs a homecare worker, and the state pays that worker by the hour. Relatives, friends and neighbors can enroll as homecare workers through the Oregon Home Care Commission and be paid for authorized in-home hours.",
+    "who_qualifies": [
+      "Eligible for Oregon Medicaid in-home services through Aging and People with Disabilities (age 65+, or an adult with a physical disability).",
+      "Assessed by a case manager as needing help with activities of daily living.",
+      "Chooses an enrolled homecare worker from the registry or brings their own (such as a relative) who then enrolls."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children, other relatives and friends can enroll as homecare workers.",
+      "spouse": "limited — a spouse is paid only through the Spousal Pay Program rules (OAR 411-030-0080).",
+      "parent_of_minor": "no — this APD program serves adults; children's in-home supports run through separate ODDS programs.",
+      "live_together": "optional — live-in and visiting homecare workers are both allowed."
+    },
+    "pay": {
+      "display": "$21.25–$25.25/hr",
+      "detail": "The state pays homecare workers the hourly rate set in the 2025–2027 Oregon Home Care Commission / SEIU 503 contract: $21.25–$25.25 in 2026 by step, rising to $23.00–$27.00 in January 2027. (Newer than states.json's $20–$24.10.)"
+    },
+    "hours_or_budget": "A case manager sets authorized hours from the needs assessment; the worker can only claim hours actually worked.",
+    "waitlist": { "status": "none", "detail": "In-home services under the state plan are not described as capped; no waitlist is published." },
+    "self_directed_or_agency": "The consumer is the employer of record and directs the work; the State of Oregon processes payroll and pays the worker directly.",
+    "how_to_apply": [
+      "Call your local APD or AAA office or the ADRC at 1-855-673-2372 to request an in-home services assessment.",
+      "Tell the case manager who you want as your homecare worker.",
+      "The worker applies through the Oregon Home Care Commission, passes a background check and completes orientation.",
+      "Once the worker has a provider number, hours are authorized and the worker submits time for state payroll."
+    ],
+    "contacts": [
+      { "name": "Oregon Home Care Commission", "phone": "not published here — see the OHCC site", "url": "https://www.oregon.gov/odhs/providers-partners/homecare-workforce/Pages/default.aspx" },
+      { "name": "ADRC of Oregon", "phone": "1-855-673-2372", "url": "https://www.adrcoforegon.org" }
+    ],
+    "faqs": [
+      { "q": "Can I become my mother's paid homecare worker?", "a": "Yes. Adult children and other relatives can enroll as homecare workers with the Oregon Home Care Commission, then be paid for the hours the case manager authorizes." },
+      { "q": "What is the homecare worker pay rate in Oregon?", "a": "Under the 2025–2027 contract it is $21.25 to $25.25 an hour in 2026, depending on experience steps, and $23.00 to $27.00 starting January 2027." },
+      { "q": "How do pay steps work?", "a": "Workers move up one step for every 2,000 hours worked since January 1, 2023, up to five steps." },
+      { "q": "Who pays me?", "a": "The State of Oregon pays homecare workers directly through state payroll, on a published payroll calendar." },
+      { "q": "How is this different from ICP?", "a": "In this program the state pays the worker at the contract rate. In ICP the participant gets a monthly cash benefit and pays the worker themselves." }
+    ],
+    "keywords": ["oregon homecare worker pay family", "consumer employed provider oregon", "oregon home care commission relative caregiver", "homecare worker wage oregon 2026", "get paid to care for parent oregon"],
+    "sources": [
+      "https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/de-1248650.pdf",
+      "https://www.oregon.gov/odhs/providers-partners/homecare-workforce/Pages/default.aspx",
+      "https://oregon.public.law/rules/oar_411-030-0080"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]
