@@ -1,4 +1,106 @@
 import type { ProgramRecord } from "./programs";
+import p_alabama from "./programs/alabama.json";
+import p_alaska from "./programs/alaska.json";
+import p_arizona from "./programs/arizona.json";
+import p_arkansas from "./programs/arkansas.json";
+import p_california from "./programs/california.json";
+import p_colorado from "./programs/colorado.json";
+import p_connecticut from "./programs/connecticut.json";
+import p_delaware from "./programs/delaware.json";
+import p_district_of_columbia from "./programs/district-of-columbia.json";
+import p_florida from "./programs/florida.json";
+import p_georgia from "./programs/georgia.json";
+import p_hawaii from "./programs/hawaii.json";
+import p_idaho from "./programs/idaho.json";
+import p_illinois from "./programs/illinois.json";
+import p_indiana from "./programs/indiana.json";
+import p_iowa from "./programs/iowa.json";
+import p_kansas from "./programs/kansas.json";
+import p_kentucky from "./programs/kentucky.json";
+import p_louisiana from "./programs/louisiana.json";
+import p_maine from "./programs/maine.json";
+import p_maryland from "./programs/maryland.json";
+import p_massachusetts from "./programs/massachusetts.json";
+import p_michigan from "./programs/michigan.json";
+import p_minnesota from "./programs/minnesota.json";
+import p_mississippi from "./programs/mississippi.json";
+import p_missouri from "./programs/missouri.json";
+import p_montana from "./programs/montana.json";
+import p_nebraska from "./programs/nebraska.json";
+import p_nevada from "./programs/nevada.json";
+import p_new_hampshire from "./programs/new-hampshire.json";
+import p_new_jersey from "./programs/new-jersey.json";
+import p_new_mexico from "./programs/new-mexico.json";
+import p_new_york from "./programs/new-york.json";
+import p_north_carolina from "./programs/north-carolina.json";
+import p_north_dakota from "./programs/north-dakota.json";
+import p_ohio from "./programs/ohio.json";
+import p_oklahoma from "./programs/oklahoma.json";
+import p_oregon from "./programs/oregon.json";
+import p_pennsylvania from "./programs/pennsylvania.json";
+import p_rhode_island from "./programs/rhode-island.json";
+import p_south_carolina from "./programs/south-carolina.json";
+import p_south_dakota from "./programs/south-dakota.json";
+import p_tennessee from "./programs/tennessee.json";
+import p_texas from "./programs/texas.json";
+import p_utah from "./programs/utah.json";
+import p_vermont from "./programs/vermont.json";
+import p_virginia from "./programs/virginia.json";
+import p_washington from "./programs/washington.json";
+import p_west_virginia from "./programs/west-virginia.json";
+import p_wisconsin from "./programs/wisconsin.json";
+import p_wyoming from "./programs/wyoming.json";
 
 export const PROGRAM_FILES: Record<string, ProgramRecord[]> = {
+  "alabama": p_alabama as ProgramRecord[],
+  "alaska": p_alaska as ProgramRecord[],
+  "arizona": p_arizona as ProgramRecord[],
+  "arkansas": p_arkansas as ProgramRecord[],
+  "california": p_california as ProgramRecord[],
+  "colorado": p_colorado as ProgramRecord[],
+  "connecticut": p_connecticut as ProgramRecord[],
+  "delaware": p_delaware as ProgramRecord[],
+  "district-of-columbia": p_district_of_columbia as ProgramRecord[],
+  "florida": p_florida as ProgramRecord[],
+  "georgia": p_georgia as ProgramRecord[],
+  "hawaii": p_hawaii as ProgramRecord[],
+  "idaho": p_idaho as ProgramRecord[],
+  "illinois": p_illinois as ProgramRecord[],
+  "indiana": p_indiana as ProgramRecord[],
+  "iowa": p_iowa as ProgramRecord[],
+  "kansas": p_kansas as ProgramRecord[],
+  "kentucky": p_kentucky as ProgramRecord[],
+  "louisiana": p_louisiana as ProgramRecord[],
+  "maine": p_maine as ProgramRecord[],
+  "maryland": p_maryland as ProgramRecord[],
+  "massachusetts": p_massachusetts as ProgramRecord[],
+  "michigan": p_michigan as ProgramRecord[],
+  "minnesota": p_minnesota as ProgramRecord[],
+  "mississippi": p_mississippi as ProgramRecord[],
+  "missouri": p_missouri as ProgramRecord[],
+  "montana": p_montana as ProgramRecord[],
+  "nebraska": p_nebraska as ProgramRecord[],
+  "nevada": p_nevada as ProgramRecord[],
+  "new-hampshire": p_new_hampshire as ProgramRecord[],
+  "new-jersey": p_new_jersey as ProgramRecord[],
+  "new-mexico": p_new_mexico as ProgramRecord[],
+  "new-york": p_new_york as ProgramRecord[],
+  "north-carolina": p_north_carolina as ProgramRecord[],
+  "north-dakota": p_north_dakota as ProgramRecord[],
+  "ohio": p_ohio as ProgramRecord[],
+  "oklahoma": p_oklahoma as ProgramRecord[],
+  "oregon": p_oregon as ProgramRecord[],
+  "pennsylvania": p_pennsylvania as ProgramRecord[],
+  "rhode-island": p_rhode_island as ProgramRecord[],
+  "south-carolina": p_south_carolina as ProgramRecord[],
+  "south-dakota": p_south_dakota as ProgramRecord[],
+  "tennessee": p_tennessee as ProgramRecord[],
+  "texas": p_texas as ProgramRecord[],
+  "utah": p_utah as ProgramRecord[],
+  "vermont": p_vermont as ProgramRecord[],
+  "virginia": p_virginia as ProgramRecord[],
+  "washington": p_washington as ProgramRecord[],
+  "west-virginia": p_west_virginia as ProgramRecord[],
+  "wisconsin": p_wisconsin as ProgramRecord[],
+  "wyoming": p_wyoming as ProgramRecord[],
 };

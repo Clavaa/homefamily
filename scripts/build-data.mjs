@@ -290,6 +290,21 @@ for (const s of states) {
   if (!s.programs.length) throw new Error(`No curated programs for ${s.name}`);
 }
 
+// Primary-sourced corrections that post-date the research CSV. Each top-level
+// field is shallow-merged so a correction can touch one key (e.g. spouse.status)
+// without restating the rest.
+const OVERRIDES_PATH = path.resolve(__dirname, "../src/data/state-overrides.json");
+if (fs.existsSync(OVERRIDES_PATH)) {
+  const overrides = JSON.parse(fs.readFileSync(OVERRIDES_PATH, "utf8"));
+  for (const s of states) {
+    const o = overrides[s.slug];
+    if (!o) continue;
+    for (const [k, v] of Object.entries(o)) {
+      s[k] = v && typeof v === "object" && !Array.isArray(v) && s[k] && typeof s[k] === "object" ? { ...s[k], ...v } : v;
+    }
+  }
+}
+
 fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
 fs.writeFileSync(OUT_PATH, JSON.stringify(states, null, 2));
 

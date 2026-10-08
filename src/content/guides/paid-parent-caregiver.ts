@@ -10,9 +10,9 @@ const guide: Guide = {
   h1: "Paid parent caregivers: getting paid to care for a disabled child or adult",
   short: "Paid parent caregivers",
   eyebrow: "Children and adults with disabilities",
-  lead: "Parents of children with disabilities often provide care far beyond ordinary parenting — tube feedings, seizures, lifting, nights without sleep. In 13 states Medicaid can pay a parent for that care, and in 16 more it can in some programs. Caring for a disabled adult relative is paid almost everywhere.",
+  lead: "Parents of children with disabilities often provide care far beyond ordinary parenting — tube feedings, seizures, lifting, nights without sleep. In 13 states Medicaid can pay a parent for that care, and in 18 more it can in some programs. Caring for a disabled adult relative is paid almost everywhere.",
   answer:
-    "Yes, in many states a parent can be paid to care for a disabled child through Medicaid. Thirteen states allow it broadly and 16 more allow it in certain programs, usually a children's waiver, a live-in stipend, or by becoming a certified nursing assistant. Caring for a disabled adult family member is allowed in nearly every state.",
+    "Yes, in many states a parent can be paid to care for a disabled child through Medicaid. Thirteen states allow it broadly and 18 more allow it in certain programs, usually a children's waiver, a live-in stipend, or by becoming a certified nursing assistant. Caring for a disabled adult family member is allowed in nearly every state.",
   takeaways: [
     "Parents of minors are \"legally responsible\" relatives, so Medicaid limits when they can be paid. Rules vary widely by state.",
     "Thirteen states allow paid parent caregivers broadly, 16 allow it in some programs, and 22 have no clear pathway.",
@@ -61,7 +61,7 @@ const guide: Guide = {
             ],
           },
         },
-        "Sixteen more states — including [Georgia](/georgia/caregiver-program/) (GAPP), [Ohio](/ohio/caregiver-program/), [Maryland](/maryland/caregiver-program/), [Virginia](/virginia/caregiver-program/), [Oregon](/oregon/caregiver-program/) and [Wisconsin](/wisconsin/caregiver-program/) (CLTS) — pay parents only in specific waivers, often with a 40-hour weekly cap or an extraordinary-care test. New York, Texas, Pennsylvania and Massachusetts are among the states with no pathway for parents of minors.",
+        "Eighteen more states — including [Georgia](/georgia/caregiver-program/) (GAPP), [Ohio](/ohio/caregiver-program/), [Maryland](/maryland/caregiver-program/), [Virginia](/virginia/caregiver-program/), [Oregon](/oregon/caregiver-program/) and [Wisconsin](/wisconsin/caregiver-program/) (CLTS) — pay parents only in specific waivers, often with a 40-hour weekly cap or an extraordinary-care test. New York, Texas, Pennsylvania and Massachusetts are among the states with no pathway for parents of minors.",
       ],
     },
     {
@@ -165,7 +165,7 @@ const guide: Guide = {
       id: "support",
       h2: "Support beyond a paycheck",
       blocks: [
-        "Caring for a child or adult with high needs is exhausting even when it's paid. [Respite care](/guides/respite-care/) gives you scheduled breaks, and [family caregiver support programs](/guides/family-caregiver-support-programs/) list training, counseling and financial help. Parents in the 22 states without a paid-parent pathway can still use these, and can often be paid once their child turns 18 or 21.",
+        "Caring for a child or adult with high needs is exhausting even when it's paid. [Respite care](/guides/respite-care/) gives you scheduled breaks, and [family caregiver support programs](/guides/family-caregiver-support-programs/) list training, counseling and financial help. Parents in the 20 states without a paid-parent pathway can still use these, and can often be paid once their child turns 18 or 21.",
       ],
     },
     {
@@ -186,7 +186,7 @@ const guide: Guide = {
   faqs: [
     {
       q: "Can I get paid to take care of my disabled child?",
-      a: "In many states, yes. Thirteen states allow paid parent caregivers broadly and 16 more allow it in certain programs, usually children's waivers with an extraordinary-care requirement.",
+      a: "In many states, yes. Thirteen states allow paid parent caregivers broadly and 18 more allow it in certain programs, usually children's waivers with an extraordinary-care requirement.",
     },
     {
       q: "What is the Colorado parent CNA program?",

@@ -1,0 +1,166 @@
+[
+  {
+    "slug": "cfss",
+    "name": "Community First Services and Supports (CFSS)",
+    "aka": ["CFSS", "Community First Services and Supports", "Minnesota PCA replacement", "CFSS budget model", "PCA Choice"],
+    "kind": "state plan",
+    "summary": "CFSS is Minnesota's Medical Assistance personal care benefit that replaced the PCA program starting October 1, 2024. It pays a support worker to help with daily activities, either through an agency-provider or through the budget model, where the participant hires workers directly with a financial management services (FMS) provider. Since October 1, 2024, Minnesota DHS lets spouses and parents (or stepparents and guardians) of minors be paid CFSS workers, along with other relatives.",
+    "who_qualifies": [
+      "Eligible for Medical Assistance (or enrolled in Alternative Care or a home and community-based waiver, or has services in a school IEP).",
+      "Assessed through MnCHOICES as dependent in at least one activity of daily living, or with Level I behavior.",
+      "Not a participant in a family support grant.",
+      "No age limit; children and adults can qualify."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — adult children and other relatives can be CFSS support workers through an agency or the budget model.",
+      "spouse": "yes — DHS announced spouses can be paid CFSS/PCA workers from October 1, 2024; state law caps a paid spouse at 60 hours a week once its federal approval takes effect.",
+      "parent_of_minor": "yes — parents, stepparents and legal guardians of minors can be paid from October 1, 2024; state law caps one parent at 60 hours a week, or 40 hours each and 80 total for two parents, once federally approved.",
+      "live_together": "optional — the worker can live with the participant or not."
+    },
+    "pay": {
+      "display": "$20.00–$22.90/hr wage floor (2026, budget model)",
+      "detail": "Under the SEIU Healthcare Minnesota and Iowa contract, CFSS budget-model and PCA Choice workers must be paid at least a tiered wage floor based on hours of experience: $20.00, $20.90, $21.40, $22.10 or $22.90/hour from January 1, 2026 (DHS tiered wage floor table). Employers may pay more. State law says a paid parent or spouse may not earn more than the current CFSS support worker rate including wages, benefits and payroll taxes; states.json cites a ~$22.74/hour paid-spouse/parent maximum (2025)."
+    },
+    "hours_or_budget": "A MnCHOICES assessment sets authorized units or, in the budget model, a service budget. Hour limits for paid parents and spouses do not increase the total authorized budget or units.",
+    "waitlist": {
+      "status": "none",
+      "detail": "CFSS is a Medical Assistance state plan benefit, so eligible people do not wait for a slot."
+    },
+    "self_directed_or_agency": "Either. Agency-provider model (the agency employs the worker, and the participant helps choose them) or budget model (the participant is the employer and an FMS provider handles payroll and taxes).",
+    "how_to_apply": [
+      "Apply for Medical Assistance if you are not already enrolled.",
+      "Contact your county or tribal nation (or your health plan) to request a MnCHOICES assessment; Minnesota's Senior LinkAge Line at 800-333-2433 can help older adults get connected.",
+      "After the assessment, choose a CFSS consultation services provider and decide between the agency-provider model and the budget model.",
+      "Hire your support worker (a spouse, parent or other relative is allowed), who must complete required training and enroll through the agency or FMS provider."
+    ],
+    "contacts": [
+      { "name": "Senior LinkAge Line / Minnesota Aging Pathways", "phone": "800-333-2433", "url": "https://mn.gov/dhs/disability-aging/home-and-community-services/programs-and-services/cfss-faq/" }
+    ],
+    "faqs": [
+      { "q": "Can a spouse get paid as a caregiver in Minnesota?", "a": "Yes. Minnesota DHS says that since October 1, 2024 spouses can be paid PCA and CFSS workers. State law sets a 60-hour weekly cap for a paid spouse once its federal approval takes effect." },
+      { "q": "Can parents get paid to care for their minor child in Minnesota?", "a": "Yes. Since October 1, 2024, parents, stepparents and legal guardians of minors can be paid CFSS workers. State law limits a single paid parent to 60 hours a week, or 40 hours each and 80 total when two parents work, once federally approved." },
+      { "q": "How much do CFSS workers make in 2026?", "a": "In the budget model and PCA Choice, workers must be paid at least $20.00 to $22.90 an hour in 2026, depending on experience. Employers can pay more." },
+      { "q": "What happened to the PCA program?", "a": "Minnesota began moving people from PCA to CFSS on October 1, 2024. CFSS keeps personal care but adds a budget model and the option to buy some goods that reduce the need for human help." },
+      { "q": "Is there a waiting list for CFSS?", "a": "No. CFSS is a state plan benefit for anyone who meets Medical Assistance and assessment rules." },
+      { "q": "What is the difference between the agency model and the budget model?", "a": "In the agency model the agency is the employer. In the budget model you are the employer, you set the wage at or above the floor, and an FMS provider handles payroll." }
+    ],
+    "keywords": ["minnesota cfss", "community first services and supports", "get paid to care for spouse minnesota", "minnesota parent paid caregiver", "cfss wage 2026", "minnesota pca to cfss"],
+    "sources": [
+      "https://www.revisor.mn.gov/statutes/cite/256B.85",
+      "https://content.govdelivery.com/accounts/MNDHS/bulletins/3abc52c",
+      "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/pca-enhanced-rate/tiered-wage-floor.jsp",
+      "https://mn.gov/dhs/disability-aging/home-and-community-services/programs-and-services/cfss-faq/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "cdcs",
+    "name": "Consumer Directed Community Supports (CDCS)",
+    "aka": ["CDCS", "Consumer Directed Community Supports", "Minnesota CDCS", "self-directed waiver option Minnesota"],
+    "kind": "self-direction option",
+    "summary": "Consumer Directed Community Supports is a self-directed option inside Minnesota's home and community-based waivers (Elderly Waiver, CADI, BI, CAC, DD) and Alternative Care. Instead of agency services, the person gets an individual budget and uses it to hire their own workers, including relatives, and to buy approved goods and services, with a financial management services provider handling payroll. Parents of minors and spouses can be paid under CDCS within hour and wage limits.",
+    "who_qualifies": [
+      "Enrolled in a Minnesota home and community-based waiver (Elderly Waiver, CADI, BI, CAC or DD) or Alternative Care.",
+      "Assessed through MnCHOICES; the lead agency (county, tribe or health plan) sets the CDCS budget.",
+      "Able to direct services, alone or with a representative.",
+      "Writes a CDCS community support plan that the lead agency approves."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — relatives such as adult children can be hired as workers paid from the CDCS budget.",
+      "spouse": "limited — spouses can be paid, but not for tasks a spouse would normally do; county guidance describes a cap of 60 hours a week for a spouse with lead-agency approval and a maximum wage tied to the PCA/CFSS rate.",
+      "parent_of_minor": "limited — parents of minors can be paid within caps (county guidance: 40 hours per parent, 80 total for two parents, or 60 for a single parent, with lead-agency approval) and not for ordinary parenting tasks or nursing duties.",
+      "live_together": "optional — workers may or may not live with the person."
+    },
+    "pay": {
+      "display": "Set by the person within budget; parent/spouse max ~$22.74/hr",
+      "detail": "The person sets workers' wages within the individual CDCS budget, and wages must meet the PCA/CFSS budget-model wage floors ($20.00–$22.90/hour in 2026). County guidance (Anoka County) reports an optional parent-of-minor or spouse wage of up to $22.74/hour for one-to-one services; Carver County reported $23.80/hour after the January 2024 rate change. DHS does not publish one statewide family wage."
+    },
+    "hours_or_budget": "The lead agency sets an individual budget from the person's MnCHOICES assessment and waiver; the person decides how to spend it in the approved community support plan. Budget exceptions exist for certain goals and for people leaving institutions.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "CDCS has no list of its own, but you must first be on a waiver or Alternative Care; some disability waivers have had waitlists while the Elderly Waiver generally serves eligible people."
+    },
+    "self_directed_or_agency": "Self-directed. The person (or representative) is the employer of record and must use a financial management services (FMS) provider for payroll and taxes.",
+    "how_to_apply": [
+      "Get a MnCHOICES assessment through your county or tribal nation (or your health plan care coordinator).",
+      "Enroll in a qualifying waiver or Alternative Care.",
+      "Ask your case manager for CDCS, choose an FMS provider, and write your community support plan within your budget.",
+      "Add family workers to the plan; for a spouse or parent of a minor, the lead agency must approve the hours and the tasks."
+    ],
+    "contacts": [
+      { "name": "Senior LinkAge Line / Minnesota Aging Pathways", "phone": "800-333-2433", "url": "https://mn.gov/dhs/disability-aging/home-and-community-services/programs-and-services/elderly-waiver/" }
+    ],
+    "faqs": [
+      { "q": "Can I pay my spouse through CDCS in Minnesota?", "a": "Yes, within limits. Spouses can be paid for care beyond what a spouse would normally do, with hours and wages limited and approved by your lead agency." },
+      { "q": "Can parents of minors be paid under CDCS?", "a": "Yes. County guidance describes up to 40 hours a week per parent, 80 for two parents, or 60 for a single parent, with lead-agency approval and only for care beyond ordinary parenting." },
+      { "q": "Who sets the wage in CDCS?", "a": "You do, within your individual budget, as long as you meet the state wage floor. A cap applies to paid parents of minors and spouses." },
+      { "q": "Do I need a waiver to use CDCS?", "a": "Yes. CDCS is an option inside Minnesota's home and community-based waivers and Alternative Care, not a separate program." },
+      { "q": "Who handles payroll?", "a": "A financial management services provider you choose. It withholds taxes and pays your workers from your budget." }
+    ],
+    "keywords": ["minnesota cdcs", "consumer directed community supports minnesota", "cdcs pay spouse", "cdcs parent of minor hours", "minnesota self directed waiver family caregiver"],
+    "sources": [
+      "https://www.revisor.mn.gov/statutes/cite/256B.4911",
+      "https://anokacountymn.gov/CivicSend/ViewMessage/message/219561",
+      "https://carvercountymn.gov/home/showpublisheddocument/25213/638276043446100000",
+      "https://www.ramseycounty.us/sites/default/files/Departments/Community%20Human%20Services/CDCS%20Guide%20to%20DHS%20Policy-Unbundled.pdf",
+      "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/pca-enhanced-rate/tiered-wage-floor.jsp"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "elderly-waiver",
+    "name": "Elderly Waiver (EW)",
+    "aka": ["EW", "Elderly Waiver", "Minnesota Elderly Waiver", "256S waiver", "EW CDCS"],
+    "kind": "waiver service",
+    "summary": "Minnesota's Elderly Waiver pays for home and community-based services for people 65 and older who are on Medical Assistance and need nursing home level of care. Family members can be paid through the waiver's Consumer Directed Community Supports (CDCS) option or through CFSS personal care that EW members can also use. Counties, tribes and managed care plans run the program.",
+    "who_qualifies": [
+      "Age 65 or older.",
+      "Eligible for Medical Assistance.",
+      "Meets nursing facility level of care in a MnCHOICES assessment.",
+      "Needs services the waiver can provide for less than the cost of nursing home care."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — through CDCS or CFSS, relatives such as adult children can be paid workers.",
+      "spouse": "yes — spouses can be paid through CFSS (since October 1, 2024) or within CDCS limits.",
+      "parent_of_minor": "no — the Elderly Waiver serves people 65 and older.",
+      "live_together": "optional — workers may or may not live with the person; EW also covers adult foster care and customized living."
+    },
+    "pay": {
+      "display": "Via CDCS or CFSS: $20.00–$22.90/hr wage floor (2026)",
+      "detail": "EW itself pays providers set rates. A paid relative is usually paid through CFSS or CDCS, where 2026 wage floors range from $20.00 to $22.90/hour by experience, and paid spouses may not exceed the CFSS worker rate (states.json cites ~$22.74/hour)."
+    },
+    "hours_or_budget": "MnCHOICES assessment and a support plan with a monthly service cap tied to case mix; CDCS participants get an individual budget.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "The Elderly Waiver has a capped number of slots (states.json reports about 40,083 per year), so a waitlist can form, though eligible people are generally served."
+    },
+    "self_directed_or_agency": "Either. Agency-delivered waiver services, or CDCS (self-directed with an FMS provider). Members on a managed care plan get EW through the plan's care coordinator.",
+    "how_to_apply": [
+      "Call the Senior LinkAge Line (Minnesota Aging Pathways) at 800-333-2433 or contact your county or tribal nation to schedule a MnCHOICES assessment.",
+      "Apply for Medical Assistance for long-term care if you do not already have it.",
+      "If you meet nursing home level of care, work with your case manager or health plan care coordinator on a support plan.",
+      "Choose CDCS or CFSS if you want to hire a family member as your paid worker."
+    ],
+    "contacts": [
+      { "name": "Senior LinkAge Line / Minnesota Aging Pathways", "phone": "800-333-2433", "url": "https://mn.gov/dhs/disability-aging/home-and-community-services/programs-and-services/elderly-waiver/" }
+    ],
+    "faqs": [
+      { "q": "Does the Minnesota Elderly Waiver pay family caregivers?", "a": "Yes, through its CDCS self-directed option or through CFSS personal care. Adult children and spouses can be hired as paid workers." },
+      { "q": "Who qualifies for the Elderly Waiver?", "a": "People 65 and older on Medical Assistance who need nursing home level of care and can be served at home for less than nursing home costs." },
+      { "q": "Is there a waiting list?", "a": "The waiver has capped slots, so a wait is possible, but eligible people are generally served." },
+      { "q": "How do I start?", "a": "Call the Senior LinkAge Line at 800-333-2433 or your county to schedule a MnCHOICES assessment." },
+      { "q": "I'm on a Medicare-Medicaid health plan. How do I get EW?", "a": "If you are enrolled in a managed care plan, you get Elderly Waiver services through the plan's care coordinator, not the county." }
+    ],
+    "keywords": ["minnesota elderly waiver", "elderly waiver family caregiver", "get paid to care for parent minnesota", "minnesota ew cdcs", "minnesota medicaid waiver seniors"],
+    "sources": [
+      "https://mn.gov/dhs/disability-aging/home-and-community-services/programs-and-services/elderly-waiver/",
+      "https://www.revisor.mn.gov/statutes/cite/256S.05/pdf",
+      "https://content.govdelivery.com/accounts/MNDHS/bulletins/3abc52c",
+      "https://www.medicaidplanningassistance.org/minnesota-elderly-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

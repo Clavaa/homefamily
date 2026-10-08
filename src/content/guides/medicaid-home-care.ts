@@ -150,8 +150,8 @@ const guide: Guide = {
         "Adult children, grandchildren, siblings and most other relatives can be paid almost everywhere. Two relationships have extra rules:",
         {
           ul: [
-            "**Spouses** can be paid in 22 states, in some programs in 13 more, and not at all in 16 — see the spouse table in [Medicaid family caregiver programs](/guides/medicaid-family-caregiver-program/).",
-            "**Parents of minor children** can be paid broadly in 13 states and in some programs in 16 more — see [paid parent caregivers](/guides/paid-parent-caregiver/).",
+            "**Spouses** can be paid in 16 states, in some programs in 20 more, and not at all in 15 — see the spouse table in [Medicaid family caregiver programs](/guides/medicaid-family-caregiver-program/).",
+            "**Parents of minor children** can be paid broadly in 13 states and in some programs in 18 more — see [paid parent caregivers](/guides/paid-parent-caregiver/).",
           ],
         },
       ],

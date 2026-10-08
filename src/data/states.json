@@ -48,12 +48,12 @@
     ],
     "agency": "Alaska Department of Health, Division of Senior and Disabilities Services (SDS), 907-269-3666",
     "spouse": {
-      "status": "no",
-      "detail": "no — spouses (and legal guardians) are prohibited from being hired under PCS/CDPCS; other relatives such as adult children may be hired"
+      "status": "limited",
+      "detail": "limited — since 8/1/2025 a spouse can be paid for Community First Choice personal care when hired through a CFC personal-care agency (SDS memo 6/27/2025); State Plan PCS still bars spouses"
     },
     "parentMinor": {
       "status": "limited",
-      "detail": "limited — historically barred under PCS, but Sept 2024 waiver amendments (CCMC, IDD, ISW) allow parents/guardians to be paid for personal care, tube feedings, trach care and meds for waiver-enrolled children"
+      "detail": "limited — since 8/1/2025 parents of children older than 6 can be paid for CFC personal care through an agency, and for In-Home Supports on the children's waivers; State Plan PCS still bars them"
     },
     "pay": {
       "low": 24,
@@ -271,8 +271,8 @@
     ],
     "agency": "Delaware Health & Social Services, Division of Medicaid & Medical Assistance (DMMA); Central Intake 1-866-940-8963, Customer Relations 1-866-843-7212",
     "spouse": {
-      "status": "yes",
-      "detail": "yes — spouses and other relatives can be hired under DSHP-Plus self-directed attendant care (the separate state-funded Personal Attendant Services program excludes spouses)"
+      "status": "limited",
+      "detail": "limited — DSHP-Plus managed care policy bars people legally responsible for the member from serving as the paid attendant; confirm any spouse arrangement with the MCO"
     },
     "parentMinor": {
       "status": "yes",
@@ -646,8 +646,8 @@
     ],
     "agency": "KY Cabinet for Health and Family Services — Dept. for Aging and Independent Living (DAIL) 877-315-0589; Waiver Help Desk 844-784-5614",
     "spouse": {
-      "status": "yes",
-      "detail": "yes — friends and relatives including adult children and spouses can be hired under PDS"
+      "status": "limited",
+      "detail": "limited — under the HCB waiver a spouse can be paid through Participant Directed Services only with written state approval (907 KAR 7:010); the Michelle P. waiver allows spouses, up to 40 hours a week"
     },
     "parentMinor": {
       "status": "limited",
@@ -761,8 +761,8 @@
     ],
     "agency": "Maryland Dept. of Health — Office of Long Term Services and Supports, CFC 410-767-1739; Maryland Access Point (MAP) 844-627-5465",
     "spouse": {
-      "status": "yes",
-      "detail": "yes — spouse or adult child can be hired under CFC self-direction, provided they are not the participant's guardian or program representative"
+      "status": "limited",
+      "detail": "limited — COMAR 10.09.84 bars only the participant's representative from being the paid worker, but an older state memo also barred spouses; confirm with the CFC/CPAS supports planner"
     },
     "parentMinor": {
       "status": "limited",
@@ -807,13 +807,13 @@
       "detail": "no — parent of a minor member cannot be paid PCA (legally responsible relative); parents of ADULT children can be paid"
     },
     "pay": {
-      "low": 19.5,
-      "high": 23.25,
+      "low": 20,
+      "high": 22.4,
       "unit": "hr",
-      "display": "$19.50–$23.25/hr",
+      "display": "$20.00–$22.40/hr",
       "taxFree": true,
       "varies": false,
-      "detail": "PCA: $19.50/hr base (7/1/2024), +$0.50 7/1/2025, seniority scale $19.50–$23.25/hr, +$3.25/hr complex-care differential from 1/1/2026 (1199SEIU contract); AFC: tax-free stipend ~$1,000/mo (Level I) to ~$1,600/mo (Level II)"
+      "detail": "PCA wage scale $20.00–$22.40/hr (2025), plus $3.25/hr for complex care from January 2026; Adult Foster Care pays the agency $54.37 or $91.31 a day"
     },
     "agencyModel": "PCA: self-directed — consumer is the employer, works with a Personal Care Management agency and a fiscal intermediary (e.g., Tempus Unlimited) for payroll; AFC: caregiver must go through a MassHealth-contracted AFC provider agency",
     "waitlist": {
@@ -989,8 +989,8 @@
       "detail": "limited — yes under Big Sky Waiver self-directed option; prohibited under CFCS/PCS (spouses and parents of minors excluded there)"
     },
     "parentMinor": {
-      "status": "no",
-      "detail": "no under CFCS/PCS (explicitly prohibited); Big Sky Waiver serves adults — parent-of-minor not addressed"
+      "status": "limited",
+      "detail": "limited — under the Big Sky Waiver a parent of a minor can be paid only for extraordinary care, up to 40 hours a week; CFCS/PCS excludes parents of minors"
     },
     "pay": {
       "low": null,
@@ -1022,12 +1022,12 @@
     ],
     "agency": "Nebraska DHHS (main 402-471-3121; AD Waiver 877-667-6266)",
     "spouse": {
-      "status": "no",
-      "detail": "no — dhhs.ne.gov: 'a spouse or the parent/guardian of a minor child cannot be paid providers'"
+      "status": "limited",
+      "detail": "limited — under the Aged & Disabled Waiver a spouse can be paid through the separate LRI Personal Care service only when care is extraordinary, agency-based, capped at 40 hours a week"
     },
     "parentMinor": {
-      "status": "no",
-      "detail": "no — explicitly excluded on dhhs.ne.gov (legally responsible persons)"
+      "status": "limited",
+      "detail": "limited — parents of minors can be paid through LRI Personal Care under the same extraordinary-care test and 40-hour weekly cap"
     },
     "pay": {
       "low": 15,
@@ -1097,8 +1097,8 @@
     ],
     "agency": "NH DHHS Bureau of Adult and Aging Services (ADRC/ServiceLink 866-634-9412; DHHS Customer Services 844-275-3447); Granite State Independent Living runs PCAS intake (800-826-3700)",
     "spouse": {
-      "status": "yes",
-      "detail": "yes — CFI participant-directed and PCAS both allow hiring a spouse (PCAS: caregiver may not be the participant's durable power of attorney)"
+      "status": "no",
+      "detail": "no — none of New Hampshire's three programs pays a spouse: He-E 801.12(a)(6) (Choices for Independence), He-W 552.04(b)(3) (PCAS) and He-M 524.26(j) (In-Home Supports) all exclude spouses"
     },
     "parentMinor": {
       "status": "limited",
@@ -1289,13 +1289,13 @@
       "detail": "yes via pilot — Family Paid Caregiver Pilot pays legally responsible individuals (parent/guardian) providing extraordinary care on the Autism Birth-17, Medically Fragile, Children's Hospice, and Traditional IID/DD waivers"
     },
     "pay": {
-      "low": 21.76,
-      "high": 21.76,
+      "low": 27.92,
+      "high": 27.92,
       "unit": "hr",
-      "display": "$21.76/hr",
+      "display": "$27.92/hr",
       "taxFree": false,
       "varies": true,
-      "detail": "pilot reported at $77.45/day for a child under 18 and $154.89/day for an adult; individual QSP personal-care rate reported up to ~$21.76/hr"
+      "detail": "individual personal care $6.98 per 15 minutes from 7/1/2026; Family Personal Care $165.98/day and Family Home Care $77.69/day on the same HHS rate sheet"
     },
     "agencyModel": "no home-care agency, but the family caregiver must enroll as a Qualified Service Provider (QSP) with ND HHS; the waiver has no fully self-directed option",
     "waitlist": {
@@ -1401,13 +1401,13 @@
       "detail": "limited — parents of minors historically excluded; new Children's Extraordinary Needs Waiver (2024) pays parents up to 20 hrs/wk but capped at 155 families (230 from 7/1/2026)"
     },
     "pay": {
-      "low": 20,
-      "high": 24.1,
+      "low": 21.25,
+      "high": 25.25,
       "unit": "hr",
-      "display": "$20–$24.10/hr",
+      "display": "$21.25–$25.25/hr",
       "taxFree": false,
       "varies": false,
-      "detail": "ICP: participant sets wage from a monthly cash budget (at least minimum wage); state-paid homecare workers earn $20-$24.10/hr under the 2025-27 SEIU/OHCC contract"
+      "detail": "homecare worker wage scale $21.25–$25.25/hr in 2026, rising to $23.00–$27.00 in January 2027 (OHCC 2025–27 contract); under ICP the participant sets the wage, at least minimum wage"
     },
     "agencyModel": "fully self-directed — participant is the employer; fiscal-agency help optional under ICP; Spousal Pay caregivers need an OHCC provider number",
     "waitlist": {
@@ -1477,12 +1477,12 @@
     },
     "pay": {
       "low": 15,
-      "high": 15,
+      "high": 21,
       "unit": "hr",
-      "display": "$15/hr",
+      "display": "$15–$21/hr",
       "taxFree": false,
       "varies": true,
-      "detail": "participant sets the PCA wage within budget limits — reported range minimum wage up to $15.00/hr"
+      "detail": "participant sets the wage within $15–$21/hr under Personal Choice (210-RICR-50-10-2); the Independent Provider Program merged into Personal Choice on 2/12/2024"
     },
     "agencyModel": "self-directed; a state-contracted service advisement agency + fiscal intermediary handle payroll and taxes (Personal Choice via AccessPointRI / Seven Hills RI / Tri-County)",
     "waitlist": {
@@ -1623,13 +1623,13 @@
       "detail": "no — a legally responsible parent (or foster parent, or spouse of a parent) cannot be the paid attendant for their minor child (e.g. CAS rule); parents of adult children CAN be paid"
     },
     "pay": {
-      "low": 15,
+      "low": 13,
       "high": 15,
       "unit": "hr",
-      "display": "$15/hr",
+      "display": "$13–$15/hr",
       "taxFree": false,
       "varies": true,
-      "detail": "reported ~$10.60 (state base wage floor) to ~$15.00/hr depending on program, MCO, and approved budget"
+      "detail": "attendant base wage built into Medicaid rates rose to $13.00/hr on 9/1/2025; up to about $15/hr reported depending on program and MCO"
     },
     "agencyModel": "self-directed, but every CDS employer must use a financial management services agency (FMSA) for payroll, taxes, and background checks",
     "waitlist": {
@@ -1689,8 +1689,8 @@
     ],
     "agency": "Vermont Dept. of Disabilities, Aging & Independent Living (DAIL); Senior HelpLine 800-642-5119; ESD Benefits Service Center 800-479-6151 (financial eligibility)",
     "spouse": {
-      "status": "yes",
-      "detail": "yes — relatives including an adult child or spouse can be hired in the Highest Needs group / Flexible Choices; spouses are NOT payable in the Moderate Needs group; legal guardians excluded"
+      "status": "limited",
+      "detail": "limited — Choices for Care pays a spouse for hands-on personal care but not for household tasks (IADLs), in both consumer-directed personal care and Flexible Choices; legal guardians and the surrogate employer cannot be paid"
     },
     "parentMinor": {
       "status": "no",
@@ -1734,13 +1734,13 @@
       "detail": "limited — parents of minors payable under the same LRI rules (extraordinary care, ADLs only, up to 40 hrs/week per child); no respite allowed alongside a paid LRI"
     },
     "pay": {
-      "low": null,
-      "high": null,
-      "unit": null,
-      "display": null,
+      "low": 13.88,
+      "high": 17.97,
+      "unit": "hr",
+      "display": "$13.88–$17.97/hr",
       "taxFree": false,
       "varies": true,
-      "detail": "not published on fetched pages; Medicaid consumer-directed attendant rate varies by region"
+      "detail": "consumer-directed attendant rate $13.88/hr statewide and $17.97/hr in Northern Virginia, effective 7/1/2025 and unchanged on the 7/1/2026 rate file"
     },
     "agencyModel": "no home-care agency; fully consumer-directed but a fiscal/employer agent is mandatory — PPL (Public Partnerships) or Consumer Direct Care Network depending on the member's managed-care plan, plus a services facilitator",
     "waitlist": {
@@ -1855,7 +1855,7 @@
       "varies": true,
       "detail": "not published on fetched pages; wage set within the participant's IRIS budget through the fiscal employer agent"
     },
-    "agencyModel": "no agency required — participant is the employer; a fiscal employer agent is mandatory: currently GT Independence, iLIFE, or Premier Financial Management Services; DHS is moving to a single statewide FEA (~April 2026)",
+    "agencyModel": "no agency required — participant is the employer; a fiscal employer agent is mandatory: currently GT Independence, iLIFE, or Premier Financial Management Services; DHS selected Public Partnerships LLC as the single statewide FEA on 1/29/2026 (bid protest pending), with participants moving sometime in 2027",
     "waitlist": {
       "status": "none",
       "detail": "no waitlist — IRIS is an entitlement: meeting eligibility requirements equates to immediate receipt of benefits"
@@ -1875,8 +1875,8 @@
     ],
     "agency": "Wyoming Department of Health, Division of Healthcare Financing, Home and Community-Based Services (HCBS) Section; 1-800-510-0280; Long Term Care Eligibility Unit 1-855-203-2936",
     "spouse": {
-      "status": "yes",
-      "detail": "yes per medicaidplanningassistance.org ('Friends and family, including one's adult child or spouse, can be hired'), but other sources exclude spouses/legal guardians/POAs —"
+      "status": "limited",
+      "detail": "limited — the Community Choices Waiver renewal effective 7/1/2026 allows a paid spouse only if they hold no authority over the participant's finances and the care goes beyond normal spousal duties; guardians and the employer of record cannot be paid"
     },
     "parentMinor": {
       "status": "no",

@@ -1,0 +1,53 @@
+{
+  "_readme": "Primary-sourced corrections applied over the research CSV by scripts/build-data.mjs (2026-10-08 program research; details and sources in seo/STATE-DATA-CORRECTIONS.md and src/data/programs/<state>.json). Shallow-merged per field object.",
+  "new-hampshire": {
+    "spouse": { "status": "no", "detail": "no — none of New Hampshire's three programs pays a spouse: He-E 801.12(a)(6) (Choices for Independence), He-W 552.04(b)(3) (PCAS) and He-M 524.26(j) (In-Home Supports) all exclude spouses" }
+  },
+  "nebraska": {
+    "spouse": { "status": "limited", "detail": "limited — under the Aged & Disabled Waiver a spouse can be paid through the separate LRI Personal Care service only when care is extraordinary, agency-based, capped at 40 hours a week" },
+    "parentMinor": { "status": "limited", "detail": "limited — parents of minors can be paid through LRI Personal Care under the same extraordinary-care test and 40-hour weekly cap" }
+  },
+  "montana": {
+    "parentMinor": { "status": "limited", "detail": "limited — under the Big Sky Waiver a parent of a minor can be paid only for extraordinary care, up to 40 hours a week; CFCS/PCS excludes parents of minors" }
+  },
+  "wyoming": {
+    "spouse": { "status": "limited", "detail": "limited — the Community Choices Waiver renewal effective 7/1/2026 allows a paid spouse only if they hold no authority over the participant's finances and the care goes beyond normal spousal duties; guardians and the employer of record cannot be paid" }
+  },
+  "kentucky": {
+    "spouse": { "status": "limited", "detail": "limited — under the HCB waiver a spouse can be paid through Participant Directed Services only with written state approval (907 KAR 7:010); the Michelle P. waiver allows spouses, up to 40 hours a week" }
+  },
+  "vermont": {
+    "spouse": { "status": "limited", "detail": "limited — Choices for Care pays a spouse for hands-on personal care but not for household tasks (IADLs), in both consumer-directed personal care and Flexible Choices; legal guardians and the surrogate employer cannot be paid" }
+  },
+  "delaware": {
+    "spouse": { "status": "limited", "detail": "limited — DSHP-Plus managed care policy bars people legally responsible for the member from serving as the paid attendant; confirm any spouse arrangement with the MCO" }
+  },
+  "alaska": {
+    "spouse": { "status": "limited", "detail": "limited — since 8/1/2025 a spouse can be paid for Community First Choice personal care when hired through a CFC personal-care agency (SDS memo 6/27/2025); State Plan PCS still bars spouses" },
+    "parentMinor": { "status": "limited", "detail": "limited — since 8/1/2025 parents of children older than 6 can be paid for CFC personal care through an agency, and for In-Home Supports on the children's waivers; State Plan PCS still bars them" }
+  },
+  "maryland": {
+    "spouse": { "status": "limited", "detail": "limited — COMAR 10.09.84 bars only the participant's representative from being the paid worker, but an older state memo also barred spouses; confirm with the CFC/CPAS supports planner" }
+  },
+  "virginia": {
+    "pay": { "low": 13.88, "high": 17.97, "unit": "hr", "display": "$13.88–$17.97/hr", "detail": "consumer-directed attendant rate $13.88/hr statewide and $17.97/hr in Northern Virginia, effective 7/1/2025 and unchanged on the 7/1/2026 rate file" }
+  },
+  "texas": {
+    "pay": { "low": 13, "high": 15, "unit": "hr", "display": "$13–$15/hr", "detail": "attendant base wage built into Medicaid rates rose to $13.00/hr on 9/1/2025; up to about $15/hr reported depending on program and MCO" }
+  },
+  "north-dakota": {
+    "pay": { "low": 27.92, "high": 27.92, "unit": "hr", "display": "$27.92/hr", "detail": "individual personal care $6.98 per 15 minutes from 7/1/2026; Family Personal Care $165.98/day and Family Home Care $77.69/day on the same HHS rate sheet" }
+  },
+  "oregon": {
+    "pay": { "low": 21.25, "high": 25.25, "unit": "hr", "display": "$21.25–$25.25/hr", "detail": "homecare worker wage scale $21.25–$25.25/hr in 2026, rising to $23.00–$27.00 in January 2027 (OHCC 2025–27 contract); under ICP the participant sets the wage, at least minimum wage" }
+  },
+  "rhode-island": {
+    "pay": { "low": 15, "high": 21, "unit": "hr", "display": "$15–$21/hr", "detail": "participant sets the wage within $15–$21/hr under Personal Choice (210-RICR-50-10-2); the Independent Provider Program merged into Personal Choice on 2/12/2024" }
+  },
+  "massachusetts": {
+    "pay": { "low": 20, "high": 22.4, "unit": "hr", "display": "$20.00–$22.40/hr", "detail": "PCA wage scale $20.00–$22.40/hr (2025), plus $3.25/hr for complex care from January 2026; Adult Foster Care pays the agency $54.37 or $91.31 a day" }
+  },
+  "wisconsin": {
+    "agencyModel": "no agency required — participant is the employer; a fiscal employer agent is mandatory: currently GT Independence, iLIFE, or Premier Financial Management Services; DHS selected Public Partnerships LLC as the single statewide FEA on 1/29/2026 (bid protest pending), with participants moving sometime in 2027"
+  }
+}

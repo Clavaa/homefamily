@@ -16,7 +16,7 @@ const guide: Guide = {
   takeaways: [
     "All 50 states and DC have at least one Medicaid program that can pay a family caregiver.",
     "Your **relative** qualifies — you don't. Their Medicaid eligibility and care needs decide everything.",
-    "Adult children are allowed almost everywhere. Spouses can be paid in 22 states, and sometimes in 13 more.",
+    "Adult children are allowed almost everywhere. Spouses can be paid in 16 states, and sometimes in 20 more.",
     "Your paid hours come from a needs assessment, so preparing for it matters more than anything else.",
     "Medicare does not pay family caregivers. Medicaid, the VA and some long-term care insurance policies can.",
   ],
@@ -65,8 +65,8 @@ const guide: Guide = {
             rows: [
               ["Adult son or daughter", "Yes, almost everywhere", "The most common paid family caregiver. See [caring for aging parents](/guides/caring-for-aging-parents/)."],
               ["Grandchild, sibling, niece, nephew, friend", "Yes, almost everywhere", "Treated the same as an adult child in nearly every program."],
-              ["Spouse", "Yes in 22 states, sometimes in 13", "Wisconsin, Oregon, Colorado and Minnesota allow it; New York and Pennsylvania don't. [Spouse rules by state](/guides/medicaid-family-caregiver-program/)."],
-              ["Parent of a minor child", "Yes in 13 states, sometimes in 16", "Usually through a children's waiver. See [paid parent caregivers](/guides/paid-parent-caregiver/)."],
+              ["Spouse", "Yes in 16 states, sometimes in 20", "Wisconsin, Oregon, Colorado and Minnesota allow it; New York and Pennsylvania don't. [Spouse rules by state](/guides/medicaid-family-caregiver-program/)."],
+              ["Parent of a minor child", "Yes in 13 states, sometimes in 18", "Usually through a children's waiver. See [paid parent caregivers](/guides/paid-parent-caregiver/)."],
             ],
           },
         },
@@ -195,7 +195,7 @@ const guide: Guide = {
           ul: [
             "**Downplaying needs in the assessment.** People in their best moments minimise how much help they need. Describe a typical bad day, not a good one.",
             "**Waiting for Medicaid to be \"finished\" before asking about home care.** Ask about both at once.",
-            "**Assuming a spouse can't be paid.** In 22 states they can.",
+            "**Assuming a spouse can't be paid.** In 16 states they can, and in 20 more under some programs.",
             "**Paying an upfront fee to anyone.** Legitimate programs and enrollment helpers are paid by the program. Sunroom Care never charges families.",
             "**Stopping at the first \"no.\"** A different program in the same state often allows what the first one didn't.",
           ],
@@ -232,7 +232,7 @@ const guide: Guide = {
     },
     {
       q: "Can I get paid to care for my spouse?",
-      a: "In 22 states yes, and in 13 more under some programs. New York, Pennsylvania, Texas and Massachusetts are among the states that don't allow it.",
+      a: "In 16 states yes, and in 20 more under some programs. New York, Pennsylvania, Texas and Massachusetts are among the states that don't allow it.",
     },
     {
       q: "Does Medicare pay family caregivers?",

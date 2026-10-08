@@ -129,7 +129,7 @@ const guide: Guide = {
       id: "who-can-be-paid",
       h2: "Who can be the paid family caregiver",
       blocks: [
-        "Adult children, grandchildren, siblings, other relatives and friends can be paid in nearly every state. Spouses and parents of minor children are where rules differ. Spouses can be paid in 22 states, in 13 more under some programs, and not in 16. Check yours below.",
+        "Adult children, grandchildren, siblings, other relatives and friends can be paid in nearly every state. Spouses and parents of minor children are where rules differ. Spouses can be paid in 16 states, in 20 more under some programs, and not in 15. Check yours below.",
         { stateTable: "spouse" },
         "If a spouse can't be paid in your state, an agency route or another relative may still work. See [paid parent caregivers](/guides/paid-parent-caregiver/) for children's programs.",
       ],
@@ -234,7 +234,7 @@ const guide: Guide = {
     },
     {
       q: "Can a spouse be the paid caregiver?",
-      a: "In 22 states yes, in 13 more under some programs, and not in 16. New York and Pennsylvania do not allow it.",
+      a: "In 16 states yes, in 20 more under some programs, and not in 15. New York and Pennsylvania do not allow it.",
     },
     {
       q: "Can we use both an agency and a family caregiver?",

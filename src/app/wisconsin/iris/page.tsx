@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "How does the caregiver get paid?",
-    a: "Through a fiscal employer agent — a payroll company approved by the state. Today that's GT Independence, iLIFE, or Premier. They handle taxes and send the paychecks. Wisconsin plans to move to one statewide agent around April 2026.",
+    a: "Through a fiscal employer agent — a payroll company approved by the state. Today that's GT Independence, iLIFE, or Premier. They handle taxes and send the paychecks. Wisconsin chose one statewide agent, Public Partnerships (PPL), in January 2026; participants are expected to move to it sometime in 2027.",
   },
   {
     q: "Who can get IRIS?",
@@ -186,8 +186,9 @@ export default function IrisPage() {
           </p>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
             Today the agents are GT Independence, iLIFE, and Premier. Wisconsin
-            plans to move to one statewide agent around April 2026 — your pay
-            keeps coming either way.
+            chose one statewide agent, Public Partnerships (PPL), in January
+            2026; the move is expected sometime in 2027 — your pay keeps coming
+            either way.
           </p>
         </div>
       </section>

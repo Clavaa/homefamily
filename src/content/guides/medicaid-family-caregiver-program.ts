@@ -16,7 +16,7 @@ const guide: Guide = {
   takeaways: [
     "Every state and DC runs at least one Medicaid caregiver program that can pay family, usually under a local name.",
     "The person receiving care qualifies — not the caregiver. Their Medicaid eligibility and care needs decide the hours.",
-    "Adult children can be paid almost everywhere. Spouses can be paid in 22 states, and in some programs in 13 more.",
+    "Adult children can be paid almost everywhere. Spouses can be paid in 16 states, and in some programs in 20 more.",
     "Some programs are entitlements with no waitlist; others, like Florida's and Indiana's waivers, have long waits.",
     "Medicare does not pay family caregivers. Medicaid is the main route, with the VA as a second one for veterans.",
   ],
@@ -113,7 +113,7 @@ const guide: Guide = {
       id: "spouses",
       h2: "Can a spouse be paid? Rules in every state",
       blocks: [
-        "Spouses are the relationship Medicaid restricts most. In 22 states a spouse can be paid, in 13 only under certain programs, and in 16 not at all. New York, Pennsylvania, Texas and Massachusetts are among the states that don't allow it; Wisconsin, Oregon, Colorado and Minnesota do.",
+        "Spouses are the relationship Medicaid restricts most. In 16 states a spouse can be paid, in 20 only under certain programs, and in 15 not at all. New York, Pennsylvania, Texas and Massachusetts are among the states that don't allow it; Wisconsin, Oregon, Colorado and Minnesota do.",
         { stateTable: "spouse" },
         "Where spouses are barred from the hourly program, a live-in stipend program sometimes allows them — Missouri's and Nevada's Structured Family Caregiving waivers are examples. Each state's [spousal caregiver page](/wisconsin/spousal-caregiver/) spells out the exceptions.",
       ],
@@ -263,7 +263,7 @@ const guide: Guide = {
     },
     {
       q: "Can I be paid to care for my spouse through Medicaid?",
-      a: "In 22 states yes, and in 13 more under certain programs. Sixteen states, including New York, Texas, Pennsylvania and Massachusetts, do not pay spouses.",
+      a: "In 16 states yes, and in 20 more under certain programs. Fifteen states, including New York, Texas, Pennsylvania and Massachusetts, do not pay spouses.",
     },
     {
       q: "Do I have to live with the person I care for?",

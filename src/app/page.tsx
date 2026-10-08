@@ -102,7 +102,7 @@ const faqs = [
   },
   {
     q: "How much will I get paid?",
-    a: "It depends on your state. Published hourly figures run from about $11 to just over $29, and 22 states do not publish a single rate at all, because pay is set inside your loved one's care plan and budget. Pick your state and we will show you its real number before you enroll.",
+    a: "It depends on your state. Published hourly figures run from about $11 to just over $29, and 21 states do not publish a single hourly rate at all, because pay is set inside your loved one's care plan and budget. Pick your state and we will show you its real number before you enroll.",
   },
   {
     q: "Do I need training or a license?",
@@ -114,7 +114,7 @@ const faqs = [
   },
   {
     q: "Can I get paid to care for my spouse?",
-    a: "In 22 states, yes — their programs let the person who needs care hire their own husband or wife. In 13 more it depends on the program, and in 16 it is not allowed directly, though other relatives usually can be paid. Your state page gives you the straight answer.",
+    a: "In 16 states, yes — their programs let the person who needs care hire their own husband or wife. In 20 more it depends on the program, and in 15 it is not allowed directly, though other relatives usually can be paid. Your state page gives you the straight answer.",
   },
   {
     q: "How long does it take?",
