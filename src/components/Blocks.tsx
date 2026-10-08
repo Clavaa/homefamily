@@ -34,7 +34,7 @@ const QS = {
   },
 } as const;
 
-export function QuickStart({ lang = "en" as Lang }: { lang?: Lang }) {
+export function QuickStart({ lang = "en" as Lang, state }: { lang?: Lang; state?: string }) {
   const t = QS[lang];
   const chips = [
     { label: t.parent, rel: "parent" },
@@ -50,7 +50,7 @@ export function QuickStart({ lang = "en" as Lang }: { lang?: Lang }) {
         {chips.map((c) => (
           <Link
             key={c.rel}
-            href={`/qualify/?rel=${c.rel}`}
+            href={`/qualify/?rel=${c.rel}${state ? `&state=${state}` : ""}`}
             className="inline-flex min-h-12 items-center rounded-full border-2 border-teal bg-white px-5 py-2.5 font-semibold text-teal no-underline transition-colors hover:bg-mist focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-spruce"
           >
             {c.label} →

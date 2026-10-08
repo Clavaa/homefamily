@@ -10,7 +10,7 @@ const guide: Guide = {
   h1: "PPL (Public Partnerships LLC): what it does for a family caregiver",
   short: "PPL (Public Partnerships)",
   eyebrow: "Independent guide",
-  lead: "If you're being paid to care for a relative through a self-directed Medicaid program, there's a good chance PPL runs your payroll. Since 2025 it's the only payroll agent for New York's CDPAP. Here is what PPL does, what it doesn't, and how to get from enrollment to your first paycheck.",
+  lead: "Looking for the PPL login, timesheets or phone number? Those are on PPL's own site, pplfirst.com (PPL@Home and the Time4Care app) — this is an independent guide. Below: what PPL does for a paid family caregiver, how New York CDPAP works through PPL since 2025, pay, and what to do when a paycheck is late.",
   answer:
     "Public Partnerships LLC (PPL) is a financial management services company that runs payroll for self-directed Medicaid programs. A PPL caregiver is hired by the person receiving care; PPL handles the enrollment paperwork, background checks, timesheets, tax withholding and pay. Since April 2025 PPL has been New York's only CDPAP fiscal intermediary.",
   takeaways: [

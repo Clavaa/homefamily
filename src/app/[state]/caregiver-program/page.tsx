@@ -11,6 +11,7 @@ import {
   PageJsonLd,
   PayRateModule,
   ProofBar,
+  QuickStart,
   QuizCta,
   StepTimeline,
   TopCountyLinks,
@@ -25,6 +26,7 @@ import { getState, states, type StateData } from "@/data/states";
 import { BESPOKE_STATE_PAGES } from "@/data/counties";
 import { countPeople, getStateRollup, pct, topCountiesBy65 } from "@/data/county-facts";
 import { PROGRAM_NAMES } from "@/data/program-names";
+import { programsFor } from "@/data/programs";
 import { getGuide, guidePath } from "@/content";
 
 /**
@@ -215,6 +217,16 @@ export default async function CaregiverProgramPage({ params }: Props) {
         ]}
       />
 
+      {/* Most visitors read only the top of this page — put the check there. */}
+      <section className="border-y border-mist bg-white">
+        <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 sm:px-6 md:flex-row md:items-center md:justify-between">
+          <p className="display text-xl font-bold text-spruce">
+            Who are you caring for in {s.name}?
+          </p>
+          <QuickStart lang="en" state={s.slug} />
+        </div>
+      </section>
+
       <ProofBar />
 
       <div className="mx-auto mt-12 max-w-3xl px-4 sm:px-6">
@@ -229,7 +241,16 @@ export default async function CaregiverProgramPage({ params }: Props) {
           <ul className="mt-4 space-y-2 pl-6 leading-relaxed list-disc marker:text-teal">
             {s.programs.map((p) => (
               <li key={p}>
-                <strong className="text-spruce">{p}</strong>
+                {(() => {
+                  const rec = programsFor(s.slug).find((r) => r.name === p);
+                  return rec ? (
+                    <Link href={`/${s.slug}/programs/${rec.slug}/`} className="prose-link">
+                      {p}
+                    </Link>
+                  ) : (
+                    <strong className="text-spruce">{p}</strong>
+                  );
+                })()}
               </li>
             ))}
           </ul>

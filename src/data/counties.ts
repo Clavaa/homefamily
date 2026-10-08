@@ -44,6 +44,7 @@ export const UNIVERSAL_STATE_SUBROUTES = [
   "caregiver-pay",
   "spousal-caregiver",
   "caregiver-program",
+  "programs",
 ] as const;
 
 /**

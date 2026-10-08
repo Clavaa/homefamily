@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { site } from "@/site.config";
 import { states } from "@/data/states";
 import { guides, guidePath } from "@/content";
+import { programsFor } from "@/data/programs";
 import {
   countiesByState,
   UNIVERSAL_STATE_SUBROUTES,
@@ -62,9 +63,14 @@ export default function sitemap({
           lastModified: now,
           priority: s.slug === site.homeStateSlug ? 0.9 : 0.7,
         },
+        ...programsFor(s.slug).map((p) => ({
+          url: `${base}/${s.slug}/programs/${p.slug}/`,
+          lastModified: new Date(`${p.updated ?? "2026-10-08"}T00:00:00Z`),
+          priority: 0.7,
+        })),
         ...UNIVERSAL_STATE_SUBROUTES.map((sub) => ({
           url: `${base}/${s.slug}/${sub}/`,
-          lastModified: sub === "caregiver-program" ? LIBRARY_UPDATED : now,
+          lastModified: sub === "caregiver-program" || sub === "programs" ? LIBRARY_UPDATED : now,
           priority: s.slug === site.homeStateSlug ? 0.9 : 0.8,
         })),
       ]),
