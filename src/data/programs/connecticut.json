@@ -1,0 +1,221 @@
+[
+  {
+    "slug": "adult-family-living",
+    "name": "Adult Family Living (AFL)",
+    "aka": ["AFL", "Adult Family Living", "adult foster care Connecticut", "Adult Family Living-Foster Care", "CT AFL caregiver stipend"],
+    "kind": "waiver service",
+    "summary": "Adult Family Living is a Medicaid waiver service in Connecticut that pays a live-in caregiver to give daily personal care and supervision to an older adult or an adult with a disability in a private home. The caregiver works under a sponsoring agency that supervises the care and passes on a stipend. A relative such as an adult child can be the caregiver, but a spouse or another legally liable relative cannot.",
+    "who_qualifies": [
+      "Enrolled in the Connecticut Home Care Program for Elders (CHCPE) Medicaid waiver (age 65+) or the Personal Care Assistance (PCA) waiver (adults 18–64 with physical disabilities).",
+      "Meets Medicaid financial rules for that waiver (for the elder waiver, income up to 300% of the SSI federal benefit rate is reported as $2,982/month in 2026).",
+      "Needs help with daily activities: AFL has four levels, from daily supervision and cueing (Level 1) up to hands-on help with 4 or more activities of daily living (Level 4).",
+      "Lives in a private home with the principal caregiver; no more than 4 AFL participants may live in one home."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the waiver says the direct caregiver may be a relative as long as they are not a legally liable relative, so adult children, siblings, nieces and nephews and other relatives can qualify.",
+      "spouse": "no — spouses are legally liable relatives and are excluded from being the paid AFL caregiver.",
+      "parent_of_minor": "no — AFL serves adults only; legally liable relatives and guardians are excluded.",
+      "live_together": "required — the principal caregiver must live in the home, which can be either the caregiver's home or the participant's home."
+    },
+    "pay": {
+      "display": "up to about $500/week",
+      "detail": "DSS pays the AFL agency a rate based on the participant's assessed level (Levels 1–4); the agency pays the caregiver a stipend. DSS does not publish the caregiver's share. Third-party and agency sources report stipends up to roughly $500 per week (about $2,400/month), often described as tax-free. Room and board are not paid by Medicaid."
+    },
+    "hours_or_budget": "AFL is a daily (per diem) service, not hourly. The care manager's assessment of activities of daily living, instrumental activities, and cognitive or behavioral needs sets the level (1–4), and the level sets the payment. Separate homemaker or chore services are not paid on top of AFL.",
+    "waitlist": {
+      "status": "possible",
+      "detail": "AFL is only available to people already enrolled in a waiver. The Medicaid-funded elder waiver and the PCA waiver both have participant caps, and the PCA waiver keeps a waiting list ordered by application date when the cap is reached."
+    },
+    "self_directed_or_agency": "Agency. A DSS-approved AFL provider agency recruits or accepts the family caregiver, trains and supervises them, bills Medicaid, and pays the caregiver.",
+    "how_to_apply": [
+      "Call the DSS Community Options line at 1-800-445-5394 (or 860-424-4904, option 4, in the Hartford area) or submit an online CHCPE referral to start a waiver application.",
+      "A nurse or social worker screens by phone, then a care manager visits the home to assess needs and financial eligibility.",
+      "Ask the care manager for Adult Family Living and choose an approved AFL agency; the agency screens and trains the family caregiver.",
+      "Once the plan of care is approved, the agency begins paying the caregiver for each day of care."
+    ],
+    "contacts": [
+      { "name": "CT DSS Community Options / Home Care Program for Elders", "phone": "1-800-445-5394", "url": "https://portal.ct.gov/DSS/Health-And-Home-Care/Connecticut-Home-Care-Program-for-Elders/Connecticut-Home-Care-Program-for-Elders-CHCPE" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid through Adult Family Living to care for my mother in Connecticut?", "a": "Yes, if your mother is on the Home Care Program for Elders waiver (or the PCA waiver), you live with her, and you work through an approved AFL agency. Adult children are allowed; only spouses and other legally liable relatives are excluded." },
+      { "q": "Can a spouse be paid under AFL?", "a": "No. The waiver excludes legally liable relatives, which includes spouses and guardians. Advocates asked the legislature in 2024 to allow spouses, but the waiver still excludes them." },
+      { "q": "How much does Adult Family Living pay?", "a": "DSS does not publish the caregiver's stipend. The agency is paid a daily rate based on one of four care levels, and caregivers report receiving up to about $500 per week. Ask each agency what share it pays the caregiver." },
+      { "q": "Does the caregiver have to live with the person?", "a": "Yes. AFL is for a principal caregiver who lives in the home. The home can belong to either the caregiver or the person receiving care." },
+      { "q": "Is AFL the same as Community First Choice?", "a": "No. AFL is a live-in, agency-supervised daily stipend. Community First Choice is self-directed hourly personal care where the member hires and schedules their own attendant." }
+    ],
+    "keywords": ["adult family living connecticut", "AFL program ct", "get paid to care for parent connecticut", "connecticut adult foster care family caregiver", "CT live-in caregiver stipend", "adult family living pay rate"],
+    "sources": [
+      "https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/health-and-home-care/medicaid-waiver-applications/draft-pca-waiver-renewal-april-2024.pdf",
+      "https://portal.ct.gov/-/media/departments-and-agencies/dss/health-and-home-care/community-options/connecticut-home-care-program-for-elders.pdf",
+      "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/81201",
+      "https://cga.ct.gov/2024/hsdata/TMY/2024SB-00311-R000305-Sims,%20Lori-Careforth-Supports-TMY.PDF",
+      "https://www.payingforseniorcare.com/connecticut/adult-family-living"
+    ],
+    "certainty": "secondary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "community-first-choice",
+    "name": "Community First Choice (CFC)",
+    "aka": ["CFC", "Community First Choice Connecticut", "CT CFC", "self-directed PCA Connecticut", "1915(k)"],
+    "kind": "state plan",
+    "summary": "Community First Choice is a Connecticut Medicaid state plan benefit that lets a member hire, train and manage their own personal care attendant (PCA) using a budget. A fiscal intermediary runs payroll, and self-directed PCAs are paid under a union contract that set a $23/hour minimum on January 1, 2026. Relatives other than a spouse or legal guardian can be hired.",
+    "who_qualifies": [
+      "Enrolled in Connecticut Medicaid (HUSKY) and living in the community.",
+      "Needs an institutional level of care — help with activities such as bathing, dressing, eating, toileting or transferring — as found in a state assessment.",
+      "Able to act as the employer, or has a representative who will; stand-alone CFC members must be employers to get services.",
+      "No age limit is published for CFC; children and adults both use it."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the state's CFC site says most family members and friends can be hired, with some exclusions the care manager will explain.",
+      "spouse": "no — spouses are excluded as paid attendants under CFC.",
+      "parent_of_minor": "no — parents of minor children and legal guardians are excluded from being paid CFC attendants.",
+      "live_together": "optional — the attendant may or may not live with the member."
+    },
+    "pay": {
+      "display": "$23/hour minimum",
+      "detail": "Self-directed PCAs in DSS and DDS programs are covered by a collective bargaining agreement between the PCA Workforce Council and 1199 SEIU. The minimum rose to $23.00/hour on January 1, 2026, with no wage cap. The agreement was extended through June 30, 2027, and DSS filed SPA 26-AA for further raises effective on or after July 1, 2026. Live-in per diem and overnight rates also exist; sleep time is paid at state minimum wage."
+    },
+    "hours_or_budget": "CFC uses a budget method: a level-of-need assessment sets a dollar budget, and the member decides how many hours and at what wage within it. Participants have both budget authority and employer authority.",
+    "waitlist": {
+      "status": "none",
+      "detail": "CFC is a state plan entitlement with no enrollment cap. A 2026 proposal to move CFC members into capped waivers was dropped in April 2026, so eligible people can still enroll."
+    },
+    "self_directed_or_agency": "Self-directed. The member (or representative) is the employer; a state-contracted fiscal intermediary handles payroll, taxes and timesheets through electronic visit verification.",
+    "how_to_apply": [
+      "Apply online through the Community First Choice page on the DSS website, or call 2-1-1 and choose Option 3 (Monday–Friday, 8:30 a.m.–5:00 p.m.).",
+      "If not already on Medicaid, apply for HUSKY Health at the same time.",
+      "Complete the in-home assessment that sets the level of need and budget.",
+      "Choose and hire your attendant, complete fiscal intermediary paperwork and background checks, then start services."
+    ],
+    "contacts": [
+      { "name": "Community First Choice (CT DSS) — apply via 2-1-1, Option 3", "phone": "2-1-1", "url": "https://portal.ct.gov/DSS/Community-First-Choice" },
+      { "name": "PCA Workforce Council", "phone": "860-418-6370", "url": "https://portal.ct.gov/pcaworkforcecouncil/" }
+    ],
+    "faqs": [
+      { "q": "Can I hire my daughter or son as my CFC attendant?", "a": "Yes. Adult children and most other relatives and friends can be hired. The exclusions are spouses, legal guardians, and parents of minor children." },
+      { "q": "How much do CFC caregivers get paid in Connecticut?", "a": "The union contract set a $23.00/hour minimum for self-directed PCAs starting January 1, 2026, with no cap. The member can pay more if the budget allows. Further raises were proposed for July 2026." },
+      { "q": "Is there a waiting list for Community First Choice?", "a": "No. CFC is a Medicaid entitlement. In 2026 the governor proposed moving members into capped waivers, but the administration dropped that plan in April 2026." },
+      { "q": "Can a spouse be paid under CFC?", "a": "No. Spouses are excluded. A spouse may want to look at VA caregiver programs if the person is a veteran." },
+      { "q": "Who does payroll?", "a": "A state-contracted fiscal intermediary pays the attendant, withholds taxes and tracks hours through electronic visit verification. The member stays the employer." }
+    ],
+    "keywords": ["community first choice connecticut", "CFC connecticut pay family", "ct self directed pca", "get paid to care for family member connecticut", "connecticut pca wage 2026", "cfc ct apply 211"],
+    "sources": [
+      "https://portal.ct.gov/DSS/Community-First-Choice",
+      "https://portal.ct.gov/-/media/opm/pca/2023-cba/cba-summary_2024_final.pdf",
+      "https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/spas/archive-2019/ct-26-aa-cfc-collective-bargaining-updates-6-29-2026-website.pdf",
+      "https://portal.ct.gov/dds/searchable-archive/media/dds-reports/reports/community-first-choice-cfc-proposed-sunsetting-and-participant-transition-to-waivers-faqs",
+      "https://ctmirror.org/2026/04/06/lamont-backs-off-plan-to-sunset-community-first-choice-home-care-program/",
+      "https://www.medicaidplanningassistance.org/connecticut-community-first-choice/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "pca-waiver",
+    "name": "Personal Care Assistance (PCA) Waiver",
+    "aka": ["PCA Waiver", "Connecticut PCA waiver", "Personal Care Attendant waiver", "CT.017"],
+    "kind": "waiver service",
+    "summary": "The PCA Waiver is a Connecticut Medicaid 1915(c) waiver for adults 18–64 with severe, chronic physical disabilities who need nursing-home-level care. It pays for self-directed personal care attendants and related services such as Adult Family Living. Relatives can be paid, but spouses and other legally responsible people cannot.",
+    "who_qualifies": [
+      "Age 18 to 64 with a permanent, severe, chronic physical disability; at age 65 people move to the Home Care Program for Elders.",
+      "Needs nursing facility level of care, including hands-on help with at least two activities of daily living.",
+      "Meets Connecticut Medicaid rules for disabled adults (income and asset limits in the DSS Uniform Policy Manual).",
+      "Able to direct their own attendant, or has a representative."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the waiver allows relatives who are qualified to be paid; the person must not be a legally responsible individual.",
+      "spouse": "no — the waiver does not pay legally responsible individuals, which includes spouses.",
+      "parent_of_minor": "n/a — the waiver serves adults 18–64 only; parents of adult participants are not legally responsible and may be hired.",
+      "live_together": "optional — attendants can live in or out; Adult Family Living under this waiver requires a live-in caregiver."
+    },
+    "pay": {
+      "display": "$23/hour minimum",
+      "detail": "PCAs hired by waiver participants in DSS programs are covered by the PCA Workforce Council–1199 SEIU agreement: minimum $23.00/hour from January 1, 2026, no wage cap, time-and-a-half on listed holidays. Rates are set on the DSS fee schedule."
+    },
+    "hours_or_budget": "Hours come from the care plan written after the functional assessment and must stay within the waiver's cost limits.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "The draft 2024 renewal caps enrollment at 1,357 people in year 1 rising to 1,873 in year 5, with 120 slots reserved each year. When the cap is reached, eligible applicants go on a DSS waiting list in order of application date."
+    },
+    "self_directed_or_agency": "Self-directed. The participant hires, trains and supervises the PCA; a fiscal intermediary contracted by DSS pays the PCA and handles taxes.",
+    "how_to_apply": [
+      "Call DSS Community Options at 1-800-445-5394 to request a PCA waiver application.",
+      "Complete the functional assessment and the Medicaid financial application.",
+      "If a slot is open, enroll and hire your PCA through the fiscal intermediary; if not, you are placed on the waiting list by application date.",
+      "Ask whether Community First Choice can start sooner, since CFC has no cap."
+    ],
+    "contacts": [
+      { "name": "CT DSS Community Options", "phone": "1-800-445-5394", "url": "https://portal.ct.gov/dss/health-and-home-care/long-term-care/community-options/about-hcbs" }
+    ],
+    "faqs": [
+      { "q": "Who is the PCA Waiver for?", "a": "Connecticut adults age 18 to 64 with serious physical disabilities who would otherwise need nursing-home care and who qualify for Medicaid." },
+      { "q": "Can my adult son be paid as my PCA?", "a": "Yes. Qualified relatives can be paid. Only legally responsible people, such as a spouse, are excluded." },
+      { "q": "Is there a waiting list?", "a": "It can have one. The waiver has a yearly enrollment cap, and applicants who qualify after the cap is reached wait in application-date order." },
+      { "q": "What is the difference between the PCA Waiver and CFC?", "a": "Both pay self-directed attendants at the same union wage. CFC is an entitlement with no waitlist; the PCA Waiver is capped but adds waiver-only services such as Adult Family Living and care management." },
+      { "q": "What happens when I turn 65?", "a": "The waiver ends at 65. DSS gives at least 60 days' notice and helps move you to the Connecticut Home Care Program for Elders or state plan services." }
+    ],
+    "keywords": ["connecticut pca waiver", "ct personal care assistance waiver", "pca waiver waiting list connecticut", "hire family pca connecticut", "connecticut disability home care waiver"],
+    "sources": [
+      "https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/health-and-home-care/medicaid-waiver-applications/draft-pca-waiver-renewal-april-2024.pdf",
+      "https://portal.ct.gov/-/media/opm/pca/2023-cba/cba-summary_2024_final.pdf",
+      "https://portal.ct.gov/dss/health-and-home-care/long-term-care/community-options/about-hcbs"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "home-care-program-for-elders",
+    "name": "Connecticut Home Care Program for Elders (CHCPE)",
+    "aka": ["CHCPE", "CT Home Care Program for Elders", "elder waiver Connecticut", "Connecticut home care program"],
+    "kind": "waiver service",
+    "summary": "The Connecticut Home Care Program for Elders helps people 65 and older stay at home instead of moving to a nursing home. It has a Medicaid waiver part and a state-funded part. Family members generally are not paid directly, but CHCPE is the doorway to Adult Family Living and self-directed personal care, where a relative other than a spouse can be paid.",
+    "who_qualifies": [
+      "Age 65 or older and a Connecticut resident.",
+      "At risk of nursing home placement — needs help with critical needs such as bathing, dressing, eating, taking medications or toileting.",
+      "Meets income and asset rules: the Medicaid waiver part is reported at $2,982/month income in 2026; the state-funded part has no income limit but higher asset limits and a cost share.",
+      "Services must fit within the program's cost limits."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "limited — DSS says family members generally cannot be paid, with rare exceptions; the main exceptions are Adult Family Living and self-directed personal care attendant services, where a non-legally-liable relative can be paid.",
+      "spouse": "no — spouses are legally liable relatives and are excluded; DSS may even seek a contribution from a spouse.",
+      "parent_of_minor": "n/a — the program serves people 65 and older.",
+      "live_together": "optional — required only if the relative is paid through Adult Family Living."
+    },
+    "pay": {
+      "display": "not published (AFL up to ~$500/week; PCA $23/hour minimum)",
+      "detail": "CHCPE pays provider agencies, not families, for most services. A relative paid through Adult Family Living gets an agency stipend reported up to about $500/week. A relative hired as a self-directed personal care attendant earns at least $23.00/hour under the 2026 PCA union contract."
+    },
+    "hours_or_budget": "A care manager does an in-home assessment and builds a plan of care within cost limits that depend on the person's needs. State-funded participants pay a copay (the DSS brochure lists 9%; other DSS charts list lower rates, so ask the care manager).",
+    "waitlist": {
+      "status": "possible",
+      "detail": "The Medicaid waiver part has a yearly slot cap and can waitlist; one state-funded category has been closed to new applicants. Ask DSS about current openings."
+    },
+    "self_directed_or_agency": "Mostly agency-based with a care manager. Self-directed personal care attendant services and Adult Family Living (through an agency) are the routes that can pay a relative.",
+    "how_to_apply": [
+      "Call 1-800-445-5394 (toll-free) or 860-424-4904 in the Hartford area and choose option 4, or submit an online referral.",
+      "Have information ready about the help needed, health conditions and finances; a nurse or social worker checks whether the applicant appears eligible.",
+      "A care manager visits the home, assesses needs and explains cost limits; the client and care manager agree on a plan of care.",
+      "If a relative will provide care, ask about Adult Family Living or self-directed personal care attendant services when building the plan."
+    ],
+    "contacts": [
+      { "name": "CT DSS — Connecticut Home Care Program for Elders", "phone": "1-800-445-5394", "url": "https://portal.ct.gov/DSS/Health-And-Home-Care/Connecticut-Home-Care-Program-for-Elders/Connecticut-Home-Care-Program-for-Elders-CHCPE" }
+    ],
+    "faqs": [
+      { "q": "Does CHCPE pay family caregivers?", "a": "Not usually. DSS says family members are generally not paid, with rare exceptions. A relative who is not a spouse can be paid through Adult Family Living or as a self-directed personal care attendant." },
+      { "q": "What is the income limit for CHCPE in 2026?", "a": "For the Medicaid waiver part it is reported as $2,982 per month for one person (300% of the SSI benefit rate). The state-funded part has no income limit but stricter asset rules and a copay." },
+      { "q": "Do I have to pay anything?", "a": "People on the state-funded part pay a copay. Medicaid waiver members may owe applied income. The state can also recover costs from the estate after death." },
+      { "q": "Can I get paid to care for my husband or wife?", "a": "No. Spouses are excluded from paid roles in CHCPE, Adult Family Living and the PCA services." },
+      { "q": "How long does it take to start?", "a": "After the phone referral, a care manager must visit and confirm functional and financial eligibility. Medicaid financial approval can take weeks to months." }
+    ],
+    "keywords": ["connecticut home care program for elders", "chcpe", "chcpe income limit 2026", "connecticut elder home care paid family", "chcpe phone number", "ct home care program apply"],
+    "sources": [
+      "https://portal.ct.gov/DSS/Health-And-Home-Care/Connecticut-Home-Care-Program-for-Elders/Connecticut-Home-Care-Program-for-Elders-CHCPE",
+      "https://portal.ct.gov/-/media/departments-and-agencies/dss/health-and-home-care/community-options/connecticut-home-care-program-for-elders.pdf",
+      "https://portal.ct.gov/DSS/Health-And-Home-Care/Connecticut-Home-Care-Program-for-Elders/Connecticut-Home-Care-Program-for-Elders-CHCPE/How-To",
+      "https://www.medicaidplanningassistance.org/connecticut-home-care-program-for-elders/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

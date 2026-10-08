@@ -33,3 +33,9 @@ Apply in one pass before deploy; each line cites the program record that holds t
 - indiana: SFC agency rate $77.54–$133.44/day (BT2025105); $46–$80/day is a ceiling for the caregiver share, not guaranteed; attendant care $34.36/hr to agency (70% to worker)
 - illinois: MFTD legally responsible (parent/spouse) CNAs payable since 5/20/2026 for participants 21+ only; HSP phone 800-843-6154 (not 877-581-3690)
 - kansas: TA waiver amendment (waitlist + LRI pay, 5/1/2026) CMS approval unconfirmed; FE waitlist reported from 7/6/2026 (secondary)
+
+## batch: TN TX UT VT VA
+- virginia: pay null → **$13.88–$17.97/hr** (CD rate eff. 7/1/2025, unchanged 7/1/2026; $17.97 NoVA)
+- texas: pay $15/hr → **$13–$15/hr** (attendant base wage $13.00 from 9/1/2025; $15 top reported)
+- vermont: spouse yes → **limited** (Choices for Care manual: spouse not paid for IADLs; guardians/surrogate employer barred)
+- tennessee: CHOICES — worker living with the member can't be paid for PCV/attendant/in-home respite (Wellpoint handbook); ECF CHOICES Group 4 family caregiver stipend up to $500/mo (<18) and $1,000/mo (adults)
