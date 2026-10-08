@@ -51,3 +51,9 @@ Apply in one pass before deploy; each line cites the program record that holds t
 - delaware: spouse yes → **limited** (DSHP-Plus MCO policy bars legally responsible attendants); parent-of-minor yes confirmed via Self-Directed Attendant Care for Children (added program, up to 40 hr/wk, <21)
 - georgia: NOW/COMP spouse/parent-of-minor/guardian prohibited since 11/11/2023 (state-level spouse status stays limited — SFC); SFC agency rate $99.22/day (2023 study), $110.39 proposed
 - connecticut: CFC/PCA pay → **$23.00/hr minimum from 1/1/2026** (PCA union contract)
+
+## batch: AL AK AZ AR CA CO
+- alaska: spouse no → **limited**; parentMinor limited stays (CFC personal care via agency since 8/1/2025, SDS memo 6/27/2025; parents for children >6; State Plan PCS still bars)
+- arizona: spouse yes → keep yes but detail: not via SDAC (AMPM 1320-A); agency or DDD IPN, 40 hr/wk (AMPM 1240-A); parents of minors only via PPCG (40 hr/wk/child, 16 hr/day)
+- california: parent-of-minor change came from AB 120 + ACL 23-106 (Feb 2024), CFCO/IPO/IHSS-R only — not "AB 1287"
+- colorado: weekly cap per caregiver 84 hr (Jul–Dec 2026) → 70 (Jan–Jun 2027) → 56 (from 7/1/2027), 16 hr/day; old 40-hr family cap gone under CFC; min wage $17.00 ($19.29 Denver); "Family CNA" is an allowance within Home Health, not a program

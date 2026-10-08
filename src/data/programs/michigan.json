@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "home-help",
+    "name": "Home Help Program",
+    "aka": ["Home Help", "MDHHS Home Help", "Michigan Home Help Program", "Home Help individual caregiver", "Adult Services Home Help"],
+    "kind": "state plan",
+    "summary": "Michigan's Home Help Program is a Medicaid personal care benefit run by county MDHHS adult services workers. The client chooses and directs their own caregiver, and an individual caregiver who enrolls in CHAMPS and passes a criminal history screen is paid by MDHHS. Adult children, siblings and other relatives 18 or older can be paid, but a spouse or the parent of a minor child cannot.",
+    "who_qualifies": [
+      "Has Medicaid (not just Medicare); people with a deductible may use the Personal Care Option.",
+      "Needs hands-on help with at least one activity of daily living, such as eating, toileting, bathing, grooming, dressing, transferring or mobility.",
+      "A Medicaid-enrolled medical professional (physician, PA, nurse practitioner, OT or PT) signs the Medical Needs Form (DHS-54A).",
+      "Lives at home, not in a hospital, nursing facility, licensed foster care or similar institution."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the client chooses the caregiver, and adult relatives 18 or older who meet the minimum criteria can be paid.",
+      "spouse": "no — MDHHS policy (ASM 135) says do not pay Home Help to a responsible relative, which includes a spouse caring for a spouse, even if separated.",
+      "parent_of_minor": "no — a parent caring for a minor child is a responsible relative and cannot be paid; MDHHS says a parent can become the paid caregiver once the child turns 18.",
+      "live_together": "optional — the caregiver can live with the client or not; some tasks may be prorated when the client shares a home with other adults."
+    },
+    "pay": {
+      "display": "$17.13/hr (individual caregiver, from 1/1/2026)",
+      "detail": "MDHHS bulletin ASB 2026-002 sets the Home Help individual caregiver rate at $13.73 plus a $3.40 pass-through, totaling $17.13/hour, effective January 1, 2026 (up from about $15.88–$15.92 in late 2024). The agency provider rate stays at $27.00/hour ($23.60 plus $3.40). MDHHS pays individual caregivers directly."
+    },
+    "hours_or_budget": "The adult services worker does an in-home assessment and sets hours by ranking the client's need for each activity. There is no maximum number of hours; high-need cases get added review.",
+    "waitlist": {
+      "status": "none",
+      "detail": "Home Help is a Medicaid state plan benefit, so there is no waiting list for eligible clients."
+    },
+    "self_directed_or_agency": "Either. The client can hire an individual caregiver (paid directly by MDHHS after CHAMPS enrollment) or use a Home Help agency provider.",
+    "how_to_apply": [
+      "Apply for Medicaid if needed at michigan.gov/mibridges or through your local MDHHS office.",
+      "Make a Home Help referral to your county MDHHS office (anyone can refer) and return the Adult Services Application (DHS-390).",
+      "Have a Medicaid-approved medical professional complete the Medical Needs Form (DHS-54A).",
+      "An adult services worker visits your home to assess needs; the caregiver attends, enrolls in CHAMPS and passes the criminal history screen before any payment."
+    ],
+    "contacts": [
+      { "name": "Your county MDHHS office (Adult Services)", "phone": "not published centrally — call your county MDHHS office", "url": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Adult-and-Childrens-Services/Adults-and-Seniors/Forms-and-Publications/MDHHS-Pub-1733.pdf" }
+    ],
+    "faqs": [
+      { "q": "How much does Michigan Home Help pay family caregivers in 2026?", "a": "Individual caregivers are paid $17.13 an hour starting January 1, 2026 ($13.73 plus a $3.40 pass-through), per MDHHS bulletin ASB 2026-002." },
+      { "q": "Can I get paid to care for my spouse in Michigan through Home Help?", "a": "No. Home Help does not pay a responsible relative, which includes a spouse caring for a spouse, even if the couple is separated." },
+      { "q": "Can a parent be paid to care for a disabled child?", "a": "Not while the child is a minor. MDHHS says parents cannot be the paid caregiver for their minor children, but can be once the child turns 18." },
+      { "q": "Is there a limit on Home Help hours?", "a": "There is no set maximum. Your adult services worker decides your hours based on the in-home assessment." },
+      { "q": "What does a caregiver need to get paid?", "a": "Be 18 or older, enroll in CHAMPS, pass a criminal history screen, meet MDHHS's minimum criteria, and log services as required. MDHHS will not pay if the client's Medicaid is inactive." },
+      { "q": "Can I use an agency instead of a family member?", "a": "Yes. You can choose a Home Help agency provider; agencies are paid $27.00 an hour." }
+    ],
+    "keywords": ["michigan home help program", "home help pay rate 2026", "get paid to care for parent michigan", "mdhhs home help caregiver", "michigan home help spouse", "michigan medicaid caregiver pay"],
+    "sources": [
+      "https://mdhhs-pres-prod.michigan.gov/olmweb/ex/AS/Public/ASM/135.pdf",
+      "https://mdhhs-pres-prod.michigan.gov/olmweb/exf/AS/Public/ASB/2026-002.pdf",
+      "https://mdhhs-pres-prod.michigan.gov/olmweb/EX/AS/Public/ASM/101.pdf",
+      "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Adult-and-Childrens-Services/Adults-and-Seniors/Forms-and-Publications/MDHHS-Pub-1733.pdf",
+      "https://www.hcaoa.org/newsletters/michigan-home-help-individual-caregiver-pay-rate-increasing-january-1-2026"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "mi-choice-waiver",
+    "name": "MI Choice Waiver Program",
+    "aka": ["MI Choice", "MI Choice Waiver", "HCBS/ED waiver", "MI Choice Self-Determination", "Michigan nursing home waiver"],
+    "kind": "waiver service",
+    "summary": "MI Choice is Michigan's Medicaid waiver for adults who meet nursing facility level of care but want to live at home. Regional waiver agencies assess people, coordinate care, and pay for services such as Community Living Supports (in-home personal care). Through the Self-Determination option the participant can hire their own workers, including relatives, with a fiscal intermediary handling payroll.",
+    "who_qualifies": [
+      "Age 18 or older.",
+      "Meets Michigan's Nursing Facility Level of Care Determination (NFLOC).",
+      "Meets MI Choice financial (income and asset) criteria for Medicaid.",
+      "Needs at least one waiver service in addition to supports coordination."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — the waiver allows payment to qualified relatives for waiver services, and Self-Determination lets participants recruit and hire their own workers.",
+      "spouse": "limited — the waiver says legally responsible individuals (which include spouses) cannot also be the worker through self-determination; some sources report spouses can be paid, so confirm with your waiver agency.",
+      "parent_of_minor": "no — MI Choice serves adults 18 and older.",
+      "live_together": "optional — workers may or may not live with the participant."
+    },
+    "pay": {
+      "display": "Wage set in Self-Determination budget — not published",
+      "detail": "Under Self-Determination the participant sets the worker's wage within the budget for authorized services, paid through a fiscal intermediary. Agency workers are paid what the agency sets. MDHHS does not publish a MI Choice family-caregiver wage."
+    },
+    "hours_or_budget": "A supports coordinator from the waiver agency builds a person-centered service plan and authorizes services such as Community Living Supports and respite.",
+    "waitlist": {
+      "status": "capped",
+      "detail": "Each waiver agency has a set number of slots per fiscal year. When an agency is at capacity, applicants are screened with the MI Choice Intake Guidelines and placed on that agency's waiting list by priority category (such as nursing facility transitions and people at imminent risk of nursing home admission), then by date."
+    },
+    "self_directed_or_agency": "Either. Traditional agency-delivered services through the waiver agency's provider network, or the Self-Determination option where the participant employs workers and a fiscal intermediary handles payroll.",
+    "how_to_apply": [
+      "Find the MI Choice waiver agency for your county (MDHHS lists agencies on its MI Choice page; many are Area Agencies on Aging).",
+      "Call the agency for a phone screening with the MI Choice Intake Guidelines.",
+      "If a slot is open, the agency does an in-home Nursing Facility Level of Care Determination and helps with the Medicaid application; otherwise you are placed on the waiting list.",
+      "Once enrolled, ask your supports coordinator about Self-Determination and hiring a relative as your worker."
+    ],
+    "contacts": [
+      { "name": "MDHHS MI Choice Waiver Program (agency list)", "phone": "not published on this page", "url": "https://www.michigan.gov/mdhhs/assistance-programs/healthcare/seniors/michoicewaiver/mi-choice-waiver-program" }
+    ],
+    "faqs": [
+      { "q": "Can I get paid to care for my parent through MI Choice?", "a": "Yes, in many cases. MI Choice allows payment to qualified relatives, and under Self-Determination your parent can hire you as their worker." },
+      { "q": "Is there a waiting list for MI Choice?", "a": "Often. Each waiver agency has a limited number of slots. When full, it screens applicants and places them on a waiting list by priority group and date." },
+      { "q": "Can a spouse be paid under MI Choice?", "a": "It is unclear. The waiver document says legally responsible individuals cannot also be the worker through self-determination, while some guides say spouses can be hired. Ask your waiver agency." },
+      { "q": "What is the difference between MI Choice and Home Help?", "a": "Home Help is a Medicaid personal care benefit with no waiting list. MI Choice is a waiver for people who need nursing-home-level care and offers more services, but has limited slots." },
+      { "q": "What services does MI Choice cover?", "a": "Supports coordination plus services such as community living supports, respite, adult day health, home-delivered meals, chore services, nursing, PERS, home modifications and a fiscal intermediary for self-direction." }
+    ],
+    "keywords": ["mi choice waiver", "michigan mi choice waiver family caregiver", "mi choice self determination", "michigan nursing home waiver at home", "mi choice waiting list", "get paid to care for parent michigan waiver"],
+    "sources": [
+      "https://www.michigan.gov/mdhhs/assistance-programs/healthcare/seniors/michoicewaiver/mi-choice-waiver-program",
+      "https://www.michigan.gov/-/media/Project/Websites/mdhhs/Folder1/Folder5/MI_Choice_Waiver_1915-c_Amendment.pdf?rev=a7ce304f909d4491a6902cc9ceb2b627",
+      "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Folder50/Folder9/MSA_21-48B.pdf?rev=a9c29b449d604a8cad591a38349a35b7&hash=9B47863821ADBA55E307CDED1F991246",
+      "https://www.medicaidplanningassistance.org/michigan-choice-waiver/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]

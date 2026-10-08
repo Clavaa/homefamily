@@ -35,7 +35,7 @@
     ],
     "contacts": [
       { "name": "Alabama Department of Senior Services – AgeLine", "phone": "1-800-243-5463", "url": "https://alabamaageline.gov/medicaid-waiver-programs/" },
-      { "name": "Alabama Medicaid Agency – Personal Choices", "phone": "", "url": "https://medicaid.alabama.gov/content/6.0_LTC_Waivers/6.3_Other_LTC_Programs/6.3.3_Personal_Choices.aspx" }
+      { "name": "Alabama Medicaid Agency – Personal Choices", "url": "https://medicaid.alabama.gov/content/6.0_LTC_Waivers/6.3_Other_LTC_Programs/6.3.3_Personal_Choices.aspx" }
     ],
     "faqs": [
       { "q": "Can I get paid to take care of my mom in Alabama?", "a": "Yes, if your mother is enrolled in a qualifying Medicaid waiver such as the Elderly and Disabled Waiver and chooses Personal Choices. She (or her representative) can then hire you and pay you from her monthly care budget." },
@@ -143,7 +143,7 @@
     ],
     "contacts": [
       { "name": "Alabama Department of Senior Services (ACT Waiver)", "phone": "1-877-425-2243", "url": "https://alabamaageline.gov/medicaid-waiver-programs/" },
-      { "name": "Alabama Medicaid – ACT Waiver", "phone": "", "url": "https://medicaid.alabama.gov/content/6.0_LTC_waivers/6.1_HCBS_Waivers/6.1.1_ACT_Waiver.aspx" }
+      { "name": "Alabama Medicaid – ACT Waiver", "url": "https://medicaid.alabama.gov/content/6.0_LTC_waivers/6.1_HCBS_Waivers/6.1.1_ACT_Waiver.aspx" }
     ],
     "faqs": [
       { "q": "Who is the ACT Waiver for?", "a": "People living in a nursing home or similar facility who want to move back to a home or community setting and who need nursing-home-level care." },

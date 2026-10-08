@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "cdass",
+    "name": "Consumer-Directed Attendant Support Services (CDASS)",
+    "aka": ["CDASS", "CDASS Colorado", "consumer directed attendant support services", "Colorado self-directed care", "CDASS CFC"],
+    "kind": "self-direction option",
+    "summary": "CDASS is a Health First Colorado (Medicaid) option that lets members hire, train and supervise their own attendants for personal care, homemaker and health maintenance (skilled) tasks. Family members, including spouses and parents of minor children, can be paid attendants. A Financial Management Services (FMS) vendor pays the attendants from a budget set by the case manager.",
+    "who_qualifies": [
+      "Enrolled in Health First Colorado (Medicaid).",
+      "Eligible for Community First Choice (CFC): an assessed need for personal care, homemaker and/or health maintenance activities, and an institutional level of care (HCBS waiver members automatically meet this).",
+      "Takes part in service planning with a Case Management Agency.",
+      "Wants to self-direct all parts of in-home care, or has an Authorized Representative who will (the representative cannot be a paid attendant)."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — members can choose family members and friends as paid attendants.",
+      "spouse": "yes — a spouse can be a paid attendant; as a legally responsible person, a spouse is limited to 364 hours a year (7 hours a week) of LRP homemaker service per member (PPL agreement, June 2026).",
+      "parent_of_minor": "yes — parents can be attendants for their minor child; the same LRP homemaker limit applies.",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "$17–$20/hr",
+      "detail": "The member sets the wage within the budget, but it must be at least Colorado's direct care base wage: $17.00/hour statewide, $19.29 in Denver and $18.17 in Edgewater (January 1, 2026). The LRP homemaker rate defaults to $17.00/hour or the local minimum wage unless the member files an attestation for a higher rate."
+    },
+    "hours_or_budget": "The case manager uses the Direct Care Services Calculator to set an allocation (budget). Under CFC, family attendants are no longer capped at 40 hours a week, but no attendant may work more than 16 hours a day, and a new weekly cap per caregiver phases in: 84 hours (July–December 2026), 70 hours (January–June 2027), then 56 hours from July 1, 2027, unless an exception is approved.",
+    "waitlist": {
+      "status": "none",
+      "detail": "CDASS is a service delivery option under Community First Choice, a state plan entitlement since July 1, 2025."
+    },
+    "self_directed_or_agency": "The member or Authorized Representative is the employer. A Financial Management Services vendor (such as PPL) handles payroll only; no home care agency is involved.",
+    "how_to_apply": [
+      "If not on Health First Colorado yet, apply for Medicaid first.",
+      "Contact your local Case Management Agency for an assessment and service plan.",
+      "Ask for CDASS, complete CDASS training from Consumer Direct Colorado, and choose an FMS vendor.",
+      "Enroll your attendants with the FMS vendor; spouses and parents of minors also sign the Legally Responsible Person paperwork."
+    ],
+    "contacts": [
+      { "name": "Health First Colorado Member Contact Center", "phone": "1-800-221-3943", "url": "https://hcpf.colorado.gov/consumer-directed-attendant-support-services" },
+      { "name": "PPL customer service (CDASS FMS)", "phone": "888-752-8250", "url": "https://pplfirst.com/wp-content/uploads/2026/03/HCPF-Member-Letter-LRP-Homemaker_updated-3.24.26.pdf.pdf" }
+    ],
+    "faqs": [
+      { "q": "Can a spouse be paid through CDASS?", "a": "Yes. Spouses can be paid attendants. As legally responsible persons, they face a separate yearly limit on homemaker hours." },
+      { "q": "Can parents be paid to care for their child through CDASS?", "a": "Yes. HCPF says family members, including parents, can be CDASS attendants, with the same legally responsible person homemaker limit." },
+      { "q": "Is there still a 40-hour limit for family attendants?", "a": "Not under CFC. But no attendant can work more than 16 hours a day, and a weekly per-caregiver cap phases in from 84 hours (late 2026) down to 56 hours by July 2027." },
+      { "q": "What is the minimum CDASS wage?", "a": "At least $17.00 an hour statewide in 2026, $19.29 in Denver and $18.17 in Edgewater." },
+      { "q": "Who pays the attendants?", "a": "The Financial Management Services vendor pays attendants from the member's CDASS allocation." }
+    ],
+    "keywords": ["cdass colorado", "cdass spouse", "cdass pay rate 2026", "colorado get paid to care for family member", "cdass legally responsible person", "cdass 56 hour cap"],
+    "sources": [
+      "https://hcpf.colorado.gov/consumer-directed-attendant-support-services",
+      "https://hcpf.colorado.gov/sites/hcpf/files/Consumer%20Directed%20Attendant%20Support%20Services%20and%20Kids%20April%202025.pdf",
+      "https://pplfirst.com/wp-content/uploads/2026/06/Attendant-Enrollment-and-Agreement_Updated_June-2026.pdf",
+      "https://pplfirst.com/wp-content/uploads/2026/03/HCPF-Member-Letter-LRP-Homemaker_updated-3.24.26.pdf.pdf",
+      "https://hcpf.colorado.gov/direct-care-workforce-base-wage",
+      "https://hcpf.colorado.gov/sites/hcpf/files/Upcoming%20Provider%20Trainings,%20Office%20Hours%20on%20Weekly%20Caregiver%20Cap%20-%206-17-2026.pdf"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "ihss",
+    "name": "In-Home Support Services (IHSS)",
+    "aka": ["IHSS Colorado", "In-Home Support Services", "IHSS agency Colorado", "Colorado IHSS family caregiver"],
+    "kind": "self-direction option",
+    "summary": "Colorado's In-Home Support Services lets Health First Colorado members choose and supervise their own attendants, including family members, with an IHSS-approved home care agency acting as the employer. It covers personal care, homemaker and health maintenance (skilled) tasks under one plan. It is a service delivery option under Community First Choice.",
+    "who_qualifies": [
+      "Enrolled in Health First Colorado (Medicaid).",
+      "Eligible for Community First Choice: an assessed need for personal care, homemaker and/or health maintenance activities and an institutional level of care.",
+      "Works with a Case Management Agency on service planning.",
+      "Chooses an IHSS-approved agency to be the provider."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — members can select family members as attendants, hired through the IHSS agency.",
+      "spouse": "yes — spouses can be attendants; as legally responsible persons they have a separate limit on paid homemaker hours.",
+      "parent_of_minor": "yes — parents can be paid for personal care for a minor child when the care goes beyond ordinary parenting (extraordinary care).",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "$17–$20/hr",
+      "detail": "The IHSS agency sets the attendant's wage, which must be at least Colorado's direct care base wage: $17.00/hour statewide, $19.29 in Denver and $18.17 in Edgewater (January 1, 2026)."
+    },
+    "hours_or_budget": "The case manager assesses needs and authorizes service hours. No caregiver may work more than 16 hours a day, and a weekly per-caregiver cap phases in: 84 hours (July–December 2026), 70 hours (January–June 2027), 56 hours from July 1, 2027, unless an exception is approved.",
+    "waitlist": {
+      "status": "none",
+      "detail": "IHSS is a delivery option under Community First Choice, a state plan entitlement since July 1, 2025."
+    },
+    "self_directed_or_agency": "Shared. The IHSS agency is the employer, pays attendants and provides training and nurse oversight; the member helps select, schedule and supervise attendants.",
+    "how_to_apply": [
+      "Enroll in Health First Colorado if you are not already.",
+      "Contact your local Case Management Agency for an assessment and to choose IHSS.",
+      "Pick an IHSS-approved agency from HCPF's provider list.",
+      "Refer your family member to the agency to be hired and trained."
+    ],
+    "contacts": [
+      { "name": "Health First Colorado Member Contact Center", "phone": "1-800-221-3943", "url": "https://hcpf.colorado.gov/in-home-support-services" }
+    ],
+    "faqs": [
+      { "q": "What is the difference between IHSS and CDASS in Colorado?", "a": "In IHSS an agency is the employer and shares hiring and training with the member. In CDASS the member is the employer and an FMS vendor only handles payroll." },
+      { "q": "Can a family member be paid through IHSS?", "a": "Yes. Members can choose family members as attendants, who are then hired by the IHSS agency." },
+      { "q": "Can IHSS attendants do skilled tasks?", "a": "Yes. Health maintenance activities like medication administration can be done by IHSS attendants with training and oversight from a licensed professional." },
+      { "q": "Is there a limit on how many hours a family caregiver can work?", "a": "Yes. No more than 16 hours a day, plus a weekly per-caregiver cap phasing down to 56 hours by July 2027." },
+      { "q": "How do I find an IHSS agency?", "a": "HCPF publishes a list of IHSS providers, and your Case Management Agency can help you choose." }
+    ],
+    "keywords": ["ihss colorado", "in-home support services colorado", "colorado ihss family caregiver", "ihss vs cdass", "colorado ihss agency"],
+    "sources": [
+      "https://hcpf.colorado.gov/in-home-support-services",
+      "https://hcpf.colorado.gov/sites/hcpf/files/Consumer%20Directed%20Attendant%20Support%20Services%20and%20Kids%20April%202025.pdf",
+      "https://hcpf.colorado.gov/direct-care-workforce-base-wage",
+      "https://hcpf.colorado.gov/sites/hcpf/files/Upcoming%20Provider%20Trainings,%20Office%20Hours%20on%20Weekly%20Caregiver%20Cap%20-%206-17-2026.pdf",
+      "https://www.kidswaivers.org/paid-parent-caregiving/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  },
+  {
+    "slug": "family-cna",
+    "name": "Family CNA (parent or relative CNA through a home health agency)",
+    "aka": ["Family CNA program", "parent CNA Colorado", "family member CNA", "certified nurse aide family caregiver", "Colorado home health CNA for my child"],
+    "kind": "state plan",
+    "summary": "Colorado lets a family member who is a licensed Certified Nurse Aide (CNA) be hired by a home health agency and paid to give approved CNA care to a relative on Health First Colorado. HCPF says this is not a separate program but an allowance under the Home Health benefit. It is most used by parents of children with complex medical needs.",
+    "who_qualifies": [
+      "The person receiving care is enrolled in Health First Colorado and qualifies for the Home Health benefit (CNA and/or nursing services).",
+      "A waiver is not required, but the person must be on Medicaid.",
+      "The family caregiver holds an active CNA (or RN/LPN) credential with the Colorado Department of Regulatory Agencies (DORA).",
+      "The family caregiver is employed by a Home Health Agency enrolled with Health First Colorado."
+    ],
+    "who_can_be_paid": {
+      "adult_children_relatives": "yes — family members who are licensed CNAs can be hired by a home health agency.",
+      "spouse": "limited — not addressed separately by HCPF; Home Health rules allow qualified family members, but payment is only for care beyond ordinary family duties.",
+      "parent_of_minor": "yes — parents can be the CNA for their own child, but are paid only for services that exceed the usual responsibilities of a parent (10 CCR 2505-10 8.520).",
+      "live_together": "optional — not required."
+    },
+    "pay": {
+      "display": "Set by the agency (not published)",
+      "detail": "The home health agency sets the CNA's wage; HCPF does not publish a family CNA wage. Statewide family-caregiver pay is commonly reported at $17–$20/hour."
+    },
+    "hours_or_budget": "Home Health visits are authorized based on medical need. CNA visits cannot be shift care (no more than 4.5 hours in a row) and cannot be only for unskilled personal care or homemaking. A per-caregiver weekly cap applies to CNA and Long-Term Home Health services: 84 hours (July–December 2026), 70 hours (January–June 2027), 56 hours from July 1, 2027, plus a 16-hour daily limit.",
+    "waitlist": {
+      "status": "none",
+      "detail": "Home Health is a Health First Colorado state plan benefit."
+    },
+    "self_directed_or_agency": "Agency. The family CNA is an employee of a Medicaid-enrolled home health agency.",
+    "how_to_apply": [
+      "Make sure the person needing care is enrolled in Health First Colorado and gets a doctor's order for home health.",
+      "Earn or confirm an active CNA credential with DORA.",
+      "Apply to work for a Health First Colorado-enrolled home health agency that hires family CNAs.",
+      "The agency requests approval for CNA visits and schedules you as the aide."
+    ],
+    "contacts": [
+      { "name": "Health First Colorado Member Contact Center", "phone": "1-800-221-3943", "url": "https://hcpf.colorado.gov/home-health-faq" }
+    ],
+    "faqs": [
+      { "q": "Can I be the CNA for my own child in Colorado?", "a": "Yes. HCPF says a parent with an active CNA credential can be hired by a Medicaid-enrolled home health agency to provide approved care to their child." },
+      { "q": "Is the Family CNA a separate program?", "a": "No. HCPF says it is an allowance within the Health First Colorado Home Health benefit, not a separate program." },
+      { "q": "Does my child need to be on a waiver?", "a": "No, but your child must be enrolled in Health First Colorado and qualify for the Home Health benefit." },
+      { "q": "Is there an hour limit for family CNAs?", "a": "Yes. A per-caregiver weekly cap applies to CNA services, phasing down to 56 hours a week by July 2027, plus a 16-hour daily limit." },
+      { "q": "Are family CNA wages tax-free?", "a": "Not automatically. HCPF notes the IRS Notice 2014-7 exclusion is tied to waiver payments; Home Health is a state plan benefit, so it depends on your situation." }
+    ],
+    "keywords": ["family cna colorado", "parent cna colorado", "get paid to care for my child colorado", "colorado home health cna family member", "colorado cna caregiver cap"],
+    "sources": [
+      "https://hcpf.colorado.gov/home-health-faq",
+      "https://hcpf.colorado.gov/sites/hcpf/files/Upcoming%20Provider%20Trainings,%20Office%20Hours%20on%20Weekly%20Caregiver%20Cap%20-%206-17-2026.pdf",
+      "https://www.kidswaivers.org/paid-parent-caregiving/"
+    ],
+    "certainty": "primary",
+    "updated": "2026-10-08"
+  }
+]
