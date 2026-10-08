@@ -48,9 +48,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = getState(state);
   const p = s && getProgram(s.slug, program);
   if (!s || !p) return {};
-  const full = `${p.name} in ${s.name}: Get Paid as a Family Caregiver`;
-  const mid = `${p.name} (${s.name}): Who Gets Paid & How to Apply`;
-  const title = full.length <= 60 ? full : mid.length <= 60 ? mid : `${shortName(p)} in ${s.name}: Family Caregiver Pay`;
+  // Lead with the full program name people search, minus any "(ABBR)" suffix.
+  const base = p.name.replace(/\s*\([^)]*\)\s*$/, "");
+  const options = [
+    `${base} in ${s.name}: Get Paid as a Family Caregiver`,
+    `${base} in ${s.name}: Who Gets Paid & How to Apply`,
+    `${base} in ${s.name}: Pay & How to Apply`,
+    `${base} in ${s.name}`,
+    `${shortName(p)} in ${s.name}: Family Caregiver Pay`,
+  ];
+  const title = options.find((t) => t.length <= 60) ?? options.at(-1)!;
   const pay = p.pay?.display ? ` Pay: ${p.pay.display}.` : "";
   return pageMeta({
     title,
