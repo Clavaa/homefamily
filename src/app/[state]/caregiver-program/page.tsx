@@ -134,9 +134,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
   const s = getState(state);
   if (!s) return {};
-  const title = `${s.name} Caregiver Program: Get Paid to Care for Family`;
+  // Search Console: the recurring shapes are "{state} medicaid paid caregiver",
+  // "paid family caregiver {state}" and "get paid to care for family {state}".
+  const tiers = [
+    `${s.name} Medicaid Paid Caregiver Program: Get Paid to Care`,
+    `${s.name} Medicaid Paid Family Caregiver Program`,
+    `${s.name} Paid Family Caregiver Program`,
+  ];
   return pageMeta({
-    title: title.length <= 60 ? title : `${s.name} Paid Family Caregiver Program`,
+    title: tiers.find((t) => t.length <= 60) ?? tiers[tiers.length - 1],
     description: `How the ${s.name} Medicaid caregiver program pays family members: ${s.programs
       .slice(0, 2)
       .join(" and ")}, pay, spouse rules and how to apply.`.slice(0, 158),

@@ -29,6 +29,10 @@ const DATA_UPDATED = new Date("2026-09-06T00:00:00Z");
 const CONTENT_UPDATED = new Date("2026-09-14T00:00:00Z");
 /** The library (/guides, /compare) and the state caregiver-program pages. */
 const LIBRARY_UPDATED = new Date("2026-09-30T00:00:00Z");
+/** State hub + money pages: primary-sourced pay/spouse corrections (10/8). */
+const STATES_UPDATED = new Date("2026-10-08T00:00:00Z");
+/** caregiver-program titles rewritten around Search Console queries. */
+const STATE_PROGRAM_UPDATED = new Date("2026-10-21T00:00:00Z");
 
 export default function sitemap({
   id,
@@ -60,7 +64,7 @@ export default function sitemap({
       ...states.flatMap((s) => [
         {
           url: `${base}/${s.slug}/`,
-          lastModified: now,
+          lastModified: STATES_UPDATED,
           priority: s.slug === site.homeStateSlug ? 0.9 : 0.7,
         },
         ...programsFor(s.slug).map((p) => ({
@@ -70,7 +74,7 @@ export default function sitemap({
         })),
         ...UNIVERSAL_STATE_SUBROUTES.map((sub) => ({
           url: `${base}/${s.slug}/${sub}/`,
-          lastModified: sub === "caregiver-program" || sub === "programs" ? LIBRARY_UPDATED : now,
+          lastModified: sub === "caregiver-program" ? STATE_PROGRAM_UPDATED : STATES_UPDATED,
           priority: s.slug === site.homeStateSlug ? 0.9 : 0.8,
         })),
       ]),

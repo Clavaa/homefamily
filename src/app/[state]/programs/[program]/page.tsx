@@ -49,13 +49,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = s && getProgram(s.slug, program);
   if (!s || !p) return {};
   // Lead with the full program name people search, minus any "(ABBR)" suffix.
+  // Long official names fall back to the part before " — ", then without its
+  // parentheticals, then to the abbreviation, so no title runs past 60.
   const base = p.name.replace(/\s*\([^)]*\)\s*$/, "");
+  const head = p.name.split(" — ")[0].replace(/\s*\([^)]*\)\s*$/, "");
+  const abbr = p.name.split(" — ")[0].match(/\(([^)]+)\)/)?.[1];
+  const bare = p.name.split(" — ")[0].replace(/\s*\([^)]*\)/g, "");
+  const core = bare.split(" through ")[0];
   const options = [
     `${base} in ${s.name}: Get Paid as a Family Caregiver`,
     `${base} in ${s.name}: Who Gets Paid & How to Apply`,
     `${base} in ${s.name}: Pay & How to Apply`,
     `${base} in ${s.name}`,
+    `${head} in ${s.name}: Family Caregiver Pay`,
+    `${bare} in ${s.name}: Family Caregiver Pay`,
+    `${head} in ${s.name}`,
+    `${bare} in ${s.name}`,
+    `${core} in ${s.name}: Family Caregiver Pay`,
+    `${core} in ${s.name}`,
+    ...(abbr ? [`${head} (${abbr}) in ${s.name}`, `${abbr} in ${s.name}: Family Caregiver Pay`] : []),
     `${shortName(p)} in ${s.name}: Family Caregiver Pay`,
+    `${bare.replace(/ in .*$/, "")} in ${s.name}: Family Caregiver Pay`,
   ];
   const title = options.find((t) => t.length <= 60) ?? options.at(-1)!;
   const pay = p.pay?.display ? ` Pay: ${p.pay.display}.` : "";

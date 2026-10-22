@@ -4,9 +4,9 @@ const guide: Guide = {
   slug: "ppl-public-partnerships",
   section: "compare",
   cluster: "compare",
-  title: "PPL (Public Partnerships): A Guide for Caregivers",
+  title: "PPL Caregiver Guide: Public Partnerships Enrollment & Pay",
   description:
-    "What Public Partnerships (PPL) does for a family caregiver: enrollment, timesheets, pay and benefits, including New York CDPAP since 2025. Independent guide.",
+    "How a PPL caregiver gets enrolled and paid: what Public Partnerships does as fiscal agent, timesheets, pay dates and NY CDPAP. Independent guide, not PPL.",
   h1: "PPL (Public Partnerships LLC): what it does for a family caregiver",
   short: "PPL (Public Partnerships)",
   eyebrow: "Independent guide",
@@ -14,7 +14,7 @@ const guide: Guide = {
   answer:
     "Public Partnerships LLC (PPL) is a financial management services company that runs payroll for self-directed Medicaid programs. A PPL caregiver is hired by the person receiving care; PPL handles the enrollment paperwork, background checks, timesheets, tax withholding and pay. Since April 2025 PPL has been New York's only CDPAP fiscal intermediary.",
   takeaways: [
-    "PPL is a payroll and paperwork agent — a \"fiscal intermediary\" or \"financial management services\" provider — not a home care agency.",
+    "PPL is a payroll and paperwork agent — a \"fiscal agent\", \"fiscal intermediary\" or \"financial management services\" provider (which is why tax forms can name \"Public Partnerships LLC as agent for\" the person you work for) — not a home care agency.",
     "PPL says it supports about 50 self-directed programs in 18 states.",
     "In New York, every CDPAP consumer and personal assistant must work through PPL since 2025.",
     "New York CDPAP personal assistants are paid weekly, at least $18.65–$20.65 an hour in 2026 depending on region.",
@@ -227,7 +227,7 @@ const guide: Guide = {
     { label: "New Jersey DMAHS: Personal Preference Program FAQ", url: "https://www.nj.gov/humanservices/dmahs/clients/PPP_FAQ.pdf" },
   ],
   published: "2026-09-30",
-  updated: "2026-09-30",
+  updated: "2026-10-21",
   photo: { src: "/photos/caregiver-phone.webp", alt: "A caregiver checks a timesheet app on her phone" },
   keywords: ["ppl caregiver"],
 };

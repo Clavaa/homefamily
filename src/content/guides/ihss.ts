@@ -4,9 +4,9 @@ const guide: Guide = {
   slug: "ihss",
   section: "guides",
   cluster: "programs",
-  title: "IHSS: California In-Home Supportive Services (2026)",
+  title: "In-Home Supportive Services (IHSS) in California (2026)",
   description:
-    "How California's IHSS pays family caregivers, who qualifies, what it pays, and what IHSS is called in Texas, Colorado, Arizona, Oregon and other states.",
+    "In-Home Supportive Services (IHSS): who qualifies, 2026 pay, how a family member gets paid, how to apply — and which states have IHSS under another name.",
   h1: "IHSS: In-Home Supportive Services, and its equivalent in every state",
   short: "IHSS (California)",
   eyebrow: "California Medi-Cal",
@@ -133,6 +133,14 @@ const guide: Guide = {
       ],
     },
     {
+      id: "which-states-have-ihss",
+      h2: "Which states have IHSS? The equivalent in all 50 states",
+      blocks: [
+        "Only California runs a program called In-Home Supportive Services. Colorado has a separate program with a near-identical name, In-Home Support Services. Every other state pays for the same kind of help at home through its own Medicaid programs, and most of them let the person receiving care hire a relative. Here is the name to look for in each state:",
+        { stateTable: "programs" },
+      ],
+    },
+    {
       id: "medicare",
       h2: "Medicare in-home support services",
       blocks: [
@@ -172,6 +180,10 @@ const guide: Guide = {
     },
   ],
   faqs: [
+    {
+      q: "What states have IHSS?",
+      a: "Only California has In-Home Supportive Services by that name; Colorado has a similar program called In-Home Support Services. Every state has a Medicaid equivalent that can pay a family caregiver, under names like CDPAP, Consumer Directed Services or IRIS.",
+    },
     {
       q: "What does IHSS stand for?",
       a: "In California, In-Home Supportive Services. In Colorado, IHSS stands for In-Home Support Services, a separate program with a similar purpose.",
@@ -214,7 +226,7 @@ const guide: Guide = {
     { label: "CMS memo: primarily health-related supplemental benefits (2018)", url: "https://www.hhs.gov/guidance/sites/default/files/hhs-guidance-documents/hpms%2520memo%2520primarily%2520health%2520related%25204-27-18_90.pdf" },
   ],
   published: "2026-09-30",
-  updated: "2026-09-30",
+  updated: "2026-10-21",
   photo: { src: "/photos/hero-latino-family.webp", alt: "A family gathered at home with an older relative" },
   keywords: [
     "ihss texas",
